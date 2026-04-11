@@ -383,12 +383,16 @@
     </div>
 
     <!-- Tabs -->
-    <div class="tabs">
+    <div class="tabs" style="flex-wrap:wrap">
       <button class="tab active" data-filter="all">All</button>
       <button class="tab" data-filter="S">S Grade</button>
       <button class="tab" data-filter="A">A Grade</button>
       <button class="tab" data-filter="TW">Taiwan</button>
       <button class="tab" data-filter="US">US</button>
+      <button class="tab" data-filter="chain_ai">AI/半導體</button>
+      <button class="tab" data-filter="chain_healthcare">醫療</button>
+      <button class="tab" data-filter="chain_consumer">消費品牌</button>
+      <button class="tab" data-filter="chain_payment">支付</button>
     </div>
 
     <!-- Table -->
@@ -571,10 +575,20 @@ function renderTable() {
 
 function getFilteredStocks() {
   let stocks = [...reportData.stocks];
+  const chainMap = {
+    chain_ai: 'AI / 半導體產業鏈',
+    chain_healthcare: '醫療 / 製藥產業鏈',
+    chain_consumer: '消費品牌產業鏈',
+    chain_payment: '數位支付產業鏈',
+  };
   if (currentFilter === 'S') stocks = stocks.filter(s => s.grade === 'S');
   else if (currentFilter === 'A') stocks = stocks.filter(s => s.grade === 'A');
   else if (currentFilter === 'TW') stocks = stocks.filter(s => s.market === 'TW');
   else if (currentFilter === 'US') stocks = stocks.filter(s => s.market === 'US');
+  else if (chainMap[currentFilter]) {
+    const chainName = chainMap[currentFilter];
+    stocks = stocks.filter(s => s.industry_chains?.some(c => c.chain === chainName));
+  }
 
   stocks.sort((a, b) => {
     let va = a[currentSort.key], vb = b[currentSort.key];
@@ -634,6 +648,11 @@ function showDetail(stockId) {
     </div>
 
     <div class="modal-body">
+    ${s.industry_chains?.length ? `
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px">
+        ${s.industry_chains.map(c => `<span style="background:rgba(96,165,250,0.15);color:var(--accent);padding:3px 10px;border-radius:12px;font-size:12px">${c.chain} &rsaquo; ${c.segment}</span>`).join('')}
+      </div>
+    ` : ''}
     <div style="font-size:28px;font-weight:700;margin-bottom:16px">
       ${s.buffett_score} <span style="font-size:14px;color:var(--text-muted)">/ 100</span>
     </div>
