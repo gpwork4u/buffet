@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T21:40:19.927881",
+  "generated_at": "2026-04-11T22:06:42.688046",
   "date": "2026-04-11",
   "industry_chains": {
     "ai_semiconductor": {
@@ -105,6 +105,59 @@
         ],
         "精密儀器": [
           "MTD"
+        ]
+      }
+    },
+    "energy": {
+      "name": "能源 / 石油產業鏈",
+      "segments": {
+        "上游 (探勘生產)": [
+          "OXY",
+          "CVX"
+        ],
+        "中游 (管線/LNG)": [
+          "EPD",
+          "LNG"
+        ],
+        "下游 (煉化)": [
+          "6505",
+          "1301"
+        ],
+        "油服設備": [
+          "BKR"
+        ],
+        "核能發電": [
+          "CEG"
+        ],
+        "再生能源": [
+          "NEE"
+        ]
+      }
+    },
+    "utilities": {
+      "name": "公用事業 / 基礎設施",
+      "segments": {
+        "水務": [
+          "AWK"
+        ],
+        "電力公用事業": [
+          "SO",
+          "2412"
+        ],
+        "電網設備": [
+          "ETN"
+        ]
+      }
+    },
+    "transport": {
+      "name": "運輸 / 物流產業鏈",
+      "segments": {
+        "鐵路": [
+          "UNP",
+          "CSX"
+        ],
+        "LTL 貨運": [
+          "ODFL"
         ]
       }
     },
@@ -218,11 +271,11 @@
     }
   },
   "summary": {
-    "total_screened": 60,
-    "grade_s": 13,
-    "grade_a": 11,
-    "grade_b": 12,
-    "grade_c": 24,
+    "total_screened": 74,
+    "grade_s": 15,
+    "grade_a": 18,
+    "grade_b": 22,
+    "grade_c": 19,
     "top_picks": [
       {
         "stock_id": "MSFT",
@@ -309,6 +362,12 @@
         "risk_summary": "偵測到 1 個需關注信號"
       },
       {
+        "stock_id": "LNG",
+        "name": "Cheniere Energy, Inc.",
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      },
+      {
         "stock_id": "AAPL",
         "name": "Apple Inc.",
         "risk_level": "yellow",
@@ -325,6 +384,18 @@
         "name": "Mastercard Incorporated",
         "risk_level": "yellow",
         "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+      },
+      {
+        "stock_id": "EPD",
+        "name": "Enterprise Products Partners L.",
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      },
+      {
+        "stock_id": "SHW",
+        "name": "Sherwin-Williams Company (The)",
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
       },
       {
         "stock_id": "PEP",
@@ -345,20 +416,26 @@
         "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
       },
       {
+        "stock_id": "3034",
+        "name": "聯詠",
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      },
+      {
         "stock_id": "2454",
         "name": "聯發科",
         "risk_level": "yellow",
         "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
       },
       {
-        "stock_id": "3711",
-        "name": "日月光投控",
+        "stock_id": "AWK",
+        "name": "American Water Works Company, I",
         "risk_level": "yellow",
-        "risk_summary": "偵測到 1 個需關注信號"
+        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
       },
       {
-        "stock_id": "3034",
-        "name": "聯詠",
+        "stock_id": "3711",
+        "name": "日月光投控",
         "risk_level": "yellow",
         "risk_summary": "偵測到 1 個需關注信號"
       },
@@ -560,8 +637,8 @@
             "date": "Thu, 26 Mar 2026 20:01:00 GMT"
           },
           {
-            "title": "〈財報〉Alphabet營運出色 預告今年資本支出高達1850億美元 盤後震盪一度挫逾7% - Yahoo股市",
-            "date": "Wed, 04 Feb 2026 08:00:00 GMT"
+            "title": "Alphabet 今晚公布第四季業績 Google AI 報捷延續股價升勢？ - Yahoo 財經",
+            "date": "Tue, 03 Feb 2026 08:00:00 GMT"
           },
           {
             "title": "【即時新聞】Alphabet(GOOGL)股價低於330美元，是否是最後買入機會？ - CMoney投資網誌",
@@ -669,24 +746,24 @@
       "news": {
         "items": [
           {
+            "title": "Nvidia stock on track to end week strong: is the rut over? - TradingView",
+            "date": "Fri, 10 Apr 2026 15:22:51 GMT"
+          },
+          {
             "title": "Nvidia 及 Vertiv 表現維持強勁，顯示華爾街持續看好 AI 市場前景 - TechNews 科技新報",
             "date": "Thu, 19 Feb 2026 08:00:00 GMT"
           },
           {
             "title": "Nvidia Stock Rises. It's Nearing $30 Billion OpenAI Investment. Report Says. -- Barrons.com - 富途牛牛",
-            "date": "Fri, 20 Feb 2026 11:27:33 GMT"
+            "date": "Fri, 20 Feb 2026 08:00:00 GMT"
           },
           {
             "title": "Nvidia（NVDA）股價今日走高：2026年目標價是多少？ - Markets.com",
             "date": "Mon, 13 Oct 2025 07:00:00 GMT"
           },
           {
-            "title": "《業績》英偉達(NVDA.US)上財季利潤近翻倍勝預期 數據中心業務收入續增75% 股價盤後漲3% - AASTOCKS.com",
-            "date": "Wed, 25 Feb 2026 08:00:00 GMT"
-          },
-          {
-            "title": "Synopsys vs. NVIDIA: Which Chip Ecosystem Stock Is the Better Bet? - TradingView",
-            "date": "Tue, 24 Mar 2026 07:00:00 GMT"
+            "title": "《大行》里昂維持英偉達(NVDA.US) 「高確信買入評級」評級 目標價300美元 - AASTOCKS.com",
+            "date": "Tue, 03 Mar 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -1136,16 +1213,16 @@
             "date": "Thu, 09 Apr 2026 03:39:18 GMT"
           },
           {
+            "title": "盤中速報 - Cadence設計系統(CDNS-US)大跌5.11%，報274.4美元｜新聞快訊｜豐雲學堂 - sinotrade.com.tw",
+            "date": "Tue, 03 Feb 2026 08:00:00 GMT"
+          },
+          {
             "title": "Can Rising AI Tool Adoption Lift Synopsys' Design Automation Revenues? - TradingView",
             "date": "Tue, 24 Mar 2026 07:00:00 GMT"
           },
           {
             "title": "Cadence股價過去六個月下跌16%：現在最好的策略是什麼？ - Bitget",
             "date": "Tue, 24 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "盤中速報 - Cadence設計系統(CDNS-US)大跌5.11%，報274.4美元｜新聞快訊｜豐雲學堂 - sinotrade.com.tw",
-            "date": "Tue, 03 Feb 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "yellow",
@@ -1514,6 +1591,117 @@
       ]
     },
     {
+      "stock_id": "ODFL",
+      "name": "Old Dominion Freight Line, Inc.",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 29.63,
+      "roe_latest": 23.75,
+      "roe_years": 4,
+      "net_margin_avg": 20.54,
+      "net_margin_latest": 18.63,
+      "gross_margin_avg": 34.79,
+      "eps_latest": 4.83,
+      "debt_to_equity": 0.03,
+      "current_ratio": 1.44,
+      "pe_ratio": 43.14,
+      "forward_pe": 34.3,
+      "market_cap_b": 43.6,
+      "dividend_yield": 56.0,
+      "high_52w": 221.63,
+      "low_52w": 126.01,
+      "current_price": 208.35,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 0.96,
+      "buffett_score": 87.0,
+      "grade": "S",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 29.63,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 20.54,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 34.79,
+          "grade": "ok"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.03,
+          "grade": "pass"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 43.14,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "網路效應 + 服務品質",
+        "moat_desc": "LTL 貨運龍頭；99% 準時率；密集轉運站網路無法快速複製",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "LTL 產業價格戰；經濟衰退導致貨運需求萎縮",
+      "news": {
+        "items": [
+          {
+            "title": "【23:24 即時新聞】Old Dominion Freight Line(ODFL) 勁揚5%｜技術面KD反彈、股價重返短期均線上方 - CMoney投資網誌",
+            "date": "Mon, 23 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "【22:35 即時新聞】Old Dominion Freight Line(ODFL) 跌逾5%／短線漲多後技術指標轉弱引發回檔 - CMoney投資網誌",
+            "date": "Fri, 06 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "BMO Capital Maintains Old Dominion Freight Line(ODFL.US) With Buy Rating, Maintains Target Price $215 - 富途牛牛",
+            "date": "Tue, 31 Mar 2026 15:40:34 GMT"
+          },
+          {
+            "title": "【即時新聞】ODFL合理估值上調至167美元，產能緊縮與需求疲軟形成兩極拉鋸 - CMoney投資網誌",
+            "date": "Tue, 20 Jan 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "Old Dominion Freight Line, Inc. 符合巴菲特選股標準。",
+        "strengths": [
+          "ROE 達 29.63%，資本運用效率優異",
+          "淨利率 20.54%，具備強勁定價權",
+          "負債權益比僅 0.03，財務極度穩健",
+          "自由現金流連續 4 年為正",
+          "股息殖利率 56.0%，提供穩定現金回報"
+        ],
+        "risks": [
+          "P/E 43.14 偏高，估值需留意"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "運輸 / 物流產業鏈",
+          "segment": "LTL 貨運"
+        }
+      ]
+    },
+    {
       "stock_id": "AVGO",
       "name": "Broadcom Inc.",
       "market": "US",
@@ -1857,6 +2045,122 @@
       ]
     },
     {
+      "stock_id": "LNG",
+      "name": "Cheniere Energy, Inc.",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 67.9,
+      "roe_latest": 67.34,
+      "roe_years": 4,
+      "net_margin_avg": 25.03,
+      "net_margin_latest": 26.68,
+      "gross_margin_avg": 45.8,
+      "eps_latest": 24.14,
+      "debt_to_equity": 2.02,
+      "current_ratio": 0.94,
+      "pe_ratio": 11.0,
+      "forward_pe": 16.25,
+      "market_cap_b": 55.8,
+      "dividend_yield": 84.0,
+      "high_52w": 300.89,
+      "low_52w": 186.2,
+      "current_price": 265.54,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 2.46,
+      "buffett_score": 85.0,
+      "grade": "S",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 67.9,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 25.03,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 45.8,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 2.02,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 11.0,
+          "grade": "pass"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "長約鎖定 + 進入門檻",
+        "moat_desc": "美國最大 LNG 出口商；90% 產能簽 15 年長約；荷姆茲危機最大受益者",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "全球 LNG 產能過剩；長約到期後無法續約",
+      "news": {
+        "items": [
+          {
+            "title": "分散風險 我將提高對美採購LNG比例 - Yahoo股市",
+            "date": "Wed, 08 Apr 2026 20:10:00 GMT"
+          },
+          {
+            "title": "Cheniere Energy(LNG.US) Officer Sells US$8.7 Million in Common Stock - 富途牛牛",
+            "date": "Wed, 01 Apr 2026 23:57:56 GMT"
+          },
+          {
+            "title": "停火後搶開工！卡達加速恢復LNG產能 歐洲氣價重挫近20% - Yahoo股市",
+            "date": "Wed, 08 Apr 2026 20:20:02 GMT"
+          },
+          {
+            "title": "ExxonMobil stock slips as oil falls, but rally may not be over yet - TradingView",
+            "date": "Wed, 01 Apr 2026 15:43:30 GMT"
+          },
+          {
+            "title": "沒人敢賭命！卡達LNG船大撤退 川普「炸電廠」恐嚇為何沒用？ - Yahoo股市",
+            "date": "Tue, 07 Apr 2026 08:00:30 GMT"
+          }
+        ],
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      },
+      "pick_reason": {
+        "summary": "Cheniere Energy, Inc. 符合巴菲特選股標準。",
+        "strengths": [
+          "ROE 達 67.9%，資本運用效率優異",
+          "淨利率 25.03%，具備強勁定價權",
+          "毛利率 45.8%，護城河寬廣",
+          "自由現金流連續 4 年為正",
+          "股息殖利率 84.0%，提供穩定現金回報"
+        ],
+        "risks": [
+          "負債權益比 2.02 偏高",
+          "新聞黃燈：偵測到 1 個需關注信號"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "能源 / 石油產業鏈",
+          "segment": "中游 (管線/LNG)"
+        }
+      ]
+    },
+    {
       "stock_id": "KO",
       "name": "Coca-Cola Company (The)",
       "market": "US",
@@ -1944,8 +2248,8 @@
             "date": "Fri, 02 Jan 2026 08:00:00 GMT"
           },
           {
-            "title": "Beverages, Alcohol, and Tobacco Stocks Q3 Teardown: Brown-Forman (NYSE:BF.B) Vs The Rest - TradingView",
-            "date": "Sun, 05 Apr 2026 07:00:00 GMT"
+            "title": "特朗普：可口可樂將開始使用真正蔗糖 - Yahoo 財經",
+            "date": "Wed, 16 Jul 2025 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -2045,20 +2349,20 @@
             "date": "Wed, 08 Apr 2026 21:21:26 GMT"
           },
           {
-            "title": "PG 260410 140.00C(PG260410C140000)股票期權和價格 - Moomoo",
-            "date": "Tue, 07 Apr 2026 20:32:38 GMT"
-          },
-          {
             "title": "【即時新聞】寶潔(PG)配息連續69年成長！2026財年將豪擲150億美元回饋股東 - CMoney投資網誌",
             "date": "Mon, 12 Jan 2026 08:00:00 GMT"
           },
           {
-            "title": "Is most-watched stock Procter &amp; Gamble Company (The) (PG) worth betting on now? - MSN",
-            "date": "Wed, 01 Apr 2026 14:41:06 GMT"
+            "title": "P&amp;G旗下品牌將在2026年米蘭科爾蒂納冬奧及帕拉冬季運上，為歷屆最多數量的奧運選手提供性能卓越的家居和個人護理產品及服務 - Yahoo股市",
+            "date": "Mon, 02 Feb 2026 08:00:00 GMT"
           },
           {
-            "title": "寶潔(PG)股票3月18日收盤下跌3.14%：投資者必看的核心資訊 - TradingKey",
-            "date": "Wed, 18 Mar 2026 07:00:00 GMT"
+            "title": "PG 260410 140.00C(PG260410C140000)股票期權和價格 - Moomoo",
+            "date": "Tue, 07 Apr 2026 20:32:38 GMT"
+          },
+          {
+            "title": "Is most-watched stock Procter &amp; Gamble Company (The) (PG) worth betting on now? - MSN",
+            "date": "Wed, 01 Apr 2026 14:41:06 GMT"
           }
         ],
         "risk_level": "green",
@@ -2079,6 +2383,222 @@
         {
           "chain": "消費品牌產業鏈",
           "segment": "日用品"
+        }
+      ]
+    },
+    {
+      "stock_id": "2330",
+      "name": "台積電",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 10.35,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 15.73,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 52.58,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 66.26,
+      "eps_5yr_ago": 23.02,
+      "eps_cagr_5y": 23.55,
+      "debt_to_equity": 0.45,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 81.1,
+      "grade": "A",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 10.35,
+          "grade": "warn"
+        },
+        {
+          "metric": "淨利率",
+          "value": 15.73,
+          "grade": "ok"
+        },
+        {
+          "metric": "毛利率",
+          "value": 52.58,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.45,
+          "grade": "pass"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "技術優勢 + 規模經濟",
+        "moat_desc": "先進製程全球獨霸；$300B+ 年資本支出形成進入門檻",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "Intel/三星追上先進製程；台海地緣風險急劇升高",
+      "news": {
+        "items": [
+          {
+            "title": "股票一直漲更焦慮？他靠「1策略」台積電小賺卻卡關 網揭關鍵：賣了就輸了 - Yahoo股市",
+            "date": "Sat, 11 Apr 2026 06:15:44 GMT"
+          },
+          {
+            "title": "睽違1個多月！台積電站上2000元 被列注意股照飆 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 06:00:39 GMT"
+          },
+          {
+            "title": "台積電要破2025元天價了？營收太猛 名師看好：下周一有望漲30元 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 07:51:15 GMT"
+          },
+          {
+            "title": "財經名嘴克雷默：我很喜歡台積電但「這檔」股票更適合進場| 全球財經| 全球 - 聯合新聞網",
+            "date": "Sat, 11 Apr 2026 11:46:24 GMT"
+          },
+          {
+            "title": "快訊／台積電爆發重訊！子公司以3.2億元狂掃10萬固定公司債 累計手持達9.5億元 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 10:06:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "台積電 符合巴菲特選股標準。",
+        "strengths": [
+          "淨利率 15.73%，營運效率良好",
+          "毛利率 52.58%，護城河寬廣",
+          "負債權益比僅 0.45，財務極度穩健",
+          "EPS 連續 11 年為正，盈利穩定可預測",
+          "EPS 五年 CAGR 23.55%，成長動能強勁"
+        ],
+        "risks": []
+      },
+      "industry_chains": [
+        {
+          "chain": "AI / 半導體產業鏈",
+          "segment": "晶圓代工"
+        }
+      ]
+    },
+    {
+      "stock_id": "CSX",
+      "name": "CSX Corporation",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 28.24,
+      "roe_latest": 21.96,
+      "roe_years": 4,
+      "net_margin_avg": 24.27,
+      "net_margin_latest": 20.5,
+      "gross_margin_avg": 36.52,
+      "eps_latest": 1.54,
+      "debt_to_equity": 1.48,
+      "current_ratio": 0.81,
+      "pe_ratio": 27.43,
+      "forward_pe": 20.19,
+      "market_cap_b": 78.6,
+      "dividend_yield": 133.0,
+      "high_52w": 43.35,
+      "low_52w": 27.0,
+      "current_price": 42.24,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 1.71,
+      "buffett_score": 81.0,
+      "grade": "A",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 28.24,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 24.27,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 36.52,
+          "grade": "ok"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.48,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 27.43,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "雙寡頭壟斷",
+        "moat_desc": "東部鐵路雙寡頭 (與 Norfolk Southern)；大宗貨物無替代運輸方式",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "同 UNP 風險；東部鐵路合併案改變競爭格局",
+      "news": {
+        "items": [
+          {
+            "title": "CSX (CSX) Stock Is Up, What You Need To Know - TradingView",
+            "date": "Thu, 24 Jul 2025 07:00:00 GMT"
+          },
+          {
+            "title": "CSX股票因CEO被解僱而大漲，這就是原因。——Barrons.com - Moomoo",
+            "date": "Mon, 29 Sep 2025 07:00:00 GMT"
+          },
+          {
+            "title": "CSX內部人士拋售股票可能發出看跌信號 - 富途牛牛",
+            "date": "Sat, 30 Aug 2025 19:46:49 GMT"
+          },
+          {
+            "title": "基金更新：MARKEL GROUP INC.投資組合新增22萬股CSX（CSX）股票 - Moomoo",
+            "date": "Fri, 31 Oct 2025 07:00:00 GMT"
+          },
+          {
+            "title": "巴菲特說不打算併購 鐵路商CSX跳水、波克夏軟 - Yahoo股市",
+            "date": "Mon, 25 Aug 2025 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "CSX Corporation 符合巴菲特選股標準。",
+        "strengths": [
+          "ROE 達 28.24%，資本運用效率優異",
+          "淨利率 24.27%，具備強勁定價權",
+          "自由現金流連續 4 年為正",
+          "股息殖利率 133.0%，提供穩定現金回報",
+          "護城河寬廣：雙寡頭壟斷"
+        ],
+        "risks": []
+      },
+      "industry_chains": [
+        {
+          "chain": "運輸 / 物流產業鏈",
+          "segment": "鐵路"
         }
       ]
     },
@@ -2427,6 +2947,121 @@
       ]
     },
     {
+      "stock_id": "UNP",
+      "name": "Union Pacific Corporation",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 44.82,
+      "roe_latest": 38.65,
+      "roe_years": 4,
+      "net_margin_avg": 27.88,
+      "net_margin_latest": 29.12,
+      "gross_margin_avg": 45.0,
+      "eps_latest": 11.97,
+      "debt_to_equity": 1.78,
+      "current_ratio": 0.91,
+      "pe_ratio": 20.93,
+      "forward_pe": 18.45,
+      "market_cap_b": 148.7,
+      "dividend_yield": 220.0,
+      "high_52w": 268.14,
+      "low_52w": 206.63,
+      "current_price": 250.51,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 5.5,
+      "buffett_score": 79.0,
+      "grade": "A",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 44.82,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 27.88,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 45.0,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.78,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 20.93,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "雙寡頭壟斷",
+        "moat_desc": "西部鐵路雙寡頭 (與 BNSF)；路權不可複製；40%+ 營業利潤率",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "貨運量因經濟衰退大幅下滑；卡車自動駕駛技術突破",
+      "news": {
+        "items": [
+          {
+            "title": "Union Pacific 2026年第一季業績：修訂後指引或促使公允市值重新估值 - Bitget",
+            "date": "Thu, 02 Apr 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Union Pacific nears deal for Norfolk Southern at about $320 a share, Bloomberg News reports - TradingView",
+            "date": "Mon, 28 Jul 2025 07:00:00 GMT"
+          },
+          {
+            "title": "聯合太平洋公司（NYSE:UNP）最新5.0%的跌幅加劇了一年來的損失，機構投資者可能會考慮採取極端措施。 - 富途牛牛",
+            "date": "Mon, 13 Oct 2025 07:00:00 GMT"
+          },
+          {
+            "title": "這就是爲什麼我們認爲聯合太平洋（NYSE:UNP）今天可能值得關注的原因 - Moomoo",
+            "date": "Fri, 10 Apr 2026 13:27:02 GMT"
+          },
+          {
+            "title": "〈財報〉鐵路營運商聯合太平洋上季獲利成長7% - AASTOCKS.com",
+            "date": "Thu, 23 Jan 2025 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期新聞正面 (2 個正面信號)"
+      },
+      "pick_reason": {
+        "summary": "Union Pacific Corporation 符合巴菲特選股標準。",
+        "strengths": [
+          "ROE 達 44.82%，資本運用效率優異",
+          "淨利率 27.88%，具備強勁定價權",
+          "毛利率 45.0%，護城河寬廣",
+          "自由現金流連續 4 年為正",
+          "股息殖利率 220.0%，提供穩定現金回報"
+        ],
+        "risks": [
+          "負債權益比 1.78 偏高"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "運輸 / 物流產業鏈",
+          "segment": "鐵路"
+        }
+      ]
+    },
+    {
       "stock_id": "ISRG",
       "name": "Intuitive Surgical, Inc.",
       "market": "US",
@@ -2537,6 +3172,121 @@
         {
           "chain": "醫療 / 製藥產業鏈",
           "segment": "手術機器人"
+        }
+      ]
+    },
+    {
+      "stock_id": "OXY",
+      "name": "Occidental Petroleum Corporatio",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 18.79,
+      "roe_latest": 6.46,
+      "roe_years": 4,
+      "net_margin_avg": 20.31,
+      "net_margin_latest": 10.77,
+      "gross_margin_avg": 39.29,
+      "eps_latest": 1.35,
+      "debt_to_equity": 0.64,
+      "current_ratio": 0.94,
+      "pe_ratio": 42.94,
+      "forward_pe": 16.9,
+      "market_cap_b": 57.5,
+      "dividend_yield": 179.0,
+      "high_52w": 67.45,
+      "low_52w": 37.41,
+      "current_price": 57.97,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 4.11,
+      "buffett_score": 77.0,
+      "grade": "A",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 18.79,
+          "grade": "ok"
+        },
+        {
+          "metric": "淨利率",
+          "value": 20.31,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 39.29,
+          "grade": "ok"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.64,
+          "grade": "ok"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 42.94,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "低成本資產 + 碳捕獲",
+        "moat_desc": "巴菲特持股 28.3%；Permian 低成本油田；Stratos 碳捕獲設施全球領先",
+        "moat_width": "narrow"
+      },
+      "exit_conditions": "油價長期跌破 $50/桶；碳捕獲商業化失敗；巴菲特減持",
+      "news": {
+        "items": [
+          {
+            "title": "4 Stocks Trading Near 52-Week High With More Upside Potential - TradingView",
+            "date": "Tue, 31 Mar 2026 16:00:00 GMT"
+          },
+          {
+            "title": "美股異動丨西方石油大漲10%，Q4利潤超預期 - AASTOCKS.com",
+            "date": "Thu, 19 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "OXY 跌幅 3.49%，監管變動與產業動盪撼動市場——領先能源公司未來走向如何？ - Bitget",
+            "date": "Tue, 31 Mar 2026 03:25:04 GMT"
+          },
+          {
+            "title": "西方石油(OXY.US)獲富國罕見“雙級上調”，股價大漲近6%刷新一年半高點 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Fri, 13 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "巴菲特睽違3年終出手、傳擬併OXY旗下石化事業 - Yahoo股市",
+            "date": "Tue, 30 Sep 2025 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "Occidental Petroleum Corporatio 符合巴菲特選股標準。",
+        "strengths": [
+          "ROE 18.79%，高於 15% 門檻",
+          "淨利率 20.31%，具備強勁定價權",
+          "負債權益比 0.64，資產負債表健康",
+          "自由現金流連續 4 年為正",
+          "股息殖利率 179.0%，提供穩定現金回報"
+        ],
+        "risks": [
+          "P/E 42.94 偏高，估值需留意"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "能源 / 石油產業鏈",
+          "segment": "上游 (探勘生產)"
         }
       ]
     },
@@ -2884,6 +3634,349 @@
       ]
     },
     {
+      "stock_id": "EPD",
+      "name": "Enterprise Products Partners L.",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": null,
+      "roe_latest": null,
+      "roe_years": 4,
+      "net_margin_avg": 10.53,
+      "net_margin_latest": 11.05,
+      "gross_margin_avg": 12.83,
+      "eps_latest": 2.66,
+      "debt_to_equity": 1.14,
+      "current_ratio": 1.04,
+      "pe_ratio": 14.04,
+      "forward_pe": 11.96,
+      "market_cap_b": 80.7,
+      "dividend_yield": 586.0,
+      "high_52w": 39.74,
+      "low_52w": 29.66,
+      "current_price": 37.35,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 2.96,
+      "buffett_score": 75.0,
+      "grade": "A",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": null,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 10.53,
+          "grade": "ok"
+        },
+        {
+          "metric": "毛利率",
+          "value": 12.83,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.14,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 14.04,
+          "grade": "pass"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "不可複製基礎設施",
+        "moat_desc": "50,000 英里管線；全球最大 NGL 分餾網路；27 年連續配息增長",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "天然氣需求因再生能源被取代；管線利用率持續下降",
+      "news": {
+        "items": [
+          {
+            "title": "中鋼3重點產品 獲兩大平台EPD認證 - 工商時報",
+            "date": "Fri, 10 Apr 2026 06:27:00 GMT"
+          },
+          {
+            "title": "中鋼3大鋼品再通過國際認證 助下游搶綠色商機 - 自由時報",
+            "date": "Thu, 09 Apr 2026 16:53:00 GMT"
+          },
+          {
+            "title": "Truist對EPD設定36美元目標價，顯示股息機會合理，反映穩定現金流與風險因素增加 - Bitget",
+            "date": "Sun, 29 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "台泥報捷 獲全台首張水泥/混凝土雙EPD認證 - Yahoo股市",
+            "date": "Mon, 29 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "長期投資者必看！為何Enterprise Products Partners (EPD) 是便宜高股息股票的最佳選擇 - CMoney投資網誌",
+            "date": "Sun, 21 Sep 2025 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      },
+      "pick_reason": {
+        "summary": "Enterprise Products Partners L. 符合巴菲特選股標準。",
+        "strengths": [
+          "ROE 達 inf%，資本運用效率優異",
+          "淨利率 10.53%，營運效率良好",
+          "自由現金流連續 4 年為正",
+          "股息殖利率 586.0%，提供穩定現金回報",
+          "護城河寬廣：不可複製基礎設施"
+        ],
+        "risks": [
+          "新聞黃燈：偵測到 1 個需關注信號"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "能源 / 石油產業鏈",
+          "segment": "中游 (管線/LNG)"
+        }
+      ]
+    },
+    {
+      "stock_id": "CVX",
+      "name": "Chevron Corporation",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 13.43,
+      "roe_latest": 6.6,
+      "roe_years": 4,
+      "net_margin_avg": 10.42,
+      "net_margin_latest": 6.67,
+      "gross_margin_avg": 30.47,
+      "eps_latest": 6.64,
+      "debt_to_equity": 0.24,
+      "current_ratio": 1.16,
+      "pe_ratio": 28.4,
+      "forward_pe": 17.9,
+      "market_cap_b": 375.6,
+      "dividend_yield": 378.0,
+      "high_52w": 214.71,
+      "low_52w": 132.33,
+      "current_price": 188.55,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 16.59,
+      "buffett_score": 74.0,
+      "grade": "A",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 13.43,
+          "grade": "warn"
+        },
+        {
+          "metric": "淨利率",
+          "value": 10.42,
+          "grade": "ok"
+        },
+        {
+          "metric": "毛利率",
+          "value": 30.47,
+          "grade": "ok"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.24,
+          "grade": "pass"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 28.4,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "規模 + 整合型",
+        "moat_desc": "巴菲特 Top 5 持倉；Permian 產量破百萬桶/日；4.4% 殖利率",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "能源轉型導致化石燃料需求結構性下滑；股息無法維持",
+      "news": {
+        "items": [
+          {
+            "title": "Exxon (XOM) Vs Chevron (CVX)：2026 能源股該買誰？委內瑞拉變天、蓋亞那產量爆發，油氣巨頭新戰局！#XOM#美股#stock Additional Reading (btU5iOyafA) - Mshale",
+            "date": "Wed, 08 Apr 2026 22:27:03 GMT"
+          },
+          {
+            "title": "雪佛龍(CVX)股票4月8日盤中下跌5.25%：原因全解讀 - TradingKey",
+            "date": "Wed, 08 Apr 2026 16:16:49 GMT"
+          },
+          {
+            "title": "Exxon, Chevron, and More Oil Stocks Fall. Get Used to It. -- Barrons.com - 富途牛牛",
+            "date": "Wed, 08 Apr 2026 11:28:55 GMT"
+          },
+          {
+            "title": "《商品》雪佛龍(CVX.US)高層警告加州正走向能源危機 依賴進口燃料猶如賭博 - AASTOCKS.com",
+            "date": "Tue, 24 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "【美股動態】Chevron油價飆升帶動能源類股上揚-CMoney 研究員 - CMoney投資網誌",
+            "date": "Mon, 09 Mar 2026 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "Chevron Corporation 符合巴菲特選股標準。",
+        "strengths": [
+          "淨利率 10.42%，營運效率良好",
+          "負債權益比僅 0.24，財務極度穩健",
+          "自由現金流連續 4 年為正",
+          "年產自由現金流 $16.59B，現金印鈔機",
+          "股息殖利率 378.0%，提供穩定現金回報"
+        ],
+        "risks": []
+      },
+      "industry_chains": [
+        {
+          "chain": "能源 / 石油產業鏈",
+          "segment": "上游 (探勘生產)"
+        }
+      ]
+    },
+    {
+      "stock_id": "ETN",
+      "name": "Eaton Corporation, PLC",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 18.23,
+      "roe_latest": 21.04,
+      "roe_years": 4,
+      "net_margin_avg": 13.97,
+      "net_margin_latest": 14.89,
+      "gross_margin_avg": 36.33,
+      "eps_latest": 10.44,
+      "debt_to_equity": 0.55,
+      "current_ratio": 1.32,
+      "pe_ratio": 38.6,
+      "forward_pe": 25.94,
+      "market_cap_b": 156.5,
+      "dividend_yield": 109.0,
+      "high_52w": 408.45,
+      "low_52w": 255.1,
+      "current_price": 403.0,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 3.55,
+      "buffett_score": 72.0,
+      "grade": "A",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 18.23,
+          "grade": "ok"
+        },
+        {
+          "metric": "淨利率",
+          "value": 13.97,
+          "grade": "ok"
+        },
+        {
+          "metric": "毛利率",
+          "value": 36.33,
+          "grade": "ok"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.55,
+          "grade": "ok"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 38.6,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "供不應求 + 轉換成本",
+        "moat_desc": "變壓器/配電設備龍頭；2-4 年交期造成極高轉換成本；電網現代化受益者",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "變壓器供需恢復平衡、定價權消失；中國製造商搶佔市場",
+      "news": {
+        "items": [
+          {
+            "title": "ETRACS 2xMonthly Pay Leveraged Preferred Stock Index ETN將於2026年4月13日除權除息，1股派股息0.0407USD - Moomoo",
+            "date": "Fri, 10 Apr 2026 05:07:02 GMT"
+          },
+          {
+            "title": "法國巴黎銀行擴大交易產品線 推加密資產ETN迎投資需求 - Yahoo股市",
+            "date": "Fri, 27 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "MICROSECTORS GOLD 3X LEVERAGED ETN To Carry Out 10-for-1 Stock Split On February 24th, 2026 - 富途牛牛",
+            "date": "Sun, 22 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "Citi raises Eaton PT on 'strong confidence in earnings growth' - TradingView",
+            "date": "Mon, 14 Jul 2025 07:00:00 GMT"
+          },
+          {
+            "title": "SK海力士＋台積電撐腰 這檔ETN近月績效噴發傲群雄 - Yahoo股市",
+            "date": "Tue, 23 Sep 2025 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期新聞正面 (2 個正面信號)"
+      },
+      "pick_reason": {
+        "summary": "Eaton Corporation, PLC 符合巴菲特選股標準。",
+        "strengths": [
+          "ROE 18.23%，高於 15% 門檻",
+          "淨利率 13.97%，營運效率良好",
+          "負債權益比 0.55，資產負債表健康",
+          "自由現金流連續 4 年為正",
+          "股息殖利率 109.0%，提供穩定現金回報"
+        ],
+        "risks": [
+          "P/E 38.6 偏高，估值需留意"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "公用事業 / 基礎設施",
+          "segment": "電網設備"
+        }
+      ]
+    },
+    {
       "stock_id": "ABBV",
       "name": "AbbVie Inc.",
       "market": "US",
@@ -3077,12 +4170,12 @@
             "date": "Fri, 17 Oct 2025 07:00:00 GMT"
           },
           {
-            "title": "Morgan Stanley Maintains Sherwin-Williams(SHW.US) With Buy Rating, Maintains Target Price $385 - 富途牛牛",
-            "date": "Thu, 26 Mar 2026 10:31:00 GMT"
+            "title": "Jefferies Maintains Sherwin-Williams(SHW.US) With Hold Rating, Cuts Target Price to $360 - 富途牛牛",
+            "date": "Mon, 06 Apr 2026 13:31:00 GMT"
           }
         ],
-        "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
       },
       "pick_reason": {
         "summary": "Sherwin-Williams Company (The) 符合巴菲特選股標準。",
@@ -3095,7 +4188,8 @@
         ],
         "risks": [
           "P/E 32.79 偏高，估值需留意",
-          "負債權益比 3.06 偏高"
+          "負債權益比 3.06 偏高",
+          "新聞黃燈：偵測到 1 個需關注信號"
         ]
       },
       "industry_chains": [
@@ -3218,6 +4312,108 @@
         {
           "chain": "消費品牌產業鏈",
           "segment": "飲料"
+        }
+      ]
+    },
+    {
+      "stock_id": "1590",
+      "name": "亞德客-KY",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 7.67,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 8.56,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 48.38,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 42.01,
+      "eps_5yr_ago": 33.67,
+      "eps_cagr_5y": 4.53,
+      "debt_to_equity": 0.09,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 66.7,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 7.67,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 8.56,
+          "grade": "warn"
+        },
+        {
+          "metric": "毛利率",
+          "value": 48.38,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.09,
+          "grade": "pass"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "技術領先 + 品牌",
+        "moat_desc": "亞洲氣動元件龍頭；工業自動化關鍵零組件",
+        "moat_width": "narrow"
+      },
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "1590 亞德客-KY - 讚！讚！讚！ - 股市爆料同學會 - CMoney",
+            "date": "Tue, 07 Apr 2026 10:52:03 GMT"
+          },
+          {
+            "title": "《證交所》今日單一證券鉅額成交股票：亞德客-KY、台積電、聯發科 - 富聯網",
+            "date": "Tue, 07 Apr 2026 09:19:00 GMT"
+          },
+          {
+            "title": "亞德客-KY(1590)-日茂 - 券商分點進出買賣統計 - 股市爆料同學會 - CMoney",
+            "date": "Wed, 08 Apr 2026 08:15:53 GMT"
+          },
+          {
+            "title": "【11:15 即時新聞】亞德客-KY(1590)盤中強勢突破，股價衝上1250元創波段新高，技術面多頭排列，法人看好營收動能續強 - CMoney投資網誌",
+            "date": "Thu, 05 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "亞德客-KY延續昨日漲勢 再+28元！ 機器人股將掀巨浪 - 理財周刊",
+            "date": "Wed, 05 Nov 2025 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "亞德客-KY 部分指標良好，但有待改善之處。",
+        "strengths": [
+          "毛利率 48.38%，護城河寬廣",
+          "負債權益比僅 0.09，財務極度穩健",
+          "EPS 連續 11 年為正，盈利穩定可預測",
+          "護城河適中：技術領先 + 品牌"
+        ],
+        "risks": []
+      },
+      "industry_chains": [
+        {
+          "chain": "台灣工業 / 傳產",
+          "segment": "氣動元件"
         }
       ]
     },
@@ -3567,6 +4763,206 @@
       ]
     },
     {
+      "stock_id": "3105",
+      "name": "穩懋",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 6.69,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 9.55,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 32.4,
+      "eps_positive_years": 10,
+      "eps_total_years": 11,
+      "eps_latest": 4.0,
+      "eps_5yr_ago": 12.9,
+      "eps_cagr_5y": -20.88,
+      "debt_to_equity": 0.45,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 63.3,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 6.69,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 9.55,
+          "grade": "warn"
+        },
+        {
+          "metric": "毛利率",
+          "value": 32.4,
+          "grade": "ok"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.45,
+          "grade": "pass"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "10/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "穩懋 光通訊商機爆發 - 聯合新聞網",
+            "date": "Mon, 06 Apr 2026 16:22:50 GMT"
+          },
+          {
+            "title": "【Hot台股】穩懋逆勢亮燈創近4年新高！網歎「羨慕有穩懋的人」 分析師勸：要謹慎 - Yahoo股市",
+            "date": "Wed, 18 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "【即時新聞】穩懋(3105)法說報喜亮燈，這「5檔概念股」買盤點火！ - CMoney投資網誌",
+            "date": "Mon, 23 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "3105 穩懋- 中長期布局：聚焦法說會展望- 股市爆料同學會 - CMoney",
+            "date": "Tue, 27 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "SpaceX IPO點火！「這檔低軌衛星」飆本週第2根漲停狂炸400億元穩懋衝連3漲22%強噴220億元 - Yahoo股市",
+            "date": "Fri, 27 Mar 2026 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "穩懋 部分指標良好，但有待改善之處。",
+        "strengths": [
+          "負債權益比僅 0.45，財務極度穩健"
+        ],
+        "risks": []
+      },
+      "industry_chains": [
+        {
+          "chain": "AI / 半導體產業鏈",
+          "segment": "化合物半導體"
+        }
+      ]
+    },
+    {
+      "stock_id": "2412",
+      "name": "中華電",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 4.7,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 7.96,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 35.77,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 4.99,
+      "eps_5yr_ago": 4.61,
+      "eps_cagr_5y": 1.6,
+      "debt_to_equity": 0.34,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 63.3,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 4.7,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 7.96,
+          "grade": "warn"
+        },
+        {
+          "metric": "毛利率",
+          "value": 35.77,
+          "grade": "ok"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.34,
+          "grade": "pass"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "法規壁壘 + 規模",
+        "moat_desc": "電信業牌照壁壘；固網基礎設施壟斷",
+        "moat_width": "narrow"
+      },
+      "exit_conditions": "5G 競爭加劇導致 ARPU 持續下滑",
+      "news": {
+        "items": [
+          {
+            "title": "最強權值股出爐！中華電信跌幅不到1% 領頭電信股逆勢抗跌 - Yahoo股市",
+            "date": "Sun, 08 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "【12:54 即時新聞】中華電(2412)股價小幅回落至136元，避險資金題材續在＋多頭均線結構與法人買盤仍偏多 - CMoney投資網誌",
+            "date": "Mon, 09 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "房貸800萬想全押中華電⋯他要利率2.6％以上+穩定不賠！網輸不起就別賭 - 聯合新聞網",
+            "date": "Tue, 16 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "中華電、遠傳 股息大方配 - Yahoo股市",
+            "date": "Thu, 26 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "【即時新聞】最新大豐電子公司大大寬頻擬興櫃，中華電持股8%成第二大股東 - CMoney投資網誌",
+            "date": "Wed, 14 Jan 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "中華電 部分指標良好，但有待改善之處。",
+        "strengths": [
+          "負債權益比僅 0.34，財務極度穩健",
+          "EPS 連續 11 年為正，盈利穩定可預測",
+          "護城河適中：法規壁壘 + 規模"
+        ],
+        "risks": []
+      },
+      "industry_chains": [
+        {
+          "chain": "公用事業 / 基礎設施",
+          "segment": "電力公用事業"
+        },
+        {
+          "chain": "台灣工業 / 傳產",
+          "segment": "電信"
+        }
+      ]
+    },
+    {
       "stock_id": "UNH",
       "name": "UnitedHealth Group Incorporated",
       "market": "US",
@@ -3788,6 +5184,213 @@
         ]
       },
       "industry_chains": []
+    },
+    {
+      "stock_id": "NEE",
+      "name": "NextEra Energy, Inc.",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 13.09,
+      "roe_latest": 12.52,
+      "roe_years": 4,
+      "net_margin_avg": 24.7,
+      "net_margin_latest": 24.93,
+      "gross_margin_avg": 58.66,
+      "eps_latest": 3.3,
+      "debt_to_equity": 1.46,
+      "current_ratio": 0.59,
+      "pe_ratio": 28.51,
+      "forward_pe": 21.51,
+      "market_cap_b": 196.2,
+      "dividend_yield": 265.0,
+      "high_52w": 96.21,
+      "low_52w": 63.64,
+      "current_price": 94.08,
+      "fcf_positive_years": 3,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 3.21,
+      "buffett_score": 62.0,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 13.09,
+          "grade": "warn"
+        },
+        {
+          "metric": "淨利率",
+          "value": 24.7,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 58.66,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.46,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "3/4",
+          "grade": "ok"
+        },
+        {
+          "metric": "P/E",
+          "value": 28.51,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "3/4",
+          "grade": "ok"
+        }
+      ],
+      "moat": {
+        "moat_type": "規模 + 法規壁壘",
+        "moat_desc": "FPL 佛州電力壟斷 (營運成本低國平均 70%)；全球最大風能/太陽能發電商",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "利率長期高企壓縮再生能源報酬；佛州監管態度轉變",
+      "news": {
+        "items": [
+          {
+            "title": "Duke Energy Stock Rises 11.7% in 3 Months: Should You Buy Now? - TradingView",
+            "date": "Wed, 01 Apr 2026 14:23:00 GMT"
+          },
+          {
+            "title": "Today's Guide to New Stock Subscriptions and IPO Positioning Analysis - 富途牛牛",
+            "date": "Thu, 09 Apr 2026 23:55:05 GMT"
+          },
+          {
+            "title": "新紀元能源(NEE.US)重申2026財年指引：計劃新增6GW核能裝機，搶佔數據中心供電藍海作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Wed, 28 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "NextEra Energy(NEE.US) Officer Sells US$8.9 Million in Common Stock - 富途牛牛",
+            "date": "Tue, 10 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "Oklo Sinks 6%+ on $1.5 Billion Offering of New Stock - Moomoo",
+            "date": "Fri, 05 Dec 2025 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "NextEra Energy, Inc. 部分指標良好，但有待改善之處。",
+        "strengths": [
+          "淨利率 24.7%，具備強勁定價權",
+          "毛利率 58.66%，護城河寬廣",
+          "股息殖利率 265.0%，提供穩定現金回報",
+          "護城河寬廣：規模 + 法規壁壘"
+        ],
+        "risks": []
+      },
+      "industry_chains": [
+        {
+          "chain": "能源 / 石油產業鏈",
+          "segment": "再生能源"
+        }
+      ]
+    },
+    {
+      "stock_id": "2327",
+      "name": "國巨",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 11.29,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 9.86,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 36.52,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 26.9,
+      "eps_5yr_ago": 46.5,
+      "eps_cagr_5y": -10.37,
+      "debt_to_equity": 1.25,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 61.1,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 11.29,
+          "grade": "warn"
+        },
+        {
+          "metric": "淨利率",
+          "value": 9.86,
+          "grade": "warn"
+        },
+        {
+          "metric": "毛利率",
+          "value": 36.52,
+          "grade": "ok"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.25,
+          "grade": "warn"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "被動元件族群三月營收出爐 國巨領漲、通路商同步回溫｜股市話題｜豐雲學堂 2026 年 04 月 - sinotrade.com.tw",
+            "date": "Thu, 09 Apr 2026 08:00:18 GMT"
+          },
+          {
+            "title": "被動元件回神開噴！國巨營收創高領軍「這檔4天悍漲40%」 九豪、蜜望實4檔攻頂 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 10:15:00 GMT"
+          },
+          {
+            "title": "期貨商論壇／國巨期 擁 AI 題材 - 聯合新聞網",
+            "date": "Thu, 09 Apr 2026 22:44:07 GMT"
+          },
+          {
+            "title": "【Follow法人】外資倒貨記憶體四雄！反手掃貨13萬張友達 燿華國巨也上榜 - Yahoo股市",
+            "date": "Thu, 09 Apr 2026 08:47:00 GMT"
+          },
+          {
+            "title": "國巨寫「最強單季」！首季營收381億元 年增22% - Yahoo股市",
+            "date": "Wed, 08 Apr 2026 08:31:55 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "國巨 部分指標良好，但有待改善之處。",
+        "strengths": [
+          "EPS 連續 11 年為正，盈利穩定可預測"
+        ],
+        "risks": []
+      },
+      "industry_chains": [
+        {
+          "chain": "AI / 半導體產業鏈",
+          "segment": "被動元件"
+        }
+      ]
     },
     {
       "stock_id": "AMD",
@@ -4356,6 +5959,513 @@
       ]
     },
     {
+      "stock_id": "BKR",
+      "name": "Baker Hughes Company",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 9.96,
+      "roe_latest": 13.74,
+      "roe_years": 4,
+      "net_margin_avg": 6.2,
+      "net_margin_latest": 9.33,
+      "gross_margin_avg": 22.71,
+      "eps_latest": 2.6,
+      "debt_to_equity": 0.35,
+      "current_ratio": 1.36,
+      "pe_ratio": 24.17,
+      "forward_pe": 22.13,
+      "market_cap_b": 62.3,
+      "dividend_yield": 146.0,
+      "high_52w": 67.0,
+      "low_52w": 34.56,
+      "current_price": 62.83,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 2.54,
+      "buffett_score": 58.0,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 9.96,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 6.2,
+          "grade": "warn"
+        },
+        {
+          "metric": "毛利率",
+          "value": 22.71,
+          "grade": "warn"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.35,
+          "grade": "pass"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 24.17,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "近壟斷 (LNG 設備)",
+        "moat_desc": "LNG 渦輪機械 ~90% 市佔；從油服轉型能源科技公司",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "LNG 建設週期結束；油服需求長期下滑",
+      "news": {
+        "items": [
+          {
+            "title": "行業動態：能源股在週二盤前交易中微幅上漲 - 富途牛牛",
+            "date": "Tue, 07 Apr 2026 13:28:50 GMT"
+          },
+          {
+            "title": "Baker Hughes(BKR.US) Officer Sells US$3.3 Million in Common Stock - 富途牛牛",
+            "date": "Wed, 18 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Oppenheimer三月美股策略：動量策略正當時推薦蘋果(AAPL.US)、美鋁(AA.US)、貝克休斯(BKR.US)等個股作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Tue, 03 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "在九月消費者信心報告發布之前，交易所交易基金上漲，股票期貨漲跌互現 - Moomoo",
+            "date": "Fri, 12 Sep 2025 07:00:00 GMT"
+          },
+          {
+            "title": "週二盤前，交易所交易基金和股票期貨在就業報告公佈前上漲 - Moomoo",
+            "date": "Tue, 29 Jul 2025 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "Baker Hughes Company 部分指標良好，但有待改善之處。",
+        "strengths": [
+          "負債權益比僅 0.35，財務極度穩健",
+          "自由現金流連續 4 年為正",
+          "股息殖利率 146.0%，提供穩定現金回報",
+          "護城河寬廣：近壟斷 (LNG 設備)"
+        ],
+        "risks": []
+      },
+      "industry_chains": [
+        {
+          "chain": "能源 / 石油產業鏈",
+          "segment": "油服設備"
+        }
+      ]
+    },
+    {
+      "stock_id": "3034",
+      "name": "聯詠",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 0.54,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 0.3,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 36.32,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 26.87,
+      "eps_5yr_ago": 63.88,
+      "eps_cagr_5y": -15.9,
+      "debt_to_equity": 0.44,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 57.8,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 0.54,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 0.3,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 36.32,
+          "grade": "ok"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.44,
+          "grade": "pass"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "發出23元股利！「IC設計大廠」全年EPS下滑至26.87元 受制記憶體缺貨潮 - Yahoo股市",
+            "date": "Wed, 11 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "【12:37 即時新聞】聯詠(3034)股價小跌守穩374.5元，法說展望平淡壓抑買氣＋短線均線走弱籌碼偏空待量能確認 - CMoney投資網誌",
+            "date": "Mon, 09 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "零股也能拿！聯詠股東會紀念品內容揭曉 - 自由財經",
+            "date": "Tue, 17 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "3034 聯詠- 看空聯詠的幾個關鍵理由- 股市爆料同學會 - CMoney",
+            "date": "Thu, 01 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "面板「慘」業！聯詠終於跨入AI 第三季涼了看第四季 - 理財周刊",
+            "date": "Tue, 21 Oct 2025 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      },
+      "pick_reason": {
+        "summary": "聯詠 部分指標良好，但有待改善之處。",
+        "strengths": [
+          "負債權益比僅 0.44，財務極度穩健",
+          "EPS 連續 11 年為正，盈利穩定可預測"
+        ],
+        "risks": [
+          "淨利率僅 0.3%，獲利能力偏弱",
+          "新聞黃燈：偵測到 1 個需關注信號"
+        ]
+      },
+      "industry_chains": []
+    },
+    {
+      "stock_id": "9910",
+      "name": "豐泰",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 14.81,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 3.93,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 22.96,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 5.1,
+      "eps_5yr_ago": 5.15,
+      "eps_cagr_5y": -0.19,
+      "debt_to_equity": 0.89,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 57.8,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 14.81,
+          "grade": "warn"
+        },
+        {
+          "metric": "淨利率",
+          "value": 3.93,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 22.96,
+          "grade": "warn"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.89,
+          "grade": "ok"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "豐泰(9910)- - 券商分點進出買賣統計 - 股市爆料同學會 - CMoney",
+            "date": "Wed, 08 Apr 2026 10:38:19 GMT"
+          },
+          {
+            "title": "豐泰緊貼Nike供應鏈轉型 高階製鞋優勢提振自動化布局 - Yahoo股市",
+            "date": "Mon, 16 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "【11:57 即時新聞】豐泰(9910)小漲守穩9字頭，MSCI調整賣壓消化中＋中長期殖利率與技術支撐成亮點 - CMoney投資網誌",
+            "date": "Wed, 04 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "寶成、豐泰坐等明年世足賽反彈？專家：籌碼面穩定、千張大戶跌深卡位| 股市要聞| 股市 - 聯合新聞網",
+            "date": "Wed, 24 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "製鞋廠自結去年獲利 鈺齊、志強及豐泰都賺回逾半個股本 - news.cnyes.com",
+            "date": "Mon, 26 Jan 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "豐泰 部分指標良好，但有待改善之處。",
+        "strengths": [
+          "負債權益比 0.89，資產負債表健康",
+          "EPS 連續 11 年為正，盈利穩定可預測"
+        ],
+        "risks": [
+          "淨利率僅 3.93%，獲利能力偏弱"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "台灣工業 / 傳產",
+          "segment": "運動用品代工"
+        }
+      ]
+    },
+    {
+      "stock_id": "2049",
+      "name": "上銀",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 4.73,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 4.13,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 33.36,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 4.3,
+      "eps_5yr_ago": 10.5,
+      "eps_cagr_5y": -16.35,
+      "debt_to_equity": 0.45,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 57.8,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 4.73,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 4.13,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 33.36,
+          "grade": "ok"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.45,
+          "grade": "pass"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "傳動元件景氣回升、漲價再現，上銀、大銀微系統誰是這波行情的真正受惠者？｜產業熱話｜豐雲學堂2026 年 04 月 - sinotrade.com.tw",
+            "date": "Wed, 08 Apr 2026 03:02:20 GMT"
+          },
+          {
+            "title": "【09:33 即時新聞】上銀(2049)亮燈漲停至253元，受接單回溫與機器人題材點火＋短線突破前高帶量換手 - CMoney投資網誌",
+            "date": "Mon, 02 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "上銀 明年營收拚增雙位數 - Yahoo股市",
+            "date": "Tue, 02 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "《價值型投資 最新產業研究報告》上銀（2049-TW）轉型智慧製造關鍵供應商 半導體自動化與AI機器人打開成長新格局 - news.cnyes.com",
+            "date": "Tue, 09 Sep 2025 07:00:00 GMT"
+          },
+          {
+            "title": "上銀爆萬張漲停 外資解析利多 - 聯合新聞網",
+            "date": "Mon, 02 Mar 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "上銀 部分指標良好，但有待改善之處。",
+        "strengths": [
+          "負債權益比僅 0.45，財務極度穩健",
+          "EPS 連續 11 年為正，盈利穩定可預測"
+        ],
+        "risks": [
+          "淨利率僅 4.13%，獲利能力偏弱"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "台灣工業 / 傳產",
+          "segment": "精密機械"
+        }
+      ]
+    },
+    {
+      "stock_id": "2454",
+      "name": "聯發科",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 4.03,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 4.46,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 43.65,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 66.17,
+      "eps_5yr_ago": 70.56,
+      "eps_cagr_5y": -1.28,
+      "debt_to_equity": 0.82,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 55.6,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 4.03,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 4.46,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 43.65,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.82,
+          "grade": "ok"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "技術優勢",
+        "moat_desc": "IC 設計龍頭；5G/AI 晶片技術領先",
+        "moat_width": "narrow"
+      },
+      "exit_conditions": "高通/三星搶走市佔；手機晶片 ASP 下滑",
+      "news": {
+        "items": [
+          {
+            "title": "聯發科憔悴挫逾2% 股價又破1300元...分析師：長期投資低價區 - Yahoo股市",
+            "date": "Sun, 02 Nov 2025 07:00:00 GMT"
+          },
+          {
+            "title": "聯發科股價重挫！股民「慘虧15萬」崩潰怨活生生接刀 - 聯合新聞網",
+            "date": "Wed, 12 Nov 2025 08:00:00 GMT"
+          },
+          {
+            "title": "【01/23 產業即時新聞】快速充電族群股價異動，聯發科強勢領漲獨撐大局！ - CMoney投資網誌",
+            "date": "Fri, 23 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "外資降評、本土喊上1800元！聯發科股價進入決戰區間 - news.cnyes.com",
+            "date": "Sat, 08 Nov 2025 08:00:00 GMT"
+          },
+          {
+            "title": "聯發科(2454)股價鎖漲停1630元！台股衝破30000點，現在上車還來得及嗎？資金流向一次看| 林家群| 全解析 - 風傳媒",
+            "date": "Fri, 23 Jan 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+      },
+      "pick_reason": {
+        "summary": "聯發科 部分指標良好，但有待改善之處。",
+        "strengths": [
+          "毛利率 43.65%，護城河寬廣",
+          "負債權益比 0.82，資產負債表健康",
+          "EPS 連續 11 年為正，盈利穩定可預測",
+          "護城河適中：技術優勢"
+        ],
+        "risks": [
+          "淨利率僅 4.46%，獲利能力偏弱",
+          "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "AI / 半導體產業鏈",
+          "segment": "晶片設計 (Fabless)"
+        }
+      ]
+    },
+    {
       "stock_id": "MTD",
       "name": "Mettler-Toledo International, I",
       "market": "US",
@@ -4452,165 +6562,103 @@
       ]
     },
     {
-      "stock_id": "2330",
-      "name": "台積電",
-      "market": "TW",
-      "currency": "TWD",
-      "buffett_score": 0.0,
+      "stock_id": "AWK",
+      "name": "American Water Works Company, I",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 10.18,
+      "roe_latest": 10.25,
+      "roe_years": 4,
+      "net_margin_avg": 21.99,
+      "net_margin_latest": 21.61,
+      "gross_margin_avg": 59.63,
+      "eps_latest": 5.69,
+      "debt_to_equity": 1.47,
+      "current_ratio": 0.46,
+      "pe_ratio": 24.12,
+      "forward_pe": 20.86,
+      "market_cap_b": 26.8,
+      "dividend_yield": 241.0,
+      "high_52w": 150.51,
+      "low_52w": 121.28,
+      "current_price": 137.22,
+      "fcf_positive_years": 0,
+      "fcf_total_years": 4,
+      "fcf_latest_b": -1.24,
+      "buffett_score": 52.0,
       "grade": "C",
       "score_details": [
         {
           "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
+          "value": 10.18,
+          "grade": "warn"
         },
         {
           "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
+          "value": 21.99,
+          "grade": "pass"
         },
         {
           "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
+          "value": 59.63,
+          "grade": "pass"
         },
         {
           "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
+          "value": 1.47,
+          "grade": "warn"
         },
         {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
+          "metric": "FCF 持續性",
+          "value": "0/4",
+          "grade": "warn"
         },
         {
-          "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
+          "metric": "P/E",
+          "value": 24.12,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "0/4",
+          "grade": "warn"
         }
       ],
       "moat": {
-        "moat_type": "技術優勢 + 規模經濟",
-        "moat_desc": "先進製程全球獨霸；$300B+ 年資本支出形成進入門檻",
+        "moat_type": "自然壟斷",
+        "moat_desc": "美國最大水務公司；基礎設施不可複製、零競爭；併購 Essential Utilities 後更壟斷",
         "moat_width": "wide"
       },
-      "exit_conditions": "Intel/三星追上先進製程；台海地緣風險急劇升高",
+      "exit_conditions": "水費漲幅受政治壓力限制；併購整合風險",
       "news": {
         "items": [
           {
-            "title": "股票一直漲更焦慮？他靠「1策略」台積電小賺卻卡關 網揭關鍵：賣了就輸了 - Yahoo股市",
-            "date": "Sat, 11 Apr 2026 06:15:44 GMT"
+            "title": "AWK印第安納分部計劃於2025年通過2.46億美元投資提升基礎設施 - Bitget",
+            "date": "Mon, 23 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "睽違1個多月！台積電站上2000元 被列注意股照飆 - Yahoo股市",
-            "date": "Fri, 10 Apr 2026 06:00:39 GMT"
+            "title": "鉅亨速報 - Factset 最新調查：美國水處理AWK-US的目標價調降至135.5元，幅度約5.57% - Yahoo股市",
+            "date": "Mon, 27 Jan 2025 08:00:00 GMT"
           },
           {
-            "title": "台積電要破2025元天價了？營收太猛 名師看好：下周一有望漲30元 - Yahoo股市",
-            "date": "Fri, 10 Apr 2026 07:51:15 GMT"
+            "title": "Barclays Maintains American Water Works(AWK.US) With Sell Rating, Maintains Target Price $122 - 富途牛牛",
+            "date": "Thu, 22 Jan 2026 08:00:00 GMT"
           },
           {
-            "title": "財經名嘴克雷默：我很喜歡台積電但「這檔」股票更適合進場| 全球財經| 全球 - 聯合新聞網",
-            "date": "Sat, 11 Apr 2026 11:46:24 GMT"
-          },
-          {
-            "title": "快訊／台積電爆發重訊！子公司以3.2億元狂掃10萬固定公司債 累計手持達9.5億元 - Yahoo股市",
-            "date": "Fri, 10 Apr 2026 10:06:00 GMT"
-          }
-        ],
-        "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
-      },
-      "pick_reason": {
-        "summary": "台積電 目前不符合巴菲特核心選股標準。",
-        "strengths": [
-          "護城河寬廣：技術優勢 + 規模經濟"
-        ],
-        "risks": []
-      },
-      "industry_chains": [
-        {
-          "chain": "AI / 半導體產業鏈",
-          "segment": "晶圓代工"
-        }
-      ]
-    },
-    {
-      "stock_id": "2454",
-      "name": "聯發科",
-      "market": "TW",
-      "currency": "TWD",
-      "buffett_score": 0.0,
-      "grade": "C",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
-        }
-      ],
-      "moat": {
-        "moat_type": "技術優勢",
-        "moat_desc": "IC 設計龍頭；5G/AI 晶片技術領先",
-        "moat_width": "narrow"
-      },
-      "exit_conditions": "高通/三星搶走市佔；手機晶片 ASP 下滑",
-      "news": {
-        "items": [
-          {
-            "title": "聯發科憔悴挫逾2% 股價又破1300元...分析師：長期投資低價區 - Yahoo股市",
-            "date": "Sun, 02 Nov 2025 07:00:00 GMT"
-          },
-          {
-            "title": "聯發科股價重挫！股民「慘虧15萬」崩潰怨活生生接刀 - 聯合新聞網",
-            "date": "Wed, 12 Nov 2025 08:00:00 GMT"
-          },
-          {
-            "title": "【01/23 產業即時新聞】快速充電族群股價異動，聯發科強勢領漲獨撐大局！ - CMoney投資網誌",
-            "date": "Fri, 23 Jan 2026 08:00:00 GMT"
-          },
-          {
-            "title": "外資降評、本土喊上1800元！聯發科股價進入決戰區間 - news.cnyes.com",
-            "date": "Sat, 08 Nov 2025 08:00:00 GMT"
-          },
-          {
-            "title": "聯發科(2454)股價鎖漲停1630元！台股衝破30000點，現在上車還來得及嗎？資金流向一次看| 林家群| 全解析 - 風傳媒",
-            "date": "Fri, 23 Jan 2026 08:00:00 GMT"
+            "title": "BofA Securities Upgrades American Water Works(AWK.US) to Hold Rating, Raises Target Price to $139 - 富途牛牛",
+            "date": "Tue, 13 Jan 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "yellow",
         "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
       },
       "pick_reason": {
-        "summary": "聯發科 目前不符合巴菲特核心選股標準。",
+        "summary": "American Water Works Company, I 目前不符合巴菲特核心選股標準。",
         "strengths": [
-          "護城河適中：技術優勢"
+          "淨利率 21.99%，具備強勁定價權",
+          "毛利率 59.63%，護城河寬廣",
+          "股息殖利率 241.0%，提供穩定現金回報",
+          "護城河寬廣：自然壟斷"
         ],
         "risks": [
           "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
@@ -4618,89 +6666,104 @@
       },
       "industry_chains": [
         {
-          "chain": "AI / 半導體產業鏈",
-          "segment": "晶片設計 (Fabless)"
+          "chain": "公用事業 / 基礎設施",
+          "segment": "水務"
         }
       ]
     },
     {
-      "stock_id": "3711",
-      "name": "日月光投控",
+      "stock_id": "1303",
+      "name": "南亞",
       "market": "TW",
       "currency": "TWD",
-      "buffett_score": 0.0,
+      "roe_avg": 5.4,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 6.48,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 12.92,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 0.57,
+      "eps_5yr_ago": 10.26,
+      "eps_cagr_5y": -43.9,
+      "debt_to_equity": 0.64,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 50.0,
       "grade": "C",
       "score_details": [
         {
           "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
+          "value": 5.4,
+          "grade": "fail"
         },
         {
           "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
+          "value": 6.48,
+          "grade": "warn"
         },
         {
           "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
+          "value": 12.92,
+          "grade": "fail"
         },
         {
           "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
+          "value": 0.64,
+          "grade": "ok"
         },
         {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
         },
         {
           "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
+          "value": "11/11",
+          "grade": "pass"
         }
       ],
       "moat": {},
-      "exit_conditions": "先進封裝被 TSMC 完全自製；毛利率持續下滑",
+      "exit_conditions": "",
       "news": {
         "items": [
           {
-            "title": "日月光投控(3711) 個股概覽 | 個股 - 股市 - CMoney",
-            "date": "Sat, 11 Apr 2026 09:41:56 GMT"
+            "title": "統一投信二度獲理柏基金獎股票團體大獎 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 07:12:00 GMT"
           },
           {
-            "title": "日月光吳田玉：CPO不是股票炒作 今年開始量產 - 鏡新聞",
-            "date": "Fri, 10 Apr 2026 03:38:00 GMT"
+            "title": "【10:22 即時新聞】南亞(1303)股價勁揚逾5%，受惠CCL調漲與AI電子材料題材帶動、短線挑戰前波套牢區 - CMoney投資網誌",
+            "date": "Mon, 30 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "【11:14 即時新聞】日月光投控(3711)攻上漲停361元，AI封測評等與目標價同步上修＋前高附近短空回補力道轉強 - CMoney投資網誌",
-            "date": "Wed, 01 Apr 2026 07:00:00 GMT"
+            "title": "【本週新聞熱門股TOP10】南亞科創高領軍！南亞挾雙題材大漲，被動元件能否接棒成新嬌點?｜1204 - sinotrade.com.tw",
+            "date": "Sun, 07 Dec 2025 08:00:00 GMT"
           },
           {
-            "title": "日月光投控、東元 法人叫好 - Yahoo股市",
-            "date": "Thu, 06 Nov 2025 08:00:00 GMT"
+            "title": "焦點股》南亞：雙利多 股價大漲 - 自由財經",
+            "date": "Mon, 16 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "【12:56 即時新聞】日月光投控(3711)大漲8.4%至355元，受惠全球風險情緒緩解＋技術面由低檔轉強吸引買盤回補 - CMoney投資網誌",
-            "date": "Thu, 05 Mar 2026 08:00:00 GMT"
+            "title": "南亞科漲停打開還翻黑 股民全傻眼 阮慕驊不忍全說了 - Yahoo股市",
+            "date": "Thu, 26 Mar 2026 07:00:00 GMT"
           }
         ],
-        "risk_level": "yellow",
-        "risk_summary": "偵測到 1 個需關注信號"
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
       },
       "pick_reason": {
-        "summary": "日月光投控 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": [
-          "新聞黃燈：偵測到 1 個需關注信號"
-        ]
+        "summary": "南亞 目前不符合巴菲特核心選股標準。",
+        "strengths": [
+          "負債權益比 0.64，資產負債表健康",
+          "EPS 連續 11 年為正，盈利穩定可預測"
+        ],
+        "risks": []
       },
       "industry_chains": [
         {
-          "chain": "AI / 半導體產業鏈",
-          "segment": "封測 (OSAT)"
+          "chain": "台灣工業 / 傳產",
+          "segment": "石化"
         }
       ]
     },
@@ -4709,38 +6772,52 @@
       "name": "台達電",
       "market": "TW",
       "currency": "TWD",
-      "buffett_score": 0.0,
+      "roe_avg": 6.49,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 3.99,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 29.18,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 23.14,
+      "eps_5yr_ago": 10.31,
+      "eps_cagr_5y": 17.55,
+      "debt_to_equity": 0.97,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 48.9,
       "grade": "C",
       "score_details": [
         {
           "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
+          "value": 6.49,
+          "grade": "fail"
         },
         {
           "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
+          "value": 3.99,
+          "grade": "fail"
         },
         {
           "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
+          "value": 29.18,
+          "grade": "warn"
         },
         {
           "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
+          "value": 0.97,
+          "grade": "ok"
         },
         {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
         },
         {
           "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
+          "value": "11/11",
+          "grade": "pass"
         }
       ],
       "moat": {},
@@ -4773,8 +6850,14 @@
       },
       "pick_reason": {
         "summary": "台達電 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": []
+        "strengths": [
+          "負債權益比 0.97，資產負債表健康",
+          "EPS 連續 11 年為正，盈利穩定可預測",
+          "EPS 五年 CAGR 17.55%，成長動能強勁"
+        ],
+        "risks": [
+          "淨利率僅 3.99%，獲利能力偏弱"
+        ]
       },
       "industry_chains": [
         {
@@ -4784,964 +6867,56 @@
       ]
     },
     {
-      "stock_id": "3034",
-      "name": "聯詠",
-      "market": "TW",
-      "currency": "TWD",
-      "buffett_score": 0.0,
-      "grade": "C",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
-        }
-      ],
-      "moat": {},
-      "exit_conditions": "",
-      "news": {
-        "items": [
-          {
-            "title": "發出23元股利！「IC設計大廠」全年EPS下滑至26.87元 受制記憶體缺貨潮 - Yahoo股市",
-            "date": "Wed, 11 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "【12:37 即時新聞】聯詠(3034)股價小跌守穩374.5元，法說展望平淡壓抑買氣＋短線均線走弱籌碼偏空待量能確認 - CMoney投資網誌",
-            "date": "Mon, 09 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "零股也能拿！聯詠股東會紀念品內容揭曉 - 自由財經",
-            "date": "Tue, 17 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "3034 聯詠- 看空聯詠的幾個關鍵理由- 股市爆料同學會 - CMoney",
-            "date": "Thu, 01 Jan 2026 08:00:00 GMT"
-          },
-          {
-            "title": "面板「慘」業！聯詠終於跨入AI 第三季涼了看第四季 - 理財周刊",
-            "date": "Tue, 21 Oct 2025 07:00:00 GMT"
-          }
-        ],
-        "risk_level": "yellow",
-        "risk_summary": "偵測到 1 個需關注信號"
-      },
-      "pick_reason": {
-        "summary": "聯詠 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": [
-          "新聞黃燈：偵測到 1 個需關注信號"
-        ]
-      },
-      "industry_chains": []
-    },
-    {
-      "stock_id": "3105",
-      "name": "穩懋",
-      "market": "TW",
-      "currency": "TWD",
-      "buffett_score": 0.0,
-      "grade": "C",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
-        }
-      ],
-      "moat": {},
-      "exit_conditions": "",
-      "news": {
-        "items": [
-          {
-            "title": "穩懋 光通訊商機爆發 - 聯合新聞網",
-            "date": "Mon, 06 Apr 2026 16:22:50 GMT"
-          },
-          {
-            "title": "【Hot台股】穩懋逆勢亮燈創近4年新高！網歎「羨慕有穩懋的人」 分析師勸：要謹慎 - Yahoo股市",
-            "date": "Wed, 18 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "【即時新聞】穩懋(3105)法說報喜亮燈，這「5檔概念股」買盤點火！ - CMoney投資網誌",
-            "date": "Mon, 23 Feb 2026 08:00:00 GMT"
-          },
-          {
-            "title": "3105 穩懋- 中長期布局：聚焦法說會展望- 股市爆料同學會 - CMoney",
-            "date": "Tue, 27 Jan 2026 08:00:00 GMT"
-          },
-          {
-            "title": "SpaceX IPO點火！「這檔低軌衛星」飆本週第2根漲停狂炸400億元穩懋衝連3漲22%強噴220億元 - Yahoo股市",
-            "date": "Fri, 27 Mar 2026 07:00:00 GMT"
-          }
-        ],
-        "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
-      },
-      "pick_reason": {
-        "summary": "穩懋 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": []
-      },
-      "industry_chains": [
-        {
-          "chain": "AI / 半導體產業鏈",
-          "segment": "化合物半導體"
-        }
-      ]
-    },
-    {
-      "stock_id": "2317",
-      "name": "鴻海",
-      "market": "TW",
-      "currency": "TWD",
-      "buffett_score": 0.0,
-      "grade": "C",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
-        }
-      ],
-      "moat": {},
-      "exit_conditions": "",
-      "news": {
-        "items": [
-          {
-            "title": "鴻海「最強3月營收」市場為何不買單？今翻黑苦守190元 分析師曝關鍵：將是底部 - Yahoo股市",
-            "date": "Tue, 07 Apr 2026 02:00:48 GMT"
-          },
-          {
-            "title": "鴻海股價190元弱爆了！散戶可買？分析師解答曝「外資成本價」 - Yahoo股市",
-            "date": "Tue, 07 Apr 2026 05:08:47 GMT"
-          },
-          {
-            "title": "Mantle推股票代幣化交易平台xStocks 啟動24/7碎股投資 - Yahoo股市",
-            "date": "Sat, 11 Apr 2026 05:50:17 GMT"
-          },
-          {
-            "title": "鴻海為何一直跌？股價253.5→192元頻破底失守年線，明明營收很好…達人拆解弱勢原因：2周內是關鍵 - 今周刊",
-            "date": "Wed, 08 Apr 2026 07:00:00 GMT"
-          },
-          {
-            "title": "鴻海還有機會死貓跳？資深分析師曝最好買進時機在「這價位」 1原因不建議全面出清 - Yahoo股市",
-            "date": "Sun, 29 Mar 2026 07:00:00 GMT"
-          }
-        ],
-        "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
-      },
-      "pick_reason": {
-        "summary": "鴻海 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": []
-      },
-      "industry_chains": []
-    },
-    {
-      "stock_id": "2357",
-      "name": "華碩",
-      "market": "TW",
-      "currency": "TWD",
-      "buffett_score": 0.0,
-      "grade": "C",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
-        }
-      ],
-      "moat": {},
-      "exit_conditions": "",
-      "news": {
-        "items": [
-          {
-            "title": "輝達傳調整顯卡供貨...華碩股價慘破底 技嘉微星震盪翻黑 分析師示警 - Yahoo股市",
-            "date": "Wed, 14 Jan 2026 08:00:00 GMT"
-          },
-          {
-            "title": "華碩還有上漲空間？短線股價暴漲近兩成法說會揭開最大利多- 證券 - 工商時報",
-            "date": "Sat, 14 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "【10:05 即時新聞】華碩(2357)亮燈漲停584元，AI伺服器財報爆發帶動多方追價＋均線多頭排列配合法人連日買超 - CMoney投資網誌",
-            "date": "Wed, 11 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "00878再度把華碩（2357）納入成分股！楚狂人：跌30％反見10倍本益比甜頭| 存股族愛ETF | 股市 - 聯合新聞網",
-            "date": "Fri, 09 Jan 2026 08:00:00 GMT"
-          },
-          {
-            "title": "〈熱門股〉華碩法說AI伺服器展望樂觀、去年大賺6個股本 股價周漲逾1成 - news.cnyes.com",
-            "date": "Sat, 14 Mar 2026 07:00:00 GMT"
-          }
-        ],
-        "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
-      },
-      "pick_reason": {
-        "summary": "華碩 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": []
-      },
-      "industry_chains": []
-    },
-    {
-      "stock_id": "2327",
-      "name": "國巨",
-      "market": "TW",
-      "currency": "TWD",
-      "buffett_score": 0.0,
-      "grade": "C",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
-        }
-      ],
-      "moat": {},
-      "exit_conditions": "",
-      "news": {
-        "items": [
-          {
-            "title": "被動元件族群三月營收出爐 國巨領漲、通路商同步回溫｜股市話題｜豐雲學堂 2026 年 04 月 - sinotrade.com.tw",
-            "date": "Thu, 09 Apr 2026 08:00:18 GMT"
-          },
-          {
-            "title": "被動元件回神開噴！國巨營收創高領軍「這檔4天悍漲40%」 九豪、蜜望實4檔攻頂 - Yahoo股市",
-            "date": "Fri, 10 Apr 2026 10:15:00 GMT"
-          },
-          {
-            "title": "期貨商論壇／國巨期 擁 AI 題材 - 聯合新聞網",
-            "date": "Thu, 09 Apr 2026 22:44:07 GMT"
-          },
-          {
-            "title": "【Follow法人】外資倒貨記憶體四雄！反手掃貨13萬張友達 燿華國巨也上榜 - Yahoo股市",
-            "date": "Thu, 09 Apr 2026 08:47:00 GMT"
-          },
-          {
-            "title": "國巨寫「最強單季」！首季營收381億元 年增22% - Yahoo股市",
-            "date": "Wed, 08 Apr 2026 08:31:55 GMT"
-          }
-        ],
-        "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
-      },
-      "pick_reason": {
-        "summary": "國巨 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": []
-      },
-      "industry_chains": [
-        {
-          "chain": "AI / 半導體產業鏈",
-          "segment": "被動元件"
-        }
-      ]
-    },
-    {
-      "stock_id": "2882",
-      "name": "國泰金",
-      "market": "TW",
-      "currency": "TWD",
-      "buffett_score": 0.0,
-      "grade": "C",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
-        }
-      ],
-      "moat": {},
-      "exit_conditions": "",
-      "news": {
-        "items": [
-          {
-            "title": "市場為何偏愛中信金？艾蜜莉分析：本業穩健＋波動低，今年股利有望續破2元 - Smart自學網",
-            "date": "Thu, 09 Apr 2026 03:18:24 GMT"
-          },
-          {
-            "title": "金融股漲不停！國泰金市值衝台股第六、台新新光金連4漲近11% 引網論戰：重返榮耀vs.最後一棒 - Yahoo股市",
-            "date": "Sun, 21 Dec 2025 08:00:00 GMT"
-          },
-          {
-            "title": "2891 中信金- 金控新聞- 股市爆料同學會 - CMoney",
-            "date": "Wed, 14 Jan 2026 08:00:00 GMT"
-          },
-          {
-            "title": "國泰金1月大賺146億、EPS 0.99元 奪金控業獲利王 | 陳怡慈 | 新聞 - 風傳媒",
-            "date": "Fri, 13 Feb 2026 08:00:00 GMT"
-          },
-          {
-            "title": "國泰金調查：景氣/消費意願/股市樂觀指數齊揚-新聞內容-基金 - MoneyDJ理財網",
-            "date": "Tue, 20 Jan 2026 08:00:00 GMT"
-          }
-        ],
-        "risk_level": "yellow",
-        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
-      },
-      "pick_reason": {
-        "summary": "國泰金 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": [
-          "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
-        ]
-      },
-      "industry_chains": [
-        {
-          "chain": "台灣金融",
-          "segment": "金控"
-        }
-      ]
-    },
-    {
-      "stock_id": "2881",
-      "name": "富邦金",
-      "market": "TW",
-      "currency": "TWD",
-      "buffett_score": 0.0,
-      "grade": "C",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
-        }
-      ],
-      "moat": {},
-      "exit_conditions": "",
-      "news": {
-        "items": [
-          {
-            "title": "富邦金2月大賺205億元、創歷史同期新高 前二月 EPS 2.19元 - 經濟日報",
-            "date": "Thu, 09 Apr 2026 09:00:00 GMT"
-          },
-          {
-            "title": "富邦金法說》富邦人壽股海掏金2025年賺逾1,700億元 投報率近30％ - Yahoo股市",
-            "date": "Mon, 16 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "富邦金2月狂賺205.7億元創史上同期新高 奪金控獲利三冠王 - news.cnyes.com",
-            "date": "Fri, 13 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "IFRS 17衝擊低預期！富邦金估配4元現金、衝100元有望？4大投顧最新目標價出爐- 上市櫃 - 旺得富理財網",
-            "date": "Wed, 18 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "資金翹翹板難改！富邦金老董喊話抱屈股價依舊不漲 - Yahoo股市",
-            "date": "Sun, 25 Jan 2026 08:00:00 GMT"
-          }
-        ],
-        "risk_level": "green",
-        "risk_summary": "近期新聞正面 (2 個正面信號)"
-      },
-      "pick_reason": {
-        "summary": "富邦金 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": []
-      },
-      "industry_chains": [
-        {
-          "chain": "台灣金融",
-          "segment": "金控"
-        }
-      ]
-    },
-    {
-      "stock_id": "2886",
-      "name": "兆豐金",
-      "market": "TW",
-      "currency": "TWD",
-      "buffett_score": 0.0,
-      "grade": "C",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
-        }
-      ],
-      "moat": {},
-      "exit_conditions": "",
-      "news": {
-        "items": [],
-        "risk_level": "unknown",
-        "risk_summary": "無法取得新聞資料"
-      },
-      "pick_reason": {
-        "summary": "兆豐金 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": []
-      },
-      "industry_chains": [
-        {
-          "chain": "台灣金融",
-          "segment": "金控"
-        }
-      ]
-    },
-    {
-      "stock_id": "2891",
-      "name": "中信金",
-      "market": "TW",
-      "currency": "TWD",
-      "buffett_score": 0.0,
-      "grade": "C",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
-        }
-      ],
-      "moat": {},
-      "exit_conditions": "",
-      "news": {
-        "items": [
-          {
-            "title": "市場為何偏愛中信金？艾蜜莉分析：本業穩健＋波動低，今年股利有望續破2元 - Smart自學網",
-            "date": "Thu, 09 Apr 2026 03:18:24 GMT"
-          },
-          {
-            "title": "2891 中信金- 金控新聞- 股市爆料同學會 - CMoney",
-            "date": "Wed, 14 Jan 2026 08:00:00 GMT"
-          },
-          {
-            "title": "中信金（2891）明天股價50元？「棄電轉金」行情來了嗎…專家：不是這樣喔！ - 聯合新聞網",
-            "date": "Wed, 17 Dec 2025 08:00:00 GMT"
-          },
-          {
-            "title": "中信金重訊公告通過轉投資案 傳下聘買三商壽待點頭 - Yahoo股市",
-            "date": "Thu, 23 Oct 2025 07:00:00 GMT"
-          },
-          {
-            "title": "股票核准終止上市櫃之公告-中信金 - TradingView",
-            "date": "Tue, 30 Sep 2025 07:00:00 GMT"
-          }
-        ],
-        "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
-      },
-      "pick_reason": {
-        "summary": "中信金 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": []
-      },
-      "industry_chains": [
-        {
-          "chain": "台灣金融",
-          "segment": "金控"
-        }
-      ]
-    },
-    {
-      "stock_id": "2884",
-      "name": "玉山金",
-      "market": "TW",
-      "currency": "TWD",
-      "buffett_score": 0.0,
-      "grade": "C",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
-        }
-      ],
-      "moat": {},
-      "exit_conditions": "",
-      "news": {
-        "items": [
-          {
-            "title": "玉山金配息1.4元股價卻跌？不敗教主陳重銘揭密：這原因讓本益比校正回歸| 台股雜談| 股市 - 聯合新聞網",
-            "date": "Fri, 20 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "元大金、玉山金股利雙創新高 - Yahoo股市",
-            "date": "Fri, 13 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "台股熱爆證券金雞發威 永豐金、玉山金前2月獲利雙創新高 - news.cnyes.com",
-            "date": "Sat, 07 Mar 2026 08:00:00 GMT"
-          },
-          {
-            "title": "玉山金(2884)發1.4元，股東傷心零配股...一鍵出清換股元大金？股海老牛抱6年，3個不賣股的理由 - 今周刊",
-            "date": "Mon, 16 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "高股息ETF納玉山金，是長期利多還是短線題材？專家曝玉山金關鍵的「3大亮點」 - Smart自學網",
-            "date": "Mon, 16 Feb 2026 08:00:00 GMT"
-          }
-        ],
-        "risk_level": "green",
-        "risk_summary": "近期新聞正面 (4 個正面信號)"
-      },
-      "pick_reason": {
-        "summary": "玉山金 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": []
-      },
-      "industry_chains": [
-        {
-          "chain": "台灣金融",
-          "segment": "金控"
-        }
-      ]
-    },
-    {
-      "stock_id": "5880",
-      "name": "合庫金",
-      "market": "TW",
-      "currency": "TWD",
-      "buffett_score": 0.0,
-      "grade": "C",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
-        }
-      ],
-      "moat": {},
-      "exit_conditions": "",
-      "news": {
-        "items": [
-          {
-            "title": "合庫金股利創3年新高 現金加股票共1.05元 - Yahoo股市",
-            "date": "Tue, 24 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "合庫金明年股利發放，現金為主/股票為輔 - 台視全球資訊網",
-            "date": "Mon, 05 Jan 2026 08:00:00 GMT"
-          },
-          {
-            "title": "合庫金法說》股利報佳音：反映經營成果 法人估1.05元、4年來最高 | 陳怡慈 | 新聞 - 風傳媒",
-            "date": "Thu, 19 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "合庫金：今年股利優去年，現金為主- 新聞 - MoneyDJ理財網",
-            "date": "Thu, 19 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "合庫金總座談明年股利配發政策 現金為主、股票為輔 - 聯合新聞網",
-            "date": "Thu, 27 Nov 2025 08:00:00 GMT"
-          }
-        ],
-        "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
-      },
-      "pick_reason": {
-        "summary": "合庫金 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": []
-      },
-      "industry_chains": [
-        {
-          "chain": "台灣金融",
-          "segment": "金控"
-        }
-      ]
-    },
-    {
-      "stock_id": "2412",
-      "name": "中華電",
-      "market": "TW",
-      "currency": "TWD",
-      "buffett_score": 0.0,
-      "grade": "C",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
-        }
-      ],
-      "moat": {
-        "moat_type": "法規壁壘 + 規模",
-        "moat_desc": "電信業牌照壁壘；固網基礎設施壟斷",
-        "moat_width": "narrow"
-      },
-      "exit_conditions": "5G 競爭加劇導致 ARPU 持續下滑",
-      "news": {
-        "items": [
-          {
-            "title": "最強權值股出爐！中華電信跌幅不到1% 領頭電信股逆勢抗跌 - Yahoo股市",
-            "date": "Sun, 08 Mar 2026 08:00:00 GMT"
-          },
-          {
-            "title": "【12:54 即時新聞】中華電(2412)股價小幅回落至136元，避險資金題材續在＋多頭均線結構與法人買盤仍偏多 - CMoney投資網誌",
-            "date": "Mon, 09 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "房貸800萬想全押中華電⋯他要利率2.6％以上+穩定不賠！網輸不起就別賭 - 聯合新聞網",
-            "date": "Tue, 16 Dec 2025 08:00:00 GMT"
-          },
-          {
-            "title": "中華電、遠傳 股息大方配 - Yahoo股市",
-            "date": "Thu, 26 Feb 2026 08:00:00 GMT"
-          },
-          {
-            "title": "【即時新聞】最新大豐電子公司大大寬頻擬興櫃，中華電持股8%成第二大股東 - CMoney投資網誌",
-            "date": "Wed, 14 Jan 2026 08:00:00 GMT"
-          }
-        ],
-        "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
-      },
-      "pick_reason": {
-        "summary": "中華電 目前不符合巴菲特核心選股標準。",
-        "strengths": [
-          "護城河適中：法規壁壘 + 規模"
-        ],
-        "risks": []
-      },
-      "industry_chains": [
-        {
-          "chain": "台灣工業 / 傳產",
-          "segment": "電信"
-        }
-      ]
-    },
-    {
       "stock_id": "1301",
       "name": "台塑",
       "market": "TW",
       "currency": "TWD",
-      "buffett_score": 0.0,
+      "roe_avg": 5.66,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 9.21,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 13.3,
+      "eps_positive_years": 9,
+      "eps_total_years": 11,
+      "eps_latest": -1.57,
+      "eps_5yr_ago": 11.21,
+      "eps_cagr_5y": null,
+      "debt_to_equity": 0.53,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 44.4,
       "grade": "C",
       "score_details": [
         {
           "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
+          "value": 5.66,
+          "grade": "fail"
         },
         {
           "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
+          "value": 9.21,
+          "grade": "warn"
         },
         {
           "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
+          "value": 13.3,
+          "grade": "fail"
         },
         {
           "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
+          "value": 0.53,
+          "grade": "ok"
         },
         {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
+          "metric": "EPS 持續性",
+          "value": "9/11",
+          "grade": "ok"
         },
         {
           "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
+          "value": "11/11",
+          "grade": "pass"
         }
       ],
       "moat": {},
@@ -5774,10 +6949,16 @@
       },
       "pick_reason": {
         "summary": "台塑 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
+        "strengths": [
+          "負債權益比 0.53，資產負債表健康"
+        ],
         "risks": []
       },
       "industry_chains": [
+        {
+          "chain": "能源 / 石油產業鏈",
+          "segment": "下游 (煉化)"
+        },
         {
           "chain": "台灣工業 / 傳產",
           "segment": "石化"
@@ -5785,81 +6966,219 @@
       ]
     },
     {
-      "stock_id": "1303",
-      "name": "南亞",
+      "stock_id": "6505",
+      "name": "台塑化",
       "market": "TW",
       "currency": "TWD",
-      "buffett_score": 0.0,
+      "roe_avg": 8.56,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 4.34,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 7.72,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 1.04,
+      "eps_5yr_ago": 5.19,
+      "eps_cagr_5y": -27.49,
+      "debt_to_equity": 0.15,
+      "ocf_positive_years": 9,
+      "ocf_total_years": 11,
+      "buffett_score": 44.4,
       "grade": "C",
       "score_details": [
         {
           "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
+          "value": 8.56,
+          "grade": "fail"
         },
         {
           "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
+          "value": 4.34,
+          "grade": "fail"
         },
         {
           "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
+          "value": 7.72,
+          "grade": "fail"
         },
         {
           "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
+          "value": 0.15,
+          "grade": "pass"
         },
         {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
         },
         {
           "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
+          "value": "9/11",
+          "grade": "ok"
         }
       ],
-      "moat": {},
-      "exit_conditions": "",
+      "moat": {
+        "moat_type": "規模 + 區域壟斷",
+        "moat_desc": "台灣最大民營煉油廠 (50 萬桶/日)；國內市場雙寡頭",
+        "moat_width": "narrow"
+      },
+      "exit_conditions": "台灣能源進口依賴風險；煉油利差長期壓縮",
       "news": {
         "items": [
           {
-            "title": "2026理柏台灣基金獎》統一投信 蟬聯股票團體大獎 - Yahoo股市",
-            "date": "Thu, 09 Apr 2026 20:10:00 GMT"
+            "title": "台塑四寶第一季全員獲利 分析師示警1關鍵轉保守 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 08:51:26 GMT"
           },
           {
-            "title": "【10:22 即時新聞】南亞(1303)股價勁揚逾5%，受惠CCL調漲與AI電子材料題材帶動、短線挑戰前波套牢區 - CMoney投資網誌",
-            "date": "Mon, 30 Mar 2026 07:00:00 GMT"
+            "title": "台塑化 挑逾120天 - 聯合新聞網",
+            "date": "Wed, 08 Apr 2026 21:55:02 GMT"
           },
           {
-            "title": "【本週新聞熱門股TOP10】南亞科創高領軍！南亞挾雙題材大漲，被動元件能否接棒成新嬌點?｜1204 - sinotrade.com.tw",
-            "date": "Sun, 07 Dec 2025 08:00:00 GMT"
+            "title": "6505 台塑化- [新聞] 中東衝突不排除持久戰！台塑化、長榮｜CMoney 股市爆料同學會 - CMoney",
+            "date": "Thu, 19 Mar 2026 03:12:10 GMT"
           },
           {
-            "title": "焦點股》南亞：雙利多 股價大漲 - 自由財經",
-            "date": "Mon, 16 Mar 2026 07:00:00 GMT"
+            "title": "台塑四寶首季獲利報佳音！南亞大賺142億贏過前3年總和 台塑化季增3倍 - 知新聞",
+            "date": "Fri, 10 Apr 2026 07:31:00 GMT"
           },
           {
-            "title": "統一投信二度獲理柏基金獎股票團體大獎 - Yahoo股市",
-            "date": "Fri, 10 Apr 2026 07:12:00 GMT"
+            "title": "台塑集團全喊卡了！台化預計4月跟進「不可抗力」 法人看好短線動能強烈 - Yahoo股市",
+            "date": "Sun, 29 Mar 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
         "risk_summary": "近期無重大負面新聞"
       },
       "pick_reason": {
-        "summary": "南亞 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": []
+        "summary": "台塑化 目前不符合巴菲特核心選股標準。",
+        "strengths": [
+          "負債權益比僅 0.15，財務極度穩健",
+          "EPS 連續 11 年為正，盈利穩定可預測",
+          "護城河適中：規模 + 區域壟斷"
+        ],
+        "risks": [
+          "淨利率僅 4.34%，獲利能力偏弱"
+        ]
       },
       "industry_chains": [
         {
-          "chain": "台灣工業 / 傳產",
-          "segment": "石化"
+          "chain": "能源 / 石油產業鏈",
+          "segment": "下游 (煉化)"
+        }
+      ]
+    },
+    {
+      "stock_id": "SO",
+      "name": "Southern Company (The)",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 12.39,
+      "roe_latest": 12.05,
+      "roe_years": 4,
+      "net_margin_avg": 14.74,
+      "net_margin_latest": 14.69,
+      "gross_margin_avg": 45.35,
+      "eps_latest": 3.92,
+      "debt_to_equity": 1.91,
+      "current_ratio": 0.65,
+      "pe_ratio": 24.78,
+      "forward_pe": 19.76,
+      "market_cap_b": 109.5,
+      "dividend_yield": 305.0,
+      "high_52w": 100.84,
+      "low_52w": 83.09,
+      "current_price": 97.15,
+      "fcf_positive_years": 1,
+      "fcf_total_years": 4,
+      "fcf_latest_b": -2.94,
+      "buffett_score": 42.0,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 12.39,
+          "grade": "warn"
+        },
+        {
+          "metric": "淨利率",
+          "value": 14.74,
+          "grade": "ok"
+        },
+        {
+          "metric": "毛利率",
+          "value": 45.35,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.91,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "1/4",
+          "grade": "warn"
+        },
+        {
+          "metric": "P/E",
+          "value": 24.78,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "1/4",
+          "grade": "warn"
+        }
+      ],
+      "moat": {
+        "moat_type": "法規壟斷 + 穩定配息",
+        "moat_desc": "東南部電力壟斷；24 年連續增股息；建設性監管關係",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "監管態度從建設性轉為敵意；Vogtle 核電成本超支",
+      "news": {
+        "items": [
+          {
+            "title": "DIREXION DAILY AGRIBUSINESS BUL (^COWL-SO) 最新股票消息和頭條新聞 - Yahoo 財經",
+            "date": "Thu, 09 Apr 2026 11:31:38 GMT"
+          },
+          {
+            "title": "2 Reasons to Like XOM (and 1 Not So Much) - TradingView",
+            "date": "Thu, 09 Apr 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Dynamic Support and Resistance Zones — vizhal007的指標 - TradingView",
+            "date": "Thu, 09 Apr 2026 05:34:03 GMT"
+          },
+          {
+            "title": "Taiwan shares rise on first day of trading of 2026 - Formosa News",
+            "date": "Fri, 02 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "iPath Optimized Currency Carry (^ICI-SO) 最新股票消息和頭條新聞 - Yahoo 財經",
+            "date": "Tue, 31 Mar 2026 07:13:16 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "Southern Company (The) 目前不符合巴菲特核心選股標準。",
+        "strengths": [
+          "淨利率 14.74%，營運效率良好",
+          "毛利率 45.35%，護城河寬廣",
+          "股息殖利率 305.0%，提供穩定現金回報",
+          "護城河寬廣：法規壟斷 + 穩定配息"
+        ],
+        "risks": [
+          "負債權益比 1.91 偏高"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "公用事業 / 基礎設施",
+          "segment": "電力公用事業"
         }
       ]
     },
@@ -5868,38 +7187,52 @@
       "name": "統一",
       "market": "TW",
       "currency": "TWD",
-      "buffett_score": 0.0,
+      "roe_avg": 8.45,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 3.5,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 33.19,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 3.46,
+      "eps_5yr_ago": 3.51,
+      "eps_cagr_5y": -0.29,
+      "debt_to_equity": 2.5,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 41.1,
       "grade": "C",
       "score_details": [
         {
           "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
+          "value": 8.45,
+          "grade": "fail"
         },
         {
           "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
+          "value": 3.5,
+          "grade": "fail"
         },
         {
           "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
+          "value": 33.19,
+          "grade": "ok"
         },
         {
           "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
+          "value": 2.5,
+          "grade": "fail"
         },
         {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
         },
         {
           "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
+          "value": "11/11",
+          "grade": "pass"
         }
       ],
       "moat": {},
@@ -5932,8 +7265,13 @@
       },
       "pick_reason": {
         "summary": "統一 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": []
+        "strengths": [
+          "EPS 連續 11 年為正，盈利穩定可預測"
+        ],
+        "risks": [
+          "負債權益比 2.5 偏高",
+          "淨利率僅 3.5%，獲利能力偏弱"
+        ]
       },
       "industry_chains": [
         {
@@ -5943,11 +7281,513 @@
       ]
     },
     {
-      "stock_id": "2207",
-      "name": "和泰車",
+      "stock_id": "3711",
+      "name": "日月光投控",
       "market": "TW",
       "currency": "TWD",
-      "buffett_score": 0.0,
+      "roe_avg": 2.55,
+      "roe_latest": 0.0,
+      "roe_years": 8,
+      "net_margin_avg": 1.44,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 17.2,
+      "eps_positive_years": 8,
+      "eps_total_years": 8,
+      "eps_latest": 9.37,
+      "eps_5yr_ago": 14.86,
+      "eps_cagr_5y": -8.81,
+      "debt_to_equity": 1.38,
+      "ocf_positive_years": 9,
+      "ocf_total_years": 9,
+      "buffett_score": 38.9,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 2.55,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 1.44,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 17.2,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.38,
+          "grade": "warn"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "8/8",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "9/9",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "先進封裝被 TSMC 完全自製；毛利率持續下滑",
+      "news": {
+        "items": [
+          {
+            "title": "日月光投控(3711) 個股概覽 | 個股 - 股市 - CMoney",
+            "date": "Sat, 11 Apr 2026 09:41:56 GMT"
+          },
+          {
+            "title": "日月光吳田玉：CPO不是股票炒作 今年開始量產 - 鏡新聞",
+            "date": "Fri, 10 Apr 2026 03:38:00 GMT"
+          },
+          {
+            "title": "【11:14 即時新聞】日月光投控(3711)攻上漲停361元，AI封測評等與目標價同步上修＋前高附近短空回補力道轉強 - CMoney投資網誌",
+            "date": "Wed, 01 Apr 2026 07:00:00 GMT"
+          },
+          {
+            "title": "日月光投控、東元 法人叫好 - Yahoo股市",
+            "date": "Thu, 06 Nov 2025 08:00:00 GMT"
+          },
+          {
+            "title": "【12:56 即時新聞】日月光投控(3711)大漲8.4%至355元，受惠全球風險情緒緩解＋技術面由低檔轉強吸引買盤回補 - CMoney投資網誌",
+            "date": "Thu, 05 Mar 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      },
+      "pick_reason": {
+        "summary": "日月光投控 目前不符合巴菲特核心選股標準。",
+        "strengths": [
+          "EPS 連續 8 年為正，盈利穩定可預測"
+        ],
+        "risks": [
+          "淨利率僅 1.44%，獲利能力偏弱",
+          "新聞黃燈：偵測到 1 個需關注信號"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "AI / 半導體產業鏈",
+          "segment": "封測 (OSAT)"
+        }
+      ]
+    },
+    {
+      "stock_id": "8454",
+      "name": "富邦媒",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 9.57,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 1.63,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 10.22,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 11.58,
+      "eps_5yr_ago": 19.3,
+      "eps_cagr_5y": -9.71,
+      "debt_to_equity": 1.76,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 33.3,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 9.57,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 1.63,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 10.22,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.76,
+          "grade": "fail"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "momo富邦媒去年賺一股本 擬配息10元殖利率達5% - Yahoo股市",
+            "date": "Wed, 04 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "富邦媒 搶食咖啡商機 - 聯合新聞網",
+            "date": "Tue, 24 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "電商雙雄momo、網家漲逾2% 專家看法曝 - Yahoo股市",
+            "date": "Wed, 04 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "從兩千金股王到跌破兩百：富邦媒賺了一個股本 股價為何只剩零頭？ | 科技產業 | 產業 - 經濟日報",
+            "date": "Mon, 26 Jan 2026 18:05:59 GMT"
+          },
+          {
+            "title": "他抱可寧衛(8422)9年，「土方之亂」前賣股少賺上百萬領悟：為何別追飆股？股市生存更需要2種「慢」實力 - 今周刊",
+            "date": "Mon, 02 Feb 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "富邦媒 目前不符合巴菲特核心選股標準。",
+        "strengths": [
+          "EPS 連續 11 年為正，盈利穩定可預測"
+        ],
+        "risks": [
+          "負債權益比 1.76 偏高",
+          "淨利率僅 1.63%，獲利能力偏弱"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "台灣工業 / 傳產",
+          "segment": "電商"
+        }
+      ]
+    },
+    {
+      "stock_id": "CEG",
+      "name": "Constellation Energy Corporatio",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 14.46,
+      "roe_latest": 15.97,
+      "roe_years": 4,
+      "net_margin_avg": 7.71,
+      "net_margin_latest": 9.08,
+      "gross_margin_avg": 16.38,
+      "eps_latest": 7.39,
+      "debt_to_equity": 0.64,
+      "current_ratio": 1.53,
+      "pe_ratio": 38.77,
+      "forward_pe": 20.85,
+      "market_cap_b": 103.8,
+      "dividend_yield": 60.0,
+      "high_52w": 412.7,
+      "low_52w": 188.01,
+      "current_price": 286.5,
+      "fcf_positive_years": 1,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 1.29,
+      "buffett_score": 33.0,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 14.46,
+          "grade": "warn"
+        },
+        {
+          "metric": "淨利率",
+          "value": 7.71,
+          "grade": "warn"
+        },
+        {
+          "metric": "毛利率",
+          "value": 16.38,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.64,
+          "grade": "ok"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "1/4",
+          "grade": "warn"
+        },
+        {
+          "metric": "P/E",
+          "value": 38.77,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF",
+          "value": "1/4",
+          "grade": "warn"
+        }
+      ],
+      "moat": {
+        "moat_type": "不可複製資產 + 稀缺性",
+        "moat_desc": "美國最大核電機組群；AI 資料中心 24/7 零碳基載電力；資產無法複製",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "核能政策逆轉；核電廠延役申請被否決",
+      "news": {
+        "items": [
+          {
+            "title": "為何Constellation Energy (CEG) 股票在一個交易日內暴跌超過10% - MEXC",
+            "date": "Sat, 21 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "A Quick Look at Today's Ratings for Constellation Energy(CEG.US), With a Forecast Between $300 to $388 - 富途牛牛",
+            "date": "Wed, 01 Apr 2026 13:00:02 GMT"
+          },
+          {
+            "title": "Can AI Data Center Demand Drive NuScale Power's Revenue Growth? - TradingView",
+            "date": "Wed, 18 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Constellation Energy 上漲 3.7%，因投資者重新關注人工智能驅動的電力需求及即將發佈的前景更新。 - Moomoo",
+            "date": "Wed, 18 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "星座能源Q4營收同比增長13%超預期，已於上月完成收購Calpine - AASTOCKS.com",
+            "date": "Tue, 24 Feb 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "Constellation Energy Corporatio 目前不符合巴菲特核心選股標準。",
+        "strengths": [
+          "負債權益比 0.64，資產負債表健康",
+          "股息殖利率 60.0%，提供穩定現金回報",
+          "護城河寬廣：不可複製資產 + 稀缺性"
+        ],
+        "risks": [
+          "P/E 38.77 偏高，估值需留意"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "能源 / 石油產業鏈",
+          "segment": "核能發電"
+        }
+      ]
+    },
+    {
+      "stock_id": "2317",
+      "name": "鴻海",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 5.3,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 1.33,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 6.33,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 13.6,
+      "eps_5yr_ago": 10.05,
+      "eps_cagr_5y": 6.24,
+      "debt_to_equity": 1.59,
+      "ocf_positive_years": 9,
+      "ocf_total_years": 11,
+      "buffett_score": 27.8,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 5.3,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 1.33,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 6.33,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.59,
+          "grade": "fail"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "9/11",
+          "grade": "ok"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "鴻海「最強3月營收」市場為何不買單？今翻黑苦守190元 分析師曝關鍵：將是底部 - Yahoo股市",
+            "date": "Tue, 07 Apr 2026 02:00:48 GMT"
+          },
+          {
+            "title": "鴻海股價190元弱爆了！散戶可買？分析師解答曝「外資成本價」 - Yahoo股市",
+            "date": "Tue, 07 Apr 2026 05:08:47 GMT"
+          },
+          {
+            "title": "鴻海為何一直跌？股價253.5→192元頻破底失守年線，明明營收很好…達人拆解弱勢原因：2周內是關鍵 - 今周刊",
+            "date": "Wed, 08 Apr 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Mantle推股票代幣化交易平台xStocks 啟動24/7碎股投資 - Yahoo股市",
+            "date": "Sat, 11 Apr 2026 05:50:17 GMT"
+          },
+          {
+            "title": "鴻海還有機會死貓跳？資深分析師曝最好買進時機在「這價位」 1原因不建議全面出清 - Yahoo股市",
+            "date": "Sun, 29 Mar 2026 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "鴻海 目前不符合巴菲特核心選股標準。",
+        "strengths": [
+          "EPS 連續 11 年為正，盈利穩定可預測"
+        ],
+        "risks": [
+          "負債權益比 1.59 偏高",
+          "淨利率僅 1.33%，獲利能力偏弱"
+        ]
+      },
+      "industry_chains": []
+    },
+    {
+      "stock_id": "2357",
+      "name": "華碩",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 3.64,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 1.52,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 15.64,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 59.99,
+      "eps_5yr_ago": 59.98,
+      "eps_cagr_5y": 0.0,
+      "debt_to_equity": 1.12,
+      "ocf_positive_years": 6,
+      "ocf_total_years": 11,
+      "buffett_score": 27.8,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 3.64,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 1.52,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 15.64,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.12,
+          "grade": "warn"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "6/11",
+          "grade": "warn"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "輝達傳調整顯卡供貨...華碩股價慘破底 技嘉微星震盪翻黑 分析師示警 - Yahoo股市",
+            "date": "Wed, 14 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "華碩還有上漲空間？短線股價暴漲近兩成法說會揭開最大利多- 證券 - 工商時報",
+            "date": "Sat, 14 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "【10:05 即時新聞】華碩(2357)亮燈漲停584元，AI伺服器財報爆發帶動多方追價＋均線多頭排列配合法人連日買超 - CMoney投資網誌",
+            "date": "Wed, 11 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "00878再度把華碩（2357）納入成分股！楚狂人：跌30％反見10倍本益比甜頭| 存股族愛ETF | 股市 - 聯合新聞網",
+            "date": "Fri, 09 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "〈熱門股〉華碩法說AI伺服器展望樂觀、去年大賺6個股本 股價周漲逾1成 - news.cnyes.com",
+            "date": "Sat, 14 Mar 2026 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "華碩 目前不符合巴菲特核心選股標準。",
+        "strengths": [
+          "EPS 連續 11 年為正，盈利穩定可預測"
+        ],
+        "risks": [
+          "淨利率僅 1.52%，獲利能力偏弱"
+        ]
+      },
+      "industry_chains": []
+    },
+    {
+      "stock_id": "2882",
+      "name": "國泰金",
+      "market": "TW",
+      "currency": "TWD",
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 7.06,
+      "eps_5yr_ago": 10.34,
+      "eps_cagr_5y": -7.35,
+      "debt_to_equity": 14.35,
+      "ocf_positive_years": 9,
+      "ocf_total_years": 11,
+      "buffett_score": 27.8,
       "grade": "C",
       "score_details": [
         {
@@ -5967,18 +7807,207 @@
         },
         {
           "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
+          "value": 14.35,
+          "grade": "fail"
         },
         {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
         },
         {
           "metric": "現金流",
+          "value": "9/11",
+          "grade": "ok"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "市場為何偏愛中信金？艾蜜莉分析：本業穩健＋波動低，今年股利有望續破2元 - Smart自學網",
+            "date": "Thu, 09 Apr 2026 03:18:24 GMT"
+          },
+          {
+            "title": "金融股漲不停！國泰金市值衝台股第六、台新新光金連4漲近11% 引網論戰：重返榮耀vs.最後一棒 - Yahoo股市",
+            "date": "Sun, 21 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "2891 中信金- 金控新聞- 股市爆料同學會 - CMoney",
+            "date": "Wed, 14 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "國泰金1月大賺146億、EPS 0.99元 奪金控業獲利王 | 陳怡慈 | 新聞 - 風傳媒",
+            "date": "Fri, 13 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "國泰金調查：景氣/消費意願/股市樂觀指數齊揚-新聞內容-基金 - MoneyDJ理財網",
+            "date": "Tue, 20 Jan 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+      },
+      "pick_reason": {
+        "summary": "國泰金 目前不符合巴菲特核心選股標準。",
+        "strengths": [
+          "EPS 連續 11 年為正，盈利穩定可預測"
+        ],
+        "risks": [
+          "負債權益比 14.35 偏高",
+          "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "台灣金融",
+          "segment": "金控"
+        }
+      ]
+    },
+    {
+      "stock_id": "2884",
+      "name": "玉山金",
+      "market": "TW",
+      "currency": "TWD",
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 2.12,
+      "eps_5yr_ago": 1.54,
+      "eps_cagr_5y": 6.6,
+      "debt_to_equity": 15.54,
+      "ocf_positive_years": 8,
+      "ocf_total_years": 11,
+      "buffett_score": 27.8,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
           "value": null,
           "grade": "nodata"
+        },
+        {
+          "metric": "淨利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "毛利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 15.54,
+          "grade": "fail"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "8/11",
+          "grade": "ok"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "玉山金配息1.4元股價卻跌？不敗教主陳重銘揭密：這原因讓本益比校正回歸| 台股雜談| 股市 - 聯合新聞網",
+            "date": "Fri, 20 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "元大金、玉山金股利雙創新高 - Yahoo股市",
+            "date": "Fri, 13 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "台股熱爆證券金雞發威 永豐金、玉山金前2月獲利雙創新高 - news.cnyes.com",
+            "date": "Sat, 07 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "玉山金(2884)發1.4元，股東傷心零配股...一鍵出清換股元大金？股海老牛抱6年，3個不賣股的理由 - 今周刊",
+            "date": "Mon, 16 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "高股息ETF納玉山金，是長期利多還是短線題材？專家曝玉山金關鍵的「3大亮點」 - Smart自學網",
+            "date": "Mon, 16 Feb 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期新聞正面 (4 個正面信號)"
+      },
+      "pick_reason": {
+        "summary": "玉山金 目前不符合巴菲特核心選股標準。",
+        "strengths": [
+          "EPS 連續 11 年為正，盈利穩定可預測"
+        ],
+        "risks": [
+          "負債權益比 15.54 偏高"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "台灣金融",
+          "segment": "金控"
+        }
+      ]
+    },
+    {
+      "stock_id": "2207",
+      "name": "和泰車",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 9.69,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 2.97,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 2.41,
+      "eps_positive_years": 10,
+      "eps_total_years": 11,
+      "eps_latest": 33.93,
+      "eps_5yr_ago": 29.68,
+      "eps_cagr_5y": 2.71,
+      "debt_to_equity": 2.88,
+      "ocf_positive_years": 8,
+      "ocf_total_years": 11,
+      "buffett_score": 27.8,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 9.69,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 2.97,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 2.41,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 2.88,
+          "grade": "fail"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "10/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "8/11",
+          "grade": "ok"
         }
       ],
       "moat": {},
@@ -6012,7 +8041,10 @@
       "pick_reason": {
         "summary": "和泰車 目前不符合巴菲特核心選股標準。",
         "strengths": [],
-        "risks": []
+        "risks": [
+          "負債權益比 2.88 偏高",
+          "淨利率僅 2.97%，獲利能力偏弱"
+        ]
       },
       "industry_chains": [
         {
@@ -6022,11 +8054,19 @@
       ]
     },
     {
-      "stock_id": "9910",
-      "name": "豐泰",
+      "stock_id": "2881",
+      "name": "富邦金",
       "market": "TW",
       "currency": "TWD",
-      "buffett_score": 0.0,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 8.37,
+      "eps_5yr_ago": 12.49,
+      "eps_cagr_5y": -7.69,
+      "debt_to_equity": 11.9,
+      "ocf_positive_years": 6,
+      "ocf_total_years": 11,
+      "buffett_score": 22.2,
       "grade": "C",
       "score_details": [
         {
@@ -6046,18 +8086,18 @@
         },
         {
           "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
+          "value": 11.9,
+          "grade": "fail"
         },
         {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
         },
         {
           "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
+          "value": "6/11",
+          "grade": "warn"
         }
       ],
       "moat": {},
@@ -6065,47 +8105,59 @@
       "news": {
         "items": [
           {
-            "title": "豐泰(9910)- - 券商分點進出買賣統計 - 股市爆料同學會 - CMoney",
-            "date": "Wed, 08 Apr 2026 10:38:19 GMT"
+            "title": "富邦金2月大賺205億元、創歷史同期新高 前二月 EPS 2.19元 - 經濟日報",
+            "date": "Thu, 09 Apr 2026 09:00:00 GMT"
           },
           {
-            "title": "豐泰緊貼Nike供應鏈轉型 高階製鞋優勢提振自動化布局 - Yahoo股市",
+            "title": "富邦金法說》富邦人壽股海掏金2025年賺逾1,700億元 投報率近30％ - Yahoo股市",
             "date": "Mon, 16 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "【11:57 即時新聞】豐泰(9910)小漲守穩9字頭，MSCI調整賣壓消化中＋中長期殖利率與技術支撐成亮點 - CMoney投資網誌",
-            "date": "Wed, 04 Mar 2026 08:00:00 GMT"
+            "title": "富邦金2月狂賺205.7億元創史上同期新高 奪金控獲利三冠王 - news.cnyes.com",
+            "date": "Fri, 13 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "寶成、豐泰坐等明年世足賽反彈？專家：籌碼面穩定、千張大戶跌深卡位| 股市要聞| 股市 - 聯合新聞網",
-            "date": "Wed, 24 Dec 2025 08:00:00 GMT"
+            "title": "資金翹翹板難改！富邦金老董喊話抱屈股價依舊不漲 - Yahoo股市",
+            "date": "Sun, 25 Jan 2026 08:00:00 GMT"
           },
           {
-            "title": "製鞋廠自結去年獲利 鈺齊、志強及豐泰都賺回逾半個股本 - news.cnyes.com",
-            "date": "Mon, 26 Jan 2026 08:00:00 GMT"
+            "title": "〈富邦金法說〉富壽2025股海賺逾1700億元 韓蔚廷曝「調整後獲利」股利發放準則 - news.cnyes.com",
+            "date": "Mon, 16 Mar 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
+        "risk_summary": "近期新聞正面 (2 個正面信號)"
       },
       "pick_reason": {
-        "summary": "豐泰 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": []
+        "summary": "富邦金 目前不符合巴菲特核心選股標準。",
+        "strengths": [
+          "EPS 連續 11 年為正，盈利穩定可預測"
+        ],
+        "risks": [
+          "負債權益比 11.9 偏高"
+        ]
       },
       "industry_chains": [
         {
-          "chain": "台灣工業 / 傳產",
-          "segment": "運動用品代工"
+          "chain": "台灣金融",
+          "segment": "金控"
         }
       ]
     },
     {
-      "stock_id": "8454",
-      "name": "富邦媒",
+      "stock_id": "2886",
+      "name": "兆豐金",
       "market": "TW",
       "currency": "TWD",
-      "buffett_score": 0.0,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 2.36,
+      "eps_5yr_ago": 1.89,
+      "eps_cagr_5y": 4.54,
+      "debt_to_equity": 12.03,
+      "ocf_positive_years": 6,
+      "ocf_total_years": 11,
+      "buffett_score": 22.2,
       "grade": "C",
       "score_details": [
         {
@@ -6125,18 +8177,18 @@
         },
         {
           "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
+          "value": 12.03,
+          "grade": "fail"
         },
         {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
         },
         {
           "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
+          "value": "6/11",
+          "grade": "warn"
         }
       ],
       "moat": {},
@@ -6144,132 +8196,59 @@
       "news": {
         "items": [
           {
-            "title": "momo富邦媒去年賺一股本 擬配息10元殖利率達5% - Yahoo股市",
-            "date": "Wed, 04 Mar 2026 08:00:00 GMT"
+            "title": "金控配息風向球！兆豐金獲利連年刷新紀錄專家：現金股利1.7元具高度穩定性| 股市要聞| 股市 - 聯合新聞網",
+            "date": "Mon, 16 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "富邦媒 搶食咖啡商機 - 聯合新聞網",
-            "date": "Tue, 24 Feb 2026 08:00:00 GMT"
+            "title": "公股四金二銀前10月合賺1205億元年增6% 兆豐金飛躍300億元大關 - Yahoo股市",
+            "date": "Sun, 09 Nov 2025 08:00:00 GMT"
           },
           {
-            "title": "電商雙雄momo、網家漲逾2% 專家看法曝 - Yahoo股市",
-            "date": "Wed, 04 Mar 2026 08:00:00 GMT"
+            "title": "股市熱絡助攻 兆豐金前2月賺近70億EPS 0.47元 華南金賺51億年增38.8%寫同期高 - news.cnyes.com",
+            "date": "Fri, 13 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "從兩千金股王到跌破兩百：富邦媒賺了一個股本 股價為何只剩零頭？ | 科技產業 | 產業 - 經濟日報",
-            "date": "Mon, 26 Jan 2026 18:05:59 GMT"
-          },
-          {
-            "title": "他抱可寧衛(8422)9年，「土方之亂」前賣股少賺上百萬領悟：為何別追飆股？股市生存更需要2種「慢」實力 - 今周刊",
-            "date": "Mon, 02 Feb 2026 08:00:00 GMT"
-          }
-        ],
-        "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
-      },
-      "pick_reason": {
-        "summary": "富邦媒 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": []
-      },
-      "industry_chains": [
-        {
-          "chain": "台灣工業 / 傳產",
-          "segment": "電商"
-        }
-      ]
-    },
-    {
-      "stock_id": "1590",
-      "name": "亞德客-KY",
-      "market": "TW",
-      "currency": "TWD",
-      "buffett_score": 0.0,
-      "grade": "C",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "淨利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "毛利率",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
-        },
-        {
-          "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
-        }
-      ],
-      "moat": {
-        "moat_type": "技術領先 + 品牌",
-        "moat_desc": "亞洲氣動元件龍頭；工業自動化關鍵零組件",
-        "moat_width": "narrow"
-      },
-      "exit_conditions": "",
-      "news": {
-        "items": [
-          {
-            "title": "1590 亞德客-KY - 讚！讚！讚！ - 股市爆料同學會 - CMoney",
-            "date": "Tue, 07 Apr 2026 10:52:03 GMT"
-          },
-          {
-            "title": "《證交所》今日單一證券鉅額成交股票：亞德客-KY、台積電、聯發科 - 富聯網",
-            "date": "Tue, 07 Apr 2026 09:19:00 GMT"
-          },
-          {
-            "title": "亞德客-KY(1590)-日茂 - 券商分點進出買賣統計 - 股市爆料同學會 - CMoney",
-            "date": "Wed, 08 Apr 2026 08:15:53 GMT"
-          },
-          {
-            "title": "【11:15 即時新聞】亞德客-KY(1590)盤中強勢突破，股價衝上1250元創波段新高，技術面多頭排列，法人看好營收動能續強 - CMoney投資網誌",
+            "title": "【13:04 即時新聞】兆豐金(2886)盤中反彈，短線籌碼偏空但法人買盤迴流，金融存股人氣穩居前段班 - CMoney投資網誌",
             "date": "Thu, 05 Feb 2026 08:00:00 GMT"
           },
           {
-            "title": "亞德客-KY延續昨日漲勢 再+28元！ 機器人股將掀巨浪 - 理財周刊",
-            "date": "Wed, 05 Nov 2025 08:00:00 GMT"
+            "title": "2886 兆豐金- 新聞：打伊朗其實是陰謀？ - 股市爆料同學會 - CMoney",
+            "date": "Sun, 05 Apr 2026 07:31:02 GMT"
           }
         ],
         "risk_level": "green",
         "risk_summary": "近期無重大負面新聞"
       },
       "pick_reason": {
-        "summary": "亞德客-KY 目前不符合巴菲特核心選股標準。",
+        "summary": "兆豐金 目前不符合巴菲特核心選股標準。",
         "strengths": [
-          "護城河適中：技術領先 + 品牌"
+          "EPS 連續 11 年為正，盈利穩定可預測"
         ],
-        "risks": []
+        "risks": [
+          "負債權益比 12.03 偏高"
+        ]
       },
       "industry_chains": [
         {
-          "chain": "台灣工業 / 傳產",
-          "segment": "氣動元件"
+          "chain": "台灣金融",
+          "segment": "金控"
         }
       ]
     },
     {
-      "stock_id": "2049",
-      "name": "上銀",
+      "stock_id": "2891",
+      "name": "中信金",
       "market": "TW",
       "currency": "TWD",
-      "buffett_score": 0.0,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 4.08,
+      "eps_5yr_ago": 2.73,
+      "eps_cagr_5y": 8.37,
+      "debt_to_equity": 15.99,
+      "ocf_positive_years": 5,
+      "ocf_total_years": 11,
+      "buffett_score": 22.2,
       "grade": "C",
       "score_details": [
         {
@@ -6289,18 +8268,18 @@
         },
         {
           "metric": "負債權益比",
-          "value": null,
-          "grade": "nodata"
+          "value": 15.99,
+          "grade": "fail"
         },
         {
-          "metric": "EPS/FCF",
-          "value": null,
-          "grade": "nodata"
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
         },
         {
           "metric": "現金流",
-          "value": null,
-          "grade": "nodata"
+          "value": "5/11",
+          "grade": "warn"
         }
       ],
       "moat": {},
@@ -6308,38 +8287,133 @@
       "news": {
         "items": [
           {
-            "title": "傳動元件景氣回升、漲價再現，上銀、大銀微系統誰是這波行情的真正受惠者？｜產業熱話｜豐雲學堂2026 年 04 月 - sinotrade.com.tw",
-            "date": "Wed, 08 Apr 2026 03:02:20 GMT"
+            "title": "市場為何偏愛中信金？艾蜜莉分析：本業穩健＋波動低，今年股利有望續破2元 - Smart自學網",
+            "date": "Thu, 09 Apr 2026 03:18:24 GMT"
           },
           {
-            "title": "【09:33 即時新聞】上銀(2049)亮燈漲停至253元，受接單回溫與機器人題材點火＋短線突破前高帶量換手 - CMoney投資網誌",
-            "date": "Mon, 02 Mar 2026 08:00:00 GMT"
+            "title": "2891 中信金- 金控新聞- 股市爆料同學會 - CMoney",
+            "date": "Wed, 14 Jan 2026 08:00:00 GMT"
           },
           {
-            "title": "上銀 明年營收拚增雙位數 - Yahoo股市",
-            "date": "Tue, 02 Dec 2025 08:00:00 GMT"
+            "title": "中信金（2891）明天股價50元？「棄電轉金」行情來了嗎…專家：不是這樣喔！ - 聯合新聞網",
+            "date": "Wed, 17 Dec 2025 08:00:00 GMT"
           },
           {
-            "title": "《價值型投資 最新產業研究報告》上銀（2049-TW）轉型智慧製造關鍵供應商 半導體自動化與AI機器人打開成長新格局 - news.cnyes.com",
-            "date": "Tue, 09 Sep 2025 07:00:00 GMT"
+            "title": "中信金重訊公告通過轉投資案 傳下聘買三商壽待點頭 - Yahoo股市",
+            "date": "Thu, 23 Oct 2025 07:00:00 GMT"
           },
           {
-            "title": "上銀爆萬張漲停 外資解析利多 - 聯合新聞網",
-            "date": "Mon, 02 Mar 2026 08:00:00 GMT"
+            "title": "中信金（2891）為何一路創高？大多數散戶早就被洗到場外…剩ETF在默默掃貨| 台股雜談| 股市 - 聯合新聞網",
+            "date": "Fri, 26 Dec 2025 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
         "risk_summary": "近期無重大負面新聞"
       },
       "pick_reason": {
-        "summary": "上銀 目前不符合巴菲特核心選股標準。",
-        "strengths": [],
-        "risks": []
+        "summary": "中信金 目前不符合巴菲特核心選股標準。",
+        "strengths": [
+          "EPS 連續 11 年為正，盈利穩定可預測"
+        ],
+        "risks": [
+          "負債權益比 15.99 偏高"
+        ]
       },
       "industry_chains": [
         {
-          "chain": "台灣工業 / 傳產",
-          "segment": "精密機械"
+          "chain": "台灣金融",
+          "segment": "金控"
+        }
+      ]
+    },
+    {
+      "stock_id": "5880",
+      "name": "合庫金",
+      "market": "TW",
+      "currency": "TWD",
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 1.36,
+      "eps_5yr_ago": 1.51,
+      "eps_cagr_5y": -2.07,
+      "debt_to_equity": 17.87,
+      "ocf_positive_years": 5,
+      "ocf_total_years": 11,
+      "buffett_score": 22.2,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "淨利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "毛利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 17.87,
+          "grade": "fail"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "5/11",
+          "grade": "warn"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "合庫金股利創3年新高 現金加股票共1.05元 - Yahoo股市",
+            "date": "Tue, 24 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "合庫金明年股利發放，現金為主/股票為輔 - 台視全球資訊網",
+            "date": "Mon, 05 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "合庫金法說》股利報佳音：反映經營成果 法人估1.05元、4年來最高 | 陳怡慈 | 新聞 - 風傳媒",
+            "date": "Thu, 19 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "合庫金：今年股利優去年，現金為主- 新聞 - MoneyDJ理財網",
+            "date": "Thu, 19 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "合庫金總座談明年股利配發政策 現金為主、股票為輔 - 聯合新聞網",
+            "date": "Thu, 27 Nov 2025 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "合庫金 目前不符合巴菲特核心選股標準。",
+        "strengths": [
+          "EPS 連續 11 年為正，盈利穩定可預測"
+        ],
+        "risks": [
+          "負債權益比 17.87 偏高"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "台灣金融",
+          "segment": "金控"
         }
       ]
     }
