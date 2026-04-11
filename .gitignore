@@ -1,7 +1,14 @@
+# Python
 __pycache__/
 *.pyc
-.python-version
-logs/
-screening_results.json
 *.egg-info/
+.python-version
 .env
+
+# Scripts & logs (not for GitHub Pages)
+generate_report.py
+screen_stocks.py
+screening_results.json
+run_daily.sh
+report.md
+logs/
