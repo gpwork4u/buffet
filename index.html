@@ -171,9 +171,38 @@
       white-space: nowrap;
     }
     .stock-table thead th:hover { color: var(--text); }
-    .stock-table thead th[title] { cursor: help; border-bottom: 1px dashed var(--text-muted); }
-    .detail-item[title] { cursor: help; }
-    .score-detail-list li[title] { cursor: help; }
+
+    /* Custom instant tooltip */
+    [data-tip] {
+      position: relative;
+      cursor: help;
+    }
+    [data-tip]::after {
+      content: attr(data-tip);
+      position: absolute;
+      left: 50%;
+      bottom: 100%;
+      transform: translateX(-50%);
+      background: #222;
+      color: #eee;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.5;
+      padding: 8px 12px;
+      border-radius: 6px;
+      white-space: pre-wrap;
+      width: max-content;
+      max-width: 260px;
+      z-index: 200;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.1s;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+    [data-tip]:hover::after { opacity: 1; }
+    .stock-table thead th[data-tip] { border-bottom: 1px dashed var(--text-muted); }
+    .detail-item[data-tip] { cursor: help; }
+    .score-detail-list li[data-tip] { cursor: help; }
     .stock-table tbody tr {
       border-bottom: 1px solid var(--border);
       cursor: pointer;
@@ -412,15 +441,15 @@
     <table class="stock-table">
       <thead>
         <tr>
-          <th data-sort="grade" title="巴菲特篩選等級：S(85+) A(70+) B(55+) C(<55)">#</th>
-          <th data-sort="name" title="公司名稱與代號">Stock</th>
-          <th data-sort="buffett_score" title="巴菲特綜合評分 (0-100)&#10;根據 ROE、淨利率、毛利率、負債比、EPS 持續性、P/E、現金流 7 項指標加權計算">Score</th>
-          <th data-sort="roe_avg" class="hide-mobile" title="股東權益報酬率 (Return on Equity)&#10;= 淨利 / 股東權益&#10;衡量管理層運用股東資金的效率&#10;巴菲特標準：>= 20%">ROE</th>
-          <th data-sort="net_margin_avg" class="hide-mobile" title="淨利率 (Net Profit Margin)&#10;= 淨利 / 營收&#10;反映公司的定價能力與營運效率&#10;巴菲特標準：>= 20%">Net Margin</th>
-          <th data-sort="gross_margin_avg" class="hide-mobile" title="毛利率 (Gross Margin)&#10;= (營收 - 銷貨成本) / 營收&#10;護城河寬度的直接指標，越高代表競爭優勢越強&#10;巴菲特標準：>= 40%">Gross Margin</th>
-          <th data-sort="debt_to_equity" class="hide-mobile" title="負債權益比 (Debt-to-Equity Ratio)&#10;= 總負債 / 股東權益&#10;衡量公司財務槓桿程度，越低越穩健&#10;巴菲特標準：<= 0.5">D/E</th>
-          <th data-sort="pe_ratio" class="hide-mobile" title="本益比 (Price-to-Earnings Ratio)&#10;= 股價 / 每股盈餘&#10;衡量投資人為每元盈利願付的價格&#10;巴菲特標準：<= 15（合理估值）">P/E</th>
-          <th title="新聞風險燈號&#10;🟢 綠燈：近期無重大負面新聞&#10;🟡 黃燈：偵測到需關注信號&#10;🔴 紅燈：偵測到重大風險信號">News</th>
+          <th data-sort="grade" data-tip="巴菲特篩選等級：S(85+) A(70+) B(55+) C(<55)">#</th>
+          <th data-sort="name" data-tip="公司名稱與代號">Stock</th>
+          <th data-sort="buffett_score" data-tip="巴菲特綜合評分 (0-100)&#10;根據 7 項指標加權計算">Score</th>
+          <th data-sort="roe_avg" class="hide-mobile" data-tip="股東權益報酬率&#10;= 淨利 / 股東權益&#10;巴菲特標準：>= 20%">ROE</th>
+          <th data-sort="net_margin_avg" class="hide-mobile" data-tip="淨利率&#10;= 淨利 / 營收&#10;巴菲特標準：>= 20%">Net Margin</th>
+          <th data-sort="gross_margin_avg" class="hide-mobile" data-tip="毛利率&#10;= (營收-成本) / 營收&#10;巴菲特標準：>= 40%">Gross Margin</th>
+          <th data-sort="debt_to_equity" class="hide-mobile" data-tip="負債權益比&#10;= 總負債 / 股東權益&#10;巴菲特標準：<= 0.5">D/E</th>
+          <th data-sort="pe_ratio" class="hide-mobile" data-tip="本益比&#10;= 股價 / 每股盈餘&#10;巴菲特標準：<= 15">P/E</th>
+          <th data-tip="🟢 無風險 🟡 需關注 🔴 重大風險">News</th>
         </tr>
       </thead>
       <tbody id="stock-tbody"></tbody>
@@ -647,7 +676,7 @@ function showDetail(stockId) {
     const cls = `metric-${d.grade}`;
     const icon = { pass: '✓', ok: '○', warn: '△', fail: '✗', nodata: '-' }[d.grade] || '';
     const tip = metricTips[d.metric] || '';
-    return `<li title="${tip}"><span>${d.metric}</span><span class="${cls}">${d.value != null ? d.value : 'N/A'} ${icon}</span></li>`;
+    return `<li data-tip="${tip}"><span>${d.metric}</span><span class="${cls}">${d.value != null ? d.value : 'N/A'} ${icon}</span></li>`;
   }).join('');
 
   const moat = s.moat || {};
@@ -705,16 +734,16 @@ function showDetail(stockId) {
     ` : ''}
 
     <div class="detail-grid">
-      <div class="detail-item" title="股東權益報酬率：淨利 / 股東權益。衡量管理層運用資金效率，>= 20% 為佳"><div class="label">ROE (avg)</div><div class="value">${s.roe_avg != null ? s.roe_avg + '%' : 'N/A'}</div></div>
-      <div class="detail-item" title="淨利率：淨利 / 營收。反映定價能力與營運效率，>= 20% 為佳"><div class="label">Net Margin</div><div class="value">${s.net_margin_avg != null ? s.net_margin_avg + '%' : 'N/A'}</div></div>
-      <div class="detail-item" title="毛利率：(營收 - 銷貨成本) / 營收。護城河寬度指標，>= 40% 為佳"><div class="label">Gross Margin</div><div class="value">${s.gross_margin_avg != null ? s.gross_margin_avg + '%' : 'N/A'}</div></div>
-      <div class="detail-item" title="負債權益比：總負債 / 股東權益。越低越穩健，<= 0.5 為佳"><div class="label">D/E Ratio</div><div class="value">${s.debt_to_equity != null ? s.debt_to_equity : 'N/A'}</div></div>
-      <div class="detail-item" title="本益比：股價 / 每股盈餘。衡量估值是否合理，<= 15 為便宜"><div class="label">P/E</div><div class="value">${s.pe_ratio != null ? s.pe_ratio : 'N/A'}</div></div>
-      <div class="detail-item" title="每股盈餘 (Earnings Per Share)：淨利 / 流通股數。衡量每股獲利能力"><div class="label">EPS</div><div class="value">${s.eps_latest != null ? s.eps_latest : 'N/A'}</div></div>
-      ${s.market_cap_b ? `<div class="detail-item" title="市值：股價 x 流通股數。衡量公司整體規模"><div class="label">Market Cap</div><div class="value">$${s.market_cap_b}B</div></div>` : ''}
-      ${s.current_price ? `<div class="detail-item" title="當前股價"><div class="label">Price</div><div class="value">$${s.current_price}</div></div>` : ''}
-      ${s.dividend_yield ? `<div class="detail-item" title="股息殖利率：年度股息 / 股價。衡量現金回報率"><div class="label">Div Yield</div><div class="value">${s.dividend_yield}%</div></div>` : ''}
-      ${s.eps_cagr_5y != null ? `<div class="detail-item" title="EPS 五年複合年成長率：衡量盈利成長動能"><div class="label">EPS CAGR 5Y</div><div class="value">${s.eps_cagr_5y}%</div></div>` : ''}
+      <div class="detail-item" data-tip="股東權益報酬率：淨利 / 股東權益。衡量管理層運用資金效率，>= 20% 為佳"><div class="label">ROE (avg)</div><div class="value">${s.roe_avg != null ? s.roe_avg + '%' : 'N/A'}</div></div>
+      <div class="detail-item" data-tip="淨利率：淨利 / 營收。反映定價能力與營運效率，>= 20% 為佳"><div class="label">Net Margin</div><div class="value">${s.net_margin_avg != null ? s.net_margin_avg + '%' : 'N/A'}</div></div>
+      <div class="detail-item" data-tip="毛利率：(營收 - 銷貨成本) / 營收。護城河寬度指標，>= 40% 為佳"><div class="label">Gross Margin</div><div class="value">${s.gross_margin_avg != null ? s.gross_margin_avg + '%' : 'N/A'}</div></div>
+      <div class="detail-item" data-tip="負債權益比：總負債 / 股東權益。越低越穩健，<= 0.5 為佳"><div class="label">D/E Ratio</div><div class="value">${s.debt_to_equity != null ? s.debt_to_equity : 'N/A'}</div></div>
+      <div class="detail-item" data-tip="本益比：股價 / 每股盈餘。衡量估值是否合理，<= 15 為便宜"><div class="label">P/E</div><div class="value">${s.pe_ratio != null ? s.pe_ratio : 'N/A'}</div></div>
+      <div class="detail-item" data-tip="每股盈餘 (Earnings Per Share)：淨利 / 流通股數。衡量每股獲利能力"><div class="label">EPS</div><div class="value">${s.eps_latest != null ? s.eps_latest : 'N/A'}</div></div>
+      ${s.market_cap_b ? `<div class="detail-item" data-tip="市值：股價 x 流通股數。衡量公司整體規模"><div class="label">Market Cap</div><div class="value">$${s.market_cap_b}B</div></div>` : ''}
+      ${s.current_price ? `<div class="detail-item" data-tip="當前股價"><div class="label">Price</div><div class="value">$${s.current_price}</div></div>` : ''}
+      ${s.dividend_yield ? `<div class="detail-item" data-tip="股息殖利率：年度股息 / 股價。衡量現金回報率"><div class="label">Div Yield</div><div class="value">${s.dividend_yield}%</div></div>` : ''}
+      ${s.eps_cagr_5y != null ? `<div class="detail-item" data-tip="EPS 五年複合年成長率：衡量盈利成長動能"><div class="label">EPS CAGR 5Y</div><div class="value">${s.eps_cagr_5y}%</div></div>` : ''}
     </div>
 
     <div class="section-title">Score Breakdown</div>
