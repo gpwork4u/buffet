@@ -336,6 +336,26 @@
 </head>
 <body>
 
+<!-- Disclaimer Modal -->
+<div id="disclaimer-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:999;backdrop-filter:blur(6px);display:flex;justify-content:center;align-items:center">
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;max-width:560px;width:90%;padding:32px;text-align:center">
+    <div style="font-size:20px;font-weight:700;margin-bottom:20px">免責聲明</div>
+    <div style="text-align:left;color:var(--text-muted);font-size:15px;line-height:1.8;margin-bottom:24px">
+      <p>本網站所提供之所有資訊，包括但不限於股票篩選結果、評分、新聞分析及投資建議，<strong style="color:var(--text)">僅供研究參考，不構成任何形式的投資建議或推薦。</strong></p>
+      <p style="margin-top:12px">本網站及其作者<strong style="color:var(--text)">不對因使用本網站資訊而產生的任何直接或間接損失承擔責任。</strong>投資有風險，過去的表現不代表未來的績效。</p>
+      <p style="margin-top:12px">在做出任何投資決策之前，請諮詢合格的專業財務顧問，並自行評估風險承受能力。</p>
+    </div>
+    <label style="display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:20px;cursor:pointer;color:var(--text-muted);font-size:14px">
+      <input type="checkbox" id="disclaimer-remember" style="width:16px;height:16px;cursor:pointer">
+      不再顯示此通知
+    </label>
+    <div style="display:flex;gap:12px;justify-content:center">
+      <button onclick="declineDisclaimer()" style="padding:10px 28px;border-radius:8px;border:1px solid var(--border);background:none;color:var(--text-muted);font-size:15px;cursor:pointer">拒絕</button>
+      <button onclick="acceptDisclaimer()" style="padding:10px 28px;border-radius:8px;border:none;background:var(--accent);color:#fff;font-size:15px;font-weight:600;cursor:pointer">我已了解並同意</button>
+    </div>
+  </div>
+</div>
+
 <div class="container">
   <header>
     <h1><span>Buffett</span> Screener</h1>
@@ -407,6 +427,30 @@
 </div>
 
 <script>
+// Disclaimer
+function checkDisclaimer() {
+  if (document.cookie.includes('disclaimer_accepted=1')) {
+    document.getElementById('disclaimer-overlay').style.display = 'none';
+  } else {
+    document.getElementById('disclaimer-overlay').style.display = 'flex';
+  }
+}
+
+function acceptDisclaimer() {
+  if (document.getElementById('disclaimer-remember').checked) {
+    document.cookie = 'disclaimer_accepted=1; max-age=' + (365 * 24 * 60 * 60) + '; path=/; SameSite=Lax';
+  }
+  document.getElementById('disclaimer-overlay').style.display = 'none';
+}
+
+function declineDisclaimer() {
+  window.close();
+  // fallback: 如果 window.close() 被瀏覽器擋住
+  document.body.innerHTML = '<div style="display:flex;height:100vh;align-items:center;justify-content:center;color:var(--text-muted);font-size:18px">您已拒絕免責聲明，請關閉此分頁。</div>';
+}
+
+checkDisclaimer();
+
 let reportData = null;
 let currentFilter = 'all';
 let currentSort = { key: 'buffett_score', desc: true };
