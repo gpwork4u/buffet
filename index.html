@@ -111,7 +111,12 @@
       padding: 8px 0;
       border-bottom: 1px solid var(--border);
       font-size: 16px;
+      cursor: pointer;
+      transition: background 0.1s;
+      border-radius: 4px;
+      padding: 8px 6px;
     }
+    .alert-item:hover { background: var(--surface2); }
     .alert-item:last-child { border-bottom: none; }
     .alert-dot {
       width: 8px;
@@ -227,7 +232,7 @@
       z-index: 100;
       backdrop-filter: blur(4px);
     }
-    .modal-overlay.open { display: flex; justify-content: center; align-items: flex-start; padding-top: 60px; }
+    .modal-overlay.open { display: flex; justify-content: center; align-items: flex-start; padding: 40px 0; }
     .modal {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -251,6 +256,7 @@
     }
     .modal-body {
       padding: 24px;
+      padding-bottom: 40px;
     }
     .modal-header h2 { font-size: 20px; }
     .modal-close {
@@ -393,6 +399,7 @@
       <button class="tab" data-filter="chain_healthcare">醫療</button>
       <button class="tab" data-filter="chain_consumer">消費品牌</button>
       <button class="tab" data-filter="chain_payment">支付</button>
+      <button class="tab" data-filter="chain_industrial">工業/材料</button>
     </div>
 
     <!-- Table -->
@@ -523,13 +530,14 @@ function render() {
     document.getElementById('alerts-section').style.display = 'block';
     const riskLabel = { red: '重大風險', yellow: '需關注' };
     document.getElementById('alerts-list').innerHTML = summary.news_alerts.map(a => `
-      <div class="alert-item">
+      <div class="alert-item" onclick="showDetail('${a.stock_id}')" title="點擊查看詳細資訊">
         <div class="alert-dot ${a.risk_level}"></div>
         <div class="alert-stock">${a.stock_id}</div>
         <div style="flex:1">
           <div style="font-weight:600">${a.name} <span style="font-size:13px;color:${a.risk_level === 'red' ? 'var(--red)' : 'var(--yellow)'}">${riskLabel[a.risk_level] || ''}</span></div>
           <div class="alert-msg">${a.risk_summary}</div>
         </div>
+        <div style="color:var(--text-muted);font-size:13px">查看 &rsaquo;</div>
       </div>
     `).join('');
   }
@@ -580,6 +588,7 @@ function getFilteredStocks() {
     chain_healthcare: '醫療 / 製藥產業鏈',
     chain_consumer: '消費品牌產業鏈',
     chain_payment: '數位支付產業鏈',
+    chain_industrial: '工業 / 特用材料產業鏈',
   };
   if (currentFilter === 'S') stocks = stocks.filter(s => s.grade === 'S');
   else if (currentFilter === 'A') stocks = stocks.filter(s => s.grade === 'A');
