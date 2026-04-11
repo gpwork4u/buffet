@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.python-version
+logs/
+screening_results.json
+*.egg-info/
+.env

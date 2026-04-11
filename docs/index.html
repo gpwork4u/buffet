@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buffett Screener | 巴菲特選股日報</title>
+  <style>
+    :root {
+      --bg: #0f0f0f;
+      --surface: #1a1a1a;
+      --surface2: #242424;
+      --border: #333;
+      --text: #e0e0e0;
+      --text-muted: #888;
+      --accent: #60a5fa;
+      --green: #22c55e;
+      --yellow: #eab308;
+      --red: #ef4444;
+      --grade-s: #a78bfa;
+      --grade-a: #60a5fa;
+      --grade-b: #22c55e;
+      --grade-c: #888;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 0;
+    }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 24px 16px; }
+
+    /* Header */
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 24px 0;
+      margin-bottom: 32px;
+    }
+    header h1 {
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    header h1 span { color: var(--accent); }
+    .header-meta {
+      display: flex;
+      gap: 24px;
+      margin-top: 8px;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    /* Summary Cards */
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    .summary-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+    }
+    .summary-card .number {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .summary-card .label {
+      font-size: 12px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* News Alerts */
+    .alerts {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 32px;
+    }
+    .alerts h2 {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .alert-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 14px;
+    }
+    .alert-item:last-child { border-bottom: none; }
+    .alert-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .alert-dot.red { background: var(--red); }
+    .alert-dot.yellow { background: var(--yellow); }
+    .alert-dot.green { background: var(--green); }
+    .alert-stock { font-weight: 600; min-width: 80px; }
+    .alert-msg { color: var(--text-muted); }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      gap: 4px;
+      margin-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .tab {
+      padding: 8px 16px;
+      font-size: 14px;
+      cursor: pointer;
+      border: none;
+      background: none;
+      color: var(--text-muted);
+      border-bottom: 2px solid transparent;
+      transition: all 0.15s;
+    }
+    .tab:hover { color: var(--text); }
+    .tab.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    /* Stock Table */
+    .stock-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    .stock-table thead th {
+      text-align: left;
+      padding: 10px 12px;
+      font-weight: 600;
+      color: var(--text-muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+    .stock-table thead th:hover { color: var(--text); }
+    .stock-table tbody tr {
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      transition: background 0.1s;
+    }
+    .stock-table tbody tr:hover { background: var(--surface2); }
+    .stock-table td {
+      padding: 12px;
+      white-space: nowrap;
+    }
+
+    .grade-badge {
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+      line-height: 28px;
+      text-align: center;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 13px;
+    }
+    .grade-S { background: rgba(167,139,250,0.15); color: var(--grade-s); }
+    .grade-A { background: rgba(96,165,250,0.15); color: var(--grade-a); }
+    .grade-B { background: rgba(34,197,94,0.15); color: var(--grade-b); }
+    .grade-C { background: rgba(136,136,136,0.15); color: var(--grade-c); }
+
+    .score-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .score-bar-track {
+      width: 60px;
+      height: 4px;
+      background: var(--surface2);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .score-bar-fill {
+      height: 100%;
+      border-radius: 2px;
+      transition: width 0.3s;
+    }
+
+    .metric-pass { color: var(--green); }
+    .metric-ok { color: var(--accent); }
+    .metric-warn { color: var(--yellow); }
+    .metric-fail { color: var(--red); }
+    .metric-nodata { color: var(--text-muted); }
+
+    /* Detail Modal */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.7);
+      z-index: 100;
+      backdrop-filter: blur(4px);
+    }
+    .modal-overlay.open { display: flex; justify-content: center; align-items: flex-start; padding-top: 60px; }
+    .modal {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      width: 90%;
+      max-width: 700px;
+      max-height: 80vh;
+      overflow-y: auto;
+      padding: 24px;
+    }
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .modal-header h2 { font-size: 20px; }
+    .modal-close {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .modal-close:hover { color: var(--text); }
+
+    .detail-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .detail-item {
+      background: var(--surface2);
+      border-radius: 6px;
+      padding: 12px;
+    }
+    .detail-item .label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+    .detail-item .value { font-size: 18px; font-weight: 600; margin-top: 4px; }
+
+    .moat-section, .exit-section, .news-section {
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+    .section-title {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+
+    .news-item {
+      padding: 6px 0;
+      font-size: 13px;
+      border-bottom: 1px solid var(--border);
+    }
+    .news-item:last-child { border-bottom: none; }
+    .news-date { color: var(--text-muted); font-size: 11px; margin-left: 8px; }
+
+    .score-detail-list { list-style: none; }
+    .score-detail-list li {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 13px;
+    }
+    .score-detail-list li:last-child { border-bottom: none; }
+
+    /* Loading */
+    .loading {
+      text-align: center;
+      padding: 60px;
+      color: var(--text-muted);
+    }
+    .loading .spinner {
+      width: 32px;
+      height: 32px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .detail-grid { grid-template-columns: 1fr; }
+      .stock-table { font-size: 13px; }
+      .stock-table td, .stock-table th { padding: 8px 6px; }
+      .hide-mobile { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1><span>Buffett</span> Screener</h1>
+    <div class="header-meta">
+      <span id="report-date">Loading...</span>
+      <span id="report-count"></span>
+      <select id="date-picker" style="background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:4px;padding:2px 8px;font-size:13px;cursor:pointer;"></select>
+    </div>
+  </header>
+
+  <div id="loading" class="loading">
+    <div class="spinner"></div>
+    <div>Loading report data...</div>
+  </div>
+
+  <div id="app" style="display:none;">
+    <!-- Summary -->
+    <div class="summary-grid" id="summary-grid"></div>
+
+    <!-- Alerts -->
+    <div class="alerts" id="alerts-section" style="display:none;">
+      <h2>News Alerts</h2>
+      <div id="alerts-list"></div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab active" data-filter="all">All</button>
+      <button class="tab" data-filter="S">S Grade</button>
+      <button class="tab" data-filter="A">A Grade</button>
+      <button class="tab" data-filter="TW">Taiwan</button>
+      <button class="tab" data-filter="US">US</button>
+    </div>
+
+    <!-- Table -->
+    <table class="stock-table">
+      <thead>
+        <tr>
+          <th data-sort="grade">#</th>
+          <th data-sort="name">Stock</th>
+          <th data-sort="buffett_score">Score</th>
+          <th data-sort="roe_avg" class="hide-mobile">ROE</th>
+          <th data-sort="net_margin_avg" class="hide-mobile">Net Margin</th>
+          <th data-sort="gross_margin_avg" class="hide-mobile">Gross Margin</th>
+          <th data-sort="debt_to_equity" class="hide-mobile">D/E</th>
+          <th data-sort="pe_ratio" class="hide-mobile">P/E</th>
+          <th>News</th>
+        </tr>
+      </thead>
+      <tbody id="stock-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Detail Modal -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal" id="modal-content"></div>
+</div>
+
+<script>
+let reportData = null;
+let currentFilter = 'all';
+let currentSort = { key: 'buffett_score', desc: true };
+let availableDates = [];
+
+async function loadReport(date) {
+  try {
+    const file = date ? `./data/${date}.json` : './data/latest.json';
+    const res = await fetch(file);
+    if (!res.ok) throw new Error('Report not found');
+    reportData = await res.json();
+    render();
+  } catch (e) {
+    document.getElementById('loading').innerHTML =
+      `<div style="color:var(--red)">Failed to load report: ${e.message}</div>
+       <div style="margin-top:8px;color:var(--text-muted)">Run <code>python generate_report.py</code> first.</div>`;
+  }
+}
+
+async function loadDateIndex() {
+  try {
+    const res = await fetch('./data/index.json');
+    if (res.ok) {
+      const index = await res.json();
+      availableDates = index.reports || [];
+      const picker = document.getElementById('date-picker');
+      picker.innerHTML = availableDates.map((d, i) =>
+        `<option value="${d}"${i === 0 ? ' selected' : ''}>${d}${i === 0 ? ' (latest)' : ''}</option>`
+      ).join('');
+      picker.addEventListener('change', (e) => {
+        document.getElementById('loading').style.display = 'block';
+        document.getElementById('app').style.display = 'none';
+        loadReport(e.target.value);
+      });
+    }
+  } catch (e) { /* index.json not available yet */ }
+}
+
+function render() {
+  document.getElementById('loading').style.display = 'none';
+  document.getElementById('app').style.display = 'block';
+
+  const { summary, date, stocks } = reportData;
+
+  // Header
+  document.getElementById('report-date').textContent = `Report: ${date}`;
+  document.getElementById('report-count').textContent = `${summary.total_screened} stocks screened`;
+
+  // Summary cards
+  const grid = document.getElementById('summary-grid');
+  grid.innerHTML = [
+    { n: summary.total_screened, l: 'Total Screened' },
+    { n: summary.grade_s, l: 'S Grade', color: 'var(--grade-s)' },
+    { n: summary.grade_a, l: 'A Grade', color: 'var(--grade-a)' },
+    { n: summary.grade_b, l: 'B Grade', color: 'var(--grade-b)' },
+    { n: summary.grade_c, l: 'C Grade', color: 'var(--grade-c)' },
+  ].map(c => `
+    <div class="summary-card">
+      <div class="number" ${c.color ? `style="color:${c.color}"` : ''}>${c.n}</div>
+      <div class="label">${c.l}</div>
+    </div>
+  `).join('');
+
+  // Alerts
+  if (summary.news_alerts && summary.news_alerts.length > 0) {
+    document.getElementById('alerts-section').style.display = 'block';
+    document.getElementById('alerts-list').innerHTML = summary.news_alerts.map(a => `
+      <div class="alert-item">
+        <div class="alert-dot ${a.risk_level}"></div>
+        <div class="alert-stock">${a.stock_id}</div>
+        <div class="alert-msg">${a.name} — ${a.risk_summary}</div>
+      </div>
+    `).join('');
+  }
+
+  renderTable();
+}
+
+function renderTable() {
+  const stocks = getFilteredStocks();
+  const tbody = document.getElementById('stock-tbody');
+
+  tbody.innerHTML = stocks.map((s, i) => {
+    const newsColor = { green: 'var(--green)', yellow: 'var(--yellow)', red: 'var(--red)' }[s.news?.risk_level] || 'var(--text-muted)';
+    const newsIcon = { green: '●', yellow: '●', red: '●' }[s.news?.risk_level] || '○';
+    const scoreColor = s.grade === 'S' ? 'var(--grade-s)' : s.grade === 'A' ? 'var(--grade-a)' : s.grade === 'B' ? 'var(--grade-b)' : 'var(--grade-c)';
+    const barWidth = Math.min(s.buffett_score, 100);
+
+    return `
+      <tr onclick="showDetail('${s.stock_id}')">
+        <td><span class="grade-badge grade-${s.grade}">${s.grade}</span></td>
+        <td>
+          <div style="font-weight:600">${s.name}</div>
+          <div style="font-size:11px;color:var(--text-muted)">${s.market}/${s.stock_id}</div>
+        </td>
+        <td>
+          <div class="score-bar">
+            <span style="font-weight:600;color:${scoreColor}">${s.buffett_score}</span>
+            <div class="score-bar-track">
+              <div class="score-bar-fill" style="width:${barWidth}%;background:${scoreColor}"></div>
+            </div>
+          </div>
+        </td>
+        <td class="hide-mobile">${fmtPct(s.roe_avg)}</td>
+        <td class="hide-mobile">${fmtPct(s.net_margin_avg)}</td>
+        <td class="hide-mobile">${fmtPct(s.gross_margin_avg)}</td>
+        <td class="hide-mobile">${s.debt_to_equity != null ? s.debt_to_equity.toFixed(2) : '-'}</td>
+        <td class="hide-mobile">${s.pe_ratio != null ? s.pe_ratio.toFixed(1) : '-'}</td>
+        <td style="color:${newsColor};font-size:16px">${newsIcon}</td>
+      </tr>
+    `;
+  }).join('');
+}
+
+function getFilteredStocks() {
+  let stocks = [...reportData.stocks];
+  if (currentFilter === 'S') stocks = stocks.filter(s => s.grade === 'S');
+  else if (currentFilter === 'A') stocks = stocks.filter(s => s.grade === 'A');
+  else if (currentFilter === 'TW') stocks = stocks.filter(s => s.market === 'TW');
+  else if (currentFilter === 'US') stocks = stocks.filter(s => s.market === 'US');
+
+  stocks.sort((a, b) => {
+    let va = a[currentSort.key], vb = b[currentSort.key];
+    if (va == null) va = -Infinity;
+    if (vb == null) vb = -Infinity;
+    return currentSort.desc ? vb - va : va - vb;
+  });
+  return stocks;
+}
+
+function fmtPct(v) {
+  if (v == null) return '-';
+  const color = v >= 20 ? 'var(--green)' : v >= 10 ? 'var(--accent)' : v >= 0 ? 'var(--yellow)' : 'var(--red)';
+  return `<span style="color:${color}">${v.toFixed(1)}%</span>`;
+}
+
+function showDetail(stockId) {
+  const s = reportData.stocks.find(x => x.stock_id === stockId);
+  if (!s) return;
+
+  const newsHtml = (s.news?.items || []).map(n =>
+    `<div class="news-item">${n.title}<span class="news-date">${n.date || ''}</span></div>`
+  ).join('') || '<div style="color:var(--text-muted)">No news available</div>';
+
+  const scoreHtml = (s.score_details || []).map(d => {
+    const cls = `metric-${d.grade}`;
+    const icon = { pass: '✓', ok: '○', warn: '△', fail: '✗', nodata: '-' }[d.grade] || '';
+    return `<li><span>${d.metric}</span><span class="${cls}">${d.value != null ? d.value : 'N/A'} ${icon}</span></li>`;
+  }).join('');
+
+  const moat = s.moat || {};
+  const moatHtml = moat.moat_type
+    ? `<div class="moat-section">
+         <div class="section-title">Economic Moat</div>
+         <div><strong>${moat.moat_type}</strong> (${moat.moat_width || 'unknown'})</div>
+         <div style="color:var(--text-muted);margin-top:4px;font-size:13px">${moat.moat_desc || ''}</div>
+       </div>`
+    : '';
+
+  const exitHtml = s.exit_conditions
+    ? `<div class="exit-section">
+         <div class="section-title">Exit Conditions</div>
+         <div style="font-size:13px;color:var(--yellow)">${s.exit_conditions}</div>
+       </div>`
+    : '';
+
+  const newsRiskColor = { green: 'var(--green)', yellow: 'var(--yellow)', red: 'var(--red)' }[s.news?.risk_level] || 'var(--text-muted)';
+
+  document.getElementById('modal-content').innerHTML = `
+    <div class="modal-header">
+      <h2>
+        <span class="grade-badge grade-${s.grade}" style="margin-right:8px">${s.grade}</span>
+        ${s.name}
+        <span style="color:var(--text-muted);font-size:14px;margin-left:8px">${s.market}/${s.stock_id}</span>
+      </h2>
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+    </div>
+
+    <div style="font-size:28px;font-weight:700;margin-bottom:16px">
+      ${s.buffett_score} <span style="font-size:14px;color:var(--text-muted)">/ 100</span>
+    </div>
+
+    <div class="detail-grid">
+      <div class="detail-item"><div class="label">ROE (avg)</div><div class="value">${s.roe_avg != null ? s.roe_avg + '%' : 'N/A'}</div></div>
+      <div class="detail-item"><div class="label">Net Margin</div><div class="value">${s.net_margin_avg != null ? s.net_margin_avg + '%' : 'N/A'}</div></div>
+      <div class="detail-item"><div class="label">Gross Margin</div><div class="value">${s.gross_margin_avg != null ? s.gross_margin_avg + '%' : 'N/A'}</div></div>
+      <div class="detail-item"><div class="label">D/E Ratio</div><div class="value">${s.debt_to_equity != null ? s.debt_to_equity : 'N/A'}</div></div>
+      <div class="detail-item"><div class="label">P/E</div><div class="value">${s.pe_ratio != null ? s.pe_ratio : 'N/A'}</div></div>
+      <div class="detail-item"><div class="label">EPS</div><div class="value">${s.eps_latest != null ? s.eps_latest : 'N/A'}</div></div>
+      ${s.market_cap_b ? `<div class="detail-item"><div class="label">Market Cap</div><div class="value">$${s.market_cap_b}B</div></div>` : ''}
+      ${s.current_price ? `<div class="detail-item"><div class="label">Price</div><div class="value">$${s.current_price}</div></div>` : ''}
+      ${s.dividend_yield ? `<div class="detail-item"><div class="label">Div Yield</div><div class="value">${s.dividend_yield}%</div></div>` : ''}
+      ${s.eps_cagr_5y != null ? `<div class="detail-item"><div class="label">EPS CAGR 5Y</div><div class="value">${s.eps_cagr_5y}%</div></div>` : ''}
+    </div>
+
+    <div class="section-title">Score Breakdown</div>
+    <ul class="score-detail-list">${scoreHtml}</ul>
+
+    ${moatHtml}
+    ${exitHtml}
+
+    <div class="news-section">
+      <div class="section-title">
+        Recent News
+        <span style="color:${newsRiskColor};margin-left:8px;font-size:11px">● ${s.news?.risk_summary || 'Unknown'}</span>
+      </div>
+      ${newsHtml}
+    </div>
+  `;
+
+  document.getElementById('modal-overlay').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modal-overlay').classList.remove('open');
+}
+
+// Tab clicks
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    currentFilter = tab.dataset.filter;
+    renderTable();
+  });
+});
+
+// Sort clicks
+document.querySelectorAll('th[data-sort]').forEach(th => {
+  th.addEventListener('click', () => {
+    const key = th.dataset.sort;
+    if (currentSort.key === key) currentSort.desc = !currentSort.desc;
+    else { currentSort.key = key; currentSort.desc = true; }
+    renderTable();
+  });
+});
+
+// Close modal on overlay click
+document.getElementById('modal-overlay').addEventListener('click', (e) => {
+  if (e.target === e.currentTarget) closeModal();
+});
+
+// Esc to close
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeModal();
+});
+
+loadDateIndex();
+loadReport();
+</script>
+</body>
+</html>
