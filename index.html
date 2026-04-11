@@ -405,6 +405,9 @@
       <button class="tab" data-filter="chain_consumer">消費品牌</button>
       <button class="tab" data-filter="chain_payment">支付</button>
       <button class="tab" data-filter="chain_industrial">工業/材料</button>
+      <button class="tab" data-filter="chain_energy">能源/石油</button>
+      <button class="tab" data-filter="chain_utilities">公用事業</button>
+      <button class="tab" data-filter="chain_transport">運輸</button>
     </div>
 
     <!-- Table -->
@@ -594,6 +597,9 @@ function getFilteredStocks() {
     chain_consumer: '消費品牌產業鏈',
     chain_payment: '數位支付產業鏈',
     chain_industrial: '工業 / 特用材料產業鏈',
+    chain_energy: '能源 / 石油產業鏈',
+    chain_utilities: '公用事業 / 基礎設施',
+    chain_transport: '運輸 / 物流產業鏈',
   };
   if (currentFilter === 'S') stocks = stocks.filter(s => s.grade === 'S');
   else if (currentFilter === 'A') stocks = stocks.filter(s => s.grade === 'A');
