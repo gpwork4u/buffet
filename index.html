@@ -232,16 +232,22 @@
       z-index: 100;
       backdrop-filter: blur(4px);
     }
-    .modal-overlay.open { display: flex; justify-content: center; align-items: flex-start; padding: 40px 0 60px; overflow-y: auto; }
+    .modal-overlay.open { display: flex; justify-content: center; align-items: flex-start; padding: 40px 0; }
     .modal {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 12px;
       width: 90%;
       max-width: 700px;
+      max-height: 80vh;
+      display: flex;
+      flex-direction: column;
       padding: 0;
-      margin-bottom: 40px;
-      flex-shrink: 0;
+    }
+    .modal-body {
+      padding: 24px;
+      padding-bottom: 40px;
+      overflow-y: auto;
     }
     .modal-header {
       display: flex;
@@ -253,10 +259,6 @@
       position: sticky;
       top: 0;
       z-index: 10;
-    }
-    .modal-body {
-      padding: 24px;
-      padding-bottom: 40px;
     }
     .modal-header h2 { font-size: 20px; }
     .modal-close {
