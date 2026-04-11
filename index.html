@@ -233,13 +233,21 @@
       max-width: 700px;
       max-height: 80vh;
       overflow-y: auto;
-      padding: 24px;
+      padding: 0;
     }
     .modal-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 20px;
+      padding: 20px 24px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .modal-body {
+      padding: 24px;
     }
     .modal-header h2 { font-size: 20px; }
     .modal-close {
@@ -377,6 +385,16 @@
       <tbody id="stock-tbody"></tbody>
     </table>
   </div>
+
+  <footer style="margin-top:48px;padding:24px 0;border-top:1px solid var(--border);color:var(--text-muted);font-size:13px;text-align:center;line-height:2">
+    <div>&copy; 2026 Buffett Screener. All rights reserved.</div>
+    <div>本報告不構成投資建議，僅供研究參考。投資有風險，請自行評估。</div>
+    <div style="margin-top:8px">
+      Contact: <a href="mailto:gpwork4u@gmail.com" style="color:var(--accent);text-decoration:none">gpwork4u@gmail.com</a>
+      &nbsp;|&nbsp;
+      <a href="https://github.com/gpwork4u/buffet" style="color:var(--accent);text-decoration:none">GitHub</a>
+    </div>
+  </footer>
 </div>
 
 <!-- Detail Modal -->
@@ -563,6 +581,7 @@ function showDetail(stockId) {
       <button class="modal-close" onclick="closeModal()">&times;</button>
     </div>
 
+    <div class="modal-body">
     <div style="font-size:28px;font-weight:700;margin-bottom:16px">
       ${s.buffett_score} <span style="font-size:14px;color:var(--text-muted)">/ 100</span>
     </div>
@@ -592,6 +611,7 @@ function showDetail(stockId) {
         <span style="color:${newsRiskColor};margin-left:8px;font-size:11px">● ${s.news?.risk_summary || 'Unknown'}</span>
       </div>
       ${newsHtml}
+    </div>
     </div>
   `;
 
