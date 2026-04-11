@@ -1,0 +1,3674 @@
+{
+  "generated_at": "2026-04-11T20:55:42.806106",
+  "date": "2026-04-11",
+  "methodology": {
+    "name": "巴菲特/蒙格價值投資篩選",
+    "criteria": [
+      {
+        "metric": "ROE",
+        "threshold": ">= 20%",
+        "weight": 20,
+        "description": "股東權益報酬率，衡量管理層效率"
+      },
+      {
+        "metric": "淨利率",
+        "threshold": ">= 20%",
+        "weight": 15,
+        "description": "反映定價能力與營運效率"
+      },
+      {
+        "metric": "毛利率",
+        "threshold": ">= 40%",
+        "weight": 10,
+        "description": "護城河寬度指標"
+      },
+      {
+        "metric": "負債權益比",
+        "threshold": "<= 0.5",
+        "weight": 15,
+        "description": "財務穩健度"
+      },
+      {
+        "metric": "EPS/FCF 持續性",
+        "threshold": "90%+ 年度為正",
+        "weight": 15,
+        "description": "盈利可預測性"
+      },
+      {
+        "metric": "P/E",
+        "threshold": "<= 15",
+        "weight": 10,
+        "description": "估值合理性"
+      },
+      {
+        "metric": "現金流健康度",
+        "threshold": "持續為正",
+        "weight": 15,
+        "description": "真實盈利能力"
+      }
+    ],
+    "grades": {
+      "S": "85-100 分，完美符合巴菲特標準",
+      "A": "70-84 分，大部分指標優異",
+      "B": "55-69 分，部分指標良好",
+      "C": "< 55 分，不符合標準"
+    }
+  },
+  "summary": {
+    "total_screened": 40,
+    "grade_s": 5,
+    "grade_a": 6,
+    "grade_b": 14,
+    "grade_c": 15,
+    "top_picks": [
+      {
+        "stock_id": "MSFT",
+        "name": "Microsoft Corporation",
+        "market": "US",
+        "score": 94.0,
+        "grade": "S"
+      },
+      {
+        "stock_id": "GOOGL",
+        "name": "Alphabet Inc.",
+        "market": "US",
+        "score": 94.0,
+        "grade": "S"
+      },
+      {
+        "stock_id": "JNJ",
+        "name": "Johnson & Johnson",
+        "market": "US",
+        "score": 89.0,
+        "grade": "S"
+      },
+      {
+        "stock_id": "V",
+        "name": "Visa Inc.",
+        "market": "US",
+        "score": 89.0,
+        "grade": "S"
+      },
+      {
+        "stock_id": "AVGO",
+        "name": "Broadcom Inc.",
+        "market": "US",
+        "score": 85.0,
+        "grade": "S"
+      },
+      {
+        "stock_id": "KO",
+        "name": "Coca-Cola Company (The)",
+        "market": "US",
+        "score": 84.0,
+        "grade": "A"
+      },
+      {
+        "stock_id": "PG",
+        "name": "Procter & Gamble Company (The)",
+        "market": "US",
+        "score": 84.0,
+        "grade": "A"
+      },
+      {
+        "stock_id": "2330",
+        "name": "台積電",
+        "market": "TW",
+        "score": 81.1,
+        "grade": "A"
+      },
+      {
+        "stock_id": "AAPL",
+        "name": "Apple Inc.",
+        "market": "US",
+        "score": 80.0,
+        "grade": "A"
+      },
+      {
+        "stock_id": "MA",
+        "name": "Mastercard Incorporated",
+        "market": "US",
+        "score": 75.0,
+        "grade": "A"
+      }
+    ],
+    "news_alerts": [
+      {
+        "stock_id": "AAPL",
+        "name": "Apple Inc.",
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      },
+      {
+        "stock_id": "MA",
+        "name": "Mastercard Incorporated",
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+      },
+      {
+        "stock_id": "PEP",
+        "name": "Pepsico, Inc.",
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      },
+      {
+        "stock_id": "BRK-B",
+        "name": "Berkshire Hathaway Inc. New",
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+      },
+      {
+        "stock_id": "MCD",
+        "name": "McDonald's Corporation",
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+      },
+      {
+        "stock_id": "2454",
+        "name": "聯發科",
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+      },
+      {
+        "stock_id": "3711",
+        "name": "日月光投控",
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      },
+      {
+        "stock_id": "2882",
+        "name": "國泰金",
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+      }
+    ]
+  },
+  "stocks": [
+    {
+      "stock_id": "MSFT",
+      "name": "Microsoft Corporation",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 35.31,
+      "roe_latest": 29.65,
+      "roe_years": 4,
+      "net_margin_avg": 35.73,
+      "net_margin_latest": 36.15,
+      "gross_margin_avg": 68.98,
+      "eps_latest": 15.98,
+      "debt_to_equity": 0.32,
+      "current_ratio": 1.39,
+      "pe_ratio": 23.21,
+      "forward_pe": 19.69,
+      "market_cap_b": 2756.4,
+      "dividend_yield": 98.0,
+      "high_52w": 555.45,
+      "low_52w": 355.67,
+      "current_price": 370.87,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 71.61,
+      "buffett_score": 94.0,
+      "grade": "S",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 35.31,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 35.73,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 68.98,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.32,
+          "grade": "pass"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 23.21,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "轉換成本 + 網路效應",
+        "moat_desc": "Office/Azure 生態系深度綁定企業客戶；Teams/LinkedIn 網路效應",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "Azure 市佔大幅下降；淨利率跌破 25%；AI 競爭失利",
+      "news": {
+        "items": [
+          {
+            "title": "Why Is Microsoft Stock Down Today - TradingView",
+            "date": "Thu, 09 Apr 2026 16:53:04 GMT"
+          },
+          {
+            "title": "Why Microsoft (MSFT) Stock Is Ripe for a Turnaround - TradingView",
+            "date": "Wed, 25 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "機構投資者持有微軟公司(NASDAQ:MSFT)74%的股份，佔據絕對主導地位。 - 富途牛牛",
+            "date": "Fri, 23 Jan 2026 10:52:27 GMT"
+          },
+          {
+            "title": "微軟(MSFT.US)已擺脫OpenAI依賴，Copilot纔是華爾街看好走向5萬億市值的“王牌”！ 作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Tue, 16 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "MSFT 260320 330.00P (MSFT260320P330000) Stock Options Chain &amp; Price - Moomoo",
+            "date": "Thu, 02 Apr 2026 06:03:30 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "GOOGL",
+      "name": "Alphabet Inc.",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 28.02,
+      "roe_latest": 31.83,
+      "roe_years": 4,
+      "net_margin_avg": 26.66,
+      "net_margin_latest": 32.81,
+      "gross_margin_avg": 57.46,
+      "eps_latest": 10.82,
+      "debt_to_equity": 0.16,
+      "current_ratio": 2.0,
+      "pe_ratio": 29.32,
+      "forward_pe": 23.62,
+      "market_cap_b": 3837.7,
+      "dividend_yield": 26.0,
+      "high_52w": 349.0,
+      "low_52w": 146.1,
+      "current_price": 317.24,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 73.27,
+      "buffett_score": 94.0,
+      "grade": "S",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 28.02,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 26.66,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 57.46,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.16,
+          "grade": "pass"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 29.32,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "網路效應 + 數據優勢",
+        "moat_desc": "搜尋引擎全球 90%+ 市佔；YouTube/Android 數據飛輪",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "AI 搜尋搶走 >20% 流量；反壟斷導致業務拆分",
+      "news": {
+        "items": [
+          {
+            "title": "Why Alphabet (GOOGL) Stock Is Trading Lower Today - TradingView",
+            "date": "Thu, 26 Mar 2026 20:01:00 GMT"
+          },
+          {
+            "title": "〈財報〉Alphabet營運出色 預告今年資本支出高達1850億美元 盤後震盪一度挫逾7% - Yahoo股市",
+            "date": "Wed, 04 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "【即時新聞】Alphabet(GOOGL)股價低於330美元，是否是最後買入機會？ - CMoney投資網誌",
+            "date": "Fri, 26 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "Alphabet-A (GOOGL) News Flow - Moomoo",
+            "date": "Sun, 05 Apr 2026 00:29:16 GMT"
+          },
+          {
+            "title": "為何Alphabet砸錢布局AI基建拖累股價 博通、輝達卻笑了？ - news.cnyes.com",
+            "date": "Fri, 06 Feb 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "JNJ",
+      "name": "Johnson & Johnson",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 31.75,
+      "roe_latest": 32.87,
+      "roe_years": 4,
+      "net_margin_avg": 27.0,
+      "net_margin_latest": 28.46,
+      "gross_margin_avg": 68.76,
+      "eps_latest": 11.04,
+      "debt_to_equity": 0.6,
+      "current_ratio": 1.03,
+      "pe_ratio": 21.6,
+      "forward_pe": 18.96,
+      "market_cap_b": 574.7,
+      "dividend_yield": 218.0,
+      "high_52w": 251.71,
+      "low_52w": 146.12,
+      "current_price": 238.46,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 19.31,
+      "buffett_score": 89.0,
+      "grade": "S",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 31.75,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 27.0,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 68.76,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.6,
+          "grade": "ok"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 21.6,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "品牌 + 專利/法規",
+        "moat_desc": "百年醫療品牌；製藥專利保護和 FDA 審批壁壘",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "重要藥品專利到期且無新藥填補；訴訟風險失控",
+      "news": {
+        "items": [
+          {
+            "title": "〈財報〉降藥價讓利也不怕！嬌生今年展望優於預期 - AASTOCKS.com",
+            "date": "Wed, 21 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "Earnings Preview: JNJ to Report Financial Results Pre-market on April 14 - 富途牛牛",
+            "date": "Thu, 09 Apr 2026 01:58:56 GMT"
+          },
+          {
+            "title": "強生(JNJ.US)擬出售骨科業務 估值或逾200億美元 - AASTOCKS.com",
+            "date": "Thu, 19 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "禮來(LLY.US)、強生(JNJ.US)與輝瑞(PFE.US)拓展中國市場：旗下創新藥物納入首版商保目錄作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Mon, 08 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "強生 (NYSE:JNJ) 受到機構投資者的青睞，他們持有公司74%的股份。 - 富途牛牛",
+            "date": "Thu, 18 Sep 2025 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "V",
+      "name": "Visa Inc.",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 47.5,
+      "roe_latest": 52.91,
+      "roe_years": 4,
+      "net_margin_avg": 52.26,
+      "net_margin_latest": 50.14,
+      "gross_margin_avg": 80.27,
+      "eps_latest": 10.65,
+      "debt_to_equity": 0.55,
+      "current_ratio": 1.11,
+      "pe_ratio": 28.58,
+      "forward_pe": 20.95,
+      "market_cap_b": 586.8,
+      "dividend_yield": 88.0,
+      "high_52w": 375.51,
+      "low_52w": 293.89,
+      "current_price": 304.36,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 21.58,
+      "buffett_score": 89.0,
+      "grade": "S",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 47.5,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 52.26,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 80.27,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.55,
+          "grade": "ok"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 28.58,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "網路效應 + 規模壁壘",
+        "moat_desc": "全球最大支付網路，商家/消費者雙邊網路效應",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "CBDC 大規模取代卡片支付；淨利率跌破 40%",
+      "news": {
+        "items": [
+          {
+            "title": "Can Visa's Ramp Integration Transform Enterprise Spend Management? - TradingView",
+            "date": "Wed, 01 Apr 2026 07:00:00 GMT"
+          },
+          {
+            "title": "阿里千問加入玄鐵RISC-V無劍聯盟 加速芯模協同落地 - AASTOCKS.com",
+            "date": "Tue, 24 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "國際油價震盪牽動股市 美股V型反轉收紅 - Yahoo股市",
+            "date": "Mon, 09 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "【即時新聞】Visa支付帝國年處理量破16兆美元，高獲利背後的估值隱憂 - CMoney投資網誌",
+            "date": "Fri, 16 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "Visa（NYSE:V）的投資者會對過去五年獲得的可觀72%回報感到滿意。 - 富途牛牛",
+            "date": "Tue, 27 Jan 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "AVGO",
+      "name": "Broadcom Inc.",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 36.62,
+      "roe_latest": 28.45,
+      "roe_years": 4,
+      "net_margin_avg": 30.39,
+      "net_margin_latest": 36.2,
+      "gross_margin_avg": 66.57,
+      "eps_latest": 5.13,
+      "debt_to_equity": 0.83,
+      "current_ratio": 1.9,
+      "pe_ratio": 72.43,
+      "forward_pe": 20.83,
+      "market_cap_b": 1761.6,
+      "dividend_yield": 70.0,
+      "high_52w": 414.61,
+      "low_52w": 161.61,
+      "current_price": 371.55,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 26.91,
+      "buffett_score": 85.0,
+      "grade": "S",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 36.62,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 30.39,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 66.57,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.83,
+          "grade": "ok"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 72.43,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "技術優勢 + 轉換成本",
+        "moat_desc": "AI 客製晶片技術領先；深度整合客戶設計流程",
+        "moat_width": "narrow"
+      },
+      "exit_conditions": "AI 資本支出週期結束；毛利率跌破 50%",
+      "news": {
+        "items": [
+          {
+            "title": "Broadcom(AVGO) Stock Options Chain | Quotes &amp; News - Moomoo",
+            "date": "Sat, 04 Apr 2026 20:04:40 GMT"
+          },
+          {
+            "title": "《業績》博通(AVGO.US)首財季盈收勝預期 AI業務收入翻倍 - AASTOCKS.com",
+            "date": "Wed, 04 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "【即時新聞】AVGO最新宣布營收增140%，這6大項目爆量還能追嗎？ - CMoney投資網誌",
+            "date": "Tue, 10 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Broadcom(AVGO.US) Director Sells US$250 Million in Common Stock - 富途牛牛",
+            "date": "Fri, 27 Mar 2026 20:37:54 GMT"
+          },
+          {
+            "title": "Broadcom (AVGO) 股票大漲 11 % 陳福陽釋出 AI 重磅利多，輝達迎來強勁外部背書 - 鏈新聞 ABMedia",
+            "date": "Sat, 06 Sep 2025 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "KO",
+      "name": "Coca-Cola Company (The)",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 41.1,
+      "roe_latest": 40.74,
+      "roe_years": 4,
+      "net_margin_avg": 23.88,
+      "net_margin_latest": 27.34,
+      "gross_margin_avg": 60.09,
+      "eps_latest": 3.04,
+      "debt_to_equity": 1.4,
+      "current_ratio": 1.46,
+      "pe_ratio": 25.48,
+      "forward_pe": 22.43,
+      "market_cap_b": 333.4,
+      "dividend_yield": 266.0,
+      "high_52w": 82.0,
+      "low_52w": 65.35,
+      "current_price": 77.47,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 5.3,
+      "buffett_score": 84.0,
+      "grade": "A",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 41.1,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 23.88,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 60.09,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.4,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 25.48,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "品牌 + 分銷網路",
+        "moat_desc": "全球最強消費品牌；200+ 國家分銷網路",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "含糖飲料需求持續萎縮；毛利率跌破 50%",
+      "news": {
+        "items": [
+          {
+            "title": "Coca-Cola Faces Margin Pressure: Can Pricing Power Hold? - TradingView",
+            "date": "Tue, 24 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "可口可樂(KO.US)計劃在四年內向南非投資10億美元 - AASTOCKS.com",
+            "date": "Wed, 01 Apr 2026 13:08:00 GMT"
+          },
+          {
+            "title": "Coca-Cola | 4: Statement of changes in beneficial ownership of securities-Director TSAY CAROLINE J - 富途牛牛",
+            "date": "Fri, 03 Apr 2026 17:23:26 GMT"
+          },
+          {
+            "title": "【即時新聞】投資可口可樂(KO)的千元策略，現時正適合入手 - CMoney投資網誌",
+            "date": "Fri, 02 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "Beverages, Alcohol, and Tobacco Stocks Q3 Teardown: Brown-Forman (NYSE:BF.B) Vs The Rest - TradingView",
+            "date": "Sun, 05 Apr 2026 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "PG",
+      "name": "Procter & Gamble Company (The)",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 30.82,
+      "roe_latest": 30.71,
+      "roe_years": 4,
+      "net_margin_avg": 18.23,
+      "net_margin_latest": 18.95,
+      "gross_margin_avg": 49.46,
+      "eps_latest": 6.75,
+      "debt_to_equity": 0.69,
+      "current_ratio": 0.72,
+      "pe_ratio": 21.51,
+      "forward_pe": 19.9,
+      "market_cap_b": 339.2,
+      "dividend_yield": 291.0,
+      "high_52w": 171.65,
+      "low_52w": 137.62,
+      "current_price": 145.16,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 14.04,
+      "buffett_score": 84.0,
+      "grade": "A",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 30.82,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 18.23,
+          "grade": "ok"
+        },
+        {
+          "metric": "毛利率",
+          "value": 49.46,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.69,
+          "grade": "ok"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 21.51,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "品牌 + 規模經濟",
+        "moat_desc": "多品牌矩陣覆蓋日用品全品類；規模帶來的成本優勢",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "自有品牌大幅搶佔市佔；淨利率跌破 12%",
+      "news": {
+        "items": [
+          {
+            "title": "Gabelli Multi-Media Trust Inc. (The) 5.125% Series G Cumulative Preferred Shares - TradingView",
+            "date": "Wed, 08 Apr 2026 21:21:26 GMT"
+          },
+          {
+            "title": "【即時新聞】寶潔(PG)配息連續69年成長！2026財年將豪擲150億美元回饋股東 - CMoney投資網誌",
+            "date": "Mon, 12 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "PG 260410 140.00C(PG260410C140000)股票期權和價格 - Moomoo",
+            "date": "Tue, 07 Apr 2026 20:32:38 GMT"
+          },
+          {
+            "title": "P&amp;G旗下品牌將在2026年米蘭科爾蒂納冬奧及帕拉冬季運上，為歷屆最多數量的奧運選手提供性能卓越的家居和個人護理產品及服務 - Yahoo股市",
+            "date": "Mon, 02 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "Is most-watched stock Procter &amp; Gamble Company (The) (PG) worth betting on now? - MSN",
+            "date": "Wed, 01 Apr 2026 14:41:06 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "2330",
+      "name": "台積電",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 10.35,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 15.73,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 52.58,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 66.26,
+      "eps_5yr_ago": 23.02,
+      "eps_cagr_5y": 23.55,
+      "debt_to_equity": 0.45,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 81.1,
+      "grade": "A",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 10.35,
+          "grade": "warn"
+        },
+        {
+          "metric": "淨利率",
+          "value": 15.73,
+          "grade": "ok"
+        },
+        {
+          "metric": "毛利率",
+          "value": 52.58,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.45,
+          "grade": "pass"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "技術優勢 + 規模經濟",
+        "moat_desc": "先進製程全球獨霸；$300B+ 年資本支出形成進入門檻",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "Intel/三星追上先進製程；台海地緣風險急劇升高",
+      "news": {
+        "items": [
+          {
+            "title": "股票一直漲更焦慮？他靠「1策略」台積電小賺卻卡關 網揭關鍵：賣了就輸了 - Yahoo股市",
+            "date": "Sat, 11 Apr 2026 06:15:44 GMT"
+          },
+          {
+            "title": "睽違1個多月！台積電站上2000元 被列注意股照飆 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 06:00:39 GMT"
+          },
+          {
+            "title": "台積電要破2025元天價了？營收太猛 名師看好：下周一有望漲30元 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 07:51:15 GMT"
+          },
+          {
+            "title": "快訊／台積電爆發重訊！子公司以3.2億元狂掃10萬固定公司債 累計手持達9.5億元 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 10:06:00 GMT"
+          },
+          {
+            "title": "台積電營收明開獎！2大名師看好第1季破1.1兆元 史上最強 - Yahoo股市",
+            "date": "Thu, 09 Apr 2026 08:51:45 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "AAPL",
+      "name": "Apple Inc.",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 167.39,
+      "roe_latest": 151.91,
+      "roe_years": 4,
+      "net_margin_avg": 25.38,
+      "net_margin_latest": 26.92,
+      "gross_margin_avg": 45.14,
+      "eps_latest": 7.89,
+      "debt_to_equity": 1.03,
+      "current_ratio": 0.97,
+      "pe_ratio": 33.01,
+      "forward_pe": 27.93,
+      "market_cap_b": 3828.5,
+      "dividend_yield": 40.0,
+      "high_52w": 288.62,
+      "low_52w": 189.81,
+      "current_price": 260.48,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 98.77,
+      "buffett_score": 80.0,
+      "grade": "A",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 167.39,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 25.38,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 45.14,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.03,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 33.01,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "轉換成本 + 品牌",
+        "moat_desc": "封閉生態系鎖定用戶；全球最有價值消費品牌",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "iPhone 市佔跌破 15%；生態系鎖定效應減弱",
+      "news": {
+        "items": [
+          {
+            "title": "Apple Stock Drops on Foldable iPhone Delay Fears -- Barrons.com - 富途牛牛",
+            "date": "Tue, 07 Apr 2026 16:31:00 GMT"
+          },
+          {
+            "title": "蘋果(AAPL.US)對英國用戶推出年齡驗證要求 - AASTOCKS.com",
+            "date": "Wed, 25 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "蘋果（AAPL）股票：分析師對2026年估值的看法| MEXC 新聞 - MEXC",
+            "date": "Tue, 24 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Siri“變身計劃”被打散! 蘋果(AAPL.US)內部測試翻車 “AI版Siri”被迫分期交付 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Thu, 12 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "蘋果發表會落幕！iPhone 17使股價大幅下跌、AirPods與Apple Watch成焦點 - news.cnyes.com",
+            "date": "Wed, 10 Sep 2025 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      }
+    },
+    {
+      "stock_id": "MA",
+      "name": "Mastercard Incorporated",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 177.8,
+      "roe_latest": 193.46,
+      "roe_years": 4,
+      "net_margin_avg": 45.15,
+      "net_margin_latest": 45.65,
+      "gross_margin_avg": 76.63,
+      "eps_latest": 16.51,
+      "debt_to_equity": 2.56,
+      "current_ratio": 1.03,
+      "pe_ratio": 30.2,
+      "forward_pe": 22.0,
+      "market_cap_b": 445.0,
+      "dividend_yield": 70.0,
+      "high_52w": 601.77,
+      "low_52w": 480.5,
+      "current_price": 498.66,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 16.43,
+      "buffett_score": 75.0,
+      "grade": "A",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 177.8,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 45.15,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 76.63,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 2.56,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 30.2,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "網路效應 + 規模壁壘",
+        "moat_desc": "全球第二大支付網路；與 Visa 形成雙寡頭壟斷",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "與 V 相同的支付顛覆風險；D/E 持續惡化",
+      "news": {
+        "items": [
+          {
+            "title": "Top Analyst Resets UnitedHealth Stock Price Target - TradingView",
+            "date": "Thu, 09 Apr 2026 13:36:09 GMT"
+          },
+          {
+            "title": "AI application software stocks in the U.S. ma - 富途牛牛",
+            "date": "Fri, 10 Apr 2026 14:35:44 GMT"
+          },
+          {
+            "title": "Atlas Prime Capital - Stage 2 Stocks Swing Entry — frisbeesalad的指標 - TradingView",
+            "date": "Sun, 05 Apr 2026 15:16:44 GMT"
+          },
+          {
+            "title": "永豐金證券啟動2026徵才！MA與全新ITT計畫同步招募 保障百萬年薪 - Yahoo股市",
+            "date": "Tue, 10 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "UnitedHealth, US insurer stocks surge on Tuesday: here's why - TradingView",
+            "date": "Tue, 07 Apr 2026 13:17:04 GMT"
+          }
+        ],
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+      }
+    },
+    {
+      "stock_id": "ABBV",
+      "name": "AbbVie Inc.",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 28.74,
+      "roe_latest": -129.24,
+      "roe_years": 4,
+      "net_margin_avg": 10.96,
+      "net_margin_latest": 6.91,
+      "gross_margin_avg": 68.16,
+      "eps_latest": 2.37,
+      "current_ratio": 0.67,
+      "pe_ratio": 87.74,
+      "forward_pe": 12.92,
+      "market_cap_b": 367.8,
+      "dividend_yield": 333.0,
+      "high_52w": 244.81,
+      "low_52w": 168.54,
+      "current_price": 207.94,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 17.82,
+      "buffett_score": 70.0,
+      "grade": "A",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 28.74,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 10.96,
+          "grade": "ok"
+        },
+        {
+          "metric": "毛利率",
+          "value": 68.16,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 87.74,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "AbbVie | 4: Statement of changes in beneficial ownership of securities-Director Alpern Robert J - 富途牛牛",
+            "date": "Thu, 02 Apr 2026 21:15:50 GMT"
+          },
+          {
+            "title": "艾伯維(ABBV.US)烏帕替尼緩釋片新適應症擬納入優先審評 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Fri, 13 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "AbbVie | 4: Statement of changes in beneficial ownership of securities-Director Quaggin Susan E - 富途牛牛",
+            "date": "Thu, 02 Apr 2026 21:15:52 GMT"
+          },
+          {
+            "title": "Revolution Medicines股價因潛在的AbbVie收購而飆升超過20% 作者 Investing.com - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Thu, 08 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "2026摩根大通醫療健康周：聚焦授權交易與定價政策 - AASTOCKS.com",
+            "date": "Tue, 13 Jan 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "PEP",
+      "name": "Pepsico, Inc.",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 48.62,
+      "roe_latest": 40.38,
+      "roe_years": 4,
+      "net_margin_avg": 9.86,
+      "net_margin_latest": 8.77,
+      "gross_margin_avg": 53.99,
+      "eps_latest": 6.0,
+      "debt_to_equity": 2.58,
+      "current_ratio": 0.85,
+      "pe_ratio": 26.18,
+      "forward_pe": 17.22,
+      "market_cap_b": 214.7,
+      "dividend_yield": 362.0,
+      "high_52w": 171.48,
+      "low_52w": 127.6,
+      "current_price": 157.06,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 7.67,
+      "buffett_score": 69.0,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 48.62,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 9.86,
+          "grade": "warn"
+        },
+        {
+          "metric": "毛利率",
+          "value": 53.99,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 2.58,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 26.18,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "JPMorgan Adjusts Price Target on PepsiCo to $172 From $176, Maintains Overweight Rating - 富途牛牛",
+            "date": "Wed, 08 Apr 2026 10:35:48 GMT"
+          },
+          {
+            "title": "Coca-Cola Faces Margin Pressure: Can Pricing Power Hold? - TradingView",
+            "date": "Tue, 24 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "百事可樂(PEP.US)超九成原料本土化 強化套保應對地緣風險 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Mon, 23 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "股份變更報告：Fan Pep（19.12%→17.23%），Growth Capital等 - Moomoo",
+            "date": "Wed, 01 Apr 2026 02:42:00 GMT"
+          },
+          {
+            "title": "RBC Trims Price Target on PepsiCo to $163 From $165, Keeps Sector Perform Rating - 富途牛牛",
+            "date": "Thu, 09 Apr 2026 12:31:18 GMT"
+          }
+        ],
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      }
+    },
+    {
+      "stock_id": "HD",
+      "name": "Home Depot, Inc. (The)",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 719.75,
+      "roe_latest": 110.48,
+      "roe_years": 4,
+      "net_margin_avg": 9.67,
+      "net_margin_latest": 8.6,
+      "gross_margin_avg": 33.41,
+      "eps_latest": 14.24,
+      "debt_to_equity": 5.14,
+      "current_ratio": 1.06,
+      "pe_ratio": 23.69,
+      "forward_pe": 20.68,
+      "market_cap_b": 336.0,
+      "dividend_yield": 276.0,
+      "high_52w": 426.75,
+      "low_52w": 315.31,
+      "current_price": 337.34,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 12.65,
+      "buffett_score": 66.0,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 719.75,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 9.67,
+          "grade": "warn"
+        },
+        {
+          "metric": "毛利率",
+          "value": 33.41,
+          "grade": "ok"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 5.14,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 23.69,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "Home Depot Accumulation Is Underway—Why Dividend Investors Are Watching - TradingView",
+            "date": "Tue, 24 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "The Dow Tests a Key Technical Threshold. Watching Apple, Home Depot Stocks. -- Barrons.com - 富途牛牛",
+            "date": "Tue, 07 Apr 2026 15:02:00 GMT"
+          },
+          {
+            "title": "Home Depot示警2026展望保守 股價聞訊跌1.3% - Yahoo股市",
+            "date": "Tue, 09 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "家得寶股票（HD）對下調利潤預測的看法 - Moomoo",
+            "date": "Sun, 03 Aug 2025 07:00:00 GMT"
+          },
+          {
+            "title": "【即時新聞】Home Depot財報不佳，利率走低或成投資契機 - CMoney投資網誌",
+            "date": "Wed, 19 Nov 2025 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "LLY",
+      "name": "Eli Lilly and Company",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 64.82,
+      "roe_latest": 77.78,
+      "roe_years": 4,
+      "net_margin_avg": 23.1,
+      "net_margin_latest": 31.67,
+      "gross_margin_avg": 80.09,
+      "eps_latest": 22.92,
+      "debt_to_equity": 1.65,
+      "current_ratio": 1.58,
+      "pe_ratio": 40.99,
+      "forward_pe": 22.33,
+      "market_cap_b": 840.8,
+      "dividend_yield": 66.0,
+      "high_52w": 1133.95,
+      "low_52w": 623.78,
+      "current_price": 939.47,
+      "fcf_positive_years": 3,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 5.96,
+      "buffett_score": 65.0,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 64.82,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 23.1,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 80.09,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.65,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "3/4",
+          "grade": "ok"
+        },
+        {
+          "metric": "P/E",
+          "value": 40.99,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF",
+          "value": "3/4",
+          "grade": "ok"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "禮來(LLY.US)推出減肥藥Zepbound多劑量裝 股價盤前漲4% - AASTOCKS.com",
+            "date": "Mon, 23 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "禮來公司收購談判傳聞推動Ventyx Biosciences股價飆升 作者 Investing.com - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Wed, 07 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "〈財報〉禮來Q2業績、財測報喜 減重新藥數據踩雷拖累股價挫逾7% - news.cnyes.com",
+            "date": "Thu, 07 Aug 2025 07:00:00 GMT"
+          },
+          {
+            "title": "Eli Lilly and Co(LLY.US) 10% Shareholder Sells US$9.04 Million in Common Stock - 富途牛牛",
+            "date": "Fri, 10 Oct 2025 07:00:00 GMT"
+          },
+          {
+            "title": "內部出售：$LLY的10%持有者出售5,388股 - Moomoo",
+            "date": "Thu, 02 Oct 2025 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "AXP",
+      "name": "American Express Company",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 31.52,
+      "roe_latest": 32.36,
+      "roe_years": 4,
+      "net_margin_avg": 14.6,
+      "net_margin_latest": 15.0,
+      "eps_latest": 15.39,
+      "debt_to_equity": 1.91,
+      "current_ratio": 1.41,
+      "pe_ratio": 20.37,
+      "forward_pe": 15.56,
+      "market_cap_b": 215.3,
+      "dividend_yield": 121.0,
+      "high_52w": 387.49,
+      "low_52w": 239.27,
+      "current_price": 313.5,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 16.0,
+      "buffett_score": 64.0,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 31.52,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 14.6,
+          "grade": "ok"
+        },
+        {
+          "metric": "毛利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.91,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 20.37,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "RBC Lowers Price Target on American Express to $415 From $425, Keeps Outperform Rating - 富途牛牛",
+            "date": "Fri, 10 Apr 2026 11:04:46 GMT"
+          },
+          {
+            "title": "Can Visa's Ramp Integration Transform Enterprise Spend Management? - TradingView",
+            "date": "Wed, 01 Apr 2026 07:00:00 GMT"
+          },
+          {
+            "title": "【22:33 即時新聞】American Express(AXP) 跌逾5%／股價回檔但長線仍獲股息派息題材支撐 - CMoney投資網誌",
+            "date": "Fri, 27 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "叫板美國運通(AXP.US)！Robinhood(HOOD.US)推出695美元“真・白金卡” 強勢進軍高端信用卡市場作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Thu, 05 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "American Express | 4: Statement of changes in beneficial ownership of securities-Director PHILLIPS JR CHARLES E - 富途牛牛",
+            "date": "Thu, 02 Apr 2026 21:31:50 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "2412",
+      "name": "中華電",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 4.7,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 7.96,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 35.77,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 4.99,
+      "eps_5yr_ago": 4.61,
+      "eps_cagr_5y": 1.6,
+      "debt_to_equity": 0.34,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 63.3,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 4.7,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 7.96,
+          "grade": "warn"
+        },
+        {
+          "metric": "毛利率",
+          "value": 35.77,
+          "grade": "ok"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.34,
+          "grade": "pass"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "法規壁壘 + 規模",
+        "moat_desc": "電信業牌照壁壘；固網基礎設施壟斷",
+        "moat_width": "narrow"
+      },
+      "exit_conditions": "5G 競爭加劇導致 ARPU 持續下滑",
+      "news": {
+        "items": [
+          {
+            "title": "最強權值股出爐！中華電信跌幅不到1% 領頭電信股逆勢抗跌 - Yahoo股市",
+            "date": "Sun, 08 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "【12:54 即時新聞】中華電(2412)股價小幅回落至136元，避險資金題材續在＋多頭均線結構與法人買盤仍偏多 - CMoney投資網誌",
+            "date": "Mon, 09 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "房貸800萬想全押中華電⋯他要利率2.6％以上+穩定不賠！網輸不起就別賭 - 聯合新聞網",
+            "date": "Tue, 16 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "中華電、遠傳 股息大方配 - Yahoo股市",
+            "date": "Thu, 26 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "【即時新聞】最新大豐電子公司大大寬頻擬興櫃，中華電持股8%成第二大股東 - CMoney投資網誌",
+            "date": "Wed, 14 Jan 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 19.86,
+      "roe_latest": 12.81,
+      "roe_years": 4,
+      "net_margin_avg": 4.63,
+      "net_margin_latest": 2.69,
+      "gross_margin_avg": 22.47,
+      "eps_latest": 13.24,
+      "debt_to_equity": 0.82,
+      "current_ratio": 0.79,
+      "pe_ratio": 22.99,
+      "forward_pe": 15.11,
+      "market_cap_b": 276.2,
+      "dividend_yield": 290.0,
+      "high_52w": 595.63,
+      "low_52w": 234.6,
+      "current_price": 304.33,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 16.07,
+      "buffett_score": 63.0,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 19.86,
+          "grade": "ok"
+        },
+        {
+          "metric": "淨利率",
+          "value": 4.63,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 22.47,
+          "grade": "warn"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.82,
+          "grade": "ok"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 22.99,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "UnitedHealth Stock Rises on Raymond James Upgrade - TradingView",
+            "date": "Wed, 01 Apr 2026 16:03:10 GMT"
+          },
+          {
+            "title": "《業績》聯合健康(UNH.US)預計今年收入將下跌 股價盤前下挫16% - AASTOCKS.com",
+            "date": "Tue, 27 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "UNH股票法律不確定性接近和解——法院程序將2026年10月定為關鍵事件 - Bitget",
+            "date": "Thu, 02 Apr 2026 08:20:14 GMT"
+          },
+          {
+            "title": "聯合健康(UNH.US)“斷臂求生”中：預測2026年收入將驚現30多年來首降，美國會員數量猛降300萬作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Tue, 27 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "巴菲特選的「這一股」股價重挫25％！能否以低於波克夏成本撿便宜？ - news.cnyes.com",
+            "date": "Mon, 09 Feb 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "BRK-B",
+      "name": "Berkshire Hathaway Inc. New",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 8.84,
+      "roe_latest": 9.33,
+      "roe_years": 4,
+      "net_margin_avg": 12.37,
+      "net_margin_latest": 16.31,
+      "eps_latest": 31.05,
+      "debt_to_equity": 0.19,
+      "current_ratio": 7.07,
+      "pe_ratio": 15.46,
+      "forward_pe": 22.06,
+      "market_cap_b": 1035.1,
+      "high_52w": 542.07,
+      "low_52w": 455.19,
+      "current_price": 479.9,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 25.04,
+      "buffett_score": 62.0,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 8.84,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 12.37,
+          "grade": "ok"
+        },
+        {
+          "metric": "毛利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.19,
+          "grade": "pass"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 15.46,
+          "grade": "ok"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "波克夏重挫近5% 阿貝爾股東信態度審慎 - AASTOCKS.com",
+            "date": "Mon, 02 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "Warren Buffett bought $17B in US T-bills: A bad omen for Bitcoin price? - TradingView",
+            "date": "Wed, 01 Apr 2026 17:49:18 GMT"
+          },
+          {
+            "title": "【00:53 即時新聞】Berkshire Hathaway(BRK.B) 早盤挫逾5%／上季營運獲利大減、保險業務拖累股價 - CMoney投資網誌",
+            "date": "Tue, 03 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "「股神」巴菲特：仍參與巴郡(BRK.B)投資決策近期有小規模新買入US Stocks - Global News Content - AASTOCKS.com",
+            "date": "Tue, 31 Mar 2026 12:46:00 GMT"
+          },
+          {
+            "title": "【即時新聞】巴菲特卸任前最後一役押注白銀？13F報告恐揭曉股神千億現金動向 - CMoney投資網誌",
+            "date": "Thu, 15 Jan 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+      }
+    },
+    {
+      "stock_id": "2327",
+      "name": "國巨",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 11.29,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 9.86,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 36.52,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 26.9,
+      "eps_5yr_ago": 46.5,
+      "eps_cagr_5y": -10.37,
+      "debt_to_equity": 1.25,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 61.1,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 11.29,
+          "grade": "warn"
+        },
+        {
+          "metric": "淨利率",
+          "value": 9.86,
+          "grade": "warn"
+        },
+        {
+          "metric": "毛利率",
+          "value": 36.52,
+          "grade": "ok"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.25,
+          "grade": "warn"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "被動元件族群三月營收出爐 國巨領漲、通路商同步回溫｜股市話題｜豐雲學堂 2026 年 04 月 - sinotrade.com.tw",
+            "date": "Thu, 09 Apr 2026 08:00:18 GMT"
+          },
+          {
+            "title": "被動元件回神開噴！國巨營收創高領軍「這檔4天悍漲40%」 九豪、蜜望實4檔攻頂 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 10:15:00 GMT"
+          },
+          {
+            "title": "抱過清明一張賺4.6萬元...國巨4天強漲18%重返290元大關 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 02:01:50 GMT"
+          },
+          {
+            "title": "2327 國巨* - 🔷 260410 盤後程式選股- 股市爆料同學會 - CMoney",
+            "date": "Thu, 09 Apr 2026 19:35:18 GMT"
+          },
+          {
+            "title": "期貨商論壇／國巨期 擁 AI 題材 - 聯合新聞網",
+            "date": "Thu, 09 Apr 2026 22:44:07 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "COST",
+      "name": "Costco Wholesale Corporation",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 28.09,
+      "roe_latest": 27.77,
+      "roe_years": 4,
+      "net_margin_avg": 2.75,
+      "net_margin_latest": 2.94,
+      "gross_margin_avg": 12.47,
+      "eps_latest": 19.27,
+      "debt_to_equity": 0.6,
+      "current_ratio": 1.06,
+      "pe_ratio": 51.81,
+      "forward_pe": 44.44,
+      "market_cap_b": 443.2,
+      "dividend_yield": 52.0,
+      "high_52w": 1067.08,
+      "low_52w": 844.06,
+      "current_price": 998.47,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 7.84,
+      "buffett_score": 60.0,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 28.09,
+          "grade": "pass"
+        },
+        {
+          "metric": "淨利率",
+          "value": 2.75,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 12.47,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.6,
+          "grade": "ok"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 51.81,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "Top Analyst Resets UnitedHealth Stock Price Target - TradingView",
+            "date": "Thu, 09 Apr 2026 13:36:09 GMT"
+          },
+          {
+            "title": "Nvidia Earnings to Include Cost of Stock-Based Pay. That's Bad News for Broadcom, AMD. -- Barrons.com - 富途牛牛",
+            "date": "Tue, 03 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "IPO- Company Information - etnet 經濟通",
+            "date": "Tue, 30 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "IPO- Company Information - etnet 經濟通",
+            "date": "Fri, 09 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "IPO- Company Information - etnet 經濟通",
+            "date": "Fri, 05 Dec 2025 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "WMT",
+      "name": "Walmart Inc.",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 19.26,
+      "roe_latest": 21.98,
+      "roe_years": 4,
+      "net_margin_avg": 2.56,
+      "net_margin_latest": 3.07,
+      "gross_margin_avg": 24.57,
+      "eps_latest": 2.73,
+      "debt_to_equity": 0.64,
+      "current_ratio": 0.79,
+      "pe_ratio": 46.44,
+      "forward_pe": 38.59,
+      "market_cap_b": 1010.7,
+      "dividend_yield": 78.0,
+      "high_52w": 134.69,
+      "low_52w": 90.61,
+      "current_price": 126.77,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 14.92,
+      "buffett_score": 59.0,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 19.26,
+          "grade": "ok"
+        },
+        {
+          "metric": "淨利率",
+          "value": 2.56,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 24.57,
+          "grade": "warn"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.64,
+          "grade": "ok"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 46.44,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "Dow Drops Nearly 200 Points On Losses In Shares Of Apple, Walmart - 富途牛牛",
+            "date": "Tue, 07 Apr 2026 16:49:00 GMT"
+          },
+          {
+            "title": "沃爾瑪今遷往那斯達克上市 為什麼突然離開掛牌逾50年的紐交所？ - AASTOCKS.com",
+            "date": "Tue, 16 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "沃爾瑪股價在2026年飆升20%：投資者應該在財報發布前買入嗎？ - MEXC",
+            "date": "Mon, 16 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "Walmart's Largest Shareholder Dumps $220 Million in Shares - TradingView",
+            "date": "Mon, 02 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "沃爾瑪(WMT.US)聯手谷歌(GOOGL.US)推出AI購物，共推“對話式電商” 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Mon, 12 Jan 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "MCD",
+      "name": "McDonald's Corporation",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": -244.46,
+      "roe_latest": -478.38,
+      "roe_years": 4,
+      "net_margin_avg": 30.86,
+      "net_margin_latest": 31.85,
+      "gross_margin_avg": 57.06,
+      "eps_latest": 11.95,
+      "current_ratio": 0.95,
+      "pe_ratio": 25.58,
+      "forward_pe": 21.28,
+      "market_cap_b": 217.3,
+      "dividend_yield": 243.0,
+      "high_52w": 341.75,
+      "low_52w": 283.47,
+      "current_price": 305.68,
+      "fcf_positive_years": 4,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 7.19,
+      "buffett_score": 59.0,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": -244.46,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 30.86,
+          "grade": "pass"
+        },
+        {
+          "metric": "毛利率",
+          "value": 57.06,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "4/4",
+          "grade": "pass"
+        },
+        {
+          "metric": "P/E",
+          "value": 25.58,
+          "grade": "warn"
+        },
+        {
+          "metric": "FCF",
+          "value": "4/4",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "McDonald's(MCD.US) Officer Sells US$17.47 Million in Common Stock - 富途牛牛",
+            "date": "Tue, 17 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "超值套餐重塑性價比優勢，麥當勞(MCD.US)四季度美國營收增速創兩年新高 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Thu, 12 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "Super Micro, AMD, Arista, Humana, Novo Nordisk, McDonald's: Biggest Stock Movers - Moomoo",
+            "date": "Wed, 05 Nov 2025 08:00:00 GMT"
+          },
+          {
+            "title": "麥當勞(MCD.US)與Krispy Kreme(DNUT.US)因成本終止合作 - AASTOCKS.com",
+            "date": "Tue, 24 Jun 2025 07:00:00 GMT"
+          },
+          {
+            "title": "麥當勞因減肥藥當道遭降評 股價下跌 - news.cnyes.com",
+            "date": "Tue, 10 Jun 2025 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+      }
+    },
+    {
+      "stock_id": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 13.21,
+      "roe_latest": 18.89,
+      "roe_years": 4,
+      "net_margin_avg": 6.22,
+      "net_margin_latest": 10.83,
+      "gross_margin_avg": 47.48,
+      "eps_latest": 7.18,
+      "debt_to_equity": 0.43,
+      "current_ratio": 1.05,
+      "pe_ratio": 33.2,
+      "forward_pe": 25.38,
+      "market_cap_b": 2563.6,
+      "high_52w": 258.6,
+      "low_52w": 165.29,
+      "current_price": 238.38,
+      "fcf_positive_years": 3,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 7.7,
+      "buffett_score": 58.0,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 13.21,
+          "grade": "warn"
+        },
+        {
+          "metric": "淨利率",
+          "value": 6.22,
+          "grade": "warn"
+        },
+        {
+          "metric": "毛利率",
+          "value": 47.48,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.43,
+          "grade": "pass"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "3/4",
+          "grade": "ok"
+        },
+        {
+          "metric": "P/E",
+          "value": 33.2,
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF",
+          "value": "3/4",
+          "grade": "ok"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "Amazon (AMZN) Stock Trades Up, Here Is Why - TradingView",
+            "date": "Thu, 09 Apr 2026 19:01:02 GMT"
+          },
+          {
+            "title": "Amazon Stock Faces Eight-Day Losing Streak -- WSJ - 富途牛牛",
+            "date": "Thu, 12 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "亞馬遜 2026 年股價可漲 50%？AWS 與 AI 是關鍵 - TechNews 科技新報",
+            "date": "Mon, 05 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "科技巨頭再進化！Amazon靠AI與雲端逆轉戰局，廣告攻勢蓄勢待發 - CMoney投資網誌",
+            "date": "Sun, 04 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "1.3萬億美元的“AI幻滅”：微軟(MSFT.US)、亞馬遜(AMZN.US)領跌，投資者不再爲願景買單作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Tue, 17 Feb 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "9910",
+      "name": "豐泰",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 14.81,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 3.93,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 22.96,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 5.1,
+      "eps_5yr_ago": 5.15,
+      "eps_cagr_5y": -0.19,
+      "debt_to_equity": 0.89,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 57.8,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 14.81,
+          "grade": "warn"
+        },
+        {
+          "metric": "淨利率",
+          "value": 3.93,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 22.96,
+          "grade": "warn"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.89,
+          "grade": "ok"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "豐泰(9910)- - 券商分點進出買賣統計 - 股市爆料同學會 - CMoney",
+            "date": "Wed, 08 Apr 2026 10:38:19 GMT"
+          },
+          {
+            "title": "豐泰緊貼Nike供應鏈轉型 高階製鞋優勢提振自動化布局 - Yahoo股市",
+            "date": "Mon, 16 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "【11:57 即時新聞】豐泰(9910)小漲守穩9字頭，MSCI調整賣壓消化中＋中長期殖利率與技術支撐成亮點 - CMoney投資網誌",
+            "date": "Wed, 04 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "寶成、豐泰坐等明年世足賽反彈？專家：籌碼面穩定、千張大戶跌深卡位| 股市要聞| 股市 - 聯合新聞網",
+            "date": "Wed, 24 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "製鞋廠自結去年獲利 鈺齊、志強及豐泰都賺回逾半個股本 - news.cnyes.com",
+            "date": "Mon, 26 Jan 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "2454",
+      "name": "聯發科",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 4.03,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 4.46,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 43.65,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 66.17,
+      "eps_5yr_ago": 70.56,
+      "eps_cagr_5y": -1.28,
+      "debt_to_equity": 0.82,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 55.6,
+      "grade": "B",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 4.03,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 4.46,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 43.65,
+          "grade": "pass"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.82,
+          "grade": "ok"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {
+        "moat_type": "技術優勢",
+        "moat_desc": "IC 設計龍頭；5G/AI 晶片技術領先",
+        "moat_width": "narrow"
+      },
+      "exit_conditions": "高通/三星搶走市佔；手機晶片 ASP 下滑",
+      "news": {
+        "items": [
+          {
+            "title": "AI族群一片慘綠！美股全倒…聯發科跌近半根 資金避險情緒升溫 - Yahoo股市",
+            "date": "Mon, 30 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "聯發科股價重挫！股民「慘虧15萬」崩潰怨活生生接刀 - 聯合新聞網",
+            "date": "Wed, 12 Nov 2025 08:00:00 GMT"
+          },
+          {
+            "title": "【01/23 產業即時新聞】快速充電族群股價異動，聯發科強勢領漲獨撐大局！ - CMoney投資網誌",
+            "date": "Fri, 23 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "外資降評、本土喊上1800元！聯發科股價進入決戰區間 - news.cnyes.com",
+            "date": "Sat, 08 Nov 2025 08:00:00 GMT"
+          },
+          {
+            "title": "聯發科(2454)股價鎖漲停1630元！台股衝破30000點，現在上車還來得及嗎？資金流向一次看| 林家群| 全解析 - 風傳媒",
+            "date": "Fri, 23 Jan 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+      }
+    },
+    {
+      "stock_id": "1303",
+      "name": "南亞",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 5.4,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 6.48,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 12.92,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 0.57,
+      "eps_5yr_ago": 10.26,
+      "eps_cagr_5y": -43.9,
+      "debt_to_equity": 0.64,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 50.0,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 5.4,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 6.48,
+          "grade": "warn"
+        },
+        {
+          "metric": "毛利率",
+          "value": 12.92,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.64,
+          "grade": "ok"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "2026理柏台灣基金獎》統一投信 蟬聯股票團體大獎 - Yahoo股市",
+            "date": "Thu, 09 Apr 2026 20:10:00 GMT"
+          },
+          {
+            "title": "【10:22 即時新聞】南亞(1303)股價勁揚逾5%，受惠CCL調漲與AI電子材料題材帶動、短線挑戰前波套牢區 - CMoney投資網誌",
+            "date": "Mon, 30 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "【本週新聞熱門股TOP10】南亞科創高領軍！南亞挾雙題材大漲，被動元件能否接棒成新嬌點?｜1204 - sinotrade.com.tw",
+            "date": "Sun, 07 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "焦點股》南亞：雙利多 股價大漲 - 自由財經",
+            "date": "Mon, 16 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "統一投信二度獲理柏基金獎股票團體大獎 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 07:12:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "2308",
+      "name": "台達電",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 6.49,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 3.99,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 29.18,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 23.14,
+      "eps_5yr_ago": 10.31,
+      "eps_cagr_5y": 17.55,
+      "debt_to_equity": 0.97,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 48.9,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 6.49,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 3.99,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 29.18,
+          "grade": "warn"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.97,
+          "grade": "ok"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "第二座神山在崛起？台達電市值衝破4.5兆元大關 成台股史上唯二 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 03:14:05 GMT"
+          },
+          {
+            "title": "台達電(2308)股價1700元能買？最新目標價曝光！台股老手：就算美伊談判破裂，也能大膽作多的3檔口袋名單 - 今周刊",
+            "date": "Fri, 10 Apr 2026 02:20:00 GMT"
+          },
+          {
+            "title": "股票一直漲更焦慮？他靠「1策略」台積電小賺卻卡關 網揭關鍵：賣了就輸了 - Yahoo股市",
+            "date": "Sat, 11 Apr 2026 06:15:44 GMT"
+          },
+          {
+            "title": "台積電、台達電 權證認購夯 - 聯合新聞網",
+            "date": "Tue, 07 Apr 2026 17:19:04 GMT"
+          },
+          {
+            "title": "美伊休戰台股暴漲1213點！台達電飆8%、日月光漲6% 台積電噴80元至1940元 - Yahoo股市",
+            "date": "Wed, 08 Apr 2026 07:48:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "1301",
+      "name": "台塑",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 5.66,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 9.21,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 13.3,
+      "eps_positive_years": 9,
+      "eps_total_years": 11,
+      "eps_latest": -1.57,
+      "eps_5yr_ago": 11.21,
+      "eps_cagr_5y": NaN,
+      "debt_to_equity": 0.53,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 44.4,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 5.66,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 9.21,
+          "grade": "warn"
+        },
+        {
+          "metric": "毛利率",
+          "value": 13.3,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.53,
+          "grade": "ok"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "9/11",
+          "grade": "ok"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "台塑四寶第一季全員獲利 分析師示警1關鍵轉保守 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 08:51:26 GMT"
+          },
+          {
+            "title": "台塑四寶利空出盡？4檔股價大噴發市場預期首季轉虧為盈 「這檔」長線卻喊壓力大 - Yahoo股市",
+            "date": "Tue, 07 Apr 2026 06:35:56 GMT"
+          },
+          {
+            "title": "法人喊買急升目標價！投信變心砍倉「台塑四寶這檔」4千張 減碼勤誠入手8億 - Yahoo股市",
+            "date": "Tue, 07 Apr 2026 11:30:00 GMT"
+          },
+          {
+            "title": "台塑集團全喊卡了！台化預計4月跟進「不可抗力」 法人看好短線動能強烈 - Yahoo股市",
+            "date": "Sun, 29 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "3利多撐腰！國家隊狂敲「台塑四寶這檔」上千張 砸26億補血台積電、面板雙虎也受寵 - Yahoo股市",
+            "date": "Thu, 26 Mar 2026 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "1216",
+      "name": "統一",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 8.45,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 3.5,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 33.19,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 3.46,
+      "eps_5yr_ago": 3.51,
+      "eps_cagr_5y": -0.29,
+      "debt_to_equity": 2.5,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 41.1,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 8.45,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 3.5,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 33.19,
+          "grade": "ok"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 2.5,
+          "grade": "fail"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "統一投信二度獲理柏基金獎股票團體大獎 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 07:12:00 GMT"
+          },
+          {
+            "title": "2026理柏台灣基金獎》統一投信蟬聯股票團體大獎- 產業特刊- 工商時報 - 中時新聞網",
+            "date": "Thu, 09 Apr 2026 20:10:00 GMT"
+          },
+          {
+            "title": "統一投信主動式股票型ETF 及基金規模突破2,000億元 - 聯合新聞網",
+            "date": "Wed, 24 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "統一投信主動式股票型ETF及基金規模突破2000億元 - 新聞 - MoneyDJ理財網",
+            "date": "Wed, 24 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "台股多頭行情助陣　統一投信主動式股票型ETF、基金規模突破2千億元 - ETtoday財經雲",
+            "date": "Wed, 24 Dec 2025 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "3711",
+      "name": "日月光投控",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 2.55,
+      "roe_latest": 0.0,
+      "roe_years": 8,
+      "net_margin_avg": 1.44,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 17.2,
+      "eps_positive_years": 8,
+      "eps_total_years": 8,
+      "eps_latest": 9.37,
+      "eps_5yr_ago": 14.86,
+      "eps_cagr_5y": -8.81,
+      "debt_to_equity": 1.38,
+      "ocf_positive_years": 9,
+      "ocf_total_years": 9,
+      "buffett_score": 38.9,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 2.55,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 1.44,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 17.2,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.38,
+          "grade": "warn"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "8/8",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "9/9",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "日月光投控(3711) 個股概覽 | 個股 - 股市 - CMoney",
+            "date": "Sat, 11 Apr 2026 09:41:56 GMT"
+          },
+          {
+            "title": "日月光吳田玉：CPO不是股票炒作 今年開始量產 - 鏡新聞",
+            "date": "Fri, 10 Apr 2026 03:38:00 GMT"
+          },
+          {
+            "title": "【11:14 即時新聞】日月光投控(3711)攻上漲停361元，AI封測評等與目標價同步上修＋前高附近短空回補力道轉強 - CMoney投資網誌",
+            "date": "Wed, 01 Apr 2026 07:00:00 GMT"
+          },
+          {
+            "title": "日月光投控、東元 法人叫好 - Yahoo股市",
+            "date": "Thu, 06 Nov 2025 08:00:00 GMT"
+          },
+          {
+            "title": "【12:56 即時新聞】日月光投控(3711)大漲8.4%至355元，受惠全球風險情緒緩解＋技術面由低檔轉強吸引買盤回補 - CMoney投資網誌",
+            "date": "Thu, 05 Mar 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      }
+    },
+    {
+      "stock_id": "8454",
+      "name": "富邦媒",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 9.57,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 1.63,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 10.22,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 11.58,
+      "eps_5yr_ago": 19.3,
+      "eps_cagr_5y": -9.71,
+      "debt_to_equity": 1.76,
+      "ocf_positive_years": 11,
+      "ocf_total_years": 11,
+      "buffett_score": 33.3,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 9.57,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 1.63,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 10.22,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.76,
+          "grade": "fail"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "11/11",
+          "grade": "pass"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "富邦媒 年營收估再破千億元 - Yahoo股市",
+            "date": "Wed, 10 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "富邦媒 搶食咖啡商機 - 聯合新聞網",
+            "date": "Tue, 24 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "momo富邦媒去年賺一股本 擬配息10元殖利率達5% - Yahoo股市",
+            "date": "Wed, 04 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "【11:27 即時新聞】富邦媒(8454)盤中強彈逾6%，Switch 2熱銷帶動短線反彈，主力籌碼迴流但技術面仍偏弱 - CMoney投資網誌",
+            "date": "Wed, 23 Jul 2025 07:00:00 GMT"
+          },
+          {
+            "title": "富邦媒吸客 拚數位行銷 - 聯合新聞網",
+            "date": "Sat, 18 Oct 2025 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "2317",
+      "name": "鴻海",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 5.3,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 1.33,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 6.33,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 13.6,
+      "eps_5yr_ago": 10.05,
+      "eps_cagr_5y": 6.24,
+      "debt_to_equity": 1.59,
+      "ocf_positive_years": 9,
+      "ocf_total_years": 11,
+      "buffett_score": 27.8,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 5.3,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 1.33,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 6.33,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.59,
+          "grade": "fail"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "9/11",
+          "grade": "ok"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "鴻海「最強3月營收」市場為何不買單？今翻黑苦守190元 分析師曝關鍵：將是底部 - Yahoo股市",
+            "date": "Tue, 07 Apr 2026 02:00:48 GMT"
+          },
+          {
+            "title": "鴻海股價190元弱爆了！散戶可買？分析師解答曝「外資成本價」 - Yahoo股市",
+            "date": "Tue, 07 Apr 2026 05:08:47 GMT"
+          },
+          {
+            "title": "Mantle推股票代幣化交易平台xStocks 啟動24/7碎股投資 - Yahoo股市",
+            "date": "Sat, 11 Apr 2026 05:50:17 GMT"
+          },
+          {
+            "title": "鴻海為何一直跌？股價253.5→192元頻破底失守年線，明明營收很好…達人拆解弱勢原因：2周內是關鍵 - 今周刊",
+            "date": "Wed, 08 Apr 2026 07:00:00 GMT"
+          },
+          {
+            "title": "鴻海還有機會死貓跳？資深分析師曝最好買進時機在「這價位」 1原因不建議全面出清 - Yahoo股市",
+            "date": "Sun, 29 Mar 2026 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "2882",
+      "name": "國泰金",
+      "market": "TW",
+      "currency": "TWD",
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 7.06,
+      "eps_5yr_ago": 10.34,
+      "eps_cagr_5y": -7.35,
+      "debt_to_equity": 14.35,
+      "ocf_positive_years": 9,
+      "ocf_total_years": 11,
+      "buffett_score": 27.8,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "淨利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "毛利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 14.35,
+          "grade": "fail"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "9/11",
+          "grade": "ok"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "市場為何偏愛中信金？艾蜜莉分析：本業穩健＋波動低，今年股利有望續破2元 - Smart自學網",
+            "date": "Thu, 09 Apr 2026 03:18:24 GMT"
+          },
+          {
+            "title": "《台北股市》5金控2月獲利曝光！ 國泰金拿三冠 國票金累計成長王 - Yahoo股市",
+            "date": "Wed, 11 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "2891 中信金- 金控新聞- 股市爆料同學會 - CMoney",
+            "date": "Wed, 14 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "國泰金1月大賺146億、EPS 0.99元 奪金控業獲利王 | 陳怡慈 | 新聞 - 風傳媒",
+            "date": "Fri, 13 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "國泰金調查：景氣/消費意願/股市樂觀指數齊揚-新聞內容-基金 - MoneyDJ理財網",
+            "date": "Tue, 20 Jan 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+      }
+    },
+    {
+      "stock_id": "2884",
+      "name": "玉山金",
+      "market": "TW",
+      "currency": "TWD",
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 2.12,
+      "eps_5yr_ago": 1.54,
+      "eps_cagr_5y": 6.6,
+      "debt_to_equity": 15.54,
+      "ocf_positive_years": 8,
+      "ocf_total_years": 11,
+      "buffett_score": 27.8,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "淨利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "毛利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 15.54,
+          "grade": "fail"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "8/11",
+          "grade": "ok"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "玉山金配息1.4元股價卻跌？不敗教主陳重銘揭密：這原因讓本益比校正回歸| 台股雜談| 股市 - 聯合新聞網",
+            "date": "Fri, 20 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "元大金、玉山金股利雙創新高 - Yahoo股市",
+            "date": "Fri, 13 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "台股熱爆證券金雞發威 永豐金、玉山金前2月獲利雙創新高 - news.cnyes.com",
+            "date": "Sat, 07 Mar 2026 08:00:00 GMT"
+          },
+          {
+            "title": "玉山金(2884)發1.4元，股東傷心零配股...一鍵出清換股元大金？股海老牛抱6年，3個不賣股的理由 - 今周刊",
+            "date": "Mon, 16 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "高股息ETF納玉山金，是長期利多還是短線題材？專家曝玉山金關鍵的「3大亮點」 - Smart自學網",
+            "date": "Mon, 16 Feb 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期新聞正面 (4 個正面信號)"
+      }
+    },
+    {
+      "stock_id": "2357",
+      "name": "華碩",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 3.64,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 1.52,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 15.64,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 59.99,
+      "eps_5yr_ago": 59.98,
+      "eps_cagr_5y": 0.0,
+      "debt_to_equity": 1.12,
+      "ocf_positive_years": 6,
+      "ocf_total_years": 11,
+      "buffett_score": 27.8,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 3.64,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 1.52,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 15.64,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 1.12,
+          "grade": "warn"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "6/11",
+          "grade": "warn"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "輝達傳調整顯卡供貨...華碩股價慘破底 技嘉微星震盪翻黑 分析師示警 - Yahoo股市",
+            "date": "Wed, 14 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "華碩還有上漲空間？短線股價暴漲近兩成法說會揭開最大利多- 證券 - 工商時報",
+            "date": "Sat, 14 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "【10:05 即時新聞】華碩(2357)亮燈漲停584元，AI伺服器財報爆發帶動多方追價＋均線多頭排列配合法人連日買超 - CMoney投資網誌",
+            "date": "Wed, 11 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "00878再度把華碩（2357）納入成分股！楚狂人：跌30％反見10倍本益比甜頭| 存股族愛ETF | 股市 - 聯合新聞網",
+            "date": "Fri, 09 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "〈熱門股〉華碩法說AI伺服器展望樂觀、去年大賺6個股本 股價周漲逾1成 - news.cnyes.com",
+            "date": "Sat, 14 Mar 2026 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "2207",
+      "name": "和泰車",
+      "market": "TW",
+      "currency": "TWD",
+      "roe_avg": 9.69,
+      "roe_latest": 0.0,
+      "roe_years": 11,
+      "net_margin_avg": 2.97,
+      "net_margin_latest": 0.0,
+      "gross_margin_avg": 2.41,
+      "eps_positive_years": 10,
+      "eps_total_years": 11,
+      "eps_latest": 33.93,
+      "eps_5yr_ago": 29.68,
+      "eps_cagr_5y": 2.71,
+      "debt_to_equity": 2.88,
+      "ocf_positive_years": 8,
+      "ocf_total_years": 11,
+      "buffett_score": 27.8,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 9.69,
+          "grade": "fail"
+        },
+        {
+          "metric": "淨利率",
+          "value": 2.97,
+          "grade": "fail"
+        },
+        {
+          "metric": "毛利率",
+          "value": 2.41,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 2.88,
+          "grade": "fail"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "10/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "8/11",
+          "grade": "ok"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "炒作和潤股票獲利近千萬 和泰汽車前董事蘇紘明起訴 - 中時新聞網",
+            "date": "Fri, 10 Apr 2026 06:31:56 GMT"
+          },
+          {
+            "title": "和泰汽車前董事蘇紘明涉操縱和潤股價起訴 繳回犯罪所得945萬 | 聯合新聞網 - LINE TODAY",
+            "date": "Fri, 10 Apr 2026 08:13:09 GMT"
+          },
+          {
+            "title": "炒作和潤股票削945萬！和泰汽車前董事蘇紘明認罪繳回所得遭起訴 - ETtoday新聞雲",
+            "date": "Fri, 10 Apr 2026 09:13:00 GMT"
+          },
+          {
+            "title": "和泰車「砸百億攻日」股民不愛？今不漲反跌挫逾2% - Yahoo股市",
+            "date": "Thu, 18 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "【即時新聞】最新宣布！和泰車2025年EPS達33.93元，擬配息20元殖利率3.9％ - CMoney",
+            "date": "Thu, 12 Mar 2026 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "2881",
+      "name": "富邦金",
+      "market": "TW",
+      "currency": "TWD",
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 8.37,
+      "eps_5yr_ago": 12.49,
+      "eps_cagr_5y": -7.69,
+      "debt_to_equity": 11.9,
+      "ocf_positive_years": 6,
+      "ocf_total_years": 11,
+      "buffett_score": 22.2,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "淨利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "毛利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 11.9,
+          "grade": "fail"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "6/11",
+          "grade": "warn"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "富邦金2月大賺205億元、創歷史同期新高 前二月 EPS 2.19元 - 經濟日報",
+            "date": "Thu, 09 Apr 2026 09:00:00 GMT"
+          },
+          {
+            "title": "富邦金法說》富邦人壽股海掏金2025年賺逾1,700億元 投報率近30％ - Yahoo股市",
+            "date": "Mon, 16 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "富邦金2月狂賺205.7億元創史上同期新高 奪金控獲利三冠王 - news.cnyes.com",
+            "date": "Fri, 13 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "IFRS 17衝擊低預期！富邦金估配4元現金、衝100元有望？4大投顧最新目標價出爐- 上市櫃 - 旺得富理財網",
+            "date": "Wed, 18 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "資金翹翹板難改！富邦金老董喊話抱屈股價依舊不漲 - Yahoo股市",
+            "date": "Sun, 25 Jan 2026 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期新聞正面 (2 個正面信號)"
+      }
+    },
+    {
+      "stock_id": "2886",
+      "name": "兆豐金",
+      "market": "TW",
+      "currency": "TWD",
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 2.36,
+      "eps_5yr_ago": 1.89,
+      "eps_cagr_5y": 4.54,
+      "debt_to_equity": 12.03,
+      "ocf_positive_years": 6,
+      "ocf_total_years": 11,
+      "buffett_score": 22.2,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "淨利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "毛利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 12.03,
+          "grade": "fail"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "6/11",
+          "grade": "warn"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "金控配息風向球！兆豐金獲利連年刷新紀錄專家：現金股利1.7元具高度穩定性| 股市要聞| 股市 - 聯合新聞網",
+            "date": "Mon, 16 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "公股四金二銀前10月合賺1205億元年增6% 兆豐金飛躍300億元大關 - Yahoo股市",
+            "date": "Sun, 09 Nov 2025 08:00:00 GMT"
+          },
+          {
+            "title": "股市熱絡助攻 兆豐金前2月賺近70億EPS 0.47元 華南金賺51億年增38.8%寫同期高 - news.cnyes.com",
+            "date": "Fri, 13 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "【13:04 即時新聞】兆豐金(2886)盤中反彈，短線籌碼偏空但法人買盤迴流，金融存股人氣穩居前段班 - CMoney投資網誌",
+            "date": "Thu, 05 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "2886 兆豐金- 新聞：打伊朗其實是陰謀？ - 股市爆料同學會 - CMoney",
+            "date": "Sun, 05 Apr 2026 07:31:02 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "2891",
+      "name": "中信金",
+      "market": "TW",
+      "currency": "TWD",
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 4.08,
+      "eps_5yr_ago": 2.73,
+      "eps_cagr_5y": 8.37,
+      "debt_to_equity": 15.99,
+      "ocf_positive_years": 5,
+      "ocf_total_years": 11,
+      "buffett_score": 22.2,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "淨利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "毛利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 15.99,
+          "grade": "fail"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "5/11",
+          "grade": "warn"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "市場為何偏愛中信金？艾蜜莉分析：本業穩健＋波動低，今年股利有望續破2元 - Smart自學網",
+            "date": "Thu, 09 Apr 2026 03:18:24 GMT"
+          },
+          {
+            "title": "2891 中信金- 金控新聞- 股市爆料同學會 - CMoney",
+            "date": "Wed, 14 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "中信金（2891）明天股價50元？「棄電轉金」行情來了嗎…專家：不是這樣喔！ - 聯合新聞網",
+            "date": "Wed, 17 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "中信金重訊公告通過轉投資案 傳下聘買三商壽待點頭 - Yahoo股市",
+            "date": "Thu, 23 Oct 2025 07:00:00 GMT"
+          },
+          {
+            "title": "中信金（2891）為何一路創高？大多數散戶早就被洗到場外…剩ETF在默默掃貨| 台股雜談| 股市 - 聯合新聞網",
+            "date": "Fri, 26 Dec 2025 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    },
+    {
+      "stock_id": "5880",
+      "name": "合庫金",
+      "market": "TW",
+      "currency": "TWD",
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 1.36,
+      "eps_5yr_ago": 1.51,
+      "eps_cagr_5y": -2.07,
+      "debt_to_equity": 17.87,
+      "ocf_positive_years": 5,
+      "ocf_total_years": 11,
+      "buffett_score": 22.2,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "淨利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "毛利率",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 17.87,
+          "grade": "fail"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": "5/11",
+          "grade": "warn"
+        }
+      ],
+      "moat": {},
+      "exit_conditions": "",
+      "news": {
+        "items": [
+          {
+            "title": "合庫金股利創3年新高 現金加股票共1.05元 - Yahoo股市",
+            "date": "Tue, 24 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "合庫金明年股利發放，現金為主/股票為輔 - 台視全球資訊網",
+            "date": "Mon, 05 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "合庫金法說》股利報佳音：反映經營成果 法人估1.05元、4年來最高 | 陳怡慈 | 新聞 - 風傳媒",
+            "date": "Thu, 19 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "合庫金：今年股利優去年，現金為主- 新聞 - MoneyDJ理財網",
+            "date": "Thu, 19 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "合庫金總座談明年股利配發政策 現金為主、股票為輔 - 聯合新聞網",
+            "date": "Thu, 27 Nov 2025 08:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      }
+    }
+  ]
+}
