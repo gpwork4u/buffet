@@ -357,7 +357,8 @@
 
     <!-- Alerts -->
     <div class="alerts" id="alerts-section" style="display:none;">
-      <h2>News Alerts</h2>
+      <h2>近期需關注的新聞風險</h2>
+      <div style="color:var(--text-muted);font-size:14px;margin-bottom:12px">以下標的偵測到潛在風險信號，建議進一步查證後再做投資決策</div>
       <div id="alerts-list"></div>
     </div>
 
@@ -472,11 +473,15 @@ function render() {
   // Alerts
   if (summary.news_alerts && summary.news_alerts.length > 0) {
     document.getElementById('alerts-section').style.display = 'block';
+    const riskLabel = { red: '重大風險', yellow: '需關注' };
     document.getElementById('alerts-list').innerHTML = summary.news_alerts.map(a => `
       <div class="alert-item">
         <div class="alert-dot ${a.risk_level}"></div>
         <div class="alert-stock">${a.stock_id}</div>
-        <div class="alert-msg">${a.name} — ${a.risk_summary}</div>
+        <div style="flex:1">
+          <div style="font-weight:600">${a.name} <span style="font-size:13px;color:${a.risk_level === 'red' ? 'var(--red)' : 'var(--yellow)'}">${riskLabel[a.risk_level] || ''}</span></div>
+          <div class="alert-msg">${a.risk_summary}</div>
+        </div>
       </div>
     `).join('');
   }
@@ -588,6 +593,22 @@ function showDetail(stockId) {
     <div style="font-size:28px;font-weight:700;margin-bottom:16px">
       ${s.buffett_score} <span style="font-size:14px;color:var(--text-muted)">/ 100</span>
     </div>
+
+    ${s.pick_reason ? `
+    <div style="background:var(--surface2);border-radius:8px;padding:16px;margin-bottom:20px">
+      <div style="font-weight:600;margin-bottom:8px">${s.pick_reason.summary}</div>
+      ${s.pick_reason.strengths?.length ? `
+        <div style="margin-bottom:8px">
+          ${s.pick_reason.strengths.map(r => `<div style="color:var(--green);font-size:14px;padding:2px 0">+ ${r}</div>`).join('')}
+        </div>
+      ` : ''}
+      ${s.pick_reason.risks?.length ? `
+        <div>
+          ${s.pick_reason.risks.map(r => `<div style="color:var(--yellow);font-size:14px;padding:2px 0">- ${r}</div>`).join('')}
+        </div>
+      ` : ''}
+    </div>
+    ` : ''}
 
     <div class="detail-grid">
       <div class="detail-item"><div class="label">ROE (avg)</div><div class="value">${s.roe_avg != null ? s.roe_avg + '%' : 'N/A'}</div></div>
