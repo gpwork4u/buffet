@@ -881,14 +881,22 @@ function showDetail(stockId) {
   // Investor detail panels
   const invPanels = INVESTOR_IDS.map((inv, i) => {
     const is = s.investor_scores?.[inv];
-    const details = is?.details || s.score_details || [];
-    const detailsHtml = details.map(d => {
-      const cls = `metric-${d.grade}`;
-      const icon = { pass: '✓', ok: '○', warn: '△', fail: '✗', nodata: '-' }[d.grade] || '';
-      return `<li><span>${d.metric}</span><span class="${cls}">${d.value != null ? d.value : 'N/A'} ${icon}</span></li>`;
-    }).join('');
+    const details = is?.details;
+    // Only show Buffett fallback for the buffett tab; other investors show nothing on old data
+    const fallback = inv === 'buffett' ? (s.score_details || []) : [];
+    const resolved = details || fallback;
+    let panelContent;
+    if (resolved.length === 0) {
+      panelContent = '<div style="color:var(--text-muted);padding:8px 0">此報告尚無此投資人的評分資料</div>';
+    } else {
+      panelContent = '<ul class="score-detail-list">' + resolved.map(d => {
+        const cls = `metric-${d.grade}`;
+        const icon = { pass: '✓', ok: '○', warn: '△', fail: '✗', nodata: '-' }[d.grade] || '';
+        return `<li><span>${d.metric}</span><span class="${cls}">${d.value != null ? d.value : 'N/A'} ${icon}</span></li>`;
+      }).join('') + '</ul>';
+    }
     return `<div class="inv-detail-panel" data-inv-panel="${inv}" style="${i === 0 ? '' : 'display:none'}">
-      <ul class="score-detail-list">${detailsHtml}</ul>
+      ${panelContent}
     </div>`;
   }).join('');
 
