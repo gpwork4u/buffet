@@ -238,6 +238,58 @@
     .grade-B { background: rgba(34,197,94,0.15); color: var(--grade-b); }
     .grade-C { background: rgba(136,136,136,0.15); color: var(--grade-c); }
 
+    .grade-badge-sm {
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      line-height: 22px;
+      text-align: center;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 11px;
+    }
+
+    .investor-filters {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+    .inv-filter-btn {
+      padding: 4px 12px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: none;
+      color: var(--text-muted);
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .inv-filter-btn:hover { border-color: var(--accent); color: var(--text); }
+    .inv-filter-btn.active { background: rgba(96,165,250,0.15); border-color: var(--accent); color: var(--accent); }
+
+    .horizon-badge {
+      display: inline-block;
+      font-size: 11px;
+      padding: 1px 8px;
+      border-radius: 10px;
+    }
+    .horizon-long { background: rgba(34,197,94,0.15); color: var(--green); }
+    .horizon-short { background: rgba(234,179,8,0.15); color: var(--yellow); }
+
+    .inv-tab {
+      padding: 6px 14px;
+      border: none;
+      background: none;
+      color: var(--text-muted);
+      font-size: 14px;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: all 0.15s;
+    }
+    .inv-tab:hover { color: var(--text); }
+    .inv-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
     .score-bar {
       display: flex;
       align-items: center;
@@ -473,12 +525,15 @@
     <div class="alerts" id="alerts-section" style="display:none;">
       <h2>近期需關注的新聞風險</h2>
       <div style="color:var(--text-muted);font-size:14px;margin-bottom:12px">以下標的偵測到潛在風險信號，建議進一步查證後再做投資決策</div>
+      <div class="investor-filters" id="alert-investor-filters"></div>
       <div id="alerts-list"></div>
     </div>
 
     <!-- Tabs -->
     <div class="tabs" style="flex-wrap:wrap">
       <button class="tab active" data-filter="all">All</button>
+      <button class="tab" data-filter="horizon_long">🔒 長期</button>
+      <button class="tab" data-filter="horizon_short">⚡ 短期</button>
       <button class="tab" data-filter="S">S Grade</button>
       <button class="tab" data-filter="A">A Grade</button>
       <button class="tab" data-filter="TW">Taiwan</button>
@@ -498,14 +553,14 @@
       <table class="stock-table">
         <thead>
           <tr>
-            <th data-sort="grade" data-tip="巴菲特篩選等級：S(85+) A(70+) B(55+) C(<55)">#</th>
             <th data-sort="name" data-tip="公司名稱與代號">Stock</th>
-            <th data-sort="buffett_score" data-tip="巴菲特綜合評分 (0-100)&#10;根據 7 項指標加權計算">Score</th>
-            <th data-sort="roe_avg" class="hide-mobile" data-tip="股東權益報酬率&#10;= 淨利 / 股東權益&#10;巴菲特標準：>= 20%">ROE</th>
-            <th data-sort="net_margin_avg" class="hide-mobile" data-tip="淨利率&#10;= 淨利 / 營收&#10;巴菲特標準：>= 20%">Net Margin</th>
-            <th data-sort="gross_margin_avg" class="hide-mobile" data-tip="毛利率&#10;= (營收-成本) / 營收&#10;巴菲特標準：>= 40%">Gross Margin</th>
-            <th data-sort="debt_to_equity" class="hide-mobile" data-tip="負債權益比&#10;= 總負債 / 股東權益&#10;巴菲特標準：<= 0.5">D/E</th>
-            <th data-sort="pe_ratio" class="hide-mobile" data-tip="本益比&#10;= 股價 / 每股盈餘&#10;巴菲特標準：<= 15">P/E</th>
+            <th data-sort="investor_buffett" data-tip="🏛️ 巴菲特 (長期)&#10;護城河 + 持久競爭優勢 + 合理價格">🏛️</th>
+            <th data-sort="investor_graham" data-tip="🛡️ 葛拉漢 (短期)&#10;安全邊際 + 低估值 + 財務穩健">🛡️</th>
+            <th data-sort="investor_lynch" data-tip="📈 彼得林區 (短期)&#10;PEG 合理的成長股">📈</th>
+            <th data-sort="investor_fisher" data-tip="💎 乎雪 (長期)&#10;高品質成長 + 卓越管理 + 長期持有">💎</th>
+            <th data-sort="roe_avg" class="hide-mobile" data-tip="股東權益報酬率&#10;= 淨利 / 股東權益">ROE</th>
+            <th data-sort="debt_to_equity" class="hide-mobile" data-tip="負債權益比&#10;= 總負債 / 股東權益">D/E</th>
+            <th data-sort="pe_ratio" class="hide-mobile" data-tip="本益比&#10;= 股價 / 每股盈餘">P/E</th>
             <th data-tip="🟢 無風險 🟡 需關注 🔴 重大風險">News</th>
           </tr>
         </thead>
@@ -557,8 +612,24 @@ checkDisclaimer();
 
 let reportData = null;
 let currentFilter = 'all';
-let currentSort = { key: 'buffett_score', desc: true };
+let currentSort = { key: 'investor_buffett', desc: true };
+let currentAlertInvestor = 'all';
 let availableDates = [];
+
+const INVESTOR_IDS = ['buffett', 'graham', 'lynch', 'fisher'];
+const INVESTOR_ICONS = { buffett: '🏛️', graham: '🛡️', lynch: '📈', fisher: '💎' };
+
+function gradeColor(g) {
+  return g === 'S' ? 'var(--grade-s)' : g === 'A' ? 'var(--grade-a)' : g === 'B' ? 'var(--grade-b)' : 'var(--grade-c)';
+}
+
+function getInvScore(s, inv) {
+  return s.investor_scores?.[inv]?.score ?? s.buffett_score ?? 0;
+}
+
+function getInvGrade(s, inv) {
+  return s.investor_scores?.[inv]?.grade ?? s.grade ?? 'C';
+}
 
 async function loadReport(date) {
   try {
@@ -599,11 +670,9 @@ function render() {
 
   const { summary, date, stocks } = reportData;
 
-  // Header
   document.getElementById('report-date').textContent = `Report: ${date}`;
   document.getElementById('report-count').textContent = `${summary.total_screened} stocks screened`;
 
-  // Summary cards
   const grid = document.getElementById('summary-grid');
   grid.innerHTML = [
     { n: summary.total_screened, l: 'Total Screened' },
@@ -618,11 +687,48 @@ function render() {
     </div>
   `).join('');
 
-  // Alerts
-  if (summary.news_alerts && summary.news_alerts.length > 0) {
-    document.getElementById('alerts-section').style.display = 'block';
-    const riskLabel = { red: '重大風險', yellow: '需關注' };
-    document.getElementById('alerts-list').innerHTML = summary.news_alerts.map(a => `
+  // Alert investor filters
+  const profiles = reportData.investor_profiles || {};
+  const filterContainer = document.getElementById('alert-investor-filters');
+  filterContainer.innerHTML = `
+    <button class="inv-filter-btn active" data-alert-inv="all">全部</button>
+    ${INVESTOR_IDS.map(inv => {
+      const p = profiles[inv] || {};
+      return `<button class="inv-filter-btn" data-alert-inv="${inv}">${INVESTOR_ICONS[inv] || ''} ${p.name_zh || inv}</button>`;
+    }).join('')}
+  `;
+  filterContainer.querySelectorAll('.inv-filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterContainer.querySelectorAll('.inv-filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentAlertInvestor = btn.dataset.alertInv;
+      renderAlerts();
+    });
+  });
+
+  renderAlerts();
+  renderTable();
+}
+
+function renderAlerts() {
+  const { summary, stocks } = reportData;
+  if (!summary.news_alerts || summary.news_alerts.length === 0) return;
+
+  document.getElementById('alerts-section').style.display = 'block';
+  const riskLabel = { red: '重大風險', yellow: '需關注' };
+
+  let alerts = summary.news_alerts;
+  if (currentAlertInvestor !== 'all') {
+    const inv = currentAlertInvestor;
+    alerts = alerts.filter(a => {
+      const stock = stocks.find(s => s.stock_id === a.stock_id);
+      return stock && getInvScore(stock, inv) >= 55;
+    });
+  }
+
+  document.getElementById('alerts-list').innerHTML = alerts.length === 0
+    ? '<div style="color:var(--text-muted);padding:12px 0">此投資人關注的標的目前無風險警訊</div>'
+    : alerts.map(a => `
       <div class="alert-item" onclick="showDetail('${a.stock_id}')" title="點擊查看詳細資訊">
         <div class="alert-dot ${a.risk_level}"></div>
         <div class="alert-stock">${a.stock_id}</div>
@@ -633,39 +739,31 @@ function render() {
         <div style="color:var(--text-muted);font-size:13px">查看 &rsaquo;</div>
       </div>
     `).join('');
-  }
-
-  renderTable();
 }
 
 function renderTable() {
   const stocks = getFilteredStocks();
   const tbody = document.getElementById('stock-tbody');
 
-  tbody.innerHTML = stocks.map((s, i) => {
+  tbody.innerHTML = stocks.map(s => {
     const newsColor = { green: 'var(--green)', yellow: 'var(--yellow)', red: 'var(--red)' }[s.news?.risk_level] || 'var(--text-muted)';
     const newsIcon = { green: '●', yellow: '●', red: '●' }[s.news?.risk_level] || '○';
-    const scoreColor = s.grade === 'S' ? 'var(--grade-s)' : s.grade === 'A' ? 'var(--grade-a)' : s.grade === 'B' ? 'var(--grade-b)' : 'var(--grade-c)';
-    const barWidth = Math.min(s.buffett_score, 100);
+
+    const invCells = INVESTOR_IDS.map(inv => {
+      const sc = getInvScore(s, inv);
+      const gr = getInvGrade(s, inv);
+      const c = gradeColor(gr);
+      return `<td><span class="grade-badge-sm grade-${gr}">${gr}</span> <span style="font-size:13px;color:${c}">${sc}</span></td>`;
+    }).join('');
 
     return `
       <tr onclick="showDetail('${s.stock_id}')">
-        <td><span class="grade-badge grade-${s.grade}">${s.grade}</span></td>
         <td>
           <div style="font-weight:600">${s.name}</div>
           <div style="font-size:11px;color:var(--text-muted)">${s.market}/${s.stock_id}</div>
         </td>
-        <td>
-          <div class="score-bar">
-            <span style="font-weight:600;color:${scoreColor}">${s.buffett_score}</span>
-            <div class="score-bar-track">
-              <div class="score-bar-fill" style="width:${barWidth}%;background:${scoreColor}"></div>
-            </div>
-          </div>
-        </td>
+        ${invCells}
         <td class="hide-mobile">${fmtPct(s.roe_avg)}</td>
-        <td class="hide-mobile">${fmtPct(s.net_margin_avg)}</td>
-        <td class="hide-mobile">${fmtPct(s.gross_margin_avg)}</td>
         <td class="hide-mobile">${s.debt_to_equity != null ? s.debt_to_equity.toFixed(2) : '-'}</td>
         <td class="hide-mobile">${s.pe_ratio != null ? s.pe_ratio.toFixed(1) : '-'}</td>
         <td style="color:${newsColor};font-size:16px">${newsIcon}</td>
@@ -676,6 +774,7 @@ function renderTable() {
 
 function getFilteredStocks() {
   let stocks = [...reportData.stocks];
+  const profiles = reportData.investor_profiles || {};
   const chainMap = {
     chain_ai: 'AI / 半導體產業鏈',
     chain_healthcare: '醫療 / 製藥產業鏈',
@@ -686,17 +785,35 @@ function getFilteredStocks() {
     chain_utilities: '公用事業 / 基礎設施',
     chain_transport: '運輸 / 物流產業鏈',
   };
-  if (currentFilter === 'S') stocks = stocks.filter(s => s.grade === 'S');
-  else if (currentFilter === 'A') stocks = stocks.filter(s => s.grade === 'A');
-  else if (currentFilter === 'TW') stocks = stocks.filter(s => s.market === 'TW');
-  else if (currentFilter === 'US') stocks = stocks.filter(s => s.market === 'US');
-  else if (chainMap[currentFilter]) {
+
+  if (currentFilter === 'horizon_long' || currentFilter === 'horizon_short') {
+    const horizon = currentFilter === 'horizon_long' ? 'long' : 'short';
+    const investors = Object.entries(profiles).filter(([_, p]) => p.horizon === horizon).map(([id]) => id);
+    stocks = stocks.filter(s => investors.some(inv => ['S', 'A'].includes(getInvGrade(s, inv))));
+  } else if (currentFilter === 'S') {
+    stocks = stocks.filter(s => INVESTOR_IDS.some(inv => getInvGrade(s, inv) === 'S'));
+  } else if (currentFilter === 'A') {
+    stocks = stocks.filter(s => INVESTOR_IDS.some(inv => ['S', 'A'].includes(getInvGrade(s, inv))));
+  } else if (currentFilter === 'TW') {
+    stocks = stocks.filter(s => s.market === 'TW');
+  } else if (currentFilter === 'US') {
+    stocks = stocks.filter(s => s.market === 'US');
+  } else if (chainMap[currentFilter]) {
     const chainName = chainMap[currentFilter];
     stocks = stocks.filter(s => s.industry_chains?.some(c => c.chain === chainName));
   }
 
   stocks.sort((a, b) => {
-    let va = a[currentSort.key], vb = b[currentSort.key];
+    const key = currentSort.key;
+    let va, vb;
+    if (key.startsWith('investor_')) {
+      const inv = key.replace('investor_', '');
+      va = getInvScore(a, inv);
+      vb = getInvScore(b, inv);
+    } else {
+      va = a[key];
+      vb = b[key];
+    }
     if (va == null) va = -Infinity;
     if (vb == null) vb = -Infinity;
     return currentSort.desc ? vb - va : va - vb;
@@ -714,28 +831,10 @@ function showDetail(stockId) {
   const s = reportData.stocks.find(x => x.stock_id === stockId);
   if (!s) return;
 
+  const profiles = reportData.investor_profiles || {};
   const newsHtml = (s.news?.items || []).map(n =>
     `<div class="news-item">${n.title}<span class="news-date">${n.date || ''}</span></div>`
   ).join('') || '<div style="color:var(--text-muted)">No news available</div>';
-
-  const metricTips = {
-    'ROE': '股東權益報酬率 = 淨利/股東權益，>= 20% 為佳',
-    '淨利率': '淨利/營收，反映定價權，>= 20% 為佳',
-    '毛利率': '(營收-成本)/營收，護城河指標，>= 40% 為佳',
-    '負債權益比': '總負債/股東權益，越低越穩健，<= 0.5 為佳',
-    'EPS 持續性': 'EPS 為正的年數佔比，>= 90% 代表盈利穩定',
-    'FCF 持續性': '自由現金流為正的年數佔比，>= 90% 為佳',
-    'EPS/FCF': '盈利/現金流持續性',
-    'P/E': '本益比 = 股價/每股盈餘，<= 15 為便宜',
-    '現金流': '營業現金流為正的年數佔比，>= 90% 為佳',
-    'FCF': '自由現金流 = 營業現金流 - 資本支出',
-  };
-  const scoreHtml = (s.score_details || []).map(d => {
-    const cls = `metric-${d.grade}`;
-    const icon = { pass: '✓', ok: '○', warn: '△', fail: '✗', nodata: '-' }[d.grade] || '';
-    const tip = metricTips[d.metric] || '';
-    return `<li data-tip="${tip}"><span>${d.metric}</span><span class="${cls}">${d.value != null ? d.value : 'N/A'} ${icon}</span></li>`;
-  }).join('');
 
   const moat = s.moat || {};
   const moatHtml = moat.moat_type
@@ -755,10 +854,45 @@ function showDetail(stockId) {
 
   const newsRiskColor = { green: 'var(--green)', yellow: 'var(--yellow)', red: 'var(--red)' }[s.news?.risk_level] || 'var(--text-muted)';
 
+  // Multi-investor score overview
+  const invOverview = INVESTOR_IDS.map(inv => {
+    const sc = getInvScore(s, inv);
+    const gr = getInvGrade(s, inv);
+    const p = profiles[inv] || {};
+    const hClass = p.horizon === 'long' ? 'horizon-long' : 'horizon-short';
+    const hLabel = p.horizon === 'long' ? '長期' : '短期';
+    return `<div style="text-align:center;flex:1;min-width:70px">
+      <div style="font-size:20px">${INVESTOR_ICONS[inv] || ''}</div>
+      <div style="font-size:12px;color:var(--text-muted)">${p.name_zh || inv}</div>
+      <div><span class="grade-badge grade-${gr}" style="margin-top:4px">${gr}</span></div>
+      <div style="font-weight:600;color:${gradeColor(gr)};margin-top:2px">${sc}</div>
+      <div><span class="horizon-badge ${hClass}">${hLabel}</span></div>
+    </div>`;
+  }).join('');
+
+  // Investor detail tabs
+  const invTabs = INVESTOR_IDS.map((inv, i) => {
+    const p = profiles[inv] || {};
+    return `<button class="inv-tab ${i === 0 ? 'active' : ''}" data-inv-detail="${inv}">${INVESTOR_ICONS[inv]} ${p.name_zh || inv}</button>`;
+  }).join('');
+
+  // Investor detail panels
+  const invPanels = INVESTOR_IDS.map((inv, i) => {
+    const is = s.investor_scores?.[inv];
+    const details = is?.details || s.score_details || [];
+    const detailsHtml = details.map(d => {
+      const cls = `metric-${d.grade}`;
+      const icon = { pass: '✓', ok: '○', warn: '△', fail: '✗', nodata: '-' }[d.grade] || '';
+      return `<li><span>${d.metric}</span><span class="${cls}">${d.value != null ? d.value : 'N/A'} ${icon}</span></li>`;
+    }).join('');
+    return `<div class="inv-detail-panel" data-inv-panel="${inv}" style="${i === 0 ? '' : 'display:none'}">
+      <ul class="score-detail-list">${detailsHtml}</ul>
+    </div>`;
+  }).join('');
+
   document.getElementById('modal-content').innerHTML = `
     <div class="modal-header">
       <h2>
-        <span class="grade-badge grade-${s.grade}" style="margin-right:8px">${s.grade}</span>
         ${s.name}
         <span style="color:var(--text-muted);font-size:14px;margin-left:8px">${s.market}/${s.stock_id}</span>
       </h2>
@@ -771,8 +905,9 @@ function showDetail(stockId) {
         ${s.industry_chains.map(c => `<span style="background:rgba(96,165,250,0.15);color:var(--accent);padding:3px 10px;border-radius:12px;font-size:12px">${c.chain} &rsaquo; ${c.segment}</span>`).join('')}
       </div>
     ` : ''}
-    <div style="font-size:28px;font-weight:700;margin-bottom:16px">
-      ${s.buffett_score} <span style="font-size:14px;color:var(--text-muted)">/ 100</span>
+
+    <div style="display:flex;gap:8px;margin-bottom:20px;padding:16px;background:var(--surface2);border-radius:8px;flex-wrap:wrap;justify-content:center">
+      ${invOverview}
     </div>
 
     ${s.pick_reason ? `
@@ -792,20 +927,23 @@ function showDetail(stockId) {
     ` : ''}
 
     <div class="detail-grid">
-      <div class="detail-item" data-tip="股東權益報酬率：淨利 / 股東權益。衡量管理層運用資金效率，>= 20% 為佳"><div class="label">ROE (avg)</div><div class="value">${s.roe_avg != null ? s.roe_avg + '%' : 'N/A'}</div></div>
-      <div class="detail-item" data-tip="淨利率：淨利 / 營收。反映定價能力與營運效率，>= 20% 為佳"><div class="label">Net Margin</div><div class="value">${s.net_margin_avg != null ? s.net_margin_avg + '%' : 'N/A'}</div></div>
-      <div class="detail-item" data-tip="毛利率：(營收 - 銷貨成本) / 營收。護城河寬度指標，>= 40% 為佳"><div class="label">Gross Margin</div><div class="value">${s.gross_margin_avg != null ? s.gross_margin_avg + '%' : 'N/A'}</div></div>
-      <div class="detail-item" data-tip="負債權益比：總負債 / 股東權益。越低越穩健，<= 0.5 為佳"><div class="label">D/E Ratio</div><div class="value">${s.debt_to_equity != null ? s.debt_to_equity : 'N/A'}</div></div>
-      <div class="detail-item" data-tip="本益比：股價 / 每股盈餘。衡量估值是否合理，<= 15 為便宜"><div class="label">P/E</div><div class="value">${s.pe_ratio != null ? s.pe_ratio : 'N/A'}</div></div>
-      <div class="detail-item" data-tip="每股盈餘 (Earnings Per Share)：淨利 / 流通股數。衡量每股獲利能力"><div class="label">EPS</div><div class="value">${s.eps_latest != null ? s.eps_latest : 'N/A'}</div></div>
-      ${s.market_cap_b ? `<div class="detail-item" data-tip="市值：股價 x 流通股數。衡量公司整體規模"><div class="label">Market Cap</div><div class="value">$${s.market_cap_b}B</div></div>` : ''}
-      ${s.current_price ? `<div class="detail-item" data-tip="當前股價"><div class="label">Price</div><div class="value">$${s.current_price}</div></div>` : ''}
-      ${s.dividend_yield ? `<div class="detail-item" data-tip="股息殖利率：年度股息 / 股價。衡量現金回報率"><div class="label">Div Yield</div><div class="value">${s.dividend_yield}%</div></div>` : ''}
-      ${s.eps_cagr_5y != null ? `<div class="detail-item" data-tip="EPS 五年複合年成長率：衡量盈利成長動能"><div class="label">EPS CAGR 5Y</div><div class="value">${s.eps_cagr_5y}%</div></div>` : ''}
+      <div class="detail-item"><div class="label">ROE (avg)</div><div class="value">${s.roe_avg != null ? s.roe_avg + '%' : 'N/A'}</div></div>
+      <div class="detail-item"><div class="label">Net Margin</div><div class="value">${s.net_margin_avg != null ? s.net_margin_avg + '%' : 'N/A'}</div></div>
+      <div class="detail-item"><div class="label">Gross Margin</div><div class="value">${s.gross_margin_avg != null ? s.gross_margin_avg + '%' : 'N/A'}</div></div>
+      <div class="detail-item"><div class="label">D/E Ratio</div><div class="value">${s.debt_to_equity != null ? s.debt_to_equity : 'N/A'}</div></div>
+      <div class="detail-item"><div class="label">P/E</div><div class="value">${s.pe_ratio != null ? s.pe_ratio : 'N/A'}</div></div>
+      <div class="detail-item"><div class="label">EPS</div><div class="value">${s.eps_latest != null ? s.eps_latest : 'N/A'}</div></div>
+      ${s.market_cap_b ? `<div class="detail-item"><div class="label">Market Cap</div><div class="value">$${s.market_cap_b}B</div></div>` : ''}
+      ${s.current_price ? `<div class="detail-item"><div class="label">Price</div><div class="value">$${s.current_price}</div></div>` : ''}
+      ${s.dividend_yield ? `<div class="detail-item"><div class="label">Div Yield</div><div class="value">${s.dividend_yield}%</div></div>` : ''}
+      ${s.eps_cagr_5y != null ? `<div class="detail-item"><div class="label">EPS CAGR 5Y</div><div class="value">${s.eps_cagr_5y}%</div></div>` : ''}
     </div>
 
-    <div class="section-title">Score Breakdown</div>
-    <ul class="score-detail-list">${scoreHtml}</ul>
+    <div class="section-title">投資人評分明細</div>
+    <div style="display:flex;gap:2px;border-bottom:1px solid var(--border);margin-bottom:12px;flex-wrap:wrap">
+      ${invTabs}
+    </div>
+    ${invPanels}
 
     ${moatHtml}
     ${exitHtml}
@@ -819,6 +957,18 @@ function showDetail(stockId) {
     </div>
     </div>
   `;
+
+  // Wire up investor detail tab switching
+  document.querySelectorAll('.inv-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.inv-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const inv = tab.dataset.invDetail;
+      document.querySelectorAll('.inv-detail-panel').forEach(p => {
+        p.style.display = p.dataset.invPanel === inv ? '' : 'none';
+      });
+    });
+  });
 
   document.getElementById('modal-overlay').classList.add('open');
 }
