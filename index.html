@@ -553,9 +553,9 @@
           <tr>
             <th data-sort="name" data-tip="公司名稱與代號">Stock</th>
             <th data-sort="investor_buffett" data-tip="巴菲特價值投資 (長期)&#10;護城河 + 持久競爭優勢 + 合理價格">Buffett</th>
+            <th data-sort="investor_fisher" data-tip="乎雪品質成長 (長期)&#10;高品質成長 + 卓越管理 + 長期持有">Fisher</th>
             <th data-sort="investor_graham" data-tip="葛拉漢深度價值 (短期)&#10;安全邊際 + 低估值 + 財務穩健">Graham</th>
             <th data-sort="investor_lynch" data-tip="彼得林區成長合理價 (短期)&#10;PEG 合理的成長股">Lynch</th>
-            <th data-sort="investor_fisher" data-tip="乎雪品質成長 (長期)&#10;高品質成長 + 卓越管理 + 長期持有">Fisher</th>
             <th data-sort="roe_avg" class="hide-mobile" data-tip="股東權益報酬率&#10;= 淨利 / 股東權益">ROE</th>
             <th data-sort="debt_to_equity" class="hide-mobile" data-tip="負債權益比&#10;= 總負債 / 股東權益">D/E</th>
             <th data-sort="pe_ratio" class="hide-mobile" data-tip="本益比&#10;= 股價 / 每股盈餘">P/E</th>
@@ -614,7 +614,7 @@ let currentSort = { key: 'investor_buffett', desc: true };
 let currentAlertInvestor = 'all';
 let availableDates = [];
 
-const INVESTOR_IDS = ['buffett', 'graham', 'lynch', 'fisher'];
+const INVESTOR_IDS = ['buffett', 'fisher', 'graham', 'lynch'];
 const INVESTOR_LABELS = { buffett: 'Buffett', graham: 'Graham', lynch: 'Lynch', fisher: 'Fisher' };
 
 function gradeColor(g) {
