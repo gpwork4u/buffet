@@ -45,9 +45,9 @@
       flex-direction: column;
     }
 
-    .container { max-width: 1200px; margin: 0 auto; padding: 24px 16px; flex: 1; zoom: 2; }
-    footer { zoom: 2; }
-    #disclaimer-overlay { zoom: 2; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 24px 16px; flex: 1; width: 100%; }
+    footer { width: 100%; }
+    #disclaimer-overlay { width: 100%; }
 
     /* Header */
     header {
@@ -271,7 +271,7 @@
       z-index: 100;
       backdrop-filter: blur(4px);
     }
-    .modal-overlay.open { display: flex; justify-content: center; align-items: flex-start; padding: 20px 0; zoom: 2; }
+    .modal-overlay.open { display: flex; justify-content: center; align-items: flex-start; padding: 20px 16px; }
     .modal {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -372,12 +372,59 @@
     }
     @keyframes spin { to { transform: rotate(360deg); } }
 
-    /* Responsive */
+    /* Table wrapper for horizontal scroll */
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /* Responsive — Tablet */
+    @media (max-width: 1024px) {
+      .summary-grid { grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); }
+    }
+
+    /* Responsive — Mobile */
     @media (max-width: 768px) {
-      .detail-grid { grid-template-columns: 1fr; }
-      .stock-table { font-size: 13px; }
+      body { font-size: 14px; }
+
+      .container { padding: 16px 12px; }
+
+      header { padding: 16px 0; margin-bottom: 20px; }
+      header h1 { font-size: 22px; }
+      .header-meta { flex-wrap: wrap; gap: 8px 16px; font-size: 13px; }
+      .header-meta select { width: 100%; margin-top: 4px; }
+
+      .summary-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 20px; }
+      .summary-card { padding: 10px 8px; }
+      .summary-card .number { font-size: 22px; }
+      .summary-card .label { font-size: 11px; }
+
+      .alerts { padding: 12px; margin-bottom: 20px; }
+
+      .tabs { gap: 2px; flex-wrap: wrap; }
+      .tab { padding: 6px 10px; font-size: 13px; }
+
+      .stock-table { font-size: 13px; min-width: 500px; }
       .stock-table td, .stock-table th { padding: 8px 6px; }
       .hide-mobile { display: none; }
+
+      .modal { width: 100%; max-width: 100%; max-height: 90vh; border-radius: 12px 12px 0 0; }
+      .modal-overlay.open { align-items: flex-end; padding: 0; }
+      .modal-header { padding: 16px; }
+      .modal-header h2 { font-size: 17px; }
+      .modal-body { padding: 16px; padding-bottom: 32px; }
+      .detail-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+      .detail-item .value { font-size: 16px; }
+
+      [data-tip]::after { max-width: 240px; font-size: 13px; }
+    }
+
+    /* Responsive — Small phone */
+    @media (max-width: 400px) {
+      .summary-grid { grid-template-columns: repeat(2, 1fr); }
+      .detail-grid { grid-template-columns: 1fr; }
+      .tab { padding: 5px 8px; font-size: 12px; }
     }
   </style>
 </head>
@@ -447,26 +494,28 @@
     </div>
 
     <!-- Table -->
-    <table class="stock-table">
-      <thead>
-        <tr>
-          <th data-sort="grade" data-tip="巴菲特篩選等級：S(85+) A(70+) B(55+) C(<55)">#</th>
-          <th data-sort="name" data-tip="公司名稱與代號">Stock</th>
-          <th data-sort="buffett_score" data-tip="巴菲特綜合評分 (0-100)&#10;根據 7 項指標加權計算">Score</th>
-          <th data-sort="roe_avg" class="hide-mobile" data-tip="股東權益報酬率&#10;= 淨利 / 股東權益&#10;巴菲特標準：>= 20%">ROE</th>
-          <th data-sort="net_margin_avg" class="hide-mobile" data-tip="淨利率&#10;= 淨利 / 營收&#10;巴菲特標準：>= 20%">Net Margin</th>
-          <th data-sort="gross_margin_avg" class="hide-mobile" data-tip="毛利率&#10;= (營收-成本) / 營收&#10;巴菲特標準：>= 40%">Gross Margin</th>
-          <th data-sort="debt_to_equity" class="hide-mobile" data-tip="負債權益比&#10;= 總負債 / 股東權益&#10;巴菲特標準：<= 0.5">D/E</th>
-          <th data-sort="pe_ratio" class="hide-mobile" data-tip="本益比&#10;= 股價 / 每股盈餘&#10;巴菲特標準：<= 15">P/E</th>
-          <th data-tip="🟢 無風險 🟡 需關注 🔴 重大風險">News</th>
-        </tr>
-      </thead>
-      <tbody id="stock-tbody"></tbody>
-    </table>
+    <div class="table-wrap">
+      <table class="stock-table">
+        <thead>
+          <tr>
+            <th data-sort="grade" data-tip="巴菲特篩選等級：S(85+) A(70+) B(55+) C(<55)">#</th>
+            <th data-sort="name" data-tip="公司名稱與代號">Stock</th>
+            <th data-sort="buffett_score" data-tip="巴菲特綜合評分 (0-100)&#10;根據 7 項指標加權計算">Score</th>
+            <th data-sort="roe_avg" class="hide-mobile" data-tip="股東權益報酬率&#10;= 淨利 / 股東權益&#10;巴菲特標準：>= 20%">ROE</th>
+            <th data-sort="net_margin_avg" class="hide-mobile" data-tip="淨利率&#10;= 淨利 / 營收&#10;巴菲特標準：>= 20%">Net Margin</th>
+            <th data-sort="gross_margin_avg" class="hide-mobile" data-tip="毛利率&#10;= (營收-成本) / 營收&#10;巴菲特標準：>= 40%">Gross Margin</th>
+            <th data-sort="debt_to_equity" class="hide-mobile" data-tip="負債權益比&#10;= 總負債 / 股東權益&#10;巴菲特標準：<= 0.5">D/E</th>
+            <th data-sort="pe_ratio" class="hide-mobile" data-tip="本益比&#10;= 股價 / 每股盈餘&#10;巴菲特標準：<= 15">P/E</th>
+            <th data-tip="🟢 無風險 🟡 需關注 🔴 重大風險">News</th>
+          </tr>
+        </thead>
+        <tbody id="stock-tbody"></tbody>
+      </table>
+    </div>
   </div>
 </div>
 
-<footer style="max-width:1200px;margin:0 auto;padding:48px 16px 24px;border-top:1px solid var(--border);color:var(--text-muted);font-size:13px;text-align:center;line-height:2">
+<footer style="max-width:1200px;margin:0 auto;padding:32px 16px 20px;border-top:1px solid var(--border);color:var(--text-muted);font-size:13px;text-align:center;line-height:2">
   <div>&copy; 2026 Buffett Screener. All rights reserved.</div>
   <div>本報告不構成投資建議，僅供研究參考。投資有風險，請自行評估。</div>
   <div style="margin-top:8px">
