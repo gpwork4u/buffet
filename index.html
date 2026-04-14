@@ -532,8 +532,6 @@
     <!-- Tabs -->
     <div class="tabs" style="flex-wrap:wrap">
       <button class="tab active" data-filter="all">All</button>
-      <button class="tab" data-filter="horizon_long">🔒 長期</button>
-      <button class="tab" data-filter="horizon_short">⚡ 短期</button>
       <button class="tab" data-filter="S">S Grade</button>
       <button class="tab" data-filter="A">A Grade</button>
       <button class="tab" data-filter="TW">Taiwan</button>
@@ -554,10 +552,10 @@
         <thead>
           <tr>
             <th data-sort="name" data-tip="公司名稱與代號">Stock</th>
-            <th data-sort="investor_buffett" data-tip="🏛️ 巴菲特 (長期)&#10;護城河 + 持久競爭優勢 + 合理價格">🏛️</th>
-            <th data-sort="investor_graham" data-tip="🛡️ 葛拉漢 (短期)&#10;安全邊際 + 低估值 + 財務穩健">🛡️</th>
-            <th data-sort="investor_lynch" data-tip="📈 彼得林區 (短期)&#10;PEG 合理的成長股">📈</th>
-            <th data-sort="investor_fisher" data-tip="💎 乎雪 (長期)&#10;高品質成長 + 卓越管理 + 長期持有">💎</th>
+            <th data-sort="investor_buffett" data-tip="巴菲特價值投資 (長期)&#10;護城河 + 持久競爭優勢 + 合理價格">Buffett</th>
+            <th data-sort="investor_graham" data-tip="葛拉漢深度價值 (短期)&#10;安全邊際 + 低估值 + 財務穩健">Graham</th>
+            <th data-sort="investor_lynch" data-tip="彼得林區成長合理價 (短期)&#10;PEG 合理的成長股">Lynch</th>
+            <th data-sort="investor_fisher" data-tip="乎雪品質成長 (長期)&#10;高品質成長 + 卓越管理 + 長期持有">Fisher</th>
             <th data-sort="roe_avg" class="hide-mobile" data-tip="股東權益報酬率&#10;= 淨利 / 股東權益">ROE</th>
             <th data-sort="debt_to_equity" class="hide-mobile" data-tip="負債權益比&#10;= 總負債 / 股東權益">D/E</th>
             <th data-sort="pe_ratio" class="hide-mobile" data-tip="本益比&#10;= 股價 / 每股盈餘">P/E</th>
@@ -617,7 +615,7 @@ let currentAlertInvestor = 'all';
 let availableDates = [];
 
 const INVESTOR_IDS = ['buffett', 'graham', 'lynch', 'fisher'];
-const INVESTOR_ICONS = { buffett: '🏛️', graham: '🛡️', lynch: '📈', fisher: '💎' };
+const INVESTOR_LABELS = { buffett: 'Buffett', graham: 'Graham', lynch: 'Lynch', fisher: 'Fisher' };
 
 function gradeColor(g) {
   return g === 'S' ? 'var(--grade-s)' : g === 'A' ? 'var(--grade-a)' : g === 'B' ? 'var(--grade-b)' : 'var(--grade-c)';
@@ -701,7 +699,7 @@ function render() {
     <button class="inv-filter-btn active" data-alert-inv="all">全部</button>
     ${INVESTOR_IDS.map(inv => {
       const p = profiles[inv] || {};
-      return `<button class="inv-filter-btn" data-alert-inv="${inv}">${INVESTOR_ICONS[inv] || ''} ${p.name_zh || inv}</button>`;
+      return `<button class="inv-filter-btn" data-alert-inv="${inv}">${p.name_zh || INVESTOR_LABELS[inv] || inv}</button>`;
     }).join('')}
   `;
   filterContainer.querySelectorAll('.inv-filter-btn').forEach(btn => {
@@ -795,19 +793,7 @@ function getFilteredStocks() {
     chain_transport: '運輸 / 物流產業鏈',
   };
 
-  // Fallback horizon mapping when investor_profiles is absent (old schema)
-  const FALLBACK_HORIZONS = { buffett: 'long', graham: 'short', lynch: 'short', fisher: 'long' };
-
-  if (currentFilter === 'horizon_long' || currentFilter === 'horizon_short') {
-    const horizon = currentFilter === 'horizon_long' ? 'long' : 'short';
-    const investors = Object.keys(profiles).length > 0
-      ? Object.entries(profiles).filter(([_, p]) => p.horizon === horizon).map(([id]) => id)
-      : INVESTOR_IDS.filter(id => FALLBACK_HORIZONS[id] === horizon);
-    stocks = stocks.filter(s => investors.some(inv => {
-      const gr = getInvGrade(s, inv);
-      return gr != null && ['S', 'A'].includes(gr);
-    }));
-  } else if (currentFilter === 'S') {
+  if (currentFilter === 'S') {
     // On old schema, only check Buffett grade
     stocks = stocks.filter(s => INVESTOR_IDS.some(inv => getInvGrade(s, inv) === 'S'));
   } else if (currentFilter === 'A') {
@@ -884,8 +870,8 @@ function showDetail(stockId) {
     const hLabel = p.horizon === 'long' ? '長期' : '短期';
     const hasData = sc != null && gr != null;
     return `<div style="text-align:center;flex:1;min-width:70px">
-      <div style="font-size:20px">${INVESTOR_ICONS[inv] || ''}</div>
-      <div style="font-size:12px;color:var(--text-muted)">${p.name_zh || inv}</div>
+      <div style="font-size:14px;font-weight:600">${INVESTOR_LABELS[inv] || inv}</div>
+      <div style="font-size:12px;color:var(--text-muted)">${p.name_zh || ''}</div>
       ${hasData ? `
         <div><span class="grade-badge grade-${gr}" style="margin-top:4px">${gr}</span></div>
         <div style="font-weight:600;color:${gradeColor(gr)};margin-top:2px">${sc}</div>
@@ -897,7 +883,7 @@ function showDetail(stockId) {
   // Investor detail tabs
   const invTabs = INVESTOR_IDS.map((inv, i) => {
     const p = profiles[inv] || {};
-    return `<button class="inv-tab ${i === 0 ? 'active' : ''}" data-inv-detail="${inv}">${INVESTOR_ICONS[inv]} ${p.name_zh || inv}</button>`;
+    return `<button class="inv-tab ${i === 0 ? 'active' : ''}" data-inv-detail="${inv}">${p.name_zh || INVESTOR_LABELS[inv] || inv}</button>`;
   }).join('');
 
   // Investor detail panels
