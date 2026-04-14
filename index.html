@@ -668,6 +668,8 @@ function render() {
   document.getElementById('loading').style.display = 'none';
   document.getElementById('app').style.display = 'block';
 
+  currentAlertInvestor = 'all';
+
   const { summary, date, stocks } = reportData;
 
   document.getElementById('report-date').textContent = `Report: ${date}`;
