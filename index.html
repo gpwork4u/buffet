@@ -624,11 +624,16 @@ function gradeColor(g) {
 }
 
 function getInvScore(s, inv) {
-  return s.investor_scores?.[inv]?.score ?? s.buffett_score ?? 0;
+  if (s.investor_scores?.[inv]) return s.investor_scores[inv].score;
+  // Only Buffett may fall back to legacy fields
+  if (inv === 'buffett') return s.buffett_score ?? null;
+  return null;
 }
 
 function getInvGrade(s, inv) {
-  return s.investor_scores?.[inv]?.grade ?? s.grade ?? 'C';
+  if (s.investor_scores?.[inv]) return s.investor_scores[inv].grade;
+  if (inv === 'buffett') return s.grade ?? null;
+  return null;
 }
 
 async function loadReport(date) {
@@ -724,7 +729,8 @@ function renderAlerts() {
     const inv = currentAlertInvestor;
     alerts = alerts.filter(a => {
       const stock = stocks.find(s => s.stock_id === a.stock_id);
-      return stock && getInvScore(stock, inv) >= 55;
+      const sc = stock && getInvScore(stock, inv);
+      return sc != null && sc >= 55;
     });
   }
 
@@ -754,6 +760,7 @@ function renderTable() {
     const invCells = INVESTOR_IDS.map(inv => {
       const sc = getInvScore(s, inv);
       const gr = getInvGrade(s, inv);
+      if (sc == null || gr == null) return '<td style="color:var(--text-muted)">-</td>';
       const c = gradeColor(gr);
       return `<td><span class="grade-badge-sm grade-${gr}">${gr}</span> <span style="font-size:13px;color:${c}">${sc}</span></td>`;
     }).join('');
@@ -788,14 +795,26 @@ function getFilteredStocks() {
     chain_transport: '運輸 / 物流產業鏈',
   };
 
+  // Fallback horizon mapping when investor_profiles is absent (old schema)
+  const FALLBACK_HORIZONS = { buffett: 'long', graham: 'short', lynch: 'short', fisher: 'long' };
+
   if (currentFilter === 'horizon_long' || currentFilter === 'horizon_short') {
     const horizon = currentFilter === 'horizon_long' ? 'long' : 'short';
-    const investors = Object.entries(profiles).filter(([_, p]) => p.horizon === horizon).map(([id]) => id);
-    stocks = stocks.filter(s => investors.some(inv => ['S', 'A'].includes(getInvGrade(s, inv))));
+    const investors = Object.keys(profiles).length > 0
+      ? Object.entries(profiles).filter(([_, p]) => p.horizon === horizon).map(([id]) => id)
+      : INVESTOR_IDS.filter(id => FALLBACK_HORIZONS[id] === horizon);
+    stocks = stocks.filter(s => investors.some(inv => {
+      const gr = getInvGrade(s, inv);
+      return gr != null && ['S', 'A'].includes(gr);
+    }));
   } else if (currentFilter === 'S') {
+    // On old schema, only check Buffett grade
     stocks = stocks.filter(s => INVESTOR_IDS.some(inv => getInvGrade(s, inv) === 'S'));
   } else if (currentFilter === 'A') {
-    stocks = stocks.filter(s => INVESTOR_IDS.some(inv => ['S', 'A'].includes(getInvGrade(s, inv))));
+    stocks = stocks.filter(s => INVESTOR_IDS.some(inv => {
+      const gr = getInvGrade(s, inv);
+      return gr != null && ['S', 'A'].includes(gr);
+    }));
   } else if (currentFilter === 'TW') {
     stocks = stocks.filter(s => s.market === 'TW');
   } else if (currentFilter === 'US') {
@@ -863,11 +882,14 @@ function showDetail(stockId) {
     const p = profiles[inv] || {};
     const hClass = p.horizon === 'long' ? 'horizon-long' : 'horizon-short';
     const hLabel = p.horizon === 'long' ? '長期' : '短期';
+    const hasData = sc != null && gr != null;
     return `<div style="text-align:center;flex:1;min-width:70px">
       <div style="font-size:20px">${INVESTOR_ICONS[inv] || ''}</div>
       <div style="font-size:12px;color:var(--text-muted)">${p.name_zh || inv}</div>
-      <div><span class="grade-badge grade-${gr}" style="margin-top:4px">${gr}</span></div>
-      <div style="font-weight:600;color:${gradeColor(gr)};margin-top:2px">${sc}</div>
+      ${hasData ? `
+        <div><span class="grade-badge grade-${gr}" style="margin-top:4px">${gr}</span></div>
+        <div style="font-weight:600;color:${gradeColor(gr)};margin-top:2px">${sc}</div>
+      ` : '<div style="color:var(--text-muted);margin-top:4px">-</div>'}
       <div><span class="horizon-badge ${hClass}">${hLabel}</span></div>
     </div>`;
   }).join('');
