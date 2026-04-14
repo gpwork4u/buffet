@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T14:41:20.248261",
+  "generated_at": "2026-04-14T14:58:05.592990",
   "date": "2026-04-14",
   "investor_profiles": {
     "buffett": {
@@ -384,6 +384,12 @@
     ],
     "news_alerts": [
       {
+        "stock_id": "LRCX",
+        "name": "Lam Research Corporation",
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      },
+      {
         "stock_id": "ANET",
         "name": "Arista Networks, Inc.",
         "risk_level": "yellow",
@@ -534,7 +540,18 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Microsoft Corporation 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 35.31%，資本運用效率優異",
+              "淨利率 35.73%，具備強勁定價權",
+              "毛利率 68.98%，護城河寬廣",
+              "負債權益比僅 0.32，財務極度穩健",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 52.0,
@@ -575,7 +592,18 @@
               "value": "14.4%",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Microsoft Corporation 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "負債權益比 0.32，資產負債表極度穩健",
+              "股息殖利率 95.0%，提供安全邊際",
+              "股價接近 52 週低點，逢低買入機會"
+            ],
+            "risks": [
+              "P/E 24.04，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 56.0,
@@ -611,7 +639,17 @@
               "value": "20.3 vs 24.0",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Microsoft Corporation 有成長潛力，但估值或成長率尚未達標。",
+            "strengths": [
+              "ROE 35.31%，管理層資本效率出色",
+              "Forward PE 20.3 低於 Trailing PE 24.0，分析師看好成長",
+              "低負債（D/E 0.32），成長基礎穩固",
+              "淨利率 35.73%，獲利能力強"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 68.0,
@@ -652,7 +690,17 @@
               "value": 0.32,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Microsoft Corporation 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 68.98%，具備頂級定價權與競爭壁壘",
+              "ROE 35.31%，管理層卓越",
+              "淨利率 35.73%，營運效率頂尖",
+              "護城河：轉換成本 + 網路效應"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 94.0,
@@ -808,7 +856,18 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Alphabet Inc. 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 28.02%，資本運用效率優異",
+              "淨利率 26.66%，具備強勁定價權",
+              "毛利率 57.46%，護城河寬廣",
+              "負債權益比僅 0.16，財務極度穩健",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 55.0,
@@ -849,7 +908,18 @@
               "value": "86.4%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Alphabet Inc. 部分符合葛拉漢標準，估值或財務面仍有疑慮。",
+            "strengths": [
+              "負債權益比 0.16，資產負債表極度穩健",
+              "流動比率 2.0，短期償債能力充裕",
+              "股息殖利率 26.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 29.75，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 56.0,
@@ -885,7 +955,17 @@
               "value": "23.9 vs 29.8",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Alphabet Inc. 有成長潛力，但估值或成長率尚未達標。",
+            "strengths": [
+              "ROE 28.02%，管理層資本效率出色",
+              "Forward PE 23.9 低於 Trailing PE 29.8，分析師看好成長",
+              "低負債（D/E 0.16），成長基礎穩固",
+              "淨利率 26.66%，獲利能力強"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 70.0,
@@ -926,7 +1006,17 @@
               "value": 0.16,
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Alphabet Inc. 符合乎雪品質成長選股標準，值得長期持有。",
+            "strengths": [
+              "毛利率 57.46%，具備頂級定價權與競爭壁壘",
+              "ROE 28.02%，管理層卓越",
+              "淨利率 26.66%，營運效率頂尖",
+              "護城河：網路效應 + 數據優勢"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 94.0,
@@ -977,6 +1067,10 @@
       "news": {
         "items": [
           {
+            "title": "GOOGL 260402 325.00C (GOOGL260402C325000) Stock Options Chain &amp; Price - Moomoo",
+            "date": "Sun, 12 Apr 2026 19:36:45 GMT"
+          },
+          {
             "title": "Did Alphabet Just End the AI Memory Boom? - TradingView – 追踪所有市場",
             "date": "Fri, 27 Mar 2026 07:00:00 GMT"
           },
@@ -985,16 +1079,12 @@
             "date": "Tue, 03 Feb 2026 08:00:00 GMT"
           },
           {
-            "title": "【即時新聞】Alphabet(GOOGL)股價低於330美元，是否是最後買入機會？ - CMoney投資網誌",
-            "date": "Fri, 26 Dec 2025 08:00:00 GMT"
+            "title": "【即時新聞】Alphabet股價創高上看400 分析師調高目標價 - CMoney投資網誌",
+            "date": "Fri, 30 Jan 2026 08:00:00 GMT"
           },
           {
             "title": "為何Alphabet砸錢布局AI基建拖累股價 博通、輝達卻笑了？ - news.cnyes.com",
             "date": "Fri, 06 Feb 2026 08:00:00 GMT"
-          },
-          {
-            "title": "Google 搜尋測試房屋銷售列表，Zillow 股價盤中一度重挫 - TechNews 科技新報",
-            "date": "Tue, 16 Dec 2025 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -1082,7 +1172,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "NVIDIA Corporation 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 64.3%，資本運用效率優異",
+              "淨利率 44.12%，具備強勁定價權",
+              "毛利率 68.93%，護城河寬廣",
+              "負債權益比僅 0.07，財務極度穩健",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": [
+              "P/E 38.63 偏高，估值需留意"
+            ]
+          }
         },
         "graham": {
           "score": 52.0,
@@ -1123,7 +1226,18 @@
               "value": "80.5%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "NVIDIA Corporation 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "負債權益比 0.07，資產負債表極度穩健",
+              "流動比率 3.9，短期償債能力充裕",
+              "股息殖利率 2.0%，有穩定現金回報"
+            ],
+            "risks": [
+              "P/E 38.63，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 60.0,
@@ -1159,7 +1273,19 @@
               "value": "17.0 vs 38.6",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "NVIDIA Corporation 有成長潛力，但估值或成長率尚未達標。",
+            "strengths": [
+              "ROE 64.3%，管理層資本效率出色",
+              "Forward PE 17.0 低於 Trailing PE 38.6，分析師看好成長",
+              "低負債（D/E 0.07），成長基礎穩固",
+              "淨利率 44.12%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 38.63，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 70.0,
@@ -1200,7 +1326,17 @@
               "value": 0.07,
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "NVIDIA Corporation 符合乎雪品質成長選股標準，值得長期持有。",
+            "strengths": [
+              "毛利率 68.93%，具備頂級定價權與競爭壁壘",
+              "ROE 64.3%，管理層卓越",
+              "淨利率 44.12%，營運效率頂尖",
+              "護城河：生態系鎖定 + 網路效應"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 90.0,
@@ -1358,7 +1494,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "ASML Holding N.V. - New York Re 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 53.02%，資本運用效率優異",
+              "淨利率 27.8%，具備強勁定價權",
+              "毛利率 51.48%，護城河寬廣",
+              "負債權益比僅 0.24，財務極度穩健",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": [
+              "P/E 51.82 偏高，估值需留意"
+            ]
+          }
         },
         "graham": {
           "score": 45.0,
@@ -1399,7 +1548,17 @@
               "value": "95.0%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "ASML Holding N.V. - New York Re 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "負債權益比 0.24，資產負債表極度穩健",
+              "股息殖利率 59.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 51.82，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 60.0,
@@ -1435,7 +1594,19 @@
               "value": "33.2 vs 51.8",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "ASML Holding N.V. - New York Re 有成長潛力，但估值或成長率尚未達標。",
+            "strengths": [
+              "ROE 53.02%，管理層資本效率出色",
+              "Forward PE 33.2 低於 Trailing PE 51.8，分析師看好成長",
+              "低負債（D/E 0.24），成長基礎穩固",
+              "淨利率 27.8%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 51.82，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 70.0,
@@ -1476,7 +1647,17 @@
               "value": 0.24,
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "ASML Holding N.V. - New York Re 符合乎雪品質成長選股標準，值得長期持有。",
+            "strengths": [
+              "毛利率 51.48%，具備頂級定價權與競爭壁壘",
+              "ROE 53.02%，管理層卓越",
+              "淨利率 27.8%，營運效率頂尖",
+              "護城河：絕對壟斷"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 90.0,
@@ -1634,7 +1815,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Applied Materials, Inc. 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 41.87%，資本運用效率優異",
+              "淨利率 25.56%，具備強勁定價權",
+              "毛利率 47.34%，護城河寬廣",
+              "負債權益比僅 0.33，財務極度穩健",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": [
+              "P/E 40.67 偏高，估值需留意"
+            ]
+          }
         },
         "graham": {
           "score": 55.0,
@@ -1675,7 +1869,18 @@
               "value": "95.8%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Applied Materials, Inc. 部分符合葛拉漢標準，估值或財務面仍有疑慮。",
+            "strengths": [
+              "負債權益比 0.33，資產負債表極度穩健",
+              "流動比率 2.7，短期償債能力充裕",
+              "股息殖利率 54.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 40.67，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 60.0,
@@ -1711,7 +1916,19 @@
               "value": "28.2 vs 40.7",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Applied Materials, Inc. 有成長潛力，但估值或成長率尚未達標。",
+            "strengths": [
+              "ROE 41.87%，管理層資本效率出色",
+              "Forward PE 28.2 低於 Trailing PE 40.7，分析師看好成長",
+              "低負債（D/E 0.33），成長基礎穩固",
+              "淨利率 25.56%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 40.67，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 62.0,
@@ -1752,7 +1969,17 @@
               "value": 0.33,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Applied Materials, Inc. 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 47.34%，產品差異化明顯",
+              "ROE 41.87%，管理層卓越",
+              "淨利率 25.56%，營運效率頂尖",
+              "護城河：產品廣度 + 轉換成本"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 90.0,
@@ -1910,7 +2137,21 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Lam Research Corporation 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 56.86%，資本運用效率優異",
+              "淨利率 26.84%，具備強勁定價權",
+              "毛利率 46.58%，護城河寬廣",
+              "負債權益比僅 0.44，財務極度穩健",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": [
+              "P/E 54.89 偏高，估值需留意",
+              "新聞黃燈：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "graham": {
           "score": 55.0,
@@ -1951,7 +2192,19 @@
               "value": "99.6%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Lam Research Corporation 部分符合葛拉漢標準，估值或財務面仍有疑慮。",
+            "strengths": [
+              "負債權益比 0.44，資產負債表極度穩健",
+              "流動比率 2.3，短期償債能力充裕",
+              "股息殖利率 39.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 54.89，估值偏高不符葛拉漢標準",
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "lynch": {
           "score": 56.0,
@@ -1987,7 +2240,20 @@
               "value": "38.6 vs 54.9",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Lam Research Corporation 有成長潛力，但估值或成長率尚未達標。",
+            "strengths": [
+              "ROE 56.86%，管理層資本效率出色",
+              "Forward PE 38.6 低於 Trailing PE 54.9，分析師看好成長",
+              "低負債（D/E 0.44），成長基礎穩固",
+              "淨利率 26.84%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 54.89，估值可能過高",
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "fisher": {
           "score": 62.0,
@@ -2028,7 +2294,19 @@
               "value": 0.44,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Lam Research Corporation 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 46.58%，產品差異化明顯",
+              "ROE 56.86%，管理層卓越",
+              "淨利率 26.84%，營運效率頂尖",
+              "護城河：技術領先 + 轉換成本"
+            ],
+            "risks": [
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         }
       },
       "buffett_score": 90.0,
@@ -2087,20 +2365,20 @@
             "date": "Mon, 09 Feb 2026 19:07:58 GMT"
           },
           {
-            "title": "基金更新：KING LUTHER CAPITAL MANAGEMENT CORP 開設了新的1330萬美元LRCX股票倉位。 - Moomoo",
-            "date": "Fri, 07 Nov 2025 08:00:00 GMT"
+            "title": "【01:36 即時新聞】Lam Research LRCX 跌逾5%／隨半導體族群遭遇地緣風險與科技股拋售壓力 - CMoney投資網誌",
+            "date": "Fri, 06 Mar 2026 08:00:00 GMT"
           },
           {
-            "title": "TDC Stock Rises 32% in 6 Months: Will the Momentum Continue in 2026? - TradingView – 追踪所有市場",
-            "date": "Wed, 11 Mar 2026 07:00:00 GMT"
+            "title": "Lam Research Corp(LRCX)股票3月16日開盤上漲3.36%：背後推手曝光 - TradingKey",
+            "date": "Mon, 16 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "【即時新聞】晶圓製造設備需求增強富國銀行升評科磊與科林研發且首選應用材料 - CMoney投資網誌",
-            "date": "Fri, 16 Jan 2026 08:00:00 GMT"
+            "title": "美光升超10%ASML飆7% 晶片股2026開年強勢反彈 - Yahoo股市",
+            "date": "Fri, 02 Jan 2026 08:00:00 GMT"
           }
         ],
-        "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
       },
       "pick_reason": {
         "summary": "Lam Research Corporation 符合巴菲特選股標準。",
@@ -2112,7 +2390,8 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 54.89 偏高，估值需留意"
+          "P/E 54.89 偏高，估值需留意",
+          "新聞黃燈：偵測到 1 個需關注信號"
         ]
       },
       "industry_chains": [
@@ -2185,7 +2464,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Cadence Design Systems, Inc. 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 26.09%，資本運用效率優異",
+              "淨利率 23.24%，具備強勁定價權",
+              "毛利率 87.84%，護城河寬廣",
+              "負債權益比僅 0.49，財務極度穩健",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": [
+              "P/E 70.99 偏高，估值需留意"
+            ]
+          }
         },
         "graham": {
           "score": 54.4,
@@ -2221,7 +2513,17 @@
               "value": "31.5%",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Cadence Design Systems, Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "負債權益比 0.49，資產負債表極度穩健",
+              "流動比率 2.9，短期償債能力充裕"
+            ],
+            "risks": [
+              "P/E 70.99，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 60.0,
@@ -2257,7 +2559,19 @@
               "value": "30.6 vs 71.0",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Cadence Design Systems, Inc. 有成長潛力，但估值或成長率尚未達標。",
+            "strengths": [
+              "ROE 26.09%，管理層資本效率出色",
+              "Forward PE 30.6 低於 Trailing PE 71.0，分析師看好成長",
+              "低負債（D/E 0.49），成長基礎穩固",
+              "淨利率 23.24%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 70.99，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 68.0,
@@ -2298,7 +2612,17 @@
               "value": 0.49,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Cadence Design Systems, Inc. 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 87.84%，具備頂級定價權與競爭壁壘",
+              "ROE 26.09%，管理層卓越",
+              "淨利率 23.24%，營運效率頂尖",
+              "護城河：雙寡頭 + 轉換成本"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 90.0,
@@ -2455,7 +2779,21 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Arista Networks, Inc. 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 28.38%，資本運用效率優異",
+              "淨利率 36.55%，具備強勁定價權",
+              "毛利率 62.8%，護城河寬廣",
+              "負債權益比僅 0.01，財務極度穩健",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": [
+              "P/E 55.28 偏高，估值需留意",
+              "新聞黃燈：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "graham": {
           "score": 50.0,
@@ -2491,7 +2829,18 @@
               "value": "86.9%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Arista Networks, Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "負債權益比 0.01，資產負債表極度穩健",
+              "流動比率 3.0，短期償債能力充裕"
+            ],
+            "risks": [
+              "P/E 55.28，估值偏高不符葛拉漢標準",
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "lynch": {
           "score": 60.0,
@@ -2527,7 +2876,20 @@
               "value": "35.6 vs 55.3",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Arista Networks, Inc. 有成長潛力，但估值或成長率尚未達標。",
+            "strengths": [
+              "ROE 28.38%，管理層資本效率出色",
+              "Forward PE 35.6 低於 Trailing PE 55.3，分析師看好成長",
+              "低負債（D/E 0.01），成長基礎穩固",
+              "淨利率 36.55%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 55.28，估值可能過高",
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "fisher": {
           "score": 70.0,
@@ -2568,7 +2930,19 @@
               "value": 0.01,
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Arista Networks, Inc. 符合乎雪品質成長選股標準，值得長期持有。",
+            "strengths": [
+              "毛利率 62.8%，具備頂級定價權與競爭壁壘",
+              "ROE 28.38%，管理層卓越",
+              "淨利率 36.55%，營運效率頂尖",
+              "護城河：軟體定義網路 + 轉換成本"
+            ],
+            "risks": [
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         }
       },
       "buffett_score": 90.0,
@@ -2727,7 +3101,18 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Johnson & Johnson 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 31.75%，資本運用效率優異",
+              "淨利率 27.0%，具備強勁定價權",
+              "毛利率 68.76%，護城河寬廣",
+              "負債權益比 0.6，資產負債表健康",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 39.0,
@@ -2768,7 +3153,16 @@
               "value": "87.0%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Johnson & Johnson 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 219.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 21.55，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 48.0,
@@ -2804,7 +3198,15 @@
               "value": "18.9 vs 21.6",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Johnson & Johnson 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 31.75%，管理層資本效率出色",
+              "淨利率 27.0%，獲利能力強"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 68.0,
@@ -2845,7 +3247,17 @@
               "value": 0.6,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Johnson & Johnson 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 68.76%，具備頂級定價權與競爭壁壘",
+              "ROE 31.75%，管理層卓越",
+              "淨利率 27.0%，營運效率頂尖",
+              "護城河：品牌 + 專利/法規"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 89.0,
@@ -2900,16 +3312,16 @@
             "date": "Sun, 12 Apr 2026 06:08:31 GMT"
           },
           {
-            "title": "強生(JNJ.US)將投資10億美元在賓州建新廠 - AASTOCKS.com",
-            "date": "Wed, 18 Feb 2026 16:10:00 GMT"
+            "title": "強生(JNJ.US)擬出售骨科業務 估值或逾200億美元 - AASTOCKS.com",
+            "date": "Thu, 19 Feb 2026 08:00:00 GMT"
           },
           {
             "title": "強生 (NYSE:JNJ) 受到機構投資者的青睞，他們持有公司74%的股份。 - 富途牛牛",
             "date": "Thu, 18 Sep 2025 07:00:00 GMT"
           },
           {
-            "title": "《業績》強生(JNJ.US)上季盈收均勝預期 料美藥品定價協議致數億美元損失 - AASTOCKS.com",
-            "date": "Wed, 21 Jan 2026 08:00:00 GMT"
+            "title": "強生(JNJ.US)將投資10億美元在賓州建新廠 - AASTOCKS.com",
+            "date": "Wed, 18 Feb 2026 16:10:00 GMT"
           },
           {
             "title": "Earnings Preview: JNJ to Report Financial Results Pre-market on April 14 - 富途牛牛",
@@ -3001,7 +3413,18 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Visa Inc. 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 47.5%，資本運用效率優異",
+              "淨利率 52.26%，具備強勁定價權",
+              "毛利率 80.27%，護城河寬廣",
+              "負債權益比 0.55，資產負債表健康",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 46.0,
@@ -3042,7 +3465,17 @@
               "value": "19.0%",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Visa Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 87.0%，提供安全邊際",
+              "股價接近 52 週低點，逢低買入機會"
+            ],
+            "risks": [
+              "P/E 29.08，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 52.0,
@@ -3078,7 +3511,16 @@
               "value": "21.3 vs 29.1",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Visa Inc. 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 47.5%，管理層資本效率出色",
+              "Forward PE 21.3 低於 Trailing PE 29.1，分析師看好成長",
+              "淨利率 52.26%，獲利能力強"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 68.0,
@@ -3119,7 +3561,17 @@
               "value": 0.55,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Visa Inc. 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 80.27%，具備頂級定價權與競爭壁壘",
+              "ROE 47.5%，管理層卓越",
+              "淨利率 52.26%，營運效率頂尖",
+              "護城河：網路效應 + 規模壁壘"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 89.0,
@@ -3275,7 +3727,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Old Dominion Freight Line, Inc. 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 29.63%，資本運用效率優異",
+              "淨利率 20.54%，具備強勁定價權",
+              "負債權益比僅 0.03，財務極度穩健",
+              "自由現金流連續 4 年為正",
+              "股息殖利率 56.0%，提供穩定現金回報"
+            ],
+            "risks": [
+              "P/E 42.9 偏高，估值需留意"
+            ]
+          }
         },
         "graham": {
           "score": 45.0,
@@ -3316,7 +3781,17 @@
               "value": "85.4%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Old Dominion Freight Line, Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "負債權益比 0.03，資產負債表極度穩健",
+              "股息殖利率 56.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 42.9，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 56.0,
@@ -3352,7 +3827,19 @@
               "value": "34.2 vs 42.9",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Old Dominion Freight Line, Inc. 有成長潛力，但估值或成長率尚未達標。",
+            "strengths": [
+              "ROE 29.63%，管理層資本效率出色",
+              "Forward PE 34.2 低於 Trailing PE 42.9，分析師看好成長",
+              "低負債（D/E 0.03），成長基礎穩固",
+              "淨利率 20.54%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 42.9，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 57.0,
@@ -3393,7 +3880,16 @@
               "value": 0.03,
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Old Dominion Freight Line, Inc. 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "ROE 29.63%，管理層卓越",
+              "淨利率 20.54%，營運效率頂尖",
+              "護城河：網路效應 + 服務品質"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 87.0,
@@ -3543,7 +4039,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Broadcom Inc. 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 36.62%，資本運用效率優異",
+              "淨利率 30.39%，具備強勁定價權",
+              "毛利率 66.57%，護城河寬廣",
+              "負債權益比 0.83，資產負債表健康",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": [
+              "P/E 74.03 偏高，估值需留意"
+            ]
+          }
         },
         "graham": {
           "score": 44.0,
@@ -3584,7 +4093,16 @@
               "value": "86.2%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Broadcom Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 68.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 74.03，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 56.0,
@@ -3620,7 +4138,18 @@
               "value": "21.2 vs 74.0",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Broadcom Inc. 有成長潛力，但估值或成長率尚未達標。",
+            "strengths": [
+              "ROE 36.62%，管理層資本效率出色",
+              "Forward PE 21.2 低於 Trailing PE 74.0，分析師看好成長",
+              "淨利率 30.39%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 74.03，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 67.0,
@@ -3661,7 +4190,17 @@
               "value": 0.83,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Broadcom Inc. 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 66.57%，具備頂級定價權與競爭壁壘",
+              "ROE 36.62%，管理層卓越",
+              "淨利率 30.39%，營運效率頂尖",
+              "護城河：轉換成本 + 標準制定"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 85.0,
@@ -3818,7 +4357,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Synopsys, Inc. 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 16.93%，高於 15% 門檻",
+              "淨利率 25.07%，具備強勁定價權",
+              "毛利率 79.46%，護城河寬廣",
+              "負債權益比僅 0.36，財務極度穩健",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": [
+              "P/E 64.08 偏高，估值需留意"
+            ]
+          }
         },
         "graham": {
           "score": 46.7,
@@ -3854,7 +4406,17 @@
               "value": "15.1%",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Synopsys, Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "負債權益比 0.36，資產負債表極度穩健",
+              "股價接近 52 週低點，逢低買入機會"
+            ],
+            "risks": [
+              "P/E 64.08，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 53.3,
@@ -3890,7 +4452,18 @@
               "value": "24.5 vs 64.1",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Synopsys, Inc. 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 24.5 低於 Trailing PE 64.1，分析師看好成長",
+              "低負債（D/E 0.36），成長基礎穩固",
+              "淨利率 25.07%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 64.08，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 55.0,
@@ -3931,7 +4504,16 @@
               "value": 0.36,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Synopsys, Inc. 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 79.46%，具備頂級定價權與競爭壁壘",
+              "淨利率 25.07%，營運效率頂尖",
+              "護城河：雙寡頭 + 轉換成本"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 85.0,
@@ -3998,8 +4580,8 @@
             "date": "Fri, 27 Mar 2026 08:05:24 GMT"
           },
           {
-            "title": "新思科技盤中股價崩跌35%！恐將一口氣吐光年內漲幅 - news.cnyes.com",
-            "date": "Thu, 11 Sep 2025 07:00:00 GMT"
+            "title": "Can Rising AI Tool Adoption Lift Synopsys' Design Automation Revenues? - TradingView – 追踪所有市場",
+            "date": "Tue, 24 Mar 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -4088,7 +4670,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "IDEXX Laboratories, Inc. 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 72.53%，資本運用效率優異",
+              "淨利率 22.66%，具備強勁定價權",
+              "毛利率 60.54%，護城河寬廣",
+              "負債權益比 0.61，資產負債表健康",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": [
+              "P/E 43.85 偏高，估值需留意"
+            ]
+          }
         },
         "graham": {
           "score": 36.7,
@@ -4124,7 +4719,14 @@
               "value": "47.2%",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "IDEXX Laboratories, Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [],
+            "risks": [
+              "P/E 43.85，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 52.0,
@@ -4160,7 +4762,18 @@
               "value": "35.0 vs 43.9",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "IDEXX Laboratories, Inc. 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 72.53%，管理層資本效率出色",
+              "Forward PE 35.0 低於 Trailing PE 43.9，分析師看好成長",
+              "淨利率 22.66%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 43.85，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 68.0,
@@ -4201,7 +4814,17 @@
               "value": 0.61,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "IDEXX Laboratories, Inc. 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 60.54%，具備頂級定價權與競爭壁壘",
+              "ROE 72.53%，管理層卓越",
+              "淨利率 22.66%，營運效率頂尖",
+              "護城河：近壟斷 + 經常性收入"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 85.0,
@@ -4359,7 +4982,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Cheniere Energy, Inc. 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 67.9%，資本運用效率優異",
+              "淨利率 25.03%，具備強勁定價權",
+              "毛利率 45.8%，護城河寬廣",
+              "自由現金流連續 4 年為正",
+              "股息殖利率 85.0%，提供穩定現金回報"
+            ],
+            "risks": [
+              "負債權益比 2.02 偏高"
+            ]
+          }
         },
         "graham": {
           "score": 34.0,
@@ -4400,7 +5036,18 @@
               "value": "65.7%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Cheniere Energy, Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "P/E 10.85，估值處於安全邊際內",
+              "股息殖利率 85.0%，提供安全邊際"
+            ],
+            "risks": [
+              "負債權益比 2.02，財務風險偏高",
+              "流動比率 0.9，短期流動性不足"
+            ]
+          }
         },
         "lynch": {
           "score": 33.3,
@@ -4436,7 +5083,15 @@
               "value": "16.0 vs 10.8",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Cheniere Energy, Inc. 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 67.9%，管理層資本效率出色",
+              "淨利率 25.03%，獲利能力強"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 59.0,
@@ -4477,7 +5132,17 @@
               "value": 2.02,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Cheniere Energy, Inc. 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 45.8%，產品差異化明顯",
+              "ROE 67.9%，管理層卓越",
+              "淨利率 25.03%，營運效率頂尖",
+              "護城河：長約鎖定 + 進入門檻"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 85.0,
@@ -4635,7 +5300,18 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Coca-Cola Company (The) 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 41.1%，資本運用效率優異",
+              "淨利率 23.88%，具備強勁定價權",
+              "毛利率 60.09%，護城河寬廣",
+              "自由現金流連續 4 年為正",
+              "股息殖利率 270.0%，提供穩定現金回報"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 32.0,
@@ -4676,7 +5352,16 @@
               "value": "66.4%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Coca-Cola Company (The) 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 270.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 25.13，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 44.0,
@@ -4712,7 +5397,15 @@
               "value": "22.1 vs 25.1",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Coca-Cola Company (The) 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 41.1%，管理層資本效率出色",
+              "淨利率 23.88%，獲利能力強"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 65.0,
@@ -4753,7 +5446,17 @@
               "value": 1.4,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Coca-Cola Company (The) 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 60.09%，具備頂級定價權與競爭壁壘",
+              "ROE 41.1%，管理層卓越",
+              "淨利率 23.88%，營運效率頂尖",
+              "護城河：品牌 + 分銷網路"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 84.0,
@@ -4909,7 +5612,18 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Procter & Gamble Company (The) 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 30.82%，資本運用效率優異",
+              "淨利率 18.23%，營運效率良好",
+              "毛利率 49.46%，護城河寬廣",
+              "負債權益比 0.69，資產負債表健康",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 41.0,
@@ -4950,7 +5664,18 @@
               "value": "17.5%",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Procter & Gamble Company (The) 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 294.0%，提供安全邊際",
+              "股價接近 52 週低點，逢低買入機會"
+            ],
+            "risks": [
+              "P/E 21.27，估值偏高不符葛拉漢標準",
+              "流動比率 0.7，短期流動性不足"
+            ]
+          }
         },
         "lynch": {
           "score": 48.0,
@@ -4986,7 +5711,15 @@
               "value": "19.8 vs 21.3",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Procter & Gamble Company (The) 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 30.82%，管理層資本效率出色",
+              "淨利率 18.23%，獲利能力強"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 57.0,
@@ -5027,7 +5760,16 @@
               "value": 0.69,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Procter & Gamble Company (The) 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 49.46%，產品差異化明顯",
+              "ROE 30.82%，管理層卓越",
+              "護城河：品牌 + 規模經濟"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 84.0,
@@ -5173,7 +5915,18 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台積電 符合巴菲特選股標準。",
+            "strengths": [
+              "淨利率 15.73%，營運效率良好",
+              "毛利率 52.58%，護城河寬廣",
+              "負債權益比僅 0.45，財務極度穩健",
+              "EPS 連續 11 年為正，盈利穩定可預測",
+              "EPS 五年 CAGR 23.55%，成長動能強勁"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 100.0,
@@ -5194,7 +5947,15 @@
               "value": 15.73,
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台積電 符合葛拉漢深度價值選股標準。",
+            "strengths": [
+              "負債權益比 0.45，資產負債表極度穩健",
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": []
+          }
         },
         "lynch": {
           "score": 84.6,
@@ -5225,7 +5986,16 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台積電 符合林區 GARP 選股標準，成長與估值平衡。",
+            "strengths": [
+              "EPS 五年 CAGR 23.55%，高速成長股",
+              "低負債（D/E 0.45），成長基礎穩固",
+              "淨利率 15.73%，獲利能力強"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 73.0,
@@ -5266,7 +6036,19 @@
               "value": 0.45,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台積電 符合乎雪品質成長選股標準，值得長期持有。",
+            "strengths": [
+              "毛利率 52.58%，具備頂級定價權與競爭壁壘",
+              "EPS 五年 CAGR 23.55%，持續高品質成長",
+              "EPS 連續 11 年為正，品質經得起時間考驗",
+              "護城河：技術優勢 + 規模經濟"
+            ],
+            "risks": [
+              "ROE 10.35%，管理效率偏低"
+            ]
+          }
         }
       },
       "buffett_score": 81.1,
@@ -5417,7 +6199,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "CSX Corporation 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 28.24%，資本運用效率優異",
+              "淨利率 24.27%，具備強勁定價權",
+              "自由現金流連續 4 年為正",
+              "股息殖利率 132.0%，提供穩定現金回報",
+              "護城河寬廣：雙寡頭壟斷"
+            ],
+            "risks": [
+              "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         },
         "graham": {
           "score": 27.0,
@@ -5458,7 +6253,18 @@
               "value": "93.9%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "CSX Corporation 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 132.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 27.5，估值偏高不符葛拉漢標準",
+              "流動比率 0.8，短期流動性不足",
+              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         },
         "lynch": {
           "score": 48.0,
@@ -5494,7 +6300,18 @@
               "value": "20.2 vs 27.5",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "CSX Corporation 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 28.24%，管理層資本效率出色",
+              "Forward PE 20.2 低於 Trailing PE 27.5，分析師看好成長",
+              "淨利率 24.27%，獲利能力強"
+            ],
+            "risks": [
+              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         },
         "fisher": {
           "score": 52.0,
@@ -5535,7 +6352,18 @@
               "value": 1.48,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "CSX Corporation 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "ROE 28.24%，管理層卓越",
+              "淨利率 24.27%，營運效率頂尖",
+              "護城河：雙寡頭壟斷"
+            ],
+            "risks": [
+              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         }
       },
       "buffett_score": 81.0,
@@ -5586,8 +6414,8 @@
       "news": {
         "items": [
           {
-            "title": "CSX Corp | 8-K: Current report - 富途牛牛",
-            "date": "Mon, 13 Apr 2026 03:30:47 GMT"
+            "title": "CSX Corp | SCHEDULE 13G/A: Others - 富途牛牛",
+            "date": "Mon, 13 Apr 2026 11:57:55 GMT"
           },
           {
             "title": "基金更新：MARKEL GROUP INC.投資組合新增22萬股CSX（CSX）股票 - Moomoo",
@@ -5602,8 +6430,8 @@
             "date": "Mon, 06 Apr 2026 13:01:26 GMT"
           },
           {
-            "title": "CSX內部人士拋售股票可能發出看跌信號 - 富途牛牛",
-            "date": "Sat, 30 Aug 2025 19:46:49 GMT"
+            "title": "Stocks to Watch Friday: Intel, Capital One, CSX -- WSJ - 富途牛牛",
+            "date": "Fri, 23 Jan 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "yellow",
@@ -5693,7 +6521,21 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Apple Inc. 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 167.39%，資本運用效率優異",
+              "淨利率 25.38%，具備強勁定價權",
+              "毛利率 45.14%，護城河寬廣",
+              "自由現金流連續 4 年為正",
+              "年產自由現金流 $98.77B，現金印鈔機"
+            ],
+            "risks": [
+              "P/E 32.77 偏高，估值需留意",
+              "新聞黃燈：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "graham": {
           "score": 27.0,
@@ -5734,7 +6576,18 @@
               "value": "70.2%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Apple Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 40.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 32.77，估值偏高不符葛拉漢標準",
+              "流動比率 1.0，短期流動性不足",
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "lynch": {
           "score": 48.0,
@@ -5770,7 +6623,19 @@
               "value": "27.8 vs 32.8",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Apple Inc. 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 167.39%，管理層資本效率出色",
+              "Forward PE 27.8 低於 Trailing PE 32.8，分析師看好成長",
+              "淨利率 25.38%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 32.77，估值可能過高",
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "fisher": {
           "score": 61.0,
@@ -5811,7 +6676,19 @@
               "value": 1.03,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Apple Inc. 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 45.14%，產品差異化明顯",
+              "ROE 167.39%，管理層卓越",
+              "淨利率 25.38%，營運效率頂尖",
+              "護城河：轉換成本 + 品牌"
+            ],
+            "risks": [
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         }
       },
       "buffett_score": 80.0,
@@ -5970,7 +6847,21 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "KLA Corporation 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 130.4%，資本運用效率優異",
+              "淨利率 32.47%，具備強勁定價權",
+              "毛利率 60.42%，護城河寬廣",
+              "自由現金流連續 4 年為正",
+              "股息殖利率 43.0%，提供穩定現金回報"
+            ],
+            "risks": [
+              "P/E 51.55 偏高，估值需留意",
+              "新聞黃燈：偵測到 2 個需關注信號"
+            ]
+          }
         },
         "graham": {
           "score": 42.0,
@@ -6011,7 +6902,18 @@
               "value": "99.7%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "KLA Corporation 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "流動比率 2.8，短期償債能力充裕",
+              "股息殖利率 43.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 51.55，估值偏高不符葛拉漢標準",
+              "新聞風險：偵測到 2 個需關注信號"
+            ]
+          }
         },
         "lynch": {
           "score": 48.0,
@@ -6047,7 +6949,19 @@
               "value": "36.8 vs 51.5",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "KLA Corporation 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 130.4%，管理層資本效率出色",
+              "Forward PE 36.8 低於 Trailing PE 51.5，分析師看好成長",
+              "淨利率 32.47%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 51.55，估值可能過高",
+              "新聞風險：偵測到 2 個需關注信號"
+            ]
+          }
         },
         "fisher": {
           "score": 67.0,
@@ -6088,7 +7002,19 @@
               "value": 1.12,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "KLA Corporation 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 60.42%，具備頂級定價權與競爭壁壘",
+              "ROE 130.4%，管理層卓越",
+              "淨利率 32.47%，營運效率頂尖",
+              "護城河：近壟斷"
+            ],
+            "risks": [
+              "新聞風險：偵測到 2 個需關注信號"
+            ]
+          }
         }
       },
       "buffett_score": 80.0,
@@ -6246,7 +7172,18 @@
               "value": "3/4",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Vertex Pharmaceuticals Incorpor 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 15.6%，高於 15% 門檻",
+              "淨利率 25.49%，具備強勁定價權",
+              "毛利率 86.87%，護城河寬廣",
+              "負債權益比僅 0.11，財務極度穩健",
+              "護城河寬廣：近壟斷 + 專利"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 50.0,
@@ -6282,7 +7219,17 @@
               "value": "52.3%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Vertex Pharmaceuticals Incorpor 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "負債權益比 0.11，資產負債表極度穩健",
+              "流動比率 2.9，短期償債能力充裕"
+            ],
+            "risks": [
+              "P/E 28.74，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 49.3,
@@ -6318,7 +7265,16 @@
               "value": "20.1 vs 28.7",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Vertex Pharmaceuticals Incorpor 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 20.1 低於 Trailing PE 28.7，分析師看好成長",
+              "低負債（D/E 0.11），成長基礎穩固",
+              "淨利率 25.49%，獲利能力強"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 54.0,
@@ -6359,7 +7315,16 @@
               "value": 0.11,
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Vertex Pharmaceuticals Incorpor 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "毛利率 86.87%，具備頂級定價權與競爭壁壘",
+              "淨利率 25.49%，營運效率頂尖",
+              "護城河：近壟斷 + 專利"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 79.0,
@@ -6515,7 +7480,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Union Pacific Corporation 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 44.82%，資本運用效率優異",
+              "淨利率 27.88%，具備強勁定價權",
+              "毛利率 45.0%，護城河寬廣",
+              "自由現金流連續 4 年為正",
+              "股息殖利率 220.0%，提供穩定現金回報"
+            ],
+            "risks": [
+              "負債權益比 1.78 偏高"
+            ]
+          }
         },
         "graham": {
           "score": 20.0,
@@ -6556,7 +7534,18 @@
               "value": "72.7%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Union Pacific Corporation 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 220.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 21.0，估值偏高不符葛拉漢標準",
+              "負債權益比 1.78，財務風險偏高",
+              "流動比率 0.9，短期流動性不足"
+            ]
+          }
         },
         "lynch": {
           "score": 44.0,
@@ -6592,7 +7581,15 @@
               "value": "18.5 vs 21.0",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Union Pacific Corporation 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 44.82%，管理層資本效率出色",
+              "淨利率 27.88%，獲利能力強"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 59.0,
@@ -6633,7 +7630,17 @@
               "value": 1.78,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Union Pacific Corporation 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 45.0%，產品差異化明顯",
+              "ROE 44.82%，管理層卓越",
+              "淨利率 27.88%，營運效率頂尖",
+              "護城河：雙寡頭壟斷"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 79.0,
@@ -6790,7 +7797,21 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Intuitive Surgical, Inc. 符合巴菲特選股標準。",
+            "strengths": [
+              "淨利率 25.67%，具備強勁定價權",
+              "毛利率 66.82%，護城河寬廣",
+              "負債權益比僅 0.01，財務極度穩健",
+              "自由現金流連續 4 年為正",
+              "護城河寬廣：先行者 + 轉換成本"
+            ],
+            "risks": [
+              "P/E 58.47 偏高，估值需留意",
+              "新聞黃燈：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "graham": {
           "score": 57.8,
@@ -6826,7 +7847,19 @@
               "value": "17.7%",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Intuitive Surgical, Inc. 部分符合葛拉漢標準，估值或財務面仍有疑慮。",
+            "strengths": [
+              "負債權益比 0.01，資產負債表極度穩健",
+              "流動比率 4.9，短期償債能力充裕",
+              "股價接近 52 週低點，逢低買入機會"
+            ],
+            "risks": [
+              "P/E 58.47，估值偏高不符葛拉漢標準",
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "lynch": {
           "score": 46.7,
@@ -6862,7 +7895,19 @@
               "value": "40.2 vs 58.5",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Intuitive Surgical, Inc. 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 40.2 低於 Trailing PE 58.5，分析師看好成長",
+              "低負債（D/E 0.01），成長基礎穩固",
+              "淨利率 25.67%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 58.47，估值可能過高",
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "fisher": {
           "score": 57.0,
@@ -6903,7 +7948,18 @@
               "value": 0.01,
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Intuitive Surgical, Inc. 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 66.82%，具備頂級定價權與競爭壁壘",
+              "淨利率 25.67%，營運效率頂尖",
+              "護城河：先行者 + 轉換成本"
+            ],
+            "risks": [
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         }
       },
       "buffett_score": 78.0,
@@ -7062,7 +8118,21 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Occidental Petroleum Corporatio 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 18.79%，高於 15% 門檻",
+              "淨利率 20.31%，具備強勁定價權",
+              "負債權益比 0.64，資產負債表健康",
+              "自由現金流連續 4 年為正",
+              "股息殖利率 179.0%，提供穩定現金回報"
+            ],
+            "risks": [
+              "P/E 43.01 偏高，估值需留意",
+              "新聞黃燈：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "graham": {
           "score": 34.0,
@@ -7103,7 +8173,18 @@
               "value": "68.5%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Occidental Petroleum Corporatio 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 179.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 43.01，估值偏高不符葛拉漢標準",
+              "流動比率 0.9，短期流動性不足",
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "lynch": {
           "score": 49.3,
@@ -7139,7 +8220,18 @@
               "value": "17.1 vs 43.0",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Occidental Petroleum Corporatio 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 17.1 低於 Trailing PE 43.0，分析師看好成長",
+              "淨利率 20.31%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 43.01，估值可能過高",
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "fisher": {
           "score": 49.0,
@@ -7180,7 +8272,18 @@
               "value": 0.64,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Occidental Petroleum Corporatio 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "ROE 18.79%，資本運用效率良好",
+              "淨利率 20.31%，營運效率頂尖",
+              "護城河：低成本資產 + 碳捕獲"
+            ],
+            "risks": [
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         }
       },
       "buffett_score": 77.0,
@@ -7339,7 +8442,22 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Mastercard Incorporated 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 177.8%，資本運用效率優異",
+              "淨利率 45.15%，具備強勁定價權",
+              "毛利率 76.63%，護城河寬廣",
+              "自由現金流連續 4 年為正",
+              "年產自由現金流 $16.43B，現金印鈔機"
+            ],
+            "risks": [
+              "P/E 30.77 偏高，估值需留意",
+              "負債權益比 2.56 偏高",
+              "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         },
         "graham": {
           "score": 32.0,
@@ -7380,7 +8498,19 @@
               "value": "23.2%",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Mastercard Incorporated 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 68.0%，提供安全邊際",
+              "股價接近 52 週低點，逢低買入機會"
+            ],
+            "risks": [
+              "P/E 30.77，估值偏高不符葛拉漢標準",
+              "負債權益比 2.56，財務風險偏高",
+              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         },
         "lynch": {
           "score": 42.7,
@@ -7416,7 +8546,19 @@
               "value": "22.4 vs 30.8",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Mastercard Incorporated 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 177.8%，管理層資本效率出色",
+              "Forward PE 22.4 低於 Trailing PE 30.8，分析師看好成長",
+              "淨利率 45.15%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 30.77，估值可能過高",
+              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         },
         "fisher": {
           "score": 65.0,
@@ -7457,7 +8599,19 @@
               "value": 2.56,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Mastercard Incorporated 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 76.63%，具備頂級定價權與競爭壁壘",
+              "ROE 177.8%，管理層卓越",
+              "淨利率 45.15%，營運效率頂尖",
+              "護城河：網路效應 + 規模壁壘"
+            ],
+            "risks": [
+              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         }
       },
       "buffett_score": 75.0,
@@ -7617,7 +8771,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Linde plc 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 15.31%，高於 15% 門檻",
+              "淨利率 17.87%，營運效率良好",
+              "毛利率 46.34%，護城河寬廣",
+              "負債權益比 0.71，資產負債表健康",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": [
+              "P/E 34.85 偏高，估值需留意"
+            ]
+          }
         },
         "graham": {
           "score": 34.0,
@@ -7658,7 +8825,17 @@
               "value": "98.6%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Linde plc 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 126.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 34.85，估值偏高不符葛拉漢標準",
+              "流動比率 0.9，短期流動性不足"
+            ]
+          }
         },
         "lynch": {
           "score": 45.3,
@@ -7694,7 +8871,17 @@
               "value": "26.1 vs 34.9",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Linde plc 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 26.1 低於 Trailing PE 34.9，分析師看好成長",
+              "淨利率 17.87%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 34.85，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 43.0,
@@ -7735,7 +8922,15 @@
               "value": 0.71,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Linde plc 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "毛利率 46.34%，產品差異化明顯",
+              "護城河：寡頭壟斷 + 長約鎖定"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 75.0,
@@ -7893,7 +9088,21 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Ecolab Inc. 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 19.38%，高於 15% 門檻",
+              "淨利率 10.74%，營運效率良好",
+              "毛利率 41.48%，護城河寬廣",
+              "負債權益比 0.92，資產負債表健康",
+              "自由現金流連續 4 年為正"
+            ],
+            "risks": [
+              "P/E 37.75 偏高，估值需留意",
+              "新聞黃燈：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "graham": {
           "score": 39.0,
@@ -7934,7 +9143,17 @@
               "value": "57.3%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Ecolab Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 100.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 37.75，估值偏高不符葛拉漢標準",
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "lynch": {
           "score": 41.3,
@@ -7970,7 +9189,17 @@
               "value": "28.5 vs 37.8",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Ecolab Inc. 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 28.5 低於 Trailing PE 37.8，分析師看好成長"
+            ],
+            "risks": [
+              "P/E 37.75，估值可能過高",
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "fisher": {
           "score": 45.0,
@@ -8011,7 +9240,18 @@
               "value": 0.92,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Ecolab Inc. 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "毛利率 41.48%，產品差異化明顯",
+              "ROE 19.38%，資本運用效率良好",
+              "護城河：轉換成本 + 經常性收入"
+            ],
+            "risks": [
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         }
       },
       "buffett_score": 75.0,
@@ -8170,7 +9410,18 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Enterprise Products Partners L. 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 inf%，資本運用效率優異",
+              "淨利率 10.53%，營運效率良好",
+              "自由現金流連續 4 年為正",
+              "股息殖利率 585.0%，提供穩定現金回報",
+              "護城河寬廣：不可複製基礎設施"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 46.0,
@@ -8211,7 +9462,15 @@
               "value": "77.0%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Enterprise Products Partners L. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "P/E 14.07，估值處於安全邊際內",
+              "股息殖利率 585.0%，提供安全邊際"
+            ],
+            "risks": []
+          }
         },
         "lynch": {
           "score": 40.0,
@@ -8247,7 +9506,14 @@
               "value": "12.0 vs 14.1",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Enterprise Products Partners L. 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE inf%，管理層資本效率出色"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 37.0,
@@ -8288,7 +9554,17 @@
               "value": 1.14,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Enterprise Products Partners L. 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "ROE inf%，管理層卓越",
+              "護城河：不可複製基礎設施"
+            ],
+            "risks": [
+              "毛利率僅 12.83%，產品差異化不足"
+            ]
+          }
         }
       },
       "buffett_score": 75.0,
@@ -8444,7 +9720,18 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Chevron Corporation 符合巴菲特選股標準。",
+            "strengths": [
+              "淨利率 10.42%，營運效率良好",
+              "負債權益比僅 0.24，財務極度穩健",
+              "自由現金流連續 4 年為正",
+              "年產自由現金流 $16.59B，現金印鈔機",
+              "股息殖利率 371.0%，提供穩定現金回報"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 45.0,
@@ -8485,7 +9772,17 @@
               "value": "72.2%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Chevron Corporation 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "負債權益比 0.24，資產負債表極度穩健",
+              "股息殖利率 371.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 28.88，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 42.7,
@@ -8521,7 +9818,15 @@
               "value": "17.9 vs 28.9",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Chevron Corporation 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 17.9 低於 Trailing PE 28.9，分析師看好成長",
+              "低負債（D/E 0.24），成長基礎穩固"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 34.0,
@@ -8562,7 +9867,14 @@
               "value": 0.24,
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Chevron Corporation 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "護城河：規模 + 整合型"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 74.0,
@@ -8621,8 +9933,8 @@
             "date": "Mon, 13 Apr 2026 12:37:55 GMT"
           },
           {
-            "title": "【美股動態】Chevron油價飆升帶動能源類股上揚-CMoney 研究員 - CMoney投資網誌",
-            "date": "Mon, 09 Mar 2026 07:00:00 GMT"
+            "title": "【即時新聞】道瓊指數中高股息股票值得關注，Verizon、Chevron與Merck - CMoney投資網誌",
+            "date": "Tue, 06 Jan 2026 08:00:00 GMT"
           },
           {
             "title": "今日盤前市場波動與頂級評級 | INTC, CVX, PLTR等 - Moomoo",
@@ -8718,7 +10030,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Eaton Corporation, PLC 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 18.23%，高於 15% 門檻",
+              "淨利率 13.97%，營運效率良好",
+              "負債權益比 0.55，資產負債表健康",
+              "自由現金流連續 4 年為正",
+              "股息殖利率 109.0%，提供穩定現金回報"
+            ],
+            "risks": [
+              "P/E 38.64 偏高，估值需留意"
+            ]
+          }
         },
         "graham": {
           "score": 39.0,
@@ -8759,7 +10084,16 @@
               "value": "96.7%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Eaton Corporation, PLC 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 109.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 38.64，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 45.3,
@@ -8795,7 +10129,16 @@
               "value": "26.0 vs 38.6",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Eaton Corporation, PLC 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 26.0 低於 Trailing PE 38.6，分析師看好成長"
+            ],
+            "risks": [
+              "P/E 38.64，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 44.0,
@@ -8836,7 +10179,15 @@
               "value": 0.55,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Eaton Corporation, PLC 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "ROE 18.23%，資本運用效率良好",
+              "護城河：供不應求 + 轉換成本"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 72.0,
@@ -8993,7 +10344,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "AbbVie Inc. 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 28.74%，資本運用效率優異",
+              "淨利率 10.96%，營運效率良好",
+              "毛利率 68.16%，護城河寬廣",
+              "自由現金流連續 4 年為正",
+              "年產自由現金流 $17.82B，現金印鈔機"
+            ],
+            "risks": [
+              "P/E 87.12 偏高，估值需留意"
+            ]
+          }
         },
         "graham": {
           "score": 24.0,
@@ -9034,7 +10398,17 @@
               "value": "49.7%",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "AbbVie Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 335.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 87.12，估值偏高不符葛拉漢標準",
+              "流動比率 0.7，短期流動性不足"
+            ]
+          }
         },
         "lynch": {
           "score": 42.7,
@@ -9070,7 +10444,17 @@
               "value": "12.8 vs 87.1",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "AbbVie Inc. 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 28.74%，管理層資本效率出色",
+              "Forward PE 12.8 低於 Trailing PE 87.1，分析師看好成長"
+            ],
+            "risks": [
+              "P/E 87.12，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 55.0,
@@ -9111,7 +10495,16 @@
               "value": null,
               "grade": "nodata"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "AbbVie Inc. 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 68.16%，具備頂級定價權與競爭壁壘",
+              "ROE 28.74%，管理層卓越",
+              "護城河：專利 + 免疫學領導"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 70.0,
@@ -9269,7 +10662,22 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Sherwin-Williams Company (The) 符合巴菲特選股標準。",
+            "strengths": [
+              "ROE 達 62.86%，資本運用效率優異",
+              "淨利率 10.5%，營運效率良好",
+              "毛利率 46.52%，護城河寬廣",
+              "自由現金流連續 4 年為正",
+              "股息殖利率 96.0%，提供穩定現金回報"
+            ],
+            "risks": [
+              "P/E 32.56 偏高，估值需留意",
+              "負債權益比 3.06 偏高",
+              "新聞黃燈：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "graham": {
           "score": 24.0,
@@ -9310,7 +10718,18 @@
               "value": "42.0%",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Sherwin-Williams Company (The) 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 96.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 32.56，估值偏高不符葛拉漢標準",
+              "負債權益比 3.06，財務風險偏高",
+              "流動比率 0.9，短期流動性不足"
+            ]
+          }
         },
         "lynch": {
           "score": 38.7,
@@ -9346,7 +10765,18 @@
               "value": "25.0 vs 32.6",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Sherwin-Williams Company (The) 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 62.86%，管理層資本效率出色",
+              "Forward PE 25.0 低於 Trailing PE 32.6，分析師看好成長"
+            ],
+            "risks": [
+              "P/E 32.56，估值可能過高",
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "fisher": {
           "score": 49.0,
@@ -9387,7 +10817,18 @@
               "value": 3.06,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Sherwin-Williams Company (The) 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "毛利率 46.52%，產品差異化明顯",
+              "ROE 62.86%，管理層卓越",
+              "護城河：品牌 + 分銷壟斷"
+            ],
+            "risks": [
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         }
       },
       "buffett_score": 70.0,
@@ -9543,7 +10984,21 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Pepsico, Inc. 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "ROE 達 48.62%，資本運用效率優異",
+              "毛利率 53.99%，護城河寬廣",
+              "自由現金流連續 4 年為正",
+              "股息殖利率 365.0%，提供穩定現金回報",
+              "護城河寬廣：品牌矩陣 + 分銷"
+            ],
+            "risks": [
+              "負債權益比 2.58 偏高",
+              "新聞黃燈：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "graham": {
           "score": 17.0,
@@ -9584,7 +11039,18 @@
               "value": "64.4%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Pepsico, Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 365.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 25.98，估值偏高不符葛拉漢標準",
+              "負債權益比 2.58，財務風險偏高",
+              "流動比率 0.8，短期流動性不足"
+            ]
+          }
         },
         "lynch": {
           "score": 42.7,
@@ -9620,7 +11086,17 @@
               "value": "17.1 vs 26.0",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Pepsico, Inc. 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 48.62%，管理層資本效率出色",
+              "Forward PE 17.1 低於 Trailing PE 26.0，分析師看好成長"
+            ],
+            "risks": [
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "fisher": {
           "score": 55.0,
@@ -9661,7 +11137,18 @@
               "value": 2.58,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Pepsico, Inc. 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 53.99%，具備頂級定價權與競爭壁壘",
+              "ROE 48.62%，管理層卓越",
+              "護城河：品牌矩陣 + 分銷"
+            ],
+            "risks": [
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         }
       },
       "buffett_score": 69.0,
@@ -9720,12 +11207,12 @@
             "date": "Tue, 24 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "百事可樂(NASDAQ:PEP)股東7.8%的損失部分歸因於公司過去三年盈利下降。 - Moomoo",
-            "date": "Sun, 14 Dec 2025 08:00:00 GMT"
-          },
-          {
             "title": "百事可樂(PEP.US)超九成原料本土化 強化套保應對地緣風險 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
             "date": "Mon, 23 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "百事可樂(NASDAQ:PEP)股東7.8%的損失部分歸因於公司過去三年盈利下降。 - Moomoo",
+            "date": "Sun, 14 Dec 2025 08:00:00 GMT"
           },
           {
             "title": "RBC Trims Price Target on PepsiCo to $163 From $165, Keeps Sector Perform Rating - 富途牛牛",
@@ -9810,7 +11297,17 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "亞德客-KY 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "毛利率 48.38%，護城河寬廣",
+              "負債權益比僅 0.09，財務極度穩健",
+              "EPS 連續 11 年為正，盈利穩定可預測",
+              "護城河適中：技術領先 + 品牌"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 93.3,
@@ -9831,7 +11328,15 @@
               "value": 8.56,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "亞德客-KY 符合葛拉漢深度價值選股標準。",
+            "strengths": [
+              "負債權益比 0.09，資產負債表極度穩健",
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": []
+          }
         },
         "lynch": {
           "score": 41.5,
@@ -9862,7 +11367,16 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "亞德客-KY 不符合林區成長合理價標準。",
+            "strengths": [
+              "低負債（D/E 0.09），成長基礎穩固"
+            ],
+            "risks": [
+              "EPS CAGR 僅 4.53%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 44.0,
@@ -9903,7 +11417,19 @@
               "value": 0.09,
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "亞德客-KY 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "毛利率 48.38%，產品差異化明顯",
+              "EPS 連續 11 年為正，品質經得起時間考驗",
+              "護城河：技術領先 + 品牌"
+            ],
+            "risks": [
+              "ROE 7.67%，管理效率偏低",
+              "EPS CAGR 4.53%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 66.7,
@@ -9961,8 +11487,8 @@
             "date": "Mon, 13 Apr 2026 23:16:00 GMT"
           },
           {
-            "title": "千金股火熱...增至37檔 - 聯合新聞網",
-            "date": "Tue, 07 Apr 2026 17:16:31 GMT"
+            "title": "亞德客-KY擴半導體布局 大摩喊目標價1030元 - Yahoo股市",
+            "date": "Mon, 29 Sep 2025 07:00:00 GMT"
           },
           {
             "title": "【09:09 即時新聞】亞德客-KY(1590)盤中強勢漲逾9%，法人買盤推升，法說釋出2026年展望利多，氣動元件需求續旺 - CMoney投資網誌",
@@ -10053,7 +11579,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Home Depot, Inc. (The) 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "ROE 達 719.75%，資本運用效率優異",
+              "自由現金流連續 4 年為正",
+              "年產自由現金流 $12.65B，現金印鈔機",
+              "股息殖利率 273.0%，提供穩定現金回報",
+              "護城河寬廣：規模 + 專業服務"
+            ],
+            "risks": [
+              "負債權益比 5.14 偏高"
+            ]
+          }
         },
         "graham": {
           "score": 29.0,
@@ -10094,7 +11633,18 @@
               "value": "23.2%",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Home Depot, Inc. (The) 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 273.0%，提供安全邊際",
+              "股價接近 52 週低點，逢低買入機會"
+            ],
+            "risks": [
+              "P/E 23.97，估值偏高不符葛拉漢標準",
+              "負債權益比 5.14，財務風險偏高"
+            ]
+          }
         },
         "lynch": {
           "score": 34.7,
@@ -10130,7 +11680,14 @@
               "value": "20.9 vs 24.0",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Home Depot, Inc. (The) 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 719.75%，管理層資本效率出色"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 42.0,
@@ -10171,7 +11728,15 @@
               "value": 5.14,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Home Depot, Inc. (The) 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "ROE 719.75%，管理層卓越",
+              "護城河：規模 + 專業服務"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 66.0,
@@ -10329,7 +11894,21 @@
               "value": "3/4",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Eli Lilly and Company 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "ROE 達 64.82%，資本運用效率優異",
+              "淨利率 23.1%，具備強勁定價權",
+              "毛利率 80.09%，護城河寬廣",
+              "股息殖利率 67.0%，提供穩定現金回報",
+              "護城河寬廣：專利 + 研發管線"
+            ],
+            "risks": [
+              "P/E 40.49 偏高，估值需留意",
+              "負債權益比 1.65 偏高"
+            ]
+          }
         },
         "graham": {
           "score": 30.0,
@@ -10370,7 +11949,17 @@
               "value": "59.9%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Eli Lilly and Company 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 67.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 40.49，估值偏高不符葛拉漢標準",
+              "負債權益比 1.65，財務風險偏高"
+            ]
+          }
         },
         "lynch": {
           "score": 52.0,
@@ -10406,7 +11995,18 @@
               "value": "22.1 vs 40.5",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Eli Lilly and Company 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 64.82%，管理層資本效率出色",
+              "Forward PE 22.1 低於 Trailing PE 40.5，分析師看好成長",
+              "淨利率 23.1%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 40.49，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 62.0,
@@ -10447,7 +12047,17 @@
               "value": 1.65,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Eli Lilly and Company 品質不錯但部分指標未達乎雪高標準。",
+            "strengths": [
+              "毛利率 80.09%，具備頂級定價權與競爭壁壘",
+              "ROE 64.82%，管理層卓越",
+              "淨利率 23.1%，營運效率頂尖",
+              "護城河：專利 + 研發管線"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 65.0,
@@ -10605,7 +12215,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "American Express Company 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "ROE 達 31.52%，資本運用效率優異",
+              "淨利率 14.6%，營運效率良好",
+              "自由現金流連續 4 年為正",
+              "年產自由現金流 $16.0B，現金印鈔機",
+              "股息殖利率 117.0%，提供穩定現金回報"
+            ],
+            "risks": [
+              "負債權益比 1.91 偏高"
+            ]
+          }
         },
         "graham": {
           "score": 25.0,
@@ -10646,7 +12269,17 @@
               "value": "57.0%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "American Express Company 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 117.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 21.05，估值偏高不符葛拉漢標準",
+              "負債權益比 1.91，財務風險偏高"
+            ]
+          }
         },
         "lynch": {
           "score": 44.0,
@@ -10682,7 +12315,15 @@
               "value": "16.1 vs 21.1",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "American Express Company 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 31.52%，管理層資本效率出色",
+              "Forward PE 16.1 低於 Trailing PE 21.1，分析師看好成長"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 40.0,
@@ -10723,7 +12364,15 @@
               "value": 1.91,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "American Express Company 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "ROE 31.52%，管理層卓越",
+              "護城河：封閉迴路 + 品牌"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 64.0,
@@ -10871,7 +12520,14 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "穩懋 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "負債權益比僅 0.45，財務極度穩健"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 93.3,
@@ -10892,7 +12548,14 @@
               "value": 9.55,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "穩懋 符合葛拉漢深度價值選股標準。",
+            "strengths": [
+              "負債權益比 0.45，資產負債表極度穩健"
+            ],
+            "risks": []
+          }
         },
         "lynch": {
           "score": 41.5,
@@ -10923,7 +12586,16 @@
               "value": "10/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "穩懋 不符合林區成長合理價標準。",
+            "strengths": [
+              "低負債（D/E 0.45），成長基礎穩固"
+            ],
+            "risks": [
+              "EPS CAGR 僅 -20.88%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 35.0,
@@ -10964,7 +12636,15 @@
               "value": 0.45,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "穩懋 不符合乎雪的高品質成長要求。",
+            "strengths": [],
+            "risks": [
+              "ROE 6.69%，管理效率偏低",
+              "EPS CAGR -20.88%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 63.3,
@@ -11097,7 +12777,16 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "中華電 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "負債權益比僅 0.34，財務極度穩健",
+              "EPS 連續 11 年為正，盈利穩定可預測",
+              "護城河適中：法規壁壘 + 規模"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 93.3,
@@ -11118,7 +12807,15 @@
               "value": 7.96,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "中華電 符合葛拉漢深度價值選股標準。",
+            "strengths": [
+              "負債權益比 0.34，資產負債表極度穩健",
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": []
+          }
         },
         "lynch": {
           "score": 36.9,
@@ -11149,7 +12846,16 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "中華電 不符合林區成長合理價標準。",
+            "strengths": [
+              "低負債（D/E 0.34），成長基礎穩固"
+            ],
+            "risks": [
+              "EPS CAGR 僅 1.6%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 35.0,
@@ -11190,7 +12896,18 @@
               "value": 0.34,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "中華電 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗",
+              "護城河：法規壁壘 + 規模"
+            ],
+            "risks": [
+              "ROE 4.7%，管理效率偏低",
+              "EPS CAGR 1.6%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 63.3,
@@ -11343,7 +13060,20 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "UnitedHealth Group Incorporated 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "ROE 19.86%，高於 15% 門檻",
+              "負債權益比 0.82，資產負債表健康",
+              "自由現金流連續 4 年為正",
+              "年產自由現金流 $16.07B，現金印鈔機",
+              "股息殖利率 282.0%，提供穩定現金回報"
+            ],
+            "risks": [
+              "淨利率僅 4.63%，獲利能力偏弱"
+            ]
+          }
         },
         "graham": {
           "score": 35.0,
@@ -11384,7 +13114,18 @@
               "value": "21.8%",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "UnitedHealth Group Incorporated 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 282.0%，提供安全邊際",
+              "股價接近 52 週低點，逢低買入機會"
+            ],
+            "risks": [
+              "P/E 23.64，估值偏高不符葛拉漢標準",
+              "流動比率 0.8，短期流動性不足"
+            ]
+          }
         },
         "lynch": {
           "score": 41.3,
@@ -11420,7 +13161,14 @@
               "value": "15.5 vs 23.6",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "UnitedHealth Group Incorporated 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 15.5 低於 Trailing PE 23.6，分析師看好成長"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 26.0,
@@ -11461,7 +13209,17 @@
               "value": 0.82,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "UnitedHealth Group Incorporated 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "ROE 19.86%，資本運用效率良好",
+              "護城河：規模 + 垂直整合"
+            ],
+            "risks": [
+              "毛利率僅 22.47%，產品差異化不足"
+            ]
+          }
         }
       },
       "buffett_score": 63.0,
@@ -11516,10 +13274,6 @@
             "date": "Thu, 09 Apr 2026 13:36:09 GMT"
           },
           {
-            "title": "UnitedHealth (UNH) 股價飆漲 8%，受惠於 Medicare Advantage 費率調升——漲勢能否持續? - MEXC",
-            "date": "Sun, 12 Apr 2026 15:57:13 GMT"
-          },
-          {
             "title": "《業績》聯合健康(UNH.US)預計今年收入將下跌 股價盤前下挫16% - AASTOCKS.com",
             "date": "Tue, 27 Jan 2026 08:00:00 GMT"
           },
@@ -11530,6 +13284,10 @@
           {
             "title": "聯合健康(UNH.US)“斷臂求生”中：預測2026年收入將驚現30多年來首降，美國會員數量猛降300萬作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
             "date": "Tue, 27 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "巴菲特選的「這一股」股價重挫25％！能否以低於波克夏成本撿便宜？ - news.cnyes.com",
+            "date": "Mon, 09 Feb 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -11617,7 +13375,18 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Berkshire Hathaway Inc. New 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "淨利率 12.37%，營運效率良好",
+              "負債權益比僅 0.19，財務極度穩健",
+              "自由現金流連續 4 年為正",
+              "年產自由現金流 $25.04B，現金印鈔機",
+              "護城河寬廣：多元化 + 浮存金"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 62.2,
@@ -11653,7 +13422,15 @@
               "value": "28.8%",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Berkshire Hathaway Inc. New 部分符合葛拉漢標準，估值或財務面仍有疑慮。",
+            "strengths": [
+              "負債權益比 0.19，資產負債表極度穩健",
+              "流動比率 7.1，短期償債能力充裕"
+            ],
+            "risks": []
+          }
         },
         "lynch": {
           "score": 22.7,
@@ -11689,7 +13466,14 @@
               "value": "22.1 vs 15.5",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Berkshire Hathaway Inc. New 不符合林區成長合理價標準。",
+            "strengths": [
+              "低負債（D/E 0.19），成長基礎穩固"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 25.0,
@@ -11730,7 +13514,16 @@
               "value": 0.19,
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Berkshire Hathaway Inc. New 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "護城河：多元化 + 浮存金"
+            ],
+            "risks": [
+              "ROE 8.84%，管理效率偏低"
+            ]
+          }
         }
       },
       "buffett_score": 62.0,
@@ -11881,7 +13674,17 @@
               "value": "3/4",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "NextEra Energy, Inc. 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "淨利率 24.7%，具備強勁定價權",
+              "毛利率 58.66%，護城河寬廣",
+              "股息殖利率 270.0%，提供穩定現金回報",
+              "護城河寬廣：規模 + 法規壁壘"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 27.0,
@@ -11922,7 +13725,17 @@
               "value": "88.0%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "NextEra Energy, Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 270.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 27.97，估值偏高不符葛拉漢標準",
+              "流動比率 0.6，短期流動性不足"
+            ]
+          }
         },
         "lynch": {
           "score": 34.7,
@@ -11958,7 +13771,15 @@
               "value": "21.1 vs 28.0",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "NextEra Energy, Inc. 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 21.1 低於 Trailing PE 28.0，分析師看好成長",
+              "淨利率 24.7%，獲利能力強"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 49.0,
@@ -11999,7 +13820,16 @@
               "value": 1.46,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "NextEra Energy, Inc. 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "毛利率 58.66%，具備頂級定價權與競爭壁壘",
+              "淨利率 24.7%，營運效率頂尖",
+              "護城河：規模 + 法規壁壘"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 62.0,
@@ -12144,7 +13974,14 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "國巨 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定可預測"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 64.4,
@@ -12165,7 +14002,14 @@
               "value": 9.86,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "國巨 部分符合葛拉漢標準，估值或財務面仍有疑慮。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": []
+          }
         },
         "lynch": {
           "score": 40.0,
@@ -12196,7 +14040,14 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "國巨 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": [
+              "EPS CAGR 僅 -10.37%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 32.0,
@@ -12237,7 +14088,17 @@
               "value": 1.25,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "國巨 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": [
+              "ROE 11.29%，管理效率偏低",
+              "EPS CAGR -10.37%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 61.1,
@@ -12379,7 +14240,19 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Advanced Micro Devices, Inc. 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "毛利率 47.48%，護城河寬廣",
+              "負債權益比僅 0.06，財務極度穩健",
+              "自由現金流連續 4 年為正",
+              "護城河適中：技術授權 + 競爭定位"
+            ],
+            "risks": [
+              "P/E 94.21 偏高，估值需留意"
+            ]
+          }
         },
         "graham": {
           "score": 46.7,
@@ -12415,7 +14288,17 @@
               "value": "89.0%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Advanced Micro Devices, Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "負債權益比 0.06，資產負債表極度穩健",
+              "流動比率 2.9，短期償債能力充裕"
+            ],
+            "risks": [
+              "P/E 94.21，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 32.0,
@@ -12451,7 +14334,17 @@
               "value": "22.8 vs 94.2",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Advanced Micro Devices, Inc. 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 22.8 低於 Trailing PE 94.2，分析師看好成長",
+              "低負債（D/E 0.06），成長基礎穩固"
+            ],
+            "risks": [
+              "P/E 94.21，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 34.0,
@@ -12492,7 +14385,17 @@
               "value": 0.06,
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Advanced Micro Devices, Inc. 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "毛利率 47.48%，產品差異化明顯",
+              "護城河：技術授權 + 競爭定位"
+            ],
+            "risks": [
+              "ROE 3.42%，管理效率偏低"
+            ]
+          }
         }
       },
       "buffett_score": 60.0,
@@ -12649,7 +14552,21 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Costco Wholesale Corporation 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "ROE 達 28.09%，資本運用效率優異",
+              "負債權益比 0.6，資產負債表健康",
+              "自由現金流連續 4 年為正",
+              "股息殖利率 53.0%，提供穩定現金回報",
+              "護城河寬廣：會員制 + 低成本領導"
+            ],
+            "risks": [
+              "P/E 51.03 偏高，估值需留意",
+              "淨利率僅 2.75%，獲利能力偏弱"
+            ]
+          }
         },
         "graham": {
           "score": 33.0,
@@ -12690,7 +14607,16 @@
               "value": "61.3%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Costco Wholesale Corporation 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 53.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 51.03，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 34.7,
@@ -12726,7 +14652,16 @@
               "value": "43.7 vs 51.0",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Costco Wholesale Corporation 不符合林區成長合理價標準。",
+            "strengths": [
+              "ROE 28.09%，管理層資本效率出色"
+            ],
+            "risks": [
+              "P/E 51.03，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 33.0,
@@ -12767,7 +14702,17 @@
               "value": 0.6,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Costco Wholesale Corporation 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "ROE 28.09%，管理層卓越",
+              "護城河：會員制 + 低成本領導"
+            ],
+            "risks": [
+              "毛利率僅 12.47%，產品差異化不足"
+            ]
+          }
         }
       },
       "buffett_score": 60.0,
@@ -12818,10 +14763,6 @@
       "news": {
         "items": [
           {
-            "title": "HubSpot, Asana, and Zeta Global Shares Are Falling, What You Need To Know - TradingView – 追踪所有市場",
-            "date": "Thu, 09 Apr 2026 16:06:06 GMT"
-          },
-          {
             "title": "Top Analyst Resets UnitedHealth Stock Price Target - TradingView – 追踪所有市場",
             "date": "Thu, 09 Apr 2026 13:36:09 GMT"
           },
@@ -12832,6 +14773,10 @@
           {
             "title": "IPO- Company Information - etnet 經濟通",
             "date": "Tue, 30 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "IPO- Company Information - etnet 經濟通",
+            "date": "Fri, 09 Jan 2026 08:00:00 GMT"
           },
           {
             "title": "IPO- Company Information - etnet 經濟通",
@@ -12925,7 +14870,18 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "McDonald's Corporation 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "淨利率 30.86%，具備強勁定價權",
+              "毛利率 57.06%，護城河寬廣",
+              "自由現金流連續 4 年為正",
+              "股息殖利率 244.0%，提供穩定現金回報",
+              "護城河寬廣：品牌 + 特許經營"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 24.0,
@@ -12966,7 +14922,17 @@
               "value": "36.1%",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "McDonald's Corporation 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 244.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 25.48，估值偏高不符葛拉漢標準",
+              "流動比率 0.9，短期流動性不足"
+            ]
+          }
         },
         "lynch": {
           "score": 22.7,
@@ -13002,7 +14968,15 @@
               "value": "21.2 vs 25.5",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "McDonald's Corporation 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 21.2 低於 Trailing PE 25.5，分析師看好成長",
+              "淨利率 30.86%，獲利能力強"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 45.0,
@@ -13043,7 +15017,18 @@
               "value": null,
               "grade": "nodata"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "McDonald's Corporation 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "毛利率 57.06%，具備頂級定價權與競爭壁壘",
+              "淨利率 30.86%，營運效率頂尖",
+              "護城河：品牌 + 特許經營"
+            ],
+            "risks": [
+              "ROE -244.46%，管理效率偏低"
+            ]
+          }
         }
       },
       "buffett_score": 59.0,
@@ -13094,24 +15079,24 @@
       "news": {
         "items": [
           {
-            "title": "McDonald's | 10-K: FY2025 Annual Report - 富途牛牛",
-            "date": "Thu, 09 Apr 2026 16:26:17 GMT"
+            "title": "McDonald's | 144: Notice of proposed sale of securities pursuant to Rule 144 - 富途牛牛",
+            "date": "Sat, 11 Apr 2026 00:11:39 GMT"
           },
           {
-            "title": "McDonald's | DEF 14A: Definitive information statements - 富途牛牛",
-            "date": "Tue, 07 Apr 2026 20:46:22 GMT"
+            "title": "McDonald's | 10-K: FY2025 Annual Report - 富途牛牛",
+            "date": "Thu, 09 Apr 2026 16:26:17 GMT"
           },
           {
             "title": "超值套餐重塑性價比優勢，麥當勞(MCD.US)四季度美國營收增速創兩年新高 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
             "date": "Thu, 12 Feb 2026 08:00:00 GMT"
           },
           {
-            "title": "McDonald's | DEFA14A: Others - 富途牛牛",
-            "date": "Tue, 07 Apr 2026 20:46:46 GMT"
+            "title": "McDonald's | DEF 14A: Definitive information statements - 富途牛牛",
+            "date": "Tue, 07 Apr 2026 20:46:22 GMT"
           },
           {
-            "title": "麥當勞(MCD.US)Q3業績好壞參半 顧客單次消費提升助推美國同店銷售額超預期 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
-            "date": "Wed, 05 Nov 2025 08:00:00 GMT"
+            "title": "McDonald's | DEFA14A: Others - 富途牛牛",
+            "date": "Tue, 07 Apr 2026 20:46:46 GMT"
           }
         ],
         "risk_level": "green",
@@ -13199,7 +15184,21 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Walmart Inc. 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "ROE 19.26%，高於 15% 門檻",
+              "負債權益比 0.64，資產負債表健康",
+              "自由現金流連續 4 年為正",
+              "年產自由現金流 $14.92B，現金印鈔機",
+              "股息殖利率 79.0%，提供穩定現金回報"
+            ],
+            "risks": [
+              "P/E 45.63 偏高，估值需留意",
+              "淨利率僅 2.56%，獲利能力偏弱"
+            ]
+          }
         },
         "graham": {
           "score": 28.0,
@@ -13240,7 +15239,17 @@
               "value": "77.0%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Walmart Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 79.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 45.63，估值偏高不符葛拉漢標準",
+              "流動比率 0.8，短期流動性不足"
+            ]
+          }
         },
         "lynch": {
           "score": 32.0,
@@ -13276,7 +15285,16 @@
               "value": "37.9 vs 45.6",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Walmart Inc. 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 37.9 低於 Trailing PE 45.6，分析師看好成長"
+            ],
+            "risks": [
+              "P/E 45.63，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 27.0,
@@ -13317,7 +15335,17 @@
               "value": 0.64,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Walmart Inc. 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "ROE 19.26%，資本運用效率良好",
+              "護城河：規模經濟 + 物流網路"
+            ],
+            "risks": [
+              "毛利率僅 24.57%，產品差異化不足"
+            ]
+          }
         }
       },
       "buffett_score": 59.0,
@@ -13475,7 +15503,17 @@
               "value": "3/4",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Amazon.com, Inc. 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "毛利率 47.48%，護城河寬廣",
+              "負債權益比僅 0.43，財務極度穩健"
+            ],
+            "risks": [
+              "P/E 33.46 偏高，估值需留意"
+            ]
+          }
         },
         "graham": {
           "score": 35.6,
@@ -13511,7 +15549,16 @@
               "value": "79.9%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Amazon.com, Inc. 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "負債權益比 0.43，資產負債表極度穩健"
+            ],
+            "risks": [
+              "P/E 33.46，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 34.7,
@@ -13547,7 +15594,17 @@
               "value": "25.6 vs 33.5",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Amazon.com, Inc. 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 25.6 低於 Trailing PE 33.5，分析師看好成長",
+              "低負債（D/E 0.43），成長基礎穩固"
+            ],
+            "risks": [
+              "P/E 33.46，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 36.0,
@@ -13588,7 +15645,14 @@
               "value": 0.43,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Amazon.com, Inc. 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "毛利率 47.48%，產品差異化明顯"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 58.0,
@@ -13739,7 +15803,17 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Baker Hughes Company 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "負債權益比僅 0.35，財務極度穩健",
+              "自由現金流連續 4 年為正",
+              "股息殖利率 147.0%，提供穩定現金回報",
+              "護城河寬廣：近壟斷 (LNG 設備)"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 42.0,
@@ -13780,7 +15854,17 @@
               "value": "86.3%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Baker Hughes Company 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "負債權益比 0.35，資產負債表極度穩健",
+              "股息殖利率 147.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 24.06，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 24.0,
@@ -13816,7 +15900,14 @@
               "value": "22.0 vs 24.1",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Baker Hughes Company 不符合林區成長合理價標準。",
+            "strengths": [
+              "低負債（D/E 0.35），成長基礎穩固"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 18.0,
@@ -13857,7 +15948,17 @@
               "value": 0.35,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Baker Hughes Company 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "護城河：近壟斷 (LNG 設備)"
+            ],
+            "risks": [
+              "毛利率僅 22.71%，產品差異化不足",
+              "ROE 9.96%，管理效率偏低"
+            ]
+          }
         }
       },
       "buffett_score": 58.0,
@@ -14002,7 +16103,17 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "聯詠 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "負債權益比僅 0.44，財務極度穩健",
+              "EPS 連續 11 年為正，盈利穩定可預測"
+            ],
+            "risks": [
+              "淨利率僅 0.3%，獲利能力偏弱"
+            ]
+          }
         },
         "graham": {
           "score": 77.8,
@@ -14023,7 +16134,15 @@
               "value": 0.3,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "聯詠 符合葛拉漢深度價值選股標準。",
+            "strengths": [
+              "負債權益比 0.44，資產負債表極度穩健",
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": []
+          }
         },
         "lynch": {
           "score": 30.8,
@@ -14054,7 +16173,16 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "聯詠 不符合林區成長合理價標準。",
+            "strengths": [
+              "低負債（D/E 0.44），成長基礎穩固"
+            ],
+            "risks": [
+              "EPS CAGR 僅 -15.9%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 30.0,
@@ -14095,7 +16223,17 @@
               "value": 0.44,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "聯詠 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": [
+              "ROE 0.54%，管理效率偏低",
+              "EPS CAGR -15.9%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 57.8,
@@ -14226,7 +16364,17 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "豐泰 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "負債權益比 0.89，資產負債表健康",
+              "EPS 連續 11 年為正，盈利穩定可預測"
+            ],
+            "risks": [
+              "淨利率僅 3.93%，獲利能力偏弱"
+            ]
+          }
         },
         "graham": {
           "score": 73.3,
@@ -14247,7 +16395,14 @@
               "value": 3.93,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "豐泰 符合葛拉漢深度價值選股標準。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": []
+          }
         },
         "lynch": {
           "score": 40.0,
@@ -14278,7 +16433,14 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "豐泰 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": [
+              "EPS CAGR 僅 -0.19%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 29.0,
@@ -14319,7 +16481,17 @@
               "value": 0.89,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "豐泰 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": [
+              "毛利率僅 22.96%，產品差異化不足",
+              "EPS CAGR -0.19%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 57.8,
@@ -14455,7 +16627,17 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "上銀 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "負債權益比僅 0.45，財務極度穩健",
+              "EPS 連續 11 年為正，盈利穩定可預測"
+            ],
+            "risks": [
+              "淨利率僅 4.13%，獲利能力偏弱"
+            ]
+          }
         },
         "graham": {
           "score": 86.7,
@@ -14476,7 +16658,15 @@
               "value": 4.13,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "上銀 符合葛拉漢深度價值選股標準。",
+            "strengths": [
+              "負債權益比 0.45，資產負債表極度穩健",
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": []
+          }
         },
         "lynch": {
           "score": 36.9,
@@ -14507,7 +16697,16 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "上銀 不符合林區成長合理價標準。",
+            "strengths": [
+              "低負債（D/E 0.45），成長基礎穩固"
+            ],
+            "risks": [
+              "EPS CAGR 僅 -16.35%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 30.0,
@@ -14548,7 +16747,17 @@
               "value": 0.45,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "上銀 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": [
+              "ROE 4.73%，管理效率偏低",
+              "EPS CAGR -16.35%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 57.8,
@@ -14684,7 +16893,20 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "聯發科 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "毛利率 43.65%，護城河寬廣",
+              "負債權益比 0.82，資產負債表健康",
+              "EPS 連續 11 年為正，盈利穩定可預測",
+              "護城河適中：技術優勢"
+            ],
+            "risks": [
+              "淨利率僅 4.46%，獲利能力偏弱",
+              "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         },
         "graham": {
           "score": 73.3,
@@ -14705,7 +16927,16 @@
               "value": 4.46,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "聯發科 符合葛拉漢深度價值選股標準。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": [
+              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         },
         "lynch": {
           "score": 32.3,
@@ -14736,7 +16967,15 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "聯發科 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": [
+              "EPS CAGR 僅 -1.28%，成長動能不足",
+              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         },
         "fisher": {
           "score": 36.0,
@@ -14777,7 +17016,20 @@
               "value": 0.82,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "聯發科 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "毛利率 43.65%，產品差異化明顯",
+              "EPS 連續 11 年為正，品質經得起時間考驗",
+              "護城河：技術優勢"
+            ],
+            "risks": [
+              "ROE 4.03%，管理效率偏低",
+              "EPS CAGR -1.28%，成長乏力",
+              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         }
       },
       "buffett_score": 55.6,
@@ -14928,7 +17180,19 @@
               "value": "4/4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Mettler-Toledo International, I 部分指標良好，但有待改善之處。",
+            "strengths": [
+              "淨利率 21.74%，具備強勁定價權",
+              "毛利率 59.37%，護城河寬廣",
+              "自由現金流連續 4 年為正",
+              "護城河寬廣：壟斷 + 轉換成本"
+            ],
+            "risks": [
+              "P/E 32.05 偏高，估值需留意"
+            ]
+          }
         },
         "graham": {
           "score": 16.7,
@@ -14964,7 +17228,14 @@
               "value": "68.1%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Mettler-Toledo International, I 不符合葛拉漢安全邊際要求。",
+            "strengths": [],
+            "risks": [
+              "P/E 32.05，估值偏高不符葛拉漢標準"
+            ]
+          }
         },
         "lynch": {
           "score": 22.7,
@@ -15000,7 +17271,17 @@
               "value": "26.3 vs 32.0",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Mettler-Toledo International, I 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 26.3 低於 Trailing PE 32.0，分析師看好成長",
+              "淨利率 21.74%，獲利能力強"
+            ],
+            "risks": [
+              "P/E 32.05，估值可能過高"
+            ]
+          }
         },
         "fisher": {
           "score": 45.0,
@@ -15041,7 +17322,18 @@
               "value": null,
               "grade": "nodata"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Mettler-Toledo International, I 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "毛利率 59.37%，具備頂級定價權與競爭壁壘",
+              "淨利率 21.74%，營運效率頂尖",
+              "護城河：壟斷 + 轉換成本"
+            ],
+            "risks": [
+              "ROE -341.14%，管理效率偏低"
+            ]
+          }
         }
       },
       "buffett_score": 55.0,
@@ -15182,7 +17474,19 @@
               "value": "0/4",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "American Water Works Company, I 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "淨利率 21.99%，具備強勁定價權",
+              "毛利率 59.63%，護城河寬廣",
+              "股息殖利率 246.0%，提供穩定現金回報",
+              "護城河寬廣：自然壟斷"
+            ],
+            "risks": [
+              "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         },
         "graham": {
           "score": 31.0,
@@ -15223,7 +17527,18 @@
               "value": "44.9%",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "American Water Works Company, I 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 246.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 23.62，估值偏高不符葛拉漢標準",
+              "流動比率 0.5，短期流動性不足",
+              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         },
         "lynch": {
           "score": 30.7,
@@ -15259,7 +17574,16 @@
               "value": "20.4 vs 23.6",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "American Water Works Company, I 不符合林區成長合理價標準。",
+            "strengths": [
+              "淨利率 21.99%，獲利能力強"
+            ],
+            "risks": [
+              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         },
         "fisher": {
           "score": 35.0,
@@ -15300,7 +17624,19 @@
               "value": 1.47,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "American Water Works Company, I 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "毛利率 59.63%，具備頂級定價權與競爭壁壘",
+              "淨利率 21.99%，營運效率頂尖",
+              "護城河：自然壟斷"
+            ],
+            "risks": [
+              "ROE 10.18%，管理效率偏低",
+              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+            ]
+          }
         }
       },
       "buffett_score": 52.0,
@@ -15447,7 +17783,15 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "南亞 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "負債權益比 0.64，資產負債表健康",
+              "EPS 連續 11 年為正，盈利穩定可預測"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 80.0,
@@ -15468,7 +17812,14 @@
               "value": 6.48,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "南亞 符合葛拉漢深度價值選股標準。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": []
+          }
         },
         "lynch": {
           "score": 32.3,
@@ -15499,7 +17850,14 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "南亞 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": [
+              "EPS CAGR 僅 -43.9%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 28.0,
@@ -15540,7 +17898,18 @@
               "value": 0.64,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "南亞 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": [
+              "毛利率僅 12.92%，產品差異化不足",
+              "ROE 5.4%，管理效率偏低",
+              "EPS CAGR -43.9%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 50.0,
@@ -15586,12 +17955,12 @@
             "date": "Tue, 14 Apr 2026 03:10:56 GMT"
           },
           {
-            "title": "股票部門收入創高 高盛Q1財報優 - Yahoo股市",
-            "date": "Mon, 13 Apr 2026 20:10:00 GMT"
-          },
-          {
             "title": "【10:22 即時新聞】南亞(1303)股價勁揚逾5%，受惠CCL調漲與AI電子材料題材帶動、短線挑戰前波套牢區 - CMoney投資網誌",
             "date": "Mon, 30 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "股票部門收入創高 高盛Q1財報優 - Yahoo股市",
+            "date": "Mon, 13 Apr 2026 20:10:00 GMT"
           },
           {
             "title": "【即時新聞】南亞(1303)三度處分南亞科股票，挹注249億資金助營運轉型 - CMoney投資網誌",
@@ -15674,7 +18043,18 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台達電 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "負債權益比 0.97，資產負債表健康",
+              "EPS 連續 11 年為正，盈利穩定可預測",
+              "EPS 五年 CAGR 17.55%，成長動能強勁"
+            ],
+            "risks": [
+              "淨利率僅 3.99%，獲利能力偏弱"
+            ]
+          }
         },
         "graham": {
           "score": 73.3,
@@ -15695,7 +18075,14 @@
               "value": 3.99,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台達電 符合葛拉漢深度價值選股標準。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": []
+          }
         },
         "lynch": {
           "score": 53.8,
@@ -15726,7 +18113,14 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台達電 不符合林區成長合理價標準。",
+            "strengths": [
+              "EPS 五年 CAGR 17.55%，穩健成長"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 42.0,
@@ -15767,7 +18161,18 @@
               "value": 0.97,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台達電 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 五年 CAGR 17.55%，持續高品質成長",
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": [
+              "毛利率僅 29.18%，產品差異化不足",
+              "ROE 6.49%，管理效率偏低"
+            ]
+          }
         }
       },
       "buffett_score": 48.9,
@@ -15904,7 +18309,14 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台塑 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "負債權益比 0.53，資產負債表健康"
+            ],
+            "risks": []
+          }
         },
         "graham": {
           "score": 68.9,
@@ -15925,7 +18337,12 @@
               "value": 9.21,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台塑 部分符合葛拉漢標準，估值或財務面仍有疑慮。",
+            "strengths": [],
+            "risks": []
+          }
         },
         "lynch": {
           "score": 32.3,
@@ -15956,7 +18373,12 @@
               "value": "9/11",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台塑 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 25.0,
@@ -15997,7 +18419,15 @@
               "value": 0.53,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台塑 不符合乎雪的高品質成長要求。",
+            "strengths": [],
+            "risks": [
+              "毛利率僅 13.3%，產品差異化不足",
+              "ROE 5.66%，管理效率偏低"
+            ]
+          }
         }
       },
       "buffett_score": 44.4,
@@ -16134,7 +18564,18 @@
               "value": "9/11",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台塑化 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "負債權益比僅 0.15，財務極度穩健",
+              "EPS 連續 11 年為正，盈利穩定可預測",
+              "護城河適中：規模 + 區域壟斷"
+            ],
+            "risks": [
+              "淨利率僅 4.34%，獲利能力偏弱"
+            ]
+          }
         },
         "graham": {
           "score": 86.7,
@@ -16155,7 +18596,15 @@
               "value": 4.34,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台塑化 符合葛拉漢深度價值選股標準。",
+            "strengths": [
+              "負債權益比 0.15，資產負債表極度穩健",
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": []
+          }
         },
         "lynch": {
           "score": 36.9,
@@ -16186,7 +18635,16 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台塑化 不符合林區成長合理價標準。",
+            "strengths": [
+              "低負債（D/E 0.15），成長基礎穩固"
+            ],
+            "risks": [
+              "EPS CAGR 僅 -27.49%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 22.0,
@@ -16227,7 +18685,19 @@
               "value": 0.15,
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "台塑化 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗",
+              "護城河：規模 + 區域壟斷"
+            ],
+            "risks": [
+              "毛利率僅 7.72%，產品差異化不足",
+              "ROE 8.56%，管理效率偏低",
+              "EPS CAGR -27.49%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 44.4,
@@ -16277,6 +18747,10 @@
             "date": "Mon, 13 Apr 2026 23:45:00 GMT"
           },
           {
+            "title": "台塑四寶第一季全員獲利 分析師示警1關鍵轉保守 - Yahoo股市",
+            "date": "Fri, 10 Apr 2026 08:51:26 GMT"
+          },
+          {
             "title": "台塑四寶成本升股價卻漲？網友揭「股市不講邏輯」現象 - 聯合新聞網",
             "date": "Tue, 31 Mar 2026 07:00:00 GMT"
           },
@@ -16287,10 +18761,6 @@
           {
             "title": "【即時新聞】台塑化爆量飆漲10%！塑化族群大洗牌，這「5檔概念股」多空激戰！ - CMoney投資網誌",
             "date": "Mon, 09 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "台塑集團全喊卡了！台化預計4月跟進「不可抗力」 法人看好短線動能強烈 - Yahoo股市",
-            "date": "Sun, 29 Mar 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -16378,7 +18848,19 @@
               "value": "1/4",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Southern Company (The) 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "淨利率 14.74%，營運效率良好",
+              "毛利率 45.35%，護城河寬廣",
+              "股息殖利率 309.0%，提供穩定現金回報",
+              "護城河寬廣：法規壟斷 + 穩定配息"
+            ],
+            "risks": [
+              "負債權益比 1.91 偏高"
+            ]
+          }
         },
         "graham": {
           "score": 20.0,
@@ -16419,7 +18901,18 @@
               "value": "72.3%",
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Southern Company (The) 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 309.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 24.47，估值偏高不符葛拉漢標準",
+              "負債權益比 1.91，財務風險偏高",
+              "流動比率 0.7，短期流動性不足"
+            ]
+          }
         },
         "lynch": {
           "score": 30.7,
@@ -16455,7 +18948,14 @@
               "value": "19.5 vs 24.5",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Southern Company (The) 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 19.5 低於 Trailing PE 24.5，分析師看好成長"
+            ],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 31.0,
@@ -16496,7 +18996,15 @@
               "value": 1.91,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Southern Company (The) 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "毛利率 45.35%，產品差異化明顯",
+              "護城河：法規壟斷 + 穩定配息"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 42.0,
@@ -16555,16 +19063,16 @@
             "date": "Tue, 31 Mar 2026 07:13:16 GMT"
           },
           {
-            "title": "Taiwan shares rise on first day of trading of 2026 - Formosa News",
-            "date": "Fri, 02 Jan 2026 08:00:00 GMT"
-          },
-          {
             "title": "Duke Energy Stock Rises 11.7% in 3 Months: Should You Buy Now? - TradingView – 追踪所有市場",
             "date": "Wed, 01 Apr 2026 14:23:00 GMT"
           },
           {
-            "title": "Here Are November's Worst-performing S&amp;P 500 Stocks so Far - Including Some Surprises - 富途牛牛",
-            "date": "Fri, 14 Nov 2025 08:00:00 GMT"
+            "title": "Taiwan shares rise on first day of trading of 2026 - Formosa News",
+            "date": "Fri, 02 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "3 Stocks That Could Provide the Anti-Drone Technology the U.S. So Desperately Needs -- Barrons.com - 富途牛牛",
+            "date": "Wed, 04 Mar 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -16643,7 +19151,17 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "統一 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定可預測"
+            ],
+            "risks": [
+              "負債權益比 2.5 偏高",
+              "淨利率僅 3.5%，獲利能力偏弱"
+            ]
+          }
         },
         "graham": {
           "score": 42.2,
@@ -16664,7 +19182,16 @@
               "value": 3.5,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "統一 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": [
+              "負債權益比 2.5，財務風險偏高"
+            ]
+          }
         },
         "lynch": {
           "score": 21.5,
@@ -16695,7 +19222,14 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "統一 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": [
+              "EPS CAGR 僅 -0.29%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 27.0,
@@ -16736,7 +19270,17 @@
               "value": 2.5,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "統一 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": [
+              "ROE 8.45%，管理效率偏低",
+              "EPS CAGR -0.29%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 41.1,
@@ -16778,24 +19322,24 @@
       "news": {
         "items": [
           {
-            "title": "統一投信獲理柏基金獎股票團體大獎 歷年基金獎得獎達152座 - 經濟日報",
-            "date": "Sun, 12 Apr 2026 09:30:47 GMT"
-          },
-          {
             "title": "投信股票型基金首檔淨值逾700元 統一全天候基金創紀錄 - 經濟日報",
             "date": "Sun, 12 Apr 2026 03:33:15 GMT"
           },
           {
-            "title": "正面臨前所未有的不確定性！ 統一董座羅智先：下半年恐更辛苦 - Yahoo股市",
-            "date": "Thu, 24 Jul 2025 07:00:00 GMT"
+            "title": "統一投信獲理柏基金獎股票團體大獎 歷年基金獎得獎達152座 - 聯合新聞網",
+            "date": "Sun, 12 Apr 2026 09:30:44 GMT"
+          },
+          {
+            "title": "首檔淨值逾500元基金誕生！統一投信擁股票型、科技股基金淨值王 - Yahoo新聞",
+            "date": "Wed, 14 Jan 2026 08:00:00 GMT"
           },
           {
             "title": "統一投信主動式股票型ETF及基金規模突破2000億元 - 新聞 - MoneyDJ理財網",
             "date": "Wed, 24 Dec 2025 08:00:00 GMT"
           },
           {
-            "title": "〈超商業績連年創高〉統一超去年營收首破3500億元大關 連11年寫新猷 - news.cnyes.com",
-            "date": "Mon, 12 Jan 2026 08:00:00 GMT"
+            "title": "台股多頭行情助陣　統一投信主動式股票型ETF、基金規模突破2千億元 - ETtoday財經雲",
+            "date": "Wed, 24 Dec 2025 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -16872,7 +19416,17 @@
               "value": "9/9",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "日月光投控 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "EPS 連續 8 年為正，盈利穩定可預測"
+            ],
+            "risks": [
+              "淨利率僅 1.44%，獲利能力偏弱",
+              "新聞黃燈：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "graham": {
           "score": 48.9,
@@ -16893,7 +19447,16 @@
               "value": 1.44,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "日月光投控 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "EPS 連續 8 年為正，盈利穩定"
+            ],
+            "risks": [
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "lynch": {
           "score": 21.5,
@@ -16924,7 +19487,15 @@
               "value": "8/8",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "日月光投控 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": [
+              "EPS CAGR 僅 -8.81%，成長動能不足",
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
         },
         "fisher": {
           "score": 20.0,
@@ -16965,7 +19536,18 @@
               "value": 1.38,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "日月光投控 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 8 年為正，品質經得起時間考驗"
+            ],
+            "risks": [
+              "毛利率僅 17.2%，產品差異化不足",
+              "ROE 2.55%，管理效率偏低",
+              "EPS CAGR -8.81%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 38.9,
@@ -17007,12 +19589,12 @@
       "news": {
         "items": [
           {
-            "title": "【12:56 即時新聞】日月光投控(3711)大漲8.4%至355元，受惠全球風險情緒緩解＋技術面由低檔轉強吸引買盤回補 - CMoney投資網誌",
-            "date": "Thu, 05 Mar 2026 08:00:00 GMT"
+            "title": "日月光投控 說明115/03/03工商時報對本公司之相關報導 - Yahoo股市",
+            "date": "Mon, 02 Mar 2026 08:00:00 GMT"
           },
           {
-            "title": "日月光投控、東元 法人叫好 - Yahoo股市",
-            "date": "Thu, 06 Nov 2025 08:00:00 GMT"
+            "title": "【12:56 即時新聞】日月光投控(3711)大漲8.4%至355元，受惠全球風險情緒緩解＋技術面由低檔轉強吸引買盤回補 - CMoney投資網誌",
+            "date": "Thu, 05 Mar 2026 08:00:00 GMT"
           },
           {
             "title": "3711 日月光投控- 日月光股價下挫市況觀望- 股市爆料同學會 - CMoney",
@@ -17101,7 +19683,17 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "富邦媒 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定可預測"
+            ],
+            "risks": [
+              "負債權益比 1.76 偏高",
+              "淨利率僅 1.63%，獲利能力偏弱"
+            ]
+          }
         },
         "graham": {
           "score": 33.3,
@@ -17122,7 +19714,16 @@
               "value": 1.63,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "富邦媒 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": [
+              "負債權益比 1.76，財務風險偏高"
+            ]
+          }
         },
         "lynch": {
           "score": 21.5,
@@ -17153,7 +19754,14 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "富邦媒 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": [
+              "EPS CAGR 僅 -9.71%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 20.0,
@@ -17194,7 +19802,18 @@
               "value": 1.76,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "富邦媒 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": [
+              "毛利率僅 10.22%，產品差異化不足",
+              "ROE 9.57%，管理效率偏低",
+              "EPS CAGR -9.71%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 33.3,
@@ -17340,7 +19959,19 @@
               "value": "1/4",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Constellation Energy Corporatio 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "負債權益比 0.64，資產負債表健康",
+              "股息殖利率 58.0%，提供穩定現金回報",
+              "護城河寬廣：不可複製資產 + 稀缺性"
+            ],
+            "risks": [
+              "P/E 39.37 偏高，估值需留意",
+              "新聞黃燈：偵測到 2 個需關注信號"
+            ]
+          }
         },
         "graham": {
           "score": 45.0,
@@ -17381,7 +20012,17 @@
               "value": "46.2%",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Constellation Energy Corporatio 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 58.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 39.37，估值偏高不符葛拉漢標準",
+              "新聞風險：偵測到 2 個需關注信號"
+            ]
+          }
         },
         "lynch": {
           "score": 34.7,
@@ -17417,7 +20058,17 @@
               "value": "21.2 vs 39.4",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Constellation Energy Corporatio 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 21.2 低於 Trailing PE 39.4，分析師看好成長"
+            ],
+            "risks": [
+              "P/E 39.37，估值可能過高",
+              "新聞風險：偵測到 2 個需關注信號"
+            ]
+          }
         },
         "fisher": {
           "score": 15.0,
@@ -17458,7 +20109,17 @@
               "value": 0.64,
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "Constellation Energy Corporatio 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "護城河：不可複製資產 + 稀缺性"
+            ],
+            "risks": [
+              "毛利率僅 16.38%，產品差異化不足",
+              "新聞風險：偵測到 2 個需關注信號"
+            ]
+          }
         }
       },
       "buffett_score": 33.0,
@@ -17605,7 +20266,17 @@
               "value": "9/11",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "鴻海 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定可預測"
+            ],
+            "risks": [
+              "負債權益比 1.59 偏高",
+              "淨利率僅 1.33%，獲利能力偏弱"
+            ]
+          }
         },
         "graham": {
           "score": 33.3,
@@ -17626,7 +20297,16 @@
               "value": 1.33,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "鴻海 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": [
+              "負債權益比 1.59，財務風險偏高"
+            ]
+          }
         },
         "lynch": {
           "score": 32.3,
@@ -17657,7 +20337,12 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "鴻海 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 24.0,
@@ -17698,7 +20383,17 @@
               "value": 1.59,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "鴻海 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": [
+              "毛利率僅 6.33%，產品差異化不足",
+              "ROE 5.3%，管理效率偏低"
+            ]
+          }
         }
       },
       "buffett_score": 27.8,
@@ -17748,16 +20443,16 @@
             "date": "Mon, 13 Apr 2026 20:10:00 GMT"
           },
           {
-            "title": "鴻海還有機會死貓跳？資深分析師曝最好買進時機在「這價位」 1原因不建議全面出清 - Yahoo股市",
-            "date": "Sun, 29 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "鴻海「最強3月營收」市場為何不買單？今翻黑苦守190元 分析師曝關鍵：將是底部 - Yahoo股市",
-            "date": "Tue, 07 Apr 2026 02:00:48 GMT"
+            "title": "​鴻海集團大賣這股票 2子公司持股降為0 - Yahoo新聞",
+            "date": "Fri, 10 Apr 2026 13:52:17 GMT"
           },
           {
             "title": "鴻海股價跌近147日最低！國家隊救駕8億難敵外資調節 長老豪納「4金釵」2.4萬張 - Yahoo股市",
             "date": "Mon, 23 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "鴻海還有機會死貓跳？資深分析師曝最好買進時機在「這價位」 1原因不建議全面出清 - Yahoo股市",
+            "date": "Sun, 29 Mar 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -17829,7 +20524,16 @@
               "value": "6/11",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "華碩 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定可預測"
+            ],
+            "risks": [
+              "淨利率僅 1.52%，獲利能力偏弱"
+            ]
+          }
         },
         "graham": {
           "score": 48.9,
@@ -17850,7 +20554,14 @@
               "value": 1.52,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "華碩 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": []
+          }
         },
         "lynch": {
           "score": 21.5,
@@ -17881,7 +20592,14 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "華碩 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": [
+              "EPS CAGR 僅 0.0%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 16.0,
@@ -17922,7 +20640,18 @@
               "value": 1.12,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "華碩 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": [
+              "毛利率僅 15.64%，產品差異化不足",
+              "ROE 3.64%，管理效率偏低",
+              "EPS CAGR 0.0%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 27.8,
@@ -18046,7 +20775,16 @@
               "value": "9/11",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "國泰金 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定可預測"
+            ],
+            "risks": [
+              "負債權益比 14.35 偏高"
+            ]
+          }
         },
         "graham": {
           "score": 33.3,
@@ -18067,7 +20805,16 @@
               "value": null,
               "grade": "nodata"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "國泰金 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": [
+              "負債權益比 14.35，財務風險偏高"
+            ]
+          }
         },
         "lynch": {
           "score": 15.4,
@@ -18098,7 +20845,14 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "國泰金 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": [
+              "EPS CAGR 僅 -7.35%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 17.0,
@@ -18139,7 +20893,16 @@
               "value": 14.35,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "國泰金 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": [
+              "EPS CAGR -7.35%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 27.8,
@@ -18193,12 +20956,12 @@
             "date": "Fri, 27 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "國泰金、富邦金、玉山金要噴了？專家看好「受惠降息」：第4季重回主流| 股市要聞| 股市 - 聯合新聞網",
-            "date": "Mon, 20 Oct 2025 07:00:00 GMT"
-          },
-          {
             "title": "2891 中信金- 金控新聞- 股市爆料同學會 - CMoney",
             "date": "Wed, 14 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "國泰金、富邦金、玉山金要噴了？專家看好「受惠降息」：第4季重回主流| 股市要聞| 股市 - 聯合新聞網",
+            "date": "Mon, 20 Oct 2025 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -18268,7 +21031,16 @@
               "value": "8/11",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "玉山金 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定可預測"
+            ],
+            "risks": [
+              "負債權益比 15.54 偏高"
+            ]
+          }
         },
         "graham": {
           "score": 33.3,
@@ -18289,7 +21061,16 @@
               "value": null,
               "grade": "nodata"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "玉山金 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": [
+              "負債權益比 15.54，財務風險偏高"
+            ]
+          }
         },
         "lynch": {
           "score": 26.2,
@@ -18320,7 +21101,12 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "玉山金 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 24.0,
@@ -18361,7 +21147,14 @@
               "value": 15.54,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "玉山金 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 27.8,
@@ -18411,12 +21204,12 @@
             "date": "Mon, 13 Apr 2026 03:25:14 GMT"
           },
           {
-            "title": "【Hot台股】玉山金盤中跌破30元 網驚「玉山吃三商消化不良？」 分析師揭2指標：別急著撿 - Yahoo股市",
-            "date": "Sun, 26 Oct 2025 07:00:00 GMT"
+            "title": "玉山金配息1.4元股價卻跌？不敗教主陳重銘揭密：這原因讓本益比校正回歸| 台股雜談| 股市 - 聯合新聞網",
+            "date": "Fri, 20 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "高股息ETF納玉山金，是長期利多還是短線題材？專家曝玉山金關鍵的「3大亮點」 - Smart自學網",
-            "date": "Mon, 16 Feb 2026 08:00:00 GMT"
+            "title": "玉山金(2884)發1.4元，股東傷心零配股...一鍵出清換股元大金？股海老牛抱6年，3個不賣股的理由 - 今周刊",
+            "date": "Mon, 16 Mar 2026 07:00:00 GMT"
           },
           {
             "title": "台股熱爆證券金雞發威 永豐金、玉山金前2月獲利雙創新高 - news.cnyes.com",
@@ -18424,7 +21217,7 @@
           }
         ],
         "risk_level": "green",
-        "risk_summary": "近期新聞正面 (4 個正面信號)"
+        "risk_summary": "近期新聞正面 (3 個正面信號)"
       },
       "pick_reason": {
         "summary": "玉山金 目前不符合巴菲特核心選股標準。",
@@ -18496,7 +21289,15 @@
               "value": "8/11",
               "grade": "ok"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "和泰車 目前不符合巴菲特核心選股標準。",
+            "strengths": [],
+            "risks": [
+              "負債權益比 2.88 偏高",
+              "淨利率僅 2.97%，獲利能力偏弱"
+            ]
+          }
         },
         "graham": {
           "score": 42.2,
@@ -18517,7 +21318,14 @@
               "value": 2.97,
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "和泰車 不符合葛拉漢安全邊際要求。",
+            "strengths": [],
+            "risks": [
+              "負債權益比 2.88，財務風險偏高"
+            ]
+          }
         },
         "lynch": {
           "score": 15.4,
@@ -18548,7 +21356,14 @@
               "value": "10/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "和泰車 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": [
+              "EPS CAGR 僅 2.71%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 17.0,
@@ -18589,7 +21404,16 @@
               "value": 2.88,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "和泰車 不符合乎雪的高品質成長要求。",
+            "strengths": [],
+            "risks": [
+              "毛利率僅 2.41%，產品差異化不足",
+              "ROE 9.69%，管理效率偏低",
+              "EPS CAGR 2.71%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 27.8,
@@ -18717,7 +21541,16 @@
               "value": "6/11",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "富邦金 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定可預測"
+            ],
+            "risks": [
+              "負債權益比 11.9 偏高"
+            ]
+          }
         },
         "graham": {
           "score": 33.3,
@@ -18738,7 +21571,16 @@
               "value": null,
               "grade": "nodata"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "富邦金 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": [
+              "負債權益比 11.9，財務風險偏高"
+            ]
+          }
         },
         "lynch": {
           "score": 15.4,
@@ -18769,7 +21611,14 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "富邦金 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": [
+              "EPS CAGR 僅 -7.69%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 14.0,
@@ -18810,7 +21659,16 @@
               "value": 11.9,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "富邦金 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": [
+              "EPS CAGR -7.69%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 22.2,
@@ -18939,7 +21797,16 @@
               "value": "6/11",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "兆豐金 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定可預測"
+            ],
+            "risks": [
+              "負債權益比 12.03 偏高"
+            ]
+          }
         },
         "graham": {
           "score": 33.3,
@@ -18960,7 +21827,16 @@
               "value": null,
               "grade": "nodata"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "兆豐金 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": [
+              "負債權益比 12.03，財務風險偏高"
+            ]
+          }
         },
         "lynch": {
           "score": 15.4,
@@ -18991,7 +21867,14 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "兆豐金 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": [
+              "EPS CAGR 僅 4.54%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 14.0,
@@ -19032,7 +21915,16 @@
               "value": 12.03,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "兆豐金 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": [
+              "EPS CAGR 4.54%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 22.2,
@@ -19161,7 +22053,16 @@
               "value": "5/11",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "中信金 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定可預測"
+            ],
+            "risks": [
+              "負債權益比 15.99 偏高"
+            ]
+          }
         },
         "graham": {
           "score": 33.3,
@@ -19182,7 +22083,16 @@
               "value": null,
               "grade": "nodata"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "中信金 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": [
+              "負債權益比 15.99，財務風險偏高"
+            ]
+          }
         },
         "lynch": {
           "score": 26.2,
@@ -19213,7 +22123,12 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "中信金 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": []
+          }
         },
         "fisher": {
           "score": 17.0,
@@ -19254,7 +22169,14 @@
               "value": 15.99,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "中信金 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": []
+          }
         }
       },
       "buffett_score": 22.2,
@@ -19383,7 +22305,16 @@
               "value": "5/11",
               "grade": "warn"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "合庫金 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定可預測"
+            ],
+            "risks": [
+              "負債權益比 17.87 偏高"
+            ]
+          }
         },
         "graham": {
           "score": 33.3,
@@ -19404,7 +22335,16 @@
               "value": null,
               "grade": "nodata"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "合庫金 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": [
+              "負債權益比 17.87，財務風險偏高"
+            ]
+          }
         },
         "lynch": {
           "score": 15.4,
@@ -19435,7 +22375,14 @@
               "value": "11/11",
               "grade": "pass"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "合庫金 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": [
+              "EPS CAGR 僅 -2.07%，成長動能不足"
+            ]
+          }
         },
         "fisher": {
           "score": 10.0,
@@ -19476,7 +22423,16 @@
               "value": 17.87,
               "grade": "fail"
             }
-          ]
+          ],
+          "pick_reason": {
+            "summary": "合庫金 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗"
+            ],
+            "risks": [
+              "EPS CAGR -2.07%，成長乏力"
+            ]
+          }
         }
       },
       "buffett_score": 22.2,
@@ -19522,12 +22478,12 @@
             "date": "Tue, 24 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "合庫金法說》股利報佳音：反映經營成果 法人估1.05元、4年來最高 | 陳怡慈 | 新聞 - 風傳媒",
-            "date": "Thu, 19 Mar 2026 07:00:00 GMT"
-          },
-          {
             "title": "合庫金明年股利發放，現金為主/股票為輔 - 台視全球資訊網",
             "date": "Mon, 05 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "合庫金法說》股利報佳音：反映經營成果 法人估1.05元、4年來最高 | 陳怡慈 | 新聞 - 風傳媒",
+            "date": "Thu, 19 Mar 2026 07:00:00 GMT"
           },
           {
             "title": "合庫金：今年股利優去年，現金為主- 新聞 - MoneyDJ理財網",
