@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T10:07:12.252771",
+  "generated_at": "2026-04-20T12:41:29.383453",
   "date": "2026-04-20",
   "investor_profiles": {
     "buffett": {
@@ -426,6 +426,12 @@
         "risk_summary": "偵測到 1 個需關注信號"
       },
       {
+        "stock_id": "UNP",
+        "name": "Union Pacific Corporation",
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      },
+      {
         "stock_id": "ABBV",
         "name": "AbbVie Inc.",
         "risk_level": "yellow",
@@ -438,10 +444,10 @@
         "risk_summary": "偵測到 1 個需關注信號"
       },
       {
-        "stock_id": "HD",
-        "name": "Home Depot, Inc. (The)",
+        "stock_id": "COST",
+        "name": "Costco Wholesale Corporation",
         "risk_level": "yellow",
-        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+        "risk_summary": "偵測到 1 個需關注信號"
       },
       {
         "stock_id": "MCD",
@@ -470,8 +476,8 @@
       {
         "stock_id": "2882",
         "name": "國泰金",
-        "risk_level": "yellow",
-        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+        "risk_level": "red",
+        "risk_summary": "偵測到 2 個重大風險信號"
       },
       {
         "stock_id": "SO",
@@ -768,20 +774,20 @@
             "date": "Thu, 16 Apr 2026 14:08:36 GMT"
           },
           {
-            "title": "台積電季賺2股本 股價卻大跌？ 專家一算笑了：我看見「2330」 - Yahoo股市",
-            "date": "Fri, 17 Apr 2026 09:56:00 GMT"
-          },
-          {
             "title": "他台積電抱20年賣了！「報酬率3257%」網全跪 - Yahoo股市",
             "date": "Fri, 17 Apr 2026 07:23:58 GMT"
           },
           {
-            "title": "台積電被點名！外媒籲「緊抱這5檔股票」：營收有望暴增522％ - Yahoo新聞",
-            "date": "Fri, 17 Apr 2026 00:12:58 GMT"
+            "title": "庶民看傻眼！台股破3萬7 股市樂觀指數寫6個月新低 - Yahoo股市",
+            "date": "Mon, 20 Apr 2026 02:36:34 GMT"
           },
           {
-            "title": "他抱台積電股票20年！賣出報酬率逾3000％ 全網跪了 - Yahoo新聞",
-            "date": "Sat, 18 Apr 2026 22:58:00 GMT"
+            "title": "台積電4個理由賺很大 股價評級躍升 - 自由財經",
+            "date": "Sun, 19 Apr 2026 13:02:30 GMT"
+          },
+          {
+            "title": "【台積電法說會】明天會漲嗎？期指開低網嘆「夜盤不給面子」分析師：攻2100元機率不高 - Yahoo股市",
+            "date": "Thu, 16 Apr 2026 08:00:56 GMT"
           }
         ],
         "risk_level": "green",
@@ -1097,8 +1103,8 @@
             "date": "Tue, 17 Feb 2026 08:00:00 GMT"
           },
           {
-            "title": "微軟(MSFT.US)委任AI高層掌管Xbox業務 - AASTOCKS.com",
-            "date": "Fri, 20 Feb 2026 08:00:00 GMT"
+            "title": "《大行》高盛料微軟(MSFT.US)內部研發運算資源比例升至兩成 維持「買入」評級 - AASTOCKS.com",
+            "date": "Sun, 15 Feb 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -1401,6 +1407,10 @@
       "news": {
         "items": [
           {
+            "title": "《大行》花旗升Alphabet(GOOGL.US)目標價至405美元 加入上行催化觀察名單 - AASTOCKS.com",
+            "date": "Wed, 15 Apr 2026 03:40:00 GMT"
+          },
+          {
             "title": "GOOGL 260402 325.00C (GOOGL260402C325000) Stock Options Chain &amp; Price - Moomoo",
             "date": "Sun, 12 Apr 2026 19:36:45 GMT"
           },
@@ -1409,16 +1419,12 @@
             "date": "Tue, 03 Feb 2026 08:00:00 GMT"
           },
           {
+            "title": "【即時新聞】Alphabet股價創高上看400 分析師調高目標價 - CMoney投資網誌",
+            "date": "Fri, 30 Jan 2026 08:00:00 GMT"
+          },
+          {
             "title": "為何Alphabet砸錢布局AI基建拖累股價 博通、輝達卻笑了？ - news.cnyes.com",
             "date": "Fri, 06 Feb 2026 08:00:00 GMT"
-          },
-          {
-            "title": "【即時新聞】Alphabet(GOOGL)股價低於330美元，是否是最後買入機會？ - CMoney投資網誌",
-            "date": "Fri, 26 Dec 2025 08:00:00 GMT"
-          },
-          {
-            "title": "Google 搜尋測試房屋銷售列表，Zillow 股價盤中一度重挫 - TechNews 科技新報",
-            "date": "Tue, 16 Dec 2025 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -1735,12 +1741,12 @@
             "date": "Wed, 03 Sep 2025 07:00:00 GMT"
           },
           {
-            "title": "Nvidia stock rises for 10th day: what's behind the recent strength - TradingView",
-            "date": "Tue, 14 Apr 2026 14:22:13 GMT"
+            "title": "Stocks to Watch Friday: Apple, Amazon, Nvidia, Reddit -- WSJ - 富途牛牛",
+            "date": "Fri, 31 Oct 2025 07:00:00 GMT"
           },
           {
-            "title": "《業績》英偉達(NVDA.US)上財季利潤近翻倍勝預期 數據中心業務收入續增75% 股價盤後漲3% - AASTOCKS.com",
-            "date": "Wed, 25 Feb 2026 08:00:00 GMT"
+            "title": "Nvidia stock rises for 10th day: what's behind the recent strength - TradingView",
+            "date": "Tue, 14 Apr 2026 14:22:13 GMT"
           }
         ],
         "risk_level": "green",
@@ -2382,8 +2388,8 @@
             "date": "Thu, 20 Nov 2025 08:00:00 GMT"
           },
           {
-            "title": "Paycom's Q4 Earnings Surpass Expectations, Revenues Rise Y/Y - TradingView",
-            "date": "Thu, 12 Feb 2026 08:00:00 GMT"
+            "title": "美股異動 | 應用材料(AMAT.US)盤前大漲逾11% 業績展望碾壓預期 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Fri, 13 Feb 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -2696,16 +2702,16 @@
             "date": "Tue, 31 Mar 2026 20:23:03 GMT"
           },
           {
-            "title": "Lam Research(LRCX.US) Director Sells US$7.9 Million in Common Stock - 富途牛牛",
-            "date": "Mon, 09 Feb 2026 08:00:00 GMT"
-          },
-          {
             "title": "Lam Research (LRCX) falls more steeply than broader market: What investors need to know - MSN",
             "date": "Wed, 15 Apr 2026 05:47:34 GMT"
           },
           {
-            "title": "今日之牛：Lam Research (LRCX) - Exchange Bitget",
+            "title": "今日之牛：Lam Research (LRCX) - bitget.com",
             "date": "Mon, 06 Apr 2026 18:37:37 GMT"
+          },
+          {
+            "title": "Lam Research(LRCX.US) Director Sells US$7.9 Million in Common Stock - 富途牛牛",
+            "date": "Mon, 09 Feb 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -2746,7 +2752,7 @@
       "debt_to_equity": 0.49,
       "current_ratio": 2.86,
       "pe_ratio": 76.42,
-      "forward_pe": 32.99,
+      "forward_pe": 33.27,
       "market_cap_b": 85.9,
       "high_52w": 376.45,
       "low_52w": 247.7,
@@ -2886,7 +2892,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "33.0 vs 76.4",
+              "value": "33.3 vs 76.4",
               "grade": "pass"
             }
           ],
@@ -2894,7 +2900,7 @@
             "summary": "Cadence Design Systems, Inc. 有成長潛力，但估值或成長率尚未達標。",
             "strengths": [
               "ROE 26.09%，管理層資本效率出色",
-              "Forward PE 33.0 低於 Trailing PE 76.4，分析師看好成長",
+              "Forward PE 33.3 低於 Trailing PE 76.4，分析師看好成長",
               "低負債（D/E 0.49），成長基礎穩固",
               "淨利率 23.24%，獲利能力強"
             ],
@@ -3007,7 +3013,7 @@
             "date": "Tue, 03 Feb 2026 08:00:00 GMT"
           },
           {
-            "title": "Cadence股價過去六個月下跌16%：現在最好的策略是什麼？ - Exchange Bitget",
+            "title": "Cadence股價過去六個月下跌16%：現在最好的策略是什麼？ - bitget.com",
             "date": "Tue, 24 Mar 2026 07:00:00 GMT"
           },
           {
@@ -3335,12 +3341,12 @@
             "date": "Tue, 14 Apr 2026 20:38:45 GMT"
           },
           {
-            "title": "AI資本支出強勁 Arista Networks(ANET.US)Q3營收利潤雙雙超預期 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
-            "date": "Wed, 05 Nov 2025 08:00:00 GMT"
+            "title": "Arista Networks Stock Is Down After Earnings. Stick With Our Recent Pick. - Moomoo",
+            "date": "Mon, 10 Nov 2025 08:00:00 GMT"
           },
           {
-            "title": "輝達下跌、AMD上漲 背後關鍵或在Arista - Yahoo股市",
-            "date": "Fri, 13 Feb 2026 08:00:00 GMT"
+            "title": "AI資本支出強勁 Arista Networks(ANET.US)Q3營收利潤雙雙超預期 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Wed, 05 Nov 2025 08:00:00 GMT"
           }
         ],
         "risk_level": "yellow",
@@ -3644,8 +3650,8 @@
       "news": {
         "items": [
           {
-            "title": "在第一季度業績發佈之前，投資者看好其定價韌性，Old Dominion Freight Line股價大漲。 - Moomoo",
-            "date": "Thu, 16 Apr 2026 17:37:57 GMT"
+            "title": "現在在舊Dominion Freight Line, Inc.（納斯達克：ODFL）是否有投資機會？ - 富途牛牛",
+            "date": "Sun, 19 Apr 2026 12:41:29 GMT"
           },
           {
             "title": "OLD DOMINION FREIGHT LINE Director Sells Shares - TradingView",
@@ -4274,8 +4280,8 @@
             "date": "Sat, 18 Apr 2026 11:28:56 GMT"
           },
           {
-            "title": "亞德客-KY擴半導體布局 大摩喊目標價1030元 - Yahoo股市",
-            "date": "Mon, 29 Sep 2025 07:00:00 GMT"
+            "title": "目標價喊上1182元！「氣動元件廠」飆連6紅 去年Q4、全年營收同寫新紀錄 - Yahoo股市",
+            "date": "Fri, 09 Jan 2026 08:00:00 GMT"
           },
           {
             "title": "【11:35 即時新聞】亞德客-KY(1590)盤中強勢突破，法人買盤推升股價創波段新高，工具機景氣復甦題材加持 - CMoney投資網誌",
@@ -5207,16 +5213,16 @@
             "date": "Tue, 14 Apr 2026 13:15:00 GMT"
           },
           {
-            "title": "【即時新聞】嬌生CEO拋售逾兩千萬美元持股，Intel與亞培高層逆勢進場佈局 - CMoney投資網誌",
-            "date": "Mon, 02 Feb 2026 08:00:00 GMT"
-          },
-          {
-            "title": "禮來(LLY.US)、強生(JNJ.US)與輝瑞(PFE.US)拓展中國市場：旗下創新藥物納入首版商保目錄作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
-            "date": "Mon, 08 Dec 2025 08:00:00 GMT"
+            "title": "降價協議下大型藥企韌性凸顯 強生(JNJ.US)Q1業績超預期並上調指引 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Tue, 14 Apr 2026 11:48:09 GMT"
           },
           {
             "title": "Barclays Maintains Johnson &amp; Johnson(JNJ.US) With Hold Rating, Maintains Target Price $255 - 富途牛牛",
             "date": "Fri, 17 Apr 2026 12:20:37 GMT"
+          },
+          {
+            "title": "禮來(LLY.US)、強生(JNJ.US)與輝瑞(PFE.US)拓展中國市場：旗下創新藥物納入首版商保目錄作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Mon, 08 Dec 2025 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -5827,20 +5833,20 @@
             "date": "Mon, 09 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "【即時新聞】Visa支付帝國年處理量破16兆美元，高獲利背後的估值隱憂 - CMoney投資網誌",
-            "date": "Fri, 16 Jan 2026 08:00:00 GMT"
-          },
-          {
             "title": "阿里達摩院發佈玄鐵C950，打破全球RISC-V CPU性能紀錄 - AASTOCKS.com",
             "date": "Mon, 23 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "Visa和Mastercard股價下跌，特朗普加強打擊信用卡費用 作者 Investing.com - Investing.com 香港 - 股市報價&amp; 財經新聞",
-            "date": "Tue, 13 Jan 2026 08:00:00 GMT"
-          },
-          {
             "title": "REG - iShares V IBDS DC29$ - Net Asset Value(s) - TradingView",
             "date": "Tue, 11 Nov 2025 08:00:00 GMT"
+          },
+          {
+            "title": "美股V轉引領台股重返32K 記憶體族群滿血復活 - Yahoo股市",
+            "date": "Mon, 02 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "SILVERBOX CORP V UNIT CONS 1 ORD SHS CL A AND 1/3 RED WT(SBXE.U) Stock Options Chain | Quotes &amp; News - Moomoo",
+            "date": "Sun, 07 Dec 2025 03:43:30 GMT"
           }
         ],
         "risk_level": "green",
@@ -7413,30 +7419,9 @@
       },
       "exit_conditions": "全球 LNG 產能過剩；長約到期後無法續約",
       "news": {
-        "items": [
-          {
-            "title": "LNG暴漲85％！ 陸祭「1招」套利狠賺 內幕曝光 - Yahoo股市",
-            "date": "Thu, 02 Apr 2026 07:00:00 GMT"
-          },
-          {
-            "title": "Cheniere Energy(LNG.US) Officer Sells US$8.7 Million in Common Stock - 富途牛牛",
-            "date": "Wed, 01 Apr 2026 07:00:00 GMT"
-          },
-          {
-            "title": "台灣參與全球LNG戰略儲備有譜？能源署：須確保戰時能運回 - Yahoo股市",
-            "date": "Thu, 02 Apr 2026 07:00:00 GMT"
-          },
-          {
-            "title": "卡達關閉全球最大LNG基地！歐洲天然氣暴漲70%、亞洲恐缺氣、中國化工迎機會 - AASTOCKS.com",
-            "date": "Sun, 08 Mar 2026 08:00:00 GMT"
-          },
-          {
-            "title": "全球搶購LNG推升美出口 卡達設施受損供應恐減17% - Yahoo股市",
-            "date": "Mon, 06 Apr 2026 07:00:00 GMT"
-          }
-        ],
-        "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
+        "items": [],
+        "risk_level": "unknown",
+        "risk_summary": "無法取得新聞資料"
       },
       "pick_reason": {
         "summary": "Cheniere Energy, Inc. 符合巴菲特選股標準。",
@@ -7742,7 +7727,7 @@
             "date": "Mon, 26 Jan 2026 08:00:00 GMT"
           },
           {
-            "title": "過去一個月下跌10.1%，Intuitive Surgical（ISRG）為何有望反彈 - Exchange Bitget",
+            "title": "過去一個月下跌10.1%，Intuitive Surgical（ISRG）為何有望反彈 - bitget.com",
             "date": "Mon, 30 Mar 2026 07:00:00 GMT"
           },
           {
@@ -8057,7 +8042,7 @@
             "date": "Thu, 19 Feb 2026 08:00:00 GMT"
           },
           {
-            "title": "OXY 跌幅 3.49%，監管變動與產業動盪撼動市場——領先能源公司未來走向如何？ - Exchange Bitget",
+            "title": "OXY 跌幅 3.49%，監管變動與產業動盪撼動市場——領先能源公司未來走向如何？ - bitget.com",
             "date": "Tue, 31 Mar 2026 07:00:00 GMT"
           },
           {
@@ -8387,7 +8372,7 @@
             "date": "Fri, 31 Oct 2025 07:00:00 GMT"
           },
           {
-            "title": "CSX已經承諾投入其機車投資——現在輪到網絡發揮作用了 - Exchange Bitget",
+            "title": "CSX已經承諾投入其機車投資——現在輪到網絡發揮作用了 - bitget.com",
             "date": "Sun, 29 Mar 2026 07:00:00 GMT"
           },
           {
@@ -10249,8 +10234,8 @@
       "news": {
         "items": [
           {
-            "title": "藝康集團（NYSE:ECL）似乎在相當明智地使用債務。 - Moomoo",
-            "date": "Mon, 08 Dec 2025 08:00:00 GMT"
+            "title": "Here's Why You Should Retain Ecolab Stock in Your Portfolio Now - TradingView",
+            "date": "Tue, 14 Apr 2026 13:47:00 GMT"
           },
           {
             "title": "Barclays Maintains Ecolab(ECL.US) With Buy Rating, Maintains Target Price $300 - 富途牛牛",
@@ -10259,6 +10244,10 @@
           {
             "title": "只押輝達、台積電？投資人恐錯過AI真正致富機會 - news.cnyes.com",
             "date": "Wed, 10 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "藝康集團（NYSE:ECL）似乎在相當明智地使用債務。 - Moomoo",
+            "date": "Mon, 08 Dec 2025 08:00:00 GMT"
           },
           {
             "title": "ECL股價和圖表 — NYSE:ECL - TradingView",
@@ -10363,7 +10352,8 @@
               "股息殖利率 220.0%，提供穩定現金回報"
             ],
             "risks": [
-              "負債權益比 1.78 偏高"
+              "負債權益比 1.78 偏高",
+              "新聞黃燈：偵測到 1 個需關注信號"
             ]
           }
         },
@@ -10460,7 +10450,9 @@
               "ROE 44.82%，管理層資本效率出色",
               "淨利率 27.88%，獲利能力強"
             ],
-            "risks": []
+            "risks": [
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
           }
         },
         "fisher": {
@@ -10511,7 +10503,9 @@
               "淨利率 27.88%，營運效率頂尖",
               "護城河：雙寡頭壟斷"
             ],
-            "risks": []
+            "risks": [
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
           }
         }
       },
@@ -10563,16 +10557,16 @@
       "news": {
         "items": [
           {
-            "title": "Union Pacific 2026年第一季業績：修訂後指引或促使公允市值重新估值 - Exchange Bitget",
-            "date": "Thu, 02 Apr 2026 07:00:00 GMT"
-          },
-          {
             "title": "這就是爲什麼我們認爲聯合太平洋（NYSE:UNP）今天可能值得關注的原因 - Moomoo",
             "date": "Fri, 10 Apr 2026 13:27:02 GMT"
           },
           {
             "title": "〈財報〉鐵路營運商聯合太平洋上季獲利成長7% - AASTOCKS.com",
             "date": "Thu, 23 Jan 2025 08:00:00 GMT"
+          },
+          {
+            "title": "Analysts estimate Norfolk Southern (NSC) to report a decline in earnings: What to look out for - MSN",
+            "date": "Sat, 18 Apr 2026 21:35:21 GMT"
           },
           {
             "title": "Earnings Preview: UNP to Report Financial Results Pre-market on April 23 - 富途牛牛",
@@ -10583,8 +10577,8 @@
             "date": "Thu, 25 Jan 2024 08:00:00 GMT"
           }
         ],
-        "risk_level": "green",
-        "risk_summary": "近期新聞正面 (2 個正面信號)"
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
       },
       "pick_reason": {
         "summary": "Union Pacific Corporation 符合巴菲特選股標準。",
@@ -10596,7 +10590,8 @@
           "股息殖利率 220.0%，提供穩定現金回報"
         ],
         "risks": [
-          "負債權益比 1.78 偏高"
+          "負債權益比 1.78 偏高",
+          "新聞黃燈：偵測到 1 個需關注信號"
         ]
       },
       "industry_chains": [
@@ -11499,7 +11494,7 @@
       "news": {
         "items": [
           {
-            "title": "ABBV 期權信號在 205–210 美元面臨關鍵考驗，市場參與者在即時風險與區間操作策略間取得平衡 - Exchange Bitget",
+            "title": "ABBV 期權信號在 205–210 美元面臨關鍵考驗，市場參與者在即時風險與區間操作策略間取得平衡 - bitget.com",
             "date": "Mon, 06 Apr 2026 03:35:27 GMT"
           },
           {
@@ -11828,16 +11823,16 @@
             "date": "Fri, 17 Oct 2025 07:00:00 GMT"
           },
           {
-            "title": "Should You Invest in the Fidelity MSCI Materials Index ETF (FMAT)? - TradingView",
-            "date": "Tue, 09 Jan 2024 08:00:00 GMT"
-          },
-          {
             "title": "SHW股價和圖表 — NYSE:SHW - TradingView",
             "date": "Thu, 05 Oct 2017 02:13:29 GMT"
           },
           {
             "title": "Dow's 365-Point Fall Led By Losses In Shares Of Boeing, Sherwin-Williams Co. - 富途牛牛",
             "date": "Thu, 19 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "Should You Invest in the Fidelity MSCI Materials Index ETF (FMAT)? - TradingView",
+            "date": "Tue, 09 Jan 2024 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -12149,8 +12144,8 @@
             "date": "Wed, 08 Apr 2026 07:00:00 GMT"
           },
           {
-            "title": "CVX 260417 260.00P (CVX260417P260000) 股票社區和討論 - Moomoo",
-            "date": "Fri, 17 Apr 2026 07:29:48 GMT"
+            "title": "【美股動態】Chevron油價飆升帶動能源類股上揚-CMoney 研究員 - CMoney投資網誌",
+            "date": "Mon, 09 Mar 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -12454,11 +12449,11 @@
             "date": "Thu, 09 Apr 2026 07:00:00 GMT"
           },
           {
-            "title": "Enterprise Products Partners (EPD) 隨著資本支出減少，正接近轉捩點，將帶來更高的分紅及回購 - Exchange Bitget",
+            "title": "Enterprise Products Partners (EPD) 隨著資本支出減少，正接近轉捩點，將帶來更高的分紅及回購 - bitget.com",
             "date": "Sun, 29 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "Truist對EPD設定36美元目標價，顯示股息機會合理，反映穩定現金流與風險因素增加 - Exchange Bitget",
+            "title": "Truist對EPD設定36美元目標價，顯示股息機會合理，反映穩定現金流與風險因素增加 - bitget.com",
             "date": "Sun, 29 Mar 2026 07:00:00 GMT"
           },
           {
@@ -12754,16 +12749,16 @@
             "date": "Sat, 18 Apr 2026 14:30:00 GMT"
           },
           {
-            "title": "國巨（2327）法說／Q1季年增22.7%、EPS達3.90元創高，AI需求持續成長為最大動能｜股市話題｜豐雲學堂2026 年 04 月 - sinotrade.com.tw",
-            "date": "Wed, 15 Apr 2026 11:53:17 GMT"
-          },
-          {
             "title": "國巨法說會／若還原股票一拆四 首季就賺逾1股本 - 經濟日報",
             "date": "Wed, 15 Apr 2026 08:50:44 GMT"
           },
           {
             "title": "國巨下午法說前噴6%創高 分析師「順勢操作」：無須預設高點 - Yahoo股市",
             "date": "Wed, 15 Apr 2026 02:23:25 GMT"
+          },
+          {
+            "title": "2327 國巨* - 這個不假 繼續衝 - 股市爆料同學會 - CMoney",
+            "date": "Fri, 17 Apr 2026 12:41:51 GMT"
           },
           {
             "title": "國巨第1季營收優於公司指引 法人上調全年 EPS 至16.3元 - 經濟日報",
@@ -13071,6 +13066,10 @@
             "date": "Mon, 23 Feb 2026 08:00:00 GMT"
           },
           {
+            "title": "NVO Launches Wegovy Subscription Plan, Boosts Access, Stock Up - TradingView",
+            "date": "Wed, 01 Apr 2026 07:00:00 GMT"
+          },
+          {
             "title": "美股異動| 禮來(LLY.US)跌超4% 碩迪生物(GPCR.US)實驗性減肥藥公佈積極數據作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
             "date": "Tue, 17 Mar 2026 07:00:00 GMT"
           },
@@ -13081,10 +13080,6 @@
           {
             "title": "禮來公司收購談判傳聞推動Ventyx Biosciences股價飆升 作者 Investing.com - Investing.com 香港 - 股市報價&amp; 財經新聞",
             "date": "Wed, 07 Jan 2026 08:00:00 GMT"
-          },
-          {
-            "title": "美股異動 | 減肥藥板塊股票走低 禮來(LLY.US)暴跌超5% 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
-            "date": "Thu, 15 Jan 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -13694,24 +13689,24 @@
       "news": {
         "items": [
           {
-            "title": "亞股沒在怕？日韓股市早盤全走揚 日經強漲536點 - Yahoo股市",
-            "date": "Mon, 20 Apr 2026 01:06:15 GMT"
+            "title": "庶民看傻眼！台股破3萬7 股市樂觀指數寫6個月新低 - Yahoo股市",
+            "date": "Mon, 20 Apr 2026 02:36:34 GMT"
           },
           {
             "title": "個股：皇翔(2545)4/16-4/17取得台達電(2308)股票200張，每股均價1827.96元 - 富聯網",
             "date": "Mon, 20 Apr 2026 00:22:00 GMT"
           },
           {
-            "title": "抽中就賺近5000元！這「生技巨頭」上市增資2.2億 4100機會今開搶 - Yahoo股市",
-            "date": "Mon, 20 Apr 2026 00:19:38 GMT"
+            "title": "亞股沒在怕？日韓股市早盤全走揚 日經強漲536點 - Yahoo股市",
+            "date": "Mon, 20 Apr 2026 01:06:15 GMT"
           },
           {
-            "title": "【台達電聚寶盆1】股價年漲440%力壓台積電 「億元富翁」股東逼近2000名 - Yahoo股市",
-            "date": "Wed, 15 Apr 2026 00:35:43 GMT"
+            "title": "景氣紅燈也沒用！股市樂觀指數重挫 房市大漲派僅剩9% - Yahoo股市",
+            "date": "Mon, 20 Apr 2026 01:48:40 GMT"
           },
           {
-            "title": "【台達電聚寶盆2】13萬股東300元就入場...若緊抱一年每張爽賺逾140萬元 - Yahoo股市",
-            "date": "Wed, 15 Apr 2026 00:44:20 GMT"
+            "title": "【Yahoo早盤】美伊戰事反覆！台股攻上3萬7再漲近500點 分析師丁彥鈞：多頭格局不變 - Yahoo股市",
+            "date": "Mon, 20 Apr 2026 01:52:30 GMT"
           }
         ],
         "risk_level": "green",
@@ -14009,8 +14004,8 @@
       "news": {
         "items": [
           {
-            "title": "4G用戶心碎！ 中華電宣布「神級1方案」不會再有 - Yahoo股市",
-            "date": "Thu, 12 Mar 2026 07:00:00 GMT"
+            "title": "不只聯發科出力！台股創高中華電信、台灣大也齊漲助陣 - Yahoo股市",
+            "date": "Sun, 17 Aug 2025 07:00:00 GMT"
           },
           {
             "title": "【12:54 即時新聞】中華電(2412)股價小幅回落至136元，避險資金題材續在＋多頭均線結構與法人買盤仍偏多 - CMoney投資網誌",
@@ -14129,8 +14124,7 @@
               "護城河寬廣：規模 + 專業服務"
             ],
             "risks": [
-              "負債權益比 5.14 偏高",
-              "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
+              "負債權益比 5.14 偏高"
             ]
           }
         },
@@ -14181,8 +14175,7 @@
             ],
             "risks": [
               "P/E 24.57，估值偏高不符葛拉漢標準",
-              "負債權益比 5.14，財務風險偏高",
-              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+              "負債權益比 5.14，財務風險偏高"
             ]
           }
         },
@@ -14226,9 +14219,7 @@
             "strengths": [
               "ROE 719.75%，管理層資本效率出色"
             ],
-            "risks": [
-              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
-            ]
+            "risks": []
           }
         },
         "fisher": {
@@ -14277,9 +14268,7 @@
               "ROE 719.75%，管理層卓越",
               "護城河：規模 + 專業服務"
             ],
-            "risks": [
-              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
-            ]
+            "risks": []
           }
         }
       },
@@ -14335,8 +14324,8 @@
             "date": "Wed, 01 Apr 2026 07:00:00 GMT"
           },
           {
-            "title": "SBI Securities (daily trading) reported net selling of SoftBank Group shares and net buying of Kioxia HD shares. - 富途牛牛",
-            "date": "Tue, 14 Apr 2026 06:49:50 GMT"
+            "title": "Amazon - Hd Streaming Stick Will Be Available - 富途牛牛",
+            "date": "Wed, 15 Apr 2026 12:54:42 GMT"
           },
           {
             "title": "AMD, Nvidia, Intel, CVS, Ares, Toll, SailPoint, Home Depot: Biggest Stock Movers - Moomoo",
@@ -14351,8 +14340,8 @@
             "date": "Tue, 18 Nov 2025 08:00:00 GMT"
           }
         ],
-        "risk_level": "yellow",
-        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
       },
       "pick_reason": {
         "summary": "Home Depot, Inc. (The) 部分指標良好，但有待改善之處。",
@@ -14364,8 +14353,7 @@
           "護城河寬廣：規模 + 專業服務"
         ],
         "risks": [
-          "負債權益比 5.14 偏高",
-          "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
+          "負債權益比 5.14 偏高"
         ]
       },
       "industry_chains": [
@@ -14762,7 +14750,8 @@
             ],
             "risks": [
               "P/E 52.08 偏高，估值需留意",
-              "淨利率僅 2.75%，獲利能力偏弱"
+              "淨利率僅 2.75%，獲利能力偏弱",
+              "新聞黃燈：偵測到 1 個需關注信號"
             ]
           }
         },
@@ -14812,7 +14801,8 @@
               "股息殖利率 59.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 52.08，估值偏高不符葛拉漢標準"
+              "P/E 52.08，估值偏高不符葛拉漢標準",
+              "新聞風險：偵測到 1 個需關注信號"
             ]
           }
         },
@@ -14857,7 +14847,8 @@
               "ROE 28.09%，管理層資本效率出色"
             ],
             "risks": [
-              "P/E 52.08，估值可能過高"
+              "P/E 52.08，估值可能過高",
+              "新聞風險：偵測到 1 個需關注信號"
             ]
           }
         },
@@ -14908,7 +14899,8 @@
               "護城河：會員制 + 低成本領導"
             ],
             "risks": [
-              "毛利率僅 12.47%，產品差異化不足"
+              "毛利率僅 12.47%，產品差異化不足",
+              "新聞風險：偵測到 1 個需關注信號"
             ]
           }
         }
@@ -14965,10 +14957,6 @@
             "date": "Fri, 17 Apr 2026 07:26:18 GMT"
           },
           {
-            "title": "HubSpot, Asana, and Zeta Global Shares Are Falling, What You Need To Know - TradingView",
-            "date": "Thu, 09 Apr 2026 16:06:06 GMT"
-          },
-          {
             "title": "IPO- Company Information - etnet 經濟通",
             "date": "Mon, 12 Jan 2026 08:00:00 GMT"
           },
@@ -14979,10 +14967,14 @@
           {
             "title": "IPO- Company Information - etnet 經濟通",
             "date": "Fri, 09 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "Morgan Stanley commentary: Cost concerns have been overreacted, and CATL's stock performance is expected to outperform the average within 15 days. - 富途牛牛",
+            "date": "Tue, 27 Jan 2026 08:00:00 GMT"
           }
         ],
-        "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
       },
       "pick_reason": {
         "summary": "Costco Wholesale Corporation 部分指標良好，但有待改善之處。",
@@ -14995,7 +14987,8 @@
         ],
         "risks": [
           "P/E 52.08 偏高，估值需留意",
-          "淨利率僅 2.75%，獲利能力偏弱"
+          "淨利率僅 2.75%，獲利能力偏弱",
+          "新聞黃燈：偵測到 1 個需關注信號"
         ]
       },
       "industry_chains": [
@@ -15280,7 +15273,7 @@
             "date": "Thu, 02 Apr 2026 07:00:00 GMT"
           },
           {
-            "title": "AXP白金卡升級是否正在推動更多客戶互動與更高消費？ - Exchange Bitget",
+            "title": "AXP白金卡升級是否正在推動更多客戶互動與更高消費？ - bitget.com",
             "date": "Tue, 07 Apr 2026 01:02:59 GMT"
           },
           {
@@ -15292,8 +15285,8 @@
             "date": "Fri, 27 Feb 2026 08:00:00 GMT"
           },
           {
-            "title": "富裕族群花錢不手軟 美國運通財報優、股價勁漲 - Yahoo股市",
-            "date": "Sun, 19 Oct 2025 07:00:00 GMT"
+            "title": "Goldman Sachs Adjusts Price Target on American Express to $360 From $400, Maintains Buy Rating - 富途牛牛",
+            "date": "Tue, 07 Apr 2026 10:19:33 GMT"
           }
         ],
         "risk_level": "green",
@@ -16520,8 +16513,8 @@
             "date": "Tue, 03 Mar 2026 08:00:00 GMT"
           },
           {
-            "title": "巴菲特好眼光！高市早苗國會大勝 波克夏投資日本商社賺逾260億美元 - AASTOCKS.com",
-            "date": "Mon, 09 Feb 2026 08:00:00 GMT"
+            "title": "巴菲特交棒後首波調整？波克夏或賣出卡夫亨氏「所有股份」、阿貝爾面臨資金運用壓力 - AASTOCKS.com",
+            "date": "Sun, 25 Jan 2026 08:00:00 GMT"
           },
           {
             "title": "巴菲特交棒後首波調整？波克夏或賣出卡夫亨氏「所有股份」、阿貝爾面臨資金運用壓力 - news.cnyes.com",
@@ -17429,8 +17422,8 @@
             "date": "Tue, 14 Apr 2026 02:38:40 GMT"
           },
           {
-            "title": "12月、Q4優於去年同期！上銀集團「2金雞」逆勢走紅 它營收突破27億噴半根 - Yahoo股市",
-            "date": "Fri, 09 Jan 2026 08:00:00 GMT"
+            "title": "上銀、大銀 明年獲利有看頭 - Yahoo股市",
+            "date": "Mon, 08 Dec 2025 08:00:00 GMT"
           },
           {
             "title": "《價值型投資 最新產業研究報告》上銀（2049-TW）轉型智慧製造關鍵供應商 半導體自動化與AI機器人打開成長新格局 - news.cnyes.com",
@@ -17442,7 +17435,7 @@
           }
         ],
         "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
+        "risk_summary": "近期新聞正面 (2 個正面信號)"
       },
       "pick_reason": {
         "summary": "上銀 部分指標良好，但有待改善之處。",
@@ -18665,16 +18658,16 @@
             "date": "Fri, 20 Mar 2026 07:00:00 GMT"
           },
           {
+            "title": "玉山金11席董事提名名單出爐　三商壽取得1席 - ETtoday財經雲",
+            "date": "Fri, 17 Apr 2026 10:22:00 GMT"
+          },
+          {
             "title": "台股熱爆證券金雞發威 永豐金、玉山金前2月獲利雙創新高 - news.cnyes.com",
             "date": "Sat, 07 Mar 2026 08:00:00 GMT"
           },
           {
             "title": "兩大金控車拚 永豐金股價超車玉山金 - 自由財經",
             "date": "Fri, 20 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "玉山金被0056相中還有戲？達人點兩優勢：股價具想像空間- 證券 - 工商時報",
-            "date": "Thu, 18 Dec 2025 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -18961,20 +18954,20 @@
       "news": {
         "items": [
           {
-            "title": "富邦媒3月營收月增12% 需求回升 - 聯合新聞網",
-            "date": "Fri, 10 Apr 2026 16:09:11 GMT"
-          },
-          {
             "title": "【即時新聞】富邦媒(8454) 3月營收達91.4億元年增2.1%，第1季總計265.9億元消費動能回升 - CMoney",
             "date": "Thu, 09 Apr 2026 18:37:27 GMT"
           },
           {
-            "title": "momo富邦媒去年賺一股本 擬配息10元殖利率達5% - Yahoo股市",
-            "date": "Wed, 04 Mar 2026 08:00:00 GMT"
-          },
-          {
             "title": "富邦媒 年營收估再破千億元 - Yahoo股市",
             "date": "Wed, 10 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "富邦媒 搶食咖啡商機 - 聯合新聞網",
+            "date": "Tue, 24 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "momo富邦媒去年賺一股本 擬配息10元殖利率達5% - Yahoo股市",
+            "date": "Wed, 04 Mar 2026 08:00:00 GMT"
           },
           {
             "title": "富邦媒（8454）股價破底！陸韓電商來襲，momo撐得住嗎？ - 理財周刊",
@@ -19272,24 +19265,24 @@
       "news": {
         "items": [
           {
-            "title": "中東衝擊推升石化景氣 台塑四寶2026展望上修 永豐投顧看好台化、台塑化長線價值 - Yahoo股市",
-            "date": "Mon, 13 Apr 2026 04:42:51 GMT"
+            "title": "台塑PVC突停報價 塑化行情增溫？ 網憂：物價、房價恐再漲 - Yahoo股市",
+            "date": "Fri, 17 Apr 2026 08:28:00 GMT"
           },
           {
-            "title": "【即時新聞】台塑化爆量飆漲10％！塑化族群大洗牌，這「5檔概念股」多空激戰！ - CMoney",
+            "title": "【即時新聞】台塑化爆量飆漲10%！塑化族群大洗牌，這「5檔概念股」多空激戰！ - CMoney投資網誌",
             "date": "Mon, 09 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "6505 台塑化- [新聞] 中東衝突不排除持久戰！台塑化、長榮｜CMoney 股市爆料同學會 - CMoney",
+            "date": "Thu, 19 Mar 2026 03:12:10 GMT"
           },
           {
             "title": "台塑化（6505）昨漲停今殺跌停鎖61.4元！3000張委賣逃不掉…1天秒變韭菜 - 聯合新聞網",
             "date": "Tue, 10 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "台塑四寶利空出盡？4檔股價大噴發市場預期首季轉虧為盈 「這檔」長線卻喊壓力大 - Yahoo股市",
-            "date": "Mon, 06 Apr 2026 07:00:00 GMT"
-          },
-          {
-            "title": "6505 台塑化- [新聞] 中東衝突不排除持久戰！台塑化、長榮｜CMoney 股市爆料同學會 - CMoney",
-            "date": "Thu, 19 Mar 2026 03:12:10 GMT"
+            "title": "台塑集團全喊卡了！台化預計4月跟進「不可抗力」 法人看好短線動能強烈 - Yahoo股市",
+            "date": "Sun, 29 Mar 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -21063,6 +21056,10 @@
       "news": {
         "items": [
           {
+            "title": "南亞科(2408)股價326.5元→210元還有救？問題出在哪？跌破這價位就別碰：看它動作何時能停再說 - 今周刊",
+            "date": "Sun, 19 Apr 2026 04:19:49 GMT"
+          },
+          {
             "title": "中環不玩了？認賠南亞科1500張 停損記憶體也賣矽光子這2檔股票 - 財訊",
             "date": "Wed, 15 Apr 2026 04:19:10 GMT"
           },
@@ -21073,10 +21070,6 @@
           {
             "title": "南亞科（2408）財報亮眼股價卻跳水？郭哲榮示警記憶體：利多不漲就是最大利空 - 聯合新聞網",
             "date": "Tue, 14 Apr 2026 05:49:42 GMT"
-          },
-          {
-            "title": "【本週新聞熱門股TOP10】南亞科創高領軍！南亞挾雙題材大漲，被動元件能否接棒成新嬌點?｜1204 - sinotrade.com.tw",
-            "date": "Sun, 07 Dec 2025 08:00:00 GMT"
           },
           {
             "title": "【10:22 即時新聞】南亞(1303)股價勁揚逾5%，受惠CCL調漲與AI電子材料題材帶動、短線挑戰前波套牢區 - CMoney投資網誌",
@@ -21465,7 +21458,7 @@
             ],
             "risks": [
               "負債權益比 14.35 偏高",
-              "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
+              "新聞紅燈：偵測到 2 個重大風險信號"
             ]
           }
         },
@@ -21513,7 +21506,7 @@
             ],
             "risks": [
               "負債權益比 14.35，財務風險偏高",
-              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+              "新聞風險：偵測到 2 個重大風險信號"
             ]
           }
         },
@@ -21552,7 +21545,7 @@
             "strengths": [],
             "risks": [
               "EPS CAGR 僅 -7.35%，成長動能不足",
-              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+              "新聞風險：偵測到 2 個重大風險信號"
             ]
           }
         },
@@ -21604,7 +21597,7 @@
             "risks": [
               "ROE 5.43%，管理效率偏低",
               "EPS CAGR -7.35%，成長乏力",
-              "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
+              "新聞風險：偵測到 2 個重大風險信號"
             ]
           }
         }
@@ -21653,12 +21646,12 @@
       "news": {
         "items": [
           {
-            "title": "金融股漲不停！國泰金市值衝台股第六、台新新光金連4漲近11% 引網論戰：重返榮耀vs.最後一棒 - Yahoo股市",
-            "date": "Sun, 21 Dec 2025 08:00:00 GMT"
+            "title": "美伊戰爭持續月餘 國泰金4月國民經濟信心調查：股市樂觀情緒轉弱 - 聯合新聞網",
+            "date": "Mon, 20 Apr 2026 00:59:46 GMT"
           },
           {
-            "title": "國泰金、富邦金、玉山金要噴了？專家看好「受惠降息」：第4季重回主流| 股市要聞| 股市 - 聯合新聞網",
-            "date": "Mon, 20 Oct 2025 07:00:00 GMT"
+            "title": "金融股漲不停！國泰金市值衝台股第六、台新新光金連4漲近11% 引網論戰：重返榮耀vs.最後一棒 - Yahoo股市",
+            "date": "Sun, 21 Dec 2025 08:00:00 GMT"
           },
           {
             "title": "2891 中信金- 金控新聞- 股市爆料同學會 - CMoney",
@@ -21673,8 +21666,8 @@
             "date": "Fri, 13 Feb 2026 08:00:00 GMT"
           }
         ],
-        "risk_level": "yellow",
-        "risk_summary": "偵測到 1 紅色 + 0 黃色信號，建議關注"
+        "risk_level": "red",
+        "risk_summary": "偵測到 2 個重大風險信號"
       },
       "pick_reason": {
         "summary": "國泰金 目前不符合巴菲特核心選股標準。",
@@ -21685,7 +21678,7 @@
         ],
         "risks": [
           "負債權益比 14.35 偏高",
-          "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
+          "新聞紅燈：偵測到 2 個重大風險信號"
         ]
       },
       "industry_chains": [
@@ -22887,20 +22880,20 @@
             "date": "Sat, 18 Apr 2026 22:05:01 GMT"
           },
           {
-            "title": "合庫金股利創3年新高 現金加股票共1.05元 - 非凡新聞台",
-            "date": "Tue, 24 Mar 2026 07:00:00 GMT"
-          },
-          {
             "title": "合庫金明年股利發放，現金為主/股票為輔 - 台視全球資訊網",
             "date": "Mon, 05 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "合庫金股利創3年新高 現金加股票共1.05元 - 非凡新聞台",
+            "date": "Tue, 24 Mar 2026 07:00:00 GMT"
           },
           {
             "title": "合庫金法說》股利報佳音：反映經營成果 法人估1.05元、4年來最高 | 陳怡慈 | 新聞 - 風傳媒",
             "date": "Thu, 19 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "合庫金現金股利可望優於去年 估房市呈「量縮、價緩跌」態勢 - 壹蘋新聞網",
-            "date": "Fri, 20 Mar 2026 07:00:00 GMT"
+            "title": "合庫金看房市量縮價緩跌 明年股利3大考量 - Yahoo新聞",
+            "date": "Thu, 27 Nov 2025 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -23203,16 +23196,16 @@
             "date": "Mon, 06 Apr 2026 07:00:00 GMT"
           },
           {
+            "title": "恒大物業(06666.HK)：主要股東已選定投標人 就潛在買賣進行排他性談判 - AASTOCKS.com",
+            "date": "Wed, 15 Apr 2026 09:31:00 GMT"
+          },
+          {
             "title": "【22:32 即時新聞】Constellation Energy(CEG) 重挫逾5% 估值偏貴疑慮升溫 - CMoney投資網誌",
             "date": "Wed, 11 Mar 2026 07:00:00 GMT"
           },
           {
             "title": "特朗普擬推緊急電力拍賣以解“電荒” Vistra(VST.US)、Constellation Energy(CEG.US)等電力公司或受益作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
             "date": "Fri, 16 Jan 2026 08:00:00 GMT"
-          },
-          {
-            "title": "川普推新AI供電計畫 電力設備股歡漲、發電業者哀怨 - AASTOCKS.com",
-            "date": "Sat, 17 Jan 2026 08:00:00 GMT"
           },
           {
             "title": "每日跳空排名星期二：UL、UBS、CEG等 - Moomoo",
@@ -23504,24 +23497,24 @@
       "news": {
         "items": [
           {
+            "title": "2317 鴻海 - 恭喜垃圾翻黑了🎉🎉🎉 - 股市爆料同學會 - CMoney",
+            "date": "Sun, 19 Apr 2026 12:50:38 GMT"
+          },
+          {
             "title": "【Hot台股】漲不動了？鴻海平盤震盪沒水花...網哀「公公現買現套」 分析師：不如看子公司 - Yahoo股市",
             "date": "Thu, 16 Apr 2026 03:42:39 GMT"
           },
           {
+            "title": "婦人帶「豬肉飛機餐」入境挨罰20萬不繳 鴻海股票被扣！火速繳清 - 壹蘋新聞網",
+            "date": "Mon, 20 Apr 2026 04:23:00 GMT"
+          },
+          {
+            "title": "婦人帶飛機餐入境挨罰20萬沒繳　鴻海股票遭扣押！她立馬繳清 - ETtoday新聞雲",
+            "date": "Mon, 20 Apr 2026 03:28:00 GMT"
+          },
+          {
             "title": "鴻海還有機會死貓跳？資深分析師曝最好買進時機在「這價位」 1原因不建議全面出清 - Yahoo股市",
             "date": "Sun, 29 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "鴻海股價跌近147日最低！國家隊救駕8億難敵外資調節 長老豪納「4金釵」2.4萬張 - Yahoo股市",
-            "date": "Mon, 23 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "【Hot台股】鴻海漲不動？網哀「跌比別人多 反彈比人少」 專家：仍在可上車甜甜價 - Yahoo股市",
-            "date": "Mon, 09 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "鴻海「遭做空」竟被列注意股...4天跌逾7%苦守郭董退休價 - Yahoo股市",
-            "date": "Fri, 20 Mar 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
