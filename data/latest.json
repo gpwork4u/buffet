@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T00:56:10.726527",
+  "generated_at": "2026-04-21T01:06:55.741011",
   "date": "2026-04-21",
   "investor_profiles": {
     "buffett": {
@@ -308,8 +308,8 @@
     "total_screened": 74,
     "grade_s": 17,
     "grade_a": 22,
-    "grade_b": 21,
-    "grade_c": 14,
+    "grade_b": 20,
+    "grade_c": 15,
     "top_picks": [
       {
         "stock_id": "2330",
@@ -534,6 +534,9 @@
       "pe_ratio": 30.57,
       "pb_ratio": 9.69,
       "dividend_yield": 1.09,
+      "current_price": 2025.0,
+      "high_52w": 2100.0,
+      "low_52w": 1545.0,
       "investor_scores": {
         "buffett": {
           "score": 100.0,
@@ -590,8 +593,8 @@
           }
         },
         "graham": {
-          "score": 92.0,
-          "grade": "S",
+          "score": 81.2,
+          "grade": "A",
           "details": [
             {
               "metric": "P/E",
@@ -617,6 +620,11 @@
               "metric": "淨利率",
               "value": 37.48,
               "grade": "pass"
+            },
+            {
+              "metric": "52W 位置",
+              "value": "86.5%",
+              "grade": "fail"
             }
           ],
           "pick_reason": {
@@ -780,6 +788,10 @@
       "news": {
         "items": [
           {
+            "title": "他台積電抱20年賣了！「報酬率3257%」網全跪 - Yahoo股市",
+            "date": "Fri, 17 Apr 2026 07:23:58 GMT"
+          },
+          {
             "title": "台積電季賺2股本 股價卻大跌？ 專家一算笑了：我看見「2330」 - Yahoo股市",
             "date": "Fri, 17 Apr 2026 09:56:00 GMT"
           },
@@ -794,10 +806,6 @@
           {
             "title": "他抱台積電股票20年！賣出報酬率逾3000％ 全網跪了 - Yahoo新聞",
             "date": "Sat, 18 Apr 2026 22:58:00 GMT"
-          },
-          {
-            "title": "庶民看傻眼！台股破3萬7 股市樂觀指數寫6個月新低 - Yahoo股市",
-            "date": "Mon, 20 Apr 2026 02:36:34 GMT"
           }
         ],
         "risk_level": "green",
@@ -837,13 +845,13 @@
       "eps_latest": 15.98,
       "debt_to_equity": 0.32,
       "current_ratio": 1.39,
-      "pe_ratio": 26.23,
-      "forward_pe": 22.17,
-      "market_cap_b": 3114.8,
+      "pe_ratio": 26.21,
+      "forward_pe": 22.15,
+      "market_cap_b": 3112.5,
       "dividend_yield": 86.0,
       "high_52w": 555.45,
       "low_52w": 355.67,
-      "current_price": 419.08,
+      "current_price": 418.77,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 71.61,
@@ -879,7 +887,7 @@
             },
             {
               "metric": "P/E",
-              "value": "26.23 (合理:12)",
+              "value": "26.21 (合理:12)",
               "grade": "fail"
             },
             {
@@ -906,7 +914,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "26.23 (合理:12)",
+              "value": "26.21 (合理:12)",
               "grade": "fail"
             },
             {
@@ -936,7 +944,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "31.7%",
+              "value": "31.6%",
               "grade": "warn"
             }
           ],
@@ -947,7 +955,7 @@
               "股息殖利率 86.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 26.23，估值偏高不符葛拉漢標準"
+              "P/E 26.21，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -982,7 +990,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "22.2 vs 26.2",
+              "value": "22.1 vs 26.2",
               "grade": "ok"
             }
           ],
@@ -990,7 +998,7 @@
             "summary": "Microsoft Corporation 有成長潛力，但估值或成長率尚未達標。",
             "strengths": [
               "ROE 35.31%，管理層資本效率出色",
-              "Forward PE 22.2 低於 Trailing PE 26.2，分析師看好成長",
+              "Forward PE 22.1 低於 Trailing PE 26.2，分析師看好成長",
               "低負債（D/E 0.32），成長基礎穩固",
               "淨利率 35.73%，獲利能力強"
             ],
@@ -1079,7 +1087,7 @@
         },
         {
           "metric": "P/E",
-          "value": "26.23 (合理:12)",
+          "value": "26.21 (合理:12)",
           "grade": "fail"
         },
         {
@@ -1152,13 +1160,13 @@
       "eps_latest": 10.8,
       "debt_to_equity": 0.16,
       "current_ratio": 2.0,
-      "pe_ratio": 31.38,
-      "forward_pe": 25.17,
-      "market_cap_b": 4099.6,
+      "pe_ratio": 31.35,
+      "forward_pe": 25.15,
+      "market_cap_b": 4096.3,
       "dividend_yield": 25.0,
       "high_52w": 349.0,
       "low_52w": 146.1,
-      "current_price": 338.89,
+      "current_price": 338.62,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 73.27,
@@ -1194,7 +1202,7 @@
             },
             {
               "metric": "P/E",
-              "value": "31.38 (合理:12)",
+              "value": "31.35 (合理:12)",
               "grade": "fail"
             },
             {
@@ -1213,7 +1221,7 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 31.38 偏高，估值需留意",
+              "P/E 31.35 偏高，估值需留意",
               "新聞黃燈：偵測到 1 個需關注信號"
             ]
           }
@@ -1224,7 +1232,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "31.38 (合理:12)",
+              "value": "31.35 (合理:12)",
               "grade": "fail"
             },
             {
@@ -1254,7 +1262,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "95.0%",
+              "value": "94.9%",
               "grade": "fail"
             }
           ],
@@ -1266,7 +1274,7 @@
               "股息殖利率 25.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 31.38，估值偏高不符葛拉漢標準",
+              "P/E 31.35，估值偏高不符葛拉漢標準",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -1302,7 +1310,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "25.2 vs 31.4",
+              "value": "25.1 vs 31.4",
               "grade": "ok"
             }
           ],
@@ -1310,12 +1318,12 @@
             "summary": "Alphabet Inc. 有成長潛力，但估值或成長率尚未達標。",
             "strengths": [
               "ROE 28.02%，管理層資本效率出色",
-              "Forward PE 25.2 低於 Trailing PE 31.4，分析師看好成長",
+              "Forward PE 25.1 低於 Trailing PE 31.4，分析師看好成長",
               "低負債（D/E 0.16），成長基礎穩固",
               "淨利率 26.66%，獲利能力強"
             ],
             "risks": [
-              "P/E 31.38，估值可能過高",
+              "P/E 31.35，估值可能過高",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -1404,7 +1412,7 @@
         },
         {
           "metric": "P/E",
-          "value": "31.38 (合理:12)",
+          "value": "31.35 (合理:12)",
           "grade": "fail"
         },
         {
@@ -1455,7 +1463,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 31.38 偏高，估值需留意",
+          "P/E 31.35 偏高，估值需留意",
           "新聞黃燈：偵測到 1 個需關注信號"
         ]
       },
@@ -1480,13 +1488,13 @@
       "eps_latest": 4.9,
       "debt_to_equity": 0.07,
       "current_ratio": 3.9,
-      "pe_ratio": 40.69,
+      "pe_ratio": 40.68,
       "forward_pe": 17.74,
-      "market_cap_b": 4846.2,
+      "market_cap_b": 4844.7,
       "dividend_yield": 2.0,
       "high_52w": 212.19,
       "low_52w": 95.04,
-      "current_price": 199.4,
+      "current_price": 199.33,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 96.68,
@@ -1522,7 +1530,7 @@
             },
             {
               "metric": "P/E",
-              "value": "40.69 (合理:12)",
+              "value": "40.68 (合理:12)",
               "grade": "fail"
             },
             {
@@ -1541,7 +1549,7 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 40.69 偏高，估值需留意"
+              "P/E 40.68 偏高，估值需留意"
             ]
           }
         },
@@ -1551,7 +1559,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "40.69 (合理:12)",
+              "value": "40.68 (合理:12)",
               "grade": "fail"
             },
             {
@@ -1581,7 +1589,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "89.1%",
+              "value": "89.0%",
               "grade": "fail"
             }
           ],
@@ -1593,7 +1601,7 @@
               "股息殖利率 2.0%，有穩定現金回報"
             ],
             "risks": [
-              "P/E 40.69，估值偏高不符葛拉漢標準"
+              "P/E 40.68，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -1641,7 +1649,7 @@
               "淨利率 44.12%，獲利能力強"
             ],
             "risks": [
-              "P/E 40.69，估值可能過高"
+              "P/E 40.68，估值可能過高"
             ]
           }
         },
@@ -1727,7 +1735,7 @@
         },
         {
           "metric": "P/E",
-          "value": "40.69 (合理:12)",
+          "value": "40.68 (合理:12)",
           "grade": "fail"
         },
         {
@@ -1778,7 +1786,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 40.69 偏高，估值需留意"
+          "P/E 40.68 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -1802,13 +1810,13 @@
       "eps_latest": 30.51,
       "debt_to_equity": 0.13,
       "current_ratio": 1.36,
-      "pe_ratio": 48.11,
-      "forward_pe": 30.77,
-      "market_cap_b": 576.4,
+      "pe_ratio": 48.08,
+      "forward_pe": 30.75,
+      "market_cap_b": 576.0,
       "dividend_yield": 60.0,
       "high_52w": 1547.22,
       "low_52w": 614.06,
-      "current_price": 1467.82,
+      "current_price": 1466.94,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 11.03,
@@ -1844,7 +1852,7 @@
             },
             {
               "metric": "P/E",
-              "value": "48.11 (合理:12)",
+              "value": "48.08 (合理:12)",
               "grade": "fail"
             },
             {
@@ -1863,7 +1871,7 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 48.11 偏高，估值需留意"
+              "P/E 48.08 偏高，估值需留意"
             ]
           }
         },
@@ -1873,7 +1881,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "48.11 (合理:12)",
+              "value": "48.08 (合理:12)",
               "grade": "fail"
             },
             {
@@ -1903,7 +1911,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "91.5%",
+              "value": "91.4%",
               "grade": "fail"
             }
           ],
@@ -1914,7 +1922,7 @@
               "股息殖利率 60.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 48.11，估值偏高不符葛拉漢標準"
+              "P/E 48.08，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -1962,7 +1970,7 @@
               "淨利率 27.8%，獲利能力強"
             ],
             "risks": [
-              "P/E 48.11，估值可能過高"
+              "P/E 48.08，估值可能過高"
             ]
           }
         },
@@ -2048,7 +2056,7 @@
         },
         {
           "metric": "P/E",
-          "value": "48.11 (合理:12)",
+          "value": "48.08 (合理:12)",
           "grade": "fail"
         },
         {
@@ -2099,7 +2107,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 48.11 偏高，估值需留意"
+          "P/E 48.08 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -2123,13 +2131,13 @@
       "eps_latest": 9.76,
       "debt_to_equity": 0.33,
       "current_ratio": 2.71,
-      "pe_ratio": 40.21,
-      "forward_pe": 27.89,
-      "market_cap_b": 311.5,
+      "pe_ratio": 40.18,
+      "forward_pe": 27.87,
+      "market_cap_b": 311.2,
       "dividend_yield": 53.0,
       "high_52w": 407.29,
       "low_52w": 132.8,
-      "current_price": 392.47,
+      "current_price": 392.17,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 5.7,
@@ -2165,7 +2173,7 @@
             },
             {
               "metric": "P/E",
-              "value": "40.21 (合理:12)",
+              "value": "40.18 (合理:12)",
               "grade": "fail"
             },
             {
@@ -2184,7 +2192,7 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 40.21 偏高，估值需留意"
+              "P/E 40.18 偏高，估值需留意"
             ]
           }
         },
@@ -2194,7 +2202,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "40.21 (合理:12)",
+              "value": "40.18 (合理:12)",
               "grade": "fail"
             },
             {
@@ -2224,7 +2232,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "94.6%",
+              "value": "94.5%",
               "grade": "fail"
             }
           ],
@@ -2236,7 +2244,7 @@
               "股息殖利率 53.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 40.21，估值偏高不符葛拉漢標準"
+              "P/E 40.18，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -2284,7 +2292,7 @@
               "淨利率 25.56%，獲利能力強"
             ],
             "risks": [
-              "P/E 40.21，估值可能過高"
+              "P/E 40.18，估值可能過高"
             ]
           }
         },
@@ -2370,7 +2378,7 @@
         },
         {
           "metric": "P/E",
-          "value": "40.21 (合理:12)",
+          "value": "40.18 (合理:12)",
           "grade": "fail"
         },
         {
@@ -2421,7 +2429,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 40.21 偏高，估值需留意"
+          "P/E 40.18 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -2445,13 +2453,13 @@
       "eps_latest": 4.87,
       "debt_to_equity": 0.44,
       "current_ratio": 2.26,
-      "pe_ratio": 54.05,
-      "forward_pe": 36.78,
-      "market_cap_b": 330.6,
+      "pe_ratio": 53.97,
+      "forward_pe": 36.73,
+      "market_cap_b": 330.1,
       "dividend_yield": 39.0,
       "high_52w": 273.5,
       "low_52w": 61.14,
-      "current_price": 263.2,
+      "current_price": 262.84,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 5.41,
@@ -2487,7 +2495,7 @@
             },
             {
               "metric": "P/E",
-              "value": "54.05 (合理:12)",
+              "value": "53.97 (合理:12)",
               "grade": "fail"
             },
             {
@@ -2506,7 +2514,7 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 54.05 偏高，估值需留意"
+              "P/E 53.97 偏高，估值需留意"
             ]
           }
         },
@@ -2516,7 +2524,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "54.05 (合理:12)",
+              "value": "53.97 (合理:12)",
               "grade": "fail"
             },
             {
@@ -2546,7 +2554,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "95.1%",
+              "value": "95.0%",
               "grade": "fail"
             }
           ],
@@ -2558,7 +2566,7 @@
               "股息殖利率 39.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 54.05，估值偏高不符葛拉漢標準"
+              "P/E 53.97，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -2593,7 +2601,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "36.8 vs 54.0",
+              "value": "36.7 vs 54.0",
               "grade": "pass"
             }
           ],
@@ -2601,12 +2609,12 @@
             "summary": "Lam Research Corporation 有成長潛力，但估值或成長率尚未達標。",
             "strengths": [
               "ROE 56.86%，管理層資本效率出色",
-              "Forward PE 36.8 低於 Trailing PE 54.0，分析師看好成長",
+              "Forward PE 36.7 低於 Trailing PE 54.0，分析師看好成長",
               "低負債（D/E 0.44），成長基礎穩固",
               "淨利率 26.84%，獲利能力強"
             ],
             "risks": [
-              "P/E 54.05，估值可能過高"
+              "P/E 53.97，估值可能過高"
             ]
           }
         },
@@ -2692,7 +2700,7 @@
         },
         {
           "metric": "P/E",
-          "value": "54.05 (合理:12)",
+          "value": "53.97 (合理:12)",
           "grade": "fail"
         },
         {
@@ -2743,7 +2751,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 54.05 偏高，估值需留意"
+          "P/E 53.97 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -2767,12 +2775,12 @@
       "eps_latest": 4.07,
       "debt_to_equity": 0.49,
       "current_ratio": 2.86,
-      "pe_ratio": 78.09,
-      "forward_pe": 33.99,
-      "market_cap_b": 87.8,
+      "pe_ratio": 78.25,
+      "forward_pe": 34.06,
+      "market_cap_b": 87.9,
       "high_52w": 376.45,
       "low_52w": 247.7,
-      "current_price": 317.83,
+      "current_price": 318.47,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 1.59,
@@ -2808,7 +2816,7 @@
             },
             {
               "metric": "P/E",
-              "value": "78.09 (合理:12)",
+              "value": "78.25 (合理:12)",
               "grade": "fail"
             },
             {
@@ -2827,7 +2835,7 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 78.09 偏高，估值需留意"
+              "P/E 78.25 偏高，估值需留意"
             ]
           }
         },
@@ -2837,7 +2845,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "78.09 (合理:12)",
+              "value": "78.25 (合理:12)",
               "grade": "fail"
             },
             {
@@ -2862,7 +2870,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "54.5%",
+              "value": "55.0%",
               "grade": "fail"
             }
           ],
@@ -2873,7 +2881,7 @@
               "流動比率 2.9，短期償債能力充裕"
             ],
             "risks": [
-              "P/E 78.09，估值偏高不符葛拉漢標準"
+              "P/E 78.25，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -2908,7 +2916,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "34.0 vs 78.1",
+              "value": "34.1 vs 78.2",
               "grade": "pass"
             }
           ],
@@ -2916,12 +2924,12 @@
             "summary": "Cadence Design Systems, Inc. 有成長潛力，但估值或成長率尚未達標。",
             "strengths": [
               "ROE 26.09%，管理層資本效率出色",
-              "Forward PE 34.0 低於 Trailing PE 78.1，分析師看好成長",
+              "Forward PE 34.1 低於 Trailing PE 78.2，分析師看好成長",
               "低負債（D/E 0.49），成長基礎穩固",
               "淨利率 23.24%，獲利能力強"
             ],
             "risks": [
-              "P/E 78.09，估值可能過高"
+              "P/E 78.25，估值可能過高"
             ]
           }
         },
@@ -3007,7 +3015,7 @@
         },
         {
           "metric": "P/E",
-          "value": "78.09 (合理:12)",
+          "value": "78.25 (合理:12)",
           "grade": "fail"
         },
         {
@@ -3058,7 +3066,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 78.09 偏高，估值需留意"
+          "P/E 78.25 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -3082,12 +3090,12 @@
       "eps_latest": 2.74,
       "debt_to_equity": 0.01,
       "current_ratio": 3.05,
-      "pe_ratio": 60.85,
-      "forward_pe": 38.84,
-      "market_cap_b": 209.9,
+      "pe_ratio": 60.76,
+      "forward_pe": 38.79,
+      "market_cap_b": 209.6,
       "high_52w": 167.4,
       "low_52w": 66.59,
-      "current_price": 166.74,
+      "current_price": 166.49,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 4.25,
@@ -3123,7 +3131,7 @@
             },
             {
               "metric": "P/E",
-              "value": "60.85 (合理:12)",
+              "value": "60.76 (合理:12)",
               "grade": "fail"
             },
             {
@@ -3142,7 +3150,7 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 60.85 偏高，估值需留意",
+              "P/E 60.76 偏高，估值需留意",
               "新聞黃燈：偵測到 1 個需關注信號"
             ]
           }
@@ -3153,7 +3161,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "60.85 (合理:12)",
+              "value": "60.76 (合理:12)",
               "grade": "fail"
             },
             {
@@ -3178,7 +3186,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "99.3%",
+              "value": "99.1%",
               "grade": "fail"
             }
           ],
@@ -3189,7 +3197,7 @@
               "流動比率 3.0，短期償債能力充裕"
             ],
             "risks": [
-              "P/E 60.85，估值偏高不符葛拉漢標準",
+              "P/E 60.76，估值偏高不符葛拉漢標準",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -3225,7 +3233,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "38.8 vs 60.9",
+              "value": "38.8 vs 60.8",
               "grade": "pass"
             }
           ],
@@ -3233,12 +3241,12 @@
             "summary": "Arista Networks, Inc. 有成長潛力，但估值或成長率尚未達標。",
             "strengths": [
               "ROE 28.38%，管理層資本效率出色",
-              "Forward PE 38.8 低於 Trailing PE 60.9，分析師看好成長",
+              "Forward PE 38.8 低於 Trailing PE 60.8，分析師看好成長",
               "低負債（D/E 0.01），成長基礎穩固",
               "淨利率 36.55%，獲利能力強"
             ],
             "risks": [
-              "P/E 60.85，估值可能過高",
+              "P/E 60.76，估值可能過高",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -3327,7 +3335,7 @@
         },
         {
           "metric": "P/E",
-          "value": "60.85 (合理:12)",
+          "value": "60.76 (合理:12)",
           "grade": "fail"
         },
         {
@@ -3357,12 +3365,12 @@
             "date": "Wed, 18 Feb 2026 08:00:00 GMT"
           },
           {
-            "title": "Arista Networks | 144: Notice of proposed sale of securities pursuant to Rule 144 - 富途牛牛",
-            "date": "Tue, 14 Apr 2026 20:38:45 GMT"
-          },
-          {
             "title": "Arista Networks Stock Is Down After Earnings. Stick With Our Recent Pick. - Moomoo",
             "date": "Mon, 10 Nov 2025 08:00:00 GMT"
+          },
+          {
+            "title": "Arista Networks | 144: Notice of proposed sale of securities pursuant to Rule 144 - 富途牛牛",
+            "date": "Tue, 14 Apr 2026 20:38:45 GMT"
           }
         ],
         "risk_level": "yellow",
@@ -3378,7 +3386,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 60.85 偏高，估值需留意",
+          "P/E 60.76 偏高，估值需留意",
           "新聞黃燈：偵測到 1 個需關注信號"
         ]
       },
@@ -3403,13 +3411,13 @@
       "eps_latest": 4.83,
       "debt_to_equity": 0.03,
       "current_ratio": 1.44,
-      "pe_ratio": 46.0,
-      "forward_pe": 36.54,
+      "pe_ratio": 46.04,
+      "forward_pe": 36.57,
       "market_cap_b": 46.5,
       "dividend_yield": 53.0,
-      "high_52w": 222.3,
+      "high_52w": 222.66,
       "low_52w": 126.01,
-      "current_price": 222.18,
+      "current_price": 222.35,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 0.96,
@@ -3445,7 +3453,7 @@
             },
             {
               "metric": "P/E",
-              "value": "46.0 (合理:12)",
+              "value": "46.04 (合理:12)",
               "grade": "fail"
             },
             {
@@ -3464,7 +3472,7 @@
               "股息殖利率 53.0%，提供穩定現金回報"
             ],
             "risks": [
-              "P/E 46.0 偏高，估值需留意"
+              "P/E 46.04 偏高，估值需留意"
             ]
           }
         },
@@ -3474,7 +3482,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "46.0 (合理:12)",
+              "value": "46.04 (合理:12)",
               "grade": "fail"
             },
             {
@@ -3504,7 +3512,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "99.9%",
+              "value": "99.7%",
               "grade": "fail"
             }
           ],
@@ -3515,7 +3523,7 @@
               "股息殖利率 53.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 46.0，估值偏高不符葛拉漢標準"
+              "P/E 46.04，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -3550,7 +3558,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "36.5 vs 46.0",
+              "value": "36.6 vs 46.0",
               "grade": "ok"
             }
           ],
@@ -3558,12 +3566,12 @@
             "summary": "Old Dominion Freight Line, Inc. 有成長潛力，但估值或成長率尚未達標。",
             "strengths": [
               "ROE 29.63%，管理層資本效率出色",
-              "Forward PE 36.5 低於 Trailing PE 46.0，分析師看好成長",
+              "Forward PE 36.6 低於 Trailing PE 46.0，分析師看好成長",
               "低負債（D/E 0.03），成長基礎穩固",
               "淨利率 20.54%，獲利能力強"
             ],
             "risks": [
-              "P/E 46.0，估值可能過高"
+              "P/E 46.04，估值可能過高"
             ]
           }
         },
@@ -3648,7 +3656,7 @@
         },
         {
           "metric": "P/E",
-          "value": "46.0 (合理:12)",
+          "value": "46.04 (合理:12)",
           "grade": "fail"
         },
         {
@@ -3695,7 +3703,7 @@
           "股息殖利率 53.0%，提供穩定現金回報"
         ],
         "risks": [
-          "P/E 46.0 偏高，估值需留意"
+          "P/E 46.04 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -4344,13 +4352,13 @@
       "eps_latest": 5.12,
       "debt_to_equity": 0.83,
       "current_ratio": 1.9,
-      "pe_ratio": 77.6,
-      "forward_pe": 21.93,
-      "market_cap_b": 1883.9,
+      "pe_ratio": 77.67,
+      "forward_pe": 21.95,
+      "market_cap_b": 1885.5,
       "dividend_yield": 64.0,
       "high_52w": 414.61,
       "low_52w": 161.61,
-      "current_price": 397.33,
+      "current_price": 397.67,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 26.91,
@@ -4386,7 +4394,7 @@
             },
             {
               "metric": "P/E",
-              "value": "77.6 (合理:12)",
+              "value": "77.67 (合理:12)",
               "grade": "fail"
             },
             {
@@ -4405,7 +4413,7 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 77.6 偏高，估值需留意"
+              "P/E 77.67 偏高，估值需留意"
             ]
           }
         },
@@ -4415,7 +4423,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "77.6 (合理:12)",
+              "value": "77.67 (合理:12)",
               "grade": "fail"
             },
             {
@@ -4445,7 +4453,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "93.2%",
+              "value": "93.3%",
               "grade": "fail"
             }
           ],
@@ -4455,7 +4463,7 @@
               "股息殖利率 64.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 77.6，估值偏高不符葛拉漢標準"
+              "P/E 77.67，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -4490,7 +4498,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "21.9 vs 77.6",
+              "value": "21.9 vs 77.7",
               "grade": "pass"
             }
           ],
@@ -4498,11 +4506,11 @@
             "summary": "Broadcom Inc. 有成長潛力，但估值或成長率尚未達標。",
             "strengths": [
               "ROE 36.62%，管理層資本效率出色",
-              "Forward PE 21.9 低於 Trailing PE 77.6，分析師看好成長",
+              "Forward PE 21.9 低於 Trailing PE 77.7，分析師看好成長",
               "淨利率 30.39%，獲利能力強"
             ],
             "risks": [
-              "P/E 77.6，估值可能過高"
+              "P/E 77.67，估值可能過高"
             ]
           }
         },
@@ -4588,7 +4596,7 @@
         },
         {
           "metric": "P/E",
-          "value": "77.6 (合理:12)",
+          "value": "77.67 (合理:12)",
           "grade": "fail"
         },
         {
@@ -4639,7 +4647,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 77.6 偏高，估值需留意"
+          "P/E 77.67 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -4663,12 +4671,12 @@
       "eps_latest": 6.52,
       "debt_to_equity": 0.36,
       "current_ratio": 1.36,
-      "pe_ratio": 70.88,
-      "forward_pe": 27.1,
+      "pe_ratio": 70.83,
+      "forward_pe": 27.09,
       "market_cap_b": 88.5,
       "high_52w": 651.73,
       "low_52w": 376.18,
-      "current_price": 462.11,
+      "current_price": 461.81,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 1.35,
@@ -4704,7 +4712,7 @@
             },
             {
               "metric": "P/E",
-              "value": "70.88 (合理:12)",
+              "value": "70.83 (合理:12)",
               "grade": "fail"
             },
             {
@@ -4723,7 +4731,7 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 70.88 偏高，估值需留意"
+              "P/E 70.83 偏高，估值需留意"
             ]
           }
         },
@@ -4733,7 +4741,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "70.88 (合理:12)",
+              "value": "70.83 (合理:12)",
               "grade": "fail"
             },
             {
@@ -4758,7 +4766,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "31.2%",
+              "value": "31.1%",
               "grade": "warn"
             }
           ],
@@ -4768,7 +4776,7 @@
               "負債權益比 0.36，資產負債表極度穩健"
             ],
             "risks": [
-              "P/E 70.88，估值偏高不符葛拉漢標準"
+              "P/E 70.83，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -4803,19 +4811,19 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "27.1 vs 70.9",
+              "value": "27.1 vs 70.8",
               "grade": "pass"
             }
           ],
           "pick_reason": {
             "summary": "Synopsys, Inc. 不符合林區成長合理價標準。",
             "strengths": [
-              "Forward PE 27.1 低於 Trailing PE 70.9，分析師看好成長",
+              "Forward PE 27.1 低於 Trailing PE 70.8，分析師看好成長",
               "低負債（D/E 0.36），成長基礎穩固",
               "淨利率 25.07%，獲利能力強"
             ],
             "risks": [
-              "P/E 70.88，估值可能過高"
+              "P/E 70.83，估值可能過高"
             ]
           }
         },
@@ -4900,7 +4908,7 @@
         },
         {
           "metric": "P/E",
-          "value": "70.88 (合理:12)",
+          "value": "70.83 (合理:12)",
           "grade": "fail"
         },
         {
@@ -4930,12 +4938,12 @@
             "date": "Tue, 24 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "新思科技(SNPS.US)Q3業績及指引遜於預期 股價盤後暴跌18% 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "title": "美禁令拖累 新思科技股價崩35%吐光今年漲幅 - Yahoo股市",
             "date": "Wed, 10 Sep 2025 07:00:00 GMT"
           },
           {
-            "title": "美禁令拖累 新思科技股價崩35%吐光今年漲幅 - Yahoo股市",
-            "date": "Wed, 10 Sep 2025 07:00:00 GMT"
+            "title": "輝達宣布20億美元投資Synopsys，股價飆升10% 作者 Investing.com - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Mon, 01 Dec 2025 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -4951,7 +4959,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 70.88 偏高，估值需留意"
+          "P/E 70.83 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -4974,13 +4982,13 @@
       "gross_margin_avg": 68.76,
       "eps_latest": 11.03,
       "debt_to_equity": 0.6,
-      "pe_ratio": 21.07,
-      "forward_pe": 18.3,
-      "market_cap_b": 560.1,
+      "pe_ratio": 21.09,
+      "forward_pe": 18.31,
+      "market_cap_b": 560.5,
       "dividend_yield": 229.0,
       "high_52w": 251.71,
       "low_52w": 146.12,
-      "current_price": 232.41,
+      "current_price": 232.57,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 19.31,
@@ -5016,7 +5024,7 @@
             },
             {
               "metric": "P/E",
-              "value": "21.07 (合理:12)",
+              "value": "21.09 (合理:12)",
               "grade": "fail"
             },
             {
@@ -5043,7 +5051,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "21.07 (合理:12)",
+              "value": "21.09 (合理:12)",
               "grade": "fail"
             },
             {
@@ -5068,7 +5076,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "81.7%",
+              "value": "81.9%",
               "grade": "fail"
             }
           ],
@@ -5078,7 +5086,7 @@
               "股息殖利率 229.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 21.07，估值偏高不符葛拉漢標準"
+              "P/E 21.09，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -5208,7 +5216,7 @@
         },
         {
           "metric": "P/E",
-          "value": "21.07 (合理:12)",
+          "value": "21.09 (合理:12)",
           "grade": "fail"
         },
         {
@@ -5281,12 +5289,12 @@
       "eps_latest": 13.08,
       "debt_to_equity": 0.61,
       "current_ratio": 1.23,
-      "pe_ratio": 44.54,
-      "forward_pe": 35.51,
+      "pe_ratio": 44.55,
+      "forward_pe": 35.52,
       "market_cap_b": 46.4,
       "high_52w": 769.98,
       "low_52w": 402.85,
-      "current_price": 582.64,
+      "current_price": 582.7,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 1.04,
@@ -5322,7 +5330,7 @@
             },
             {
               "metric": "P/E",
-              "value": "44.54 (合理:12)",
+              "value": "44.55 (合理:12)",
               "grade": "fail"
             },
             {
@@ -5341,7 +5349,7 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 44.54 偏高，估值需留意"
+              "P/E 44.55 偏高，估值需留意"
             ]
           }
         },
@@ -5351,7 +5359,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "44.54 (合理:12)",
+              "value": "44.55 (合理:12)",
               "grade": "fail"
             },
             {
@@ -5384,7 +5392,7 @@
             "summary": "IDEXX Laboratories, Inc. 不符合葛拉漢安全邊際要求。",
             "strengths": [],
             "risks": [
-              "P/E 44.54，估值偏高不符葛拉漢標準"
+              "P/E 44.55，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -5431,7 +5439,7 @@
               "淨利率 22.66%，獲利能力強"
             ],
             "risks": [
-              "P/E 44.54，估值可能過高"
+              "P/E 44.55，估值可能過高"
             ]
           }
         },
@@ -5517,7 +5525,7 @@
         },
         {
           "metric": "P/E",
-          "value": "44.54 (合理:12)",
+          "value": "44.55 (合理:12)",
           "grade": "fail"
         },
         {
@@ -5568,7 +5576,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 44.54 偏高，估值需留意"
+          "P/E 44.55 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -5592,13 +5600,13 @@
       "eps_latest": 10.65,
       "debt_to_equity": 0.55,
       "current_ratio": 1.11,
-      "pe_ratio": 29.42,
-      "forward_pe": 21.54,
-      "market_cap_b": 604.1,
+      "pe_ratio": 29.4,
+      "forward_pe": 21.52,
+      "market_cap_b": 603.7,
       "dividend_yield": 85.0,
       "high_52w": 375.51,
       "low_52w": 293.89,
-      "current_price": 313.34,
+      "current_price": 313.11,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 21.58,
@@ -5634,7 +5642,7 @@
             },
             {
               "metric": "P/E",
-              "value": "29.42 (合理:12)",
+              "value": "29.4 (合理:12)",
               "grade": "fail"
             },
             {
@@ -5661,7 +5669,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "29.42 (合理:12)",
+              "value": "29.4 (合理:12)",
               "grade": "fail"
             },
             {
@@ -5691,7 +5699,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "23.8%",
+              "value": "23.5%",
               "grade": "ok"
             }
           ],
@@ -5702,7 +5710,7 @@
               "股價接近 52 週低點，逢低買入機會"
             ],
             "risks": [
-              "P/E 29.42，估值偏高不符葛拉漢標準"
+              "P/E 29.4，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -5833,7 +5841,7 @@
         },
         {
           "metric": "P/E",
-          "value": "29.42 (合理:12)",
+          "value": "29.4 (合理:12)",
           "grade": "fail"
         },
         {
@@ -5863,12 +5871,12 @@
             "date": "Mon, 23 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "Visa和Mastercard股價下跌，特朗普加強打擊信用卡費用 作者 Investing.com - Investing.com 香港 - 股市報價&amp; 財經新聞",
-            "date": "Tue, 13 Jan 2026 08:00:00 GMT"
-          },
-          {
             "title": "REG - iShares V IBDS DC29$ - Net Asset Value(s) - TradingView",
             "date": "Tue, 11 Nov 2025 08:00:00 GMT"
+          },
+          {
+            "title": "Vivos Therapeutics | 3: Initial statement of beneficial ownership of securities- V-Co Investors 3 LLC - 富途牛牛",
+            "date": "Fri, 10 Apr 2026 20:58:15 GMT"
           }
         ],
         "risk_level": "green",
@@ -5906,13 +5914,13 @@
       "eps_latest": 7.89,
       "debt_to_equity": 1.03,
       "current_ratio": 0.97,
-      "pe_ratio": 34.56,
-      "forward_pe": 29.1,
-      "market_cap_b": 4007.7,
+      "pe_ratio": 34.45,
+      "forward_pe": 29.01,
+      "market_cap_b": 3995.5,
       "dividend_yield": 38.0,
       "high_52w": 288.62,
       "low_52w": 189.81,
-      "current_price": 272.67,
+      "current_price": 271.87,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 98.77,
@@ -5948,7 +5956,7 @@
             },
             {
               "metric": "P/E",
-              "value": "34.56 (合理:12)",
+              "value": "34.45 (合理:12)",
               "grade": "fail"
             },
             {
@@ -5967,7 +5975,7 @@
               "年產自由現金流 $98.77B，現金印鈔機"
             ],
             "risks": [
-              "P/E 34.56 偏高，估值需留意",
+              "P/E 34.45 偏高，估值需留意",
               "新聞黃燈：偵測到 1 個需關注信號"
             ]
           }
@@ -5978,7 +5986,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "34.56 (合理:12)",
+              "value": "34.45 (合理:12)",
               "grade": "fail"
             },
             {
@@ -6008,7 +6016,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "83.9%",
+              "value": "83.0%",
               "grade": "fail"
             }
           ],
@@ -6018,7 +6026,7 @@
               "股息殖利率 38.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 34.56，估值偏高不符葛拉漢標準",
+              "P/E 34.45，估值偏高不符葛拉漢標準",
               "流動比率 1.0，短期流動性不足",
               "新聞風險：偵測到 1 個需關注信號"
             ]
@@ -6055,7 +6063,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "29.1 vs 34.6",
+              "value": "29.0 vs 34.5",
               "grade": "ok"
             }
           ],
@@ -6063,11 +6071,11 @@
             "summary": "Apple Inc. 不符合林區成長合理價標準。",
             "strengths": [
               "ROE 167.39%，管理層資本效率出色",
-              "Forward PE 29.1 低於 Trailing PE 34.6，分析師看好成長",
+              "Forward PE 29.0 低於 Trailing PE 34.5，分析師看好成長",
               "淨利率 25.38%，獲利能力強"
             ],
             "risks": [
-              "P/E 34.56，估值可能過高",
+              "P/E 34.45，估值可能過高",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -6156,7 +6164,7 @@
         },
         {
           "metric": "P/E",
-          "value": "34.56 (合理:12)",
+          "value": "34.45 (合理:12)",
           "grade": "fail"
         },
         {
@@ -6207,7 +6215,7 @@
           "年產自由現金流 $98.77B，現金印鈔機"
         ],
         "risks": [
-          "P/E 34.56 偏高，估值需留意",
+          "P/E 34.45 偏高，估值需留意",
           "新聞黃燈：偵測到 1 個需關注信號"
         ]
       },
@@ -6232,13 +6240,13 @@
       "eps_latest": 34.4,
       "debt_to_equity": 1.12,
       "current_ratio": 2.83,
-      "pe_ratio": 52.09,
-      "forward_pe": 37.21,
-      "market_cap_b": 235.5,
+      "pe_ratio": 52.08,
+      "forward_pe": 37.2,
+      "market_cap_b": 235.4,
       "dividend_yield": 42.0,
       "high_52w": 1800.34,
       "low_52w": 607.7,
-      "current_price": 1792.04,
+      "current_price": 1791.45,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 3.74,
@@ -6274,7 +6282,7 @@
             },
             {
               "metric": "P/E",
-              "value": "52.09 (合理:12)",
+              "value": "52.08 (合理:12)",
               "grade": "fail"
             },
             {
@@ -6293,7 +6301,7 @@
               "股息殖利率 42.0%，提供穩定現金回報"
             ],
             "risks": [
-              "P/E 52.09 偏高，估值需留意",
+              "P/E 52.08 偏高，估值需留意",
               "新聞黃燈：偵測到 2 個需關注信號"
             ]
           }
@@ -6304,7 +6312,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "52.09 (合理:12)",
+              "value": "52.08 (合理:12)",
               "grade": "fail"
             },
             {
@@ -6345,7 +6353,7 @@
               "股息殖利率 42.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 52.09，估值偏高不符葛拉漢標準",
+              "P/E 52.08，估值偏高不符葛拉漢標準",
               "新聞風險：偵測到 2 個需關注信號"
             ]
           }
@@ -6393,7 +6401,7 @@
               "淨利率 32.47%，獲利能力強"
             ],
             "risks": [
-              "P/E 52.09，估值可能過高",
+              "P/E 52.08，估值可能過高",
               "新聞風險：偵測到 2 個需關注信號"
             ]
           }
@@ -6482,7 +6490,7 @@
         },
         {
           "metric": "P/E",
-          "value": "52.09 (合理:12)",
+          "value": "52.08 (合理:12)",
           "grade": "fail"
         },
         {
@@ -6533,7 +6541,7 @@
           "股息殖利率 42.0%，提供穩定現金回報"
         ],
         "risks": [
-          "P/E 52.09 偏高，估值需留意",
+          "P/E 52.08 偏高，估值需留意",
           "新聞黃燈：偵測到 2 個需關注信號"
         ]
       },
@@ -6558,13 +6566,13 @@
       "eps_latest": 3.04,
       "debt_to_equity": 1.4,
       "current_ratio": 1.46,
-      "pe_ratio": 24.93,
-      "forward_pe": 21.95,
-      "market_cap_b": 326.2,
+      "pe_ratio": 24.91,
+      "forward_pe": 21.93,
+      "market_cap_b": 325.9,
       "dividend_yield": 272.0,
       "high_52w": 82.0,
       "low_52w": 65.35,
-      "current_price": 75.78,
+      "current_price": 75.72,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 5.3,
@@ -6600,7 +6608,7 @@
             },
             {
               "metric": "P/E",
-              "value": "24.93 (合理:12)",
+              "value": "24.91 (合理:12)",
               "grade": "fail"
             },
             {
@@ -6627,7 +6635,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "24.93 (合理:12)",
+              "value": "24.91 (合理:12)",
               "grade": "fail"
             },
             {
@@ -6657,7 +6665,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "62.6%",
+              "value": "62.3%",
               "grade": "fail"
             }
           ],
@@ -6667,7 +6675,7 @@
               "股息殖利率 272.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 24.93，估值偏高不符葛拉漢標準"
+              "P/E 24.91，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -6797,7 +6805,7 @@
         },
         {
           "metric": "P/E",
-          "value": "24.93 (合理:12)",
+          "value": "24.91 (合理:12)",
           "grade": "fail"
         },
         {
@@ -6870,13 +6878,13 @@
       "eps_latest": 6.74,
       "debt_to_equity": 0.69,
       "current_ratio": 0.72,
-      "pe_ratio": 21.52,
-      "forward_pe": 20.01,
-      "market_cap_b": 338.9,
+      "pe_ratio": 21.48,
+      "forward_pe": 19.98,
+      "market_cap_b": 338.4,
       "dividend_yield": 290.0,
       "high_52w": 170.99,
       "low_52w": 137.62,
-      "current_price": 145.03,
+      "current_price": 144.8,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 14.04,
@@ -6912,7 +6920,7 @@
             },
             {
               "metric": "P/E",
-              "value": "21.52 (合理:12)",
+              "value": "21.48 (合理:12)",
               "grade": "fail"
             },
             {
@@ -6939,7 +6947,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "21.52 (合理:12)",
+              "value": "21.48 (合理:12)",
               "grade": "fail"
             },
             {
@@ -6969,7 +6977,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "22.2%",
+              "value": "21.5%",
               "grade": "ok"
             }
           ],
@@ -6980,7 +6988,7 @@
               "股價接近 52 週低點，逢低買入機會"
             ],
             "risks": [
-              "P/E 21.52，估值偏高不符葛拉漢標準",
+              "P/E 21.48，估值偏高不符葛拉漢標準",
               "流動比率 0.7，短期流動性不足"
             ]
           }
@@ -7110,7 +7118,7 @@
         },
         {
           "metric": "P/E",
-          "value": "21.52 (合理:12)",
+          "value": "21.48 (合理:12)",
           "grade": "fail"
         },
         {
@@ -7183,13 +7191,13 @@
       "eps_latest": 24.13,
       "debt_to_equity": 2.02,
       "current_ratio": 0.94,
-      "pe_ratio": 10.51,
-      "forward_pe": 13.81,
+      "pe_ratio": 10.52,
+      "forward_pe": 13.82,
       "market_cap_b": 53.3,
       "dividend_yield": 88.0,
       "high_52w": 300.89,
       "low_52w": 186.2,
-      "current_price": 253.68,
+      "current_price": 253.76,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 2.46,
@@ -7225,7 +7233,7 @@
             },
             {
               "metric": "P/E",
-              "value": "10.51 (合理:12)",
+              "value": "10.52 (合理:12)",
               "grade": "pass"
             },
             {
@@ -7254,7 +7262,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "10.51 (合理:12)",
+              "value": "10.52 (合理:12)",
               "grade": "ok"
             },
             {
@@ -7284,14 +7292,14 @@
             },
             {
               "metric": "52W 位置",
-              "value": "58.8%",
+              "value": "58.9%",
               "grade": "fail"
             }
           ],
           "pick_reason": {
             "summary": "Cheniere Energy, Inc. 不符合葛拉漢安全邊際要求。",
             "strengths": [
-              "P/E 10.51，估值處於安全邊際內",
+              "P/E 10.52，估值處於安全邊際內",
               "股息殖利率 88.0%，提供安全邊際"
             ],
             "risks": [
@@ -7426,7 +7434,7 @@
         },
         {
           "metric": "P/E",
-          "value": "10.51 (合理:12)",
+          "value": "10.52 (合理:12)",
           "grade": "pass"
         },
         {
@@ -7452,16 +7460,16 @@
             "date": "Sat, 18 Apr 2026 19:39:37 GMT"
           },
           {
+            "title": "Cheniere Energy(LNG.US) Officer Sells US$8.7 Million in Common Stock - 富途牛牛",
+            "date": "Wed, 01 Apr 2026 07:00:00 GMT"
+          },
+          {
             "title": "Nuclear power an option to support AI-driven electricity demand: Lai|English News - 僑務電子報",
             "date": "Mon, 23 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "LNG暴漲85％！ 陸祭「1招」套利狠賺 內幕曝光 - Yahoo股市",
-            "date": "Thu, 02 Apr 2026 07:00:00 GMT"
-          },
-          {
-            "title": "卡達LNG出口恐停擺五年！美國天然氣業者成中東戰事贏家 Venture Global開戰以來飆逾70% - Yahoo股市",
-            "date": "Wed, 25 Mar 2026 07:00:00 GMT"
+            "title": "卡達關閉全球最大LNG基地！歐洲天然氣暴漲70%、亞洲恐缺氣、中國化工迎機會 - AASTOCKS.com",
+            "date": "Sun, 08 Mar 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -7501,12 +7509,12 @@
       "eps_latest": 7.88,
       "debt_to_equity": 0.01,
       "current_ratio": 4.88,
-      "pe_ratio": 59.26,
-      "forward_pe": 40.86,
-      "market_cap_b": 165.8,
+      "pe_ratio": 59.37,
+      "forward_pe": 40.94,
+      "market_cap_b": 166.2,
       "high_52w": 603.88,
       "low_52w": 427.84,
-      "current_price": 466.93,
+      "current_price": 467.86,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 2.49,
@@ -7542,7 +7550,7 @@
             },
             {
               "metric": "P/E",
-              "value": "59.26 (合理:12)",
+              "value": "59.37 (合理:12)",
               "grade": "fail"
             },
             {
@@ -7561,7 +7569,7 @@
               "護城河寬廣：先行者 + 轉換成本"
             ],
             "risks": [
-              "P/E 59.26 偏高，估值需留意",
+              "P/E 59.37 偏高，估值需留意",
               "新聞黃燈：偵測到 1 個需關注信號"
             ]
           }
@@ -7572,7 +7580,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "59.26 (合理:12)",
+              "value": "59.37 (合理:12)",
               "grade": "fail"
             },
             {
@@ -7597,7 +7605,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "22.2%",
+              "value": "22.7%",
               "grade": "ok"
             }
           ],
@@ -7609,7 +7617,7 @@
               "股價接近 52 週低點，逢低買入機會"
             ],
             "risks": [
-              "P/E 59.26，估值偏高不符葛拉漢標準",
+              "P/E 59.37，估值偏高不符葛拉漢標準",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -7645,19 +7653,19 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "40.9 vs 59.3",
+              "value": "40.9 vs 59.4",
               "grade": "pass"
             }
           ],
           "pick_reason": {
             "summary": "Intuitive Surgical, Inc. 不符合林區成長合理價標準。",
             "strengths": [
-              "Forward PE 40.9 低於 Trailing PE 59.3，分析師看好成長",
+              "Forward PE 40.9 低於 Trailing PE 59.4，分析師看好成長",
               "低負債（D/E 0.01），成長基礎穩固",
               "淨利率 25.67%，獲利能力強"
             ],
             "risks": [
-              "P/E 59.26，估值可能過高",
+              "P/E 59.37，估值可能過高",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -7745,7 +7753,7 @@
         },
         {
           "metric": "P/E",
-          "value": "59.26 (合理:12)",
+          "value": "59.37 (合理:12)",
           "grade": "fail"
         },
         {
@@ -7796,7 +7804,7 @@
           "護城河寬廣：先行者 + 轉換成本"
         ],
         "risks": [
-          "P/E 59.26 偏高，估值需留意",
+          "P/E 59.37 偏高，估值需留意",
           "新聞黃燈：偵測到 1 個需關注信號"
         ]
       },
@@ -7821,13 +7829,13 @@
       "eps_latest": 1.35,
       "debt_to_equity": 0.64,
       "current_ratio": 0.94,
-      "pe_ratio": 40.55,
+      "pe_ratio": 40.54,
       "forward_pe": 15.18,
       "market_cap_b": 54.3,
       "dividend_yield": 193.0,
       "high_52w": 67.45,
       "low_52w": 38.36,
-      "current_price": 54.74,
+      "current_price": 54.73,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 4.11,
@@ -7863,7 +7871,7 @@
             },
             {
               "metric": "P/E",
-              "value": "40.55 (合理:12)",
+              "value": "40.54 (合理:12)",
               "grade": "fail"
             },
             {
@@ -7882,7 +7890,7 @@
               "股息殖利率 193.0%，提供穩定現金回報"
             ],
             "risks": [
-              "P/E 40.55 偏高，估值需留意"
+              "P/E 40.54 偏高，估值需留意"
             ]
           }
         },
@@ -7892,7 +7900,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "40.55 (合理:12)",
+              "value": "40.54 (合理:12)",
               "grade": "fail"
             },
             {
@@ -7932,7 +7940,7 @@
               "股息殖利率 193.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 40.55，估值偏高不符葛拉漢標準",
+              "P/E 40.54，估值偏高不符葛拉漢標準",
               "流動比率 0.9，短期流動性不足"
             ]
           }
@@ -7979,7 +7987,7 @@
               "淨利率 20.31%，獲利能力強"
             ],
             "risks": [
-              "P/E 40.55，估值可能過高"
+              "P/E 40.54，估值可能過高"
             ]
           }
         },
@@ -8064,7 +8072,7 @@
         },
         {
           "metric": "P/E",
-          "value": "40.55 (合理:12)",
+          "value": "40.54 (合理:12)",
           "grade": "fail"
         },
         {
@@ -8115,7 +8123,7 @@
           "股息殖利率 193.0%，提供穩定現金回報"
         ],
         "risks": [
-          "P/E 40.55 偏高，估值需留意"
+          "P/E 40.54 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -8139,13 +8147,13 @@
       "eps_latest": 1.54,
       "debt_to_equity": 1.48,
       "current_ratio": 0.81,
-      "pe_ratio": 28.35,
-      "forward_pe": 20.86,
+      "pe_ratio": 28.34,
+      "forward_pe": 20.85,
       "market_cap_b": 81.2,
       "dividend_yield": 129.0,
       "high_52w": 43.8,
       "low_52w": 27.0,
-      "current_price": 43.66,
+      "current_price": 43.65,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 1.71,
@@ -8181,7 +8189,7 @@
             },
             {
               "metric": "P/E",
-              "value": "28.35 (合理:12)",
+              "value": "28.34 (合理:12)",
               "grade": "fail"
             },
             {
@@ -8210,7 +8218,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "28.35 (合理:12)",
+              "value": "28.34 (合理:12)",
               "grade": "fail"
             },
             {
@@ -8240,7 +8248,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "99.2%",
+              "value": "99.1%",
               "grade": "fail"
             }
           ],
@@ -8250,7 +8258,7 @@
               "股息殖利率 129.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 28.35，估值偏高不符葛拉漢標準",
+              "P/E 28.34，估值偏高不符葛拉漢標準",
               "流動比率 0.8，短期流動性不足",
               "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
             ]
@@ -8287,7 +8295,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "20.9 vs 28.4",
+              "value": "20.9 vs 28.3",
               "grade": "ok"
             }
           ],
@@ -8295,7 +8303,7 @@
             "summary": "CSX Corporation 不符合林區成長合理價標準。",
             "strengths": [
               "ROE 28.24%，管理層資本效率出色",
-              "Forward PE 20.9 低於 Trailing PE 28.4，分析師看好成長",
+              "Forward PE 20.9 低於 Trailing PE 28.3，分析師看好成長",
               "淨利率 24.27%，獲利能力強"
             ],
             "risks": [
@@ -8386,7 +8394,7 @@
         },
         {
           "metric": "P/E",
-          "value": "28.35 (合理:12)",
+          "value": "28.34 (合理:12)",
           "grade": "fail"
         },
         {
@@ -9074,12 +9082,12 @@
       "eps_latest": 15.31,
       "debt_to_equity": 0.11,
       "current_ratio": 2.9,
-      "pe_ratio": 28.68,
-      "forward_pe": 20.14,
-      "market_cap_b": 111.7,
+      "pe_ratio": 28.67,
+      "forward_pe": 20.13,
+      "market_cap_b": 111.6,
       "high_52w": 510.77,
       "low_52w": 362.5,
-      "current_price": 439.15,
+      "current_price": 438.94,
       "fcf_positive_years": 3,
       "fcf_total_years": 4,
       "fcf_latest_b": 3.19,
@@ -9115,7 +9123,7 @@
             },
             {
               "metric": "P/E",
-              "value": "28.68 (合理:12)",
+              "value": "28.67 (合理:12)",
               "grade": "fail"
             },
             {
@@ -9142,7 +9150,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "28.68 (合理:12)",
+              "value": "28.67 (合理:12)",
               "grade": "fail"
             },
             {
@@ -9167,7 +9175,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "51.7%",
+              "value": "51.6%",
               "grade": "fail"
             }
           ],
@@ -9178,7 +9186,7 @@
               "流動比率 2.9，短期償債能力充裕"
             ],
             "risks": [
-              "P/E 28.68，估值偏高不符葛拉漢標準"
+              "P/E 28.67，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -9308,7 +9316,7 @@
         },
         {
           "metric": "P/E",
-          "value": "28.68 (合理:12)",
+          "value": "28.67 (合理:12)",
           "grade": "fail"
         },
         {
@@ -9381,13 +9389,13 @@
       "eps_latest": 16.53,
       "debt_to_equity": 2.56,
       "current_ratio": 1.03,
-      "pe_ratio": 31.29,
-      "forward_pe": 22.82,
-      "market_cap_b": 461.5,
+      "pe_ratio": 31.24,
+      "forward_pe": 22.78,
+      "market_cap_b": 460.8,
       "dividend_yield": 67.0,
       "high_52w": 601.77,
       "low_52w": 480.5,
-      "current_price": 517.16,
+      "current_price": 516.32,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 16.43,
@@ -9423,7 +9431,7 @@
             },
             {
               "metric": "P/E",
-              "value": "31.29 (合理:12)",
+              "value": "31.24 (合理:12)",
               "grade": "fail"
             },
             {
@@ -9442,7 +9450,7 @@
               "年產自由現金流 $16.43B，現金印鈔機"
             ],
             "risks": [
-              "P/E 31.29 偏高，估值需留意",
+              "P/E 31.24 偏高，估值需留意",
               "負債權益比 2.56 偏高",
               "新聞黃燈：偵測到 1 個需關注信號"
             ]
@@ -9454,7 +9462,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "31.29 (合理:12)",
+              "value": "31.24 (合理:12)",
               "grade": "fail"
             },
             {
@@ -9484,7 +9492,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "30.2%",
+              "value": "29.5%",
               "grade": "warn"
             }
           ],
@@ -9494,7 +9502,7 @@
               "股息殖利率 67.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 31.29，估值偏高不符葛拉漢標準",
+              "P/E 31.24，估值偏高不符葛拉漢標準",
               "負債權益比 2.56，財務風險偏高",
               "新聞風險：偵測到 1 個需關注信號"
             ]
@@ -9531,7 +9539,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "22.8 vs 31.3",
+              "value": "22.8 vs 31.2",
               "grade": "ok"
             }
           ],
@@ -9539,11 +9547,11 @@
             "summary": "Mastercard Incorporated 不符合林區成長合理價標準。",
             "strengths": [
               "ROE 177.8%，管理層資本效率出色",
-              "Forward PE 22.8 低於 Trailing PE 31.3，分析師看好成長",
+              "Forward PE 22.8 低於 Trailing PE 31.2，分析師看好成長",
               "淨利率 45.15%，獲利能力強"
             ],
             "risks": [
-              "P/E 31.29，估值可能過高",
+              "P/E 31.24，估值可能過高",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -9632,7 +9640,7 @@
         },
         {
           "metric": "P/E",
-          "value": "31.29 (合理:12)",
+          "value": "31.24 (合理:12)",
           "grade": "fail"
         },
         {
@@ -9666,8 +9674,8 @@
             "date": "Thu, 26 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "金飯碗最佳「跳板」！星展銀暑期實習60席開搶 雙軌制培訓擇優銜接MA - Yahoo股市",
-            "date": "Thu, 12 Mar 2026 07:00:00 GMT"
+            "title": "國泰金大舉徵才逾7600人 MA首年挑戰百萬年薪 - Yahoo股市",
+            "date": "Sun, 04 Jan 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "yellow",
@@ -9683,7 +9691,7 @@
           "年產自由現金流 $16.43B，現金印鈔機"
         ],
         "risks": [
-          "P/E 31.29 偏高，估值需留意",
+          "P/E 31.24 偏高，估值需留意",
           "負債權益比 2.56 偏高",
           "新聞黃燈：偵測到 1 個需關注信號"
         ]
@@ -9709,13 +9717,13 @@
       "eps_latest": 14.62,
       "debt_to_equity": 0.71,
       "current_ratio": 0.88,
-      "pe_ratio": 34.13,
+      "pe_ratio": 34.14,
       "forward_pe": 25.59,
       "market_cap_b": 231.3,
       "dividend_yield": 130.0,
       "high_52w": 510.65,
       "low_52w": 387.78,
-      "current_price": 499.04,
+      "current_price": 499.06,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 5.09,
@@ -9751,7 +9759,7 @@
             },
             {
               "metric": "P/E",
-              "value": "34.13 (合理:12)",
+              "value": "34.14 (合理:12)",
               "grade": "fail"
             },
             {
@@ -9770,7 +9778,7 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 34.13 偏高，估值需留意"
+              "P/E 34.14 偏高，估值需留意"
             ]
           }
         },
@@ -9780,7 +9788,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "34.13 (合理:12)",
+              "value": "34.14 (合理:12)",
               "grade": "fail"
             },
             {
@@ -9820,7 +9828,7 @@
               "股息殖利率 130.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 34.13，估值偏高不符葛拉漢標準",
+              "P/E 34.14，估值偏高不符葛拉漢標準",
               "流動比率 0.9，短期流動性不足"
             ]
           }
@@ -9867,7 +9875,7 @@
               "淨利率 17.87%，獲利能力強"
             ],
             "risks": [
-              "P/E 34.13，估值可能過高"
+              "P/E 34.14，估值可能過高"
             ]
           }
         },
@@ -9951,7 +9959,7 @@
         },
         {
           "metric": "P/E",
-          "value": "34.13 (合理:12)",
+          "value": "34.14 (合理:12)",
           "grade": "fail"
         },
         {
@@ -10002,7 +10010,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 34.13 偏高，估值需留意"
+          "P/E 34.14 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -10026,13 +10034,13 @@
       "eps_latest": 7.28,
       "debt_to_equity": 0.92,
       "current_ratio": 1.08,
-      "pe_ratio": 38.17,
-      "forward_pe": 28.73,
-      "market_cap_b": 78.5,
+      "pe_ratio": 38.1,
+      "forward_pe": 28.68,
+      "market_cap_b": 78.3,
       "dividend_yield": 100.0,
       "high_52w": 309.27,
       "low_52w": 229.39,
-      "current_price": 277.88,
+      "current_price": 277.4,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 1.9,
@@ -10068,7 +10076,7 @@
             },
             {
               "metric": "P/E",
-              "value": "38.17 (合理:12)",
+              "value": "38.1 (合理:12)",
               "grade": "fail"
             },
             {
@@ -10087,7 +10095,7 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 38.17 偏高，估值需留意",
+              "P/E 38.1 偏高，估值需留意",
               "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
             ]
           }
@@ -10098,7 +10106,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "38.17 (合理:12)",
+              "value": "38.1 (合理:12)",
               "grade": "fail"
             },
             {
@@ -10128,7 +10136,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "60.7%",
+              "value": "60.1%",
               "grade": "fail"
             }
           ],
@@ -10138,7 +10146,7 @@
               "股息殖利率 100.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 38.17，估值偏高不符葛拉漢標準",
+              "P/E 38.1，估值偏高不符葛拉漢標準",
               "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
             ]
           }
@@ -10174,17 +10182,17 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "28.7 vs 38.2",
+              "value": "28.7 vs 38.1",
               "grade": "ok"
             }
           ],
           "pick_reason": {
             "summary": "Ecolab Inc. 不符合林區成長合理價標準。",
             "strengths": [
-              "Forward PE 28.7 低於 Trailing PE 38.2，分析師看好成長"
+              "Forward PE 28.7 低於 Trailing PE 38.1，分析師看好成長"
             ],
             "risks": [
-              "P/E 38.17，估值可能過高",
+              "P/E 38.1，估值可能過高",
               "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
             ]
           }
@@ -10272,7 +10280,7 @@
         },
         {
           "metric": "P/E",
-          "value": "38.17 (合理:12)",
+          "value": "38.1 (合理:12)",
           "grade": "fail"
         },
         {
@@ -10323,7 +10331,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 38.17 偏高，估值需留意",
+          "P/E 38.1 偏高，估值需留意",
           "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
         ]
       },
@@ -10348,13 +10356,13 @@
       "eps_latest": 11.98,
       "debt_to_equity": 1.78,
       "current_ratio": 0.91,
-      "pe_ratio": 21.13,
-      "forward_pe": 18.63,
-      "market_cap_b": 150.3,
+      "pe_ratio": 21.1,
+      "forward_pe": 18.61,
+      "market_cap_b": 150.1,
       "dividend_yield": 220.0,
       "high_52w": 268.14,
       "low_52w": 206.63,
-      "current_price": 253.13,
+      "current_price": 252.82,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 5.5,
@@ -10390,7 +10398,7 @@
             },
             {
               "metric": "P/E",
-              "value": "21.13 (合理:12)",
+              "value": "21.1 (合理:12)",
               "grade": "fail"
             },
             {
@@ -10420,7 +10428,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "21.13 (合理:12)",
+              "value": "21.1 (合理:12)",
               "grade": "fail"
             },
             {
@@ -10450,7 +10458,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "75.6%",
+              "value": "75.1%",
               "grade": "fail"
             }
           ],
@@ -10460,7 +10468,7 @@
               "股息殖利率 220.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 21.13，估值偏高不符葛拉漢標準",
+              "P/E 21.1，估值偏高不符葛拉漢標準",
               "負債權益比 1.78，財務風險偏高",
               "流動比率 0.9，短期流動性不足"
             ]
@@ -10596,7 +10604,7 @@
         },
         {
           "metric": "P/E",
-          "value": "21.13 (合理:12)",
+          "value": "21.1 (合理:12)",
           "grade": "fail"
         },
         {
@@ -10971,13 +10979,13 @@
       "eps_latest": 10.44,
       "debt_to_equity": 0.55,
       "current_ratio": 1.32,
-      "pe_ratio": 38.79,
+      "pe_ratio": 38.78,
       "forward_pe": 26.13,
       "market_cap_b": 157.3,
       "dividend_yield": 108.0,
       "high_52w": 410.91,
       "low_52w": 255.1,
-      "current_price": 404.95,
+      "current_price": 404.87,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 3.55,
@@ -11013,7 +11021,7 @@
             },
             {
               "metric": "P/E",
-              "value": "38.79 (合理:12)",
+              "value": "38.78 (合理:12)",
               "grade": "fail"
             },
             {
@@ -11032,7 +11040,7 @@
               "股息殖利率 108.0%，提供穩定現金回報"
             ],
             "risks": [
-              "P/E 38.79 偏高，估值需留意"
+              "P/E 38.78 偏高，估值需留意"
             ]
           }
         },
@@ -11042,7 +11050,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "38.79 (合理:12)",
+              "value": "38.78 (合理:12)",
               "grade": "fail"
             },
             {
@@ -11072,7 +11080,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "96.2%",
+              "value": "96.1%",
               "grade": "fail"
             }
           ],
@@ -11082,7 +11090,7 @@
               "股息殖利率 108.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 38.79，估值偏高不符葛拉漢標準"
+              "P/E 38.78，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -11127,7 +11135,7 @@
               "Forward PE 26.1 低於 Trailing PE 38.8，分析師看好成長"
             ],
             "risks": [
-              "P/E 38.79，估值可能過高"
+              "P/E 38.78，估值可能過高"
             ]
           }
         },
@@ -11211,7 +11219,7 @@
         },
         {
           "metric": "P/E",
-          "value": "38.79 (合理:12)",
+          "value": "38.78 (合理:12)",
           "grade": "fail"
         },
         {
@@ -11262,7 +11270,7 @@
           "股息殖利率 108.0%，提供穩定現金回報"
         ],
         "risks": [
-          "P/E 38.79 偏高，估值需留意"
+          "P/E 38.78 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -11285,13 +11293,13 @@
       "gross_margin_avg": 68.16,
       "eps_latest": 2.38,
       "current_ratio": 0.67,
-      "pe_ratio": 86.28,
-      "forward_pe": 12.76,
-      "market_cap_b": 363.2,
+      "pe_ratio": 86.38,
+      "forward_pe": 12.77,
+      "market_cap_b": 363.6,
       "dividend_yield": 332.0,
       "high_52w": 244.81,
       "low_52w": 168.54,
-      "current_price": 205.35,
+      "current_price": 205.58,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 17.82,
@@ -11327,7 +11335,7 @@
             },
             {
               "metric": "P/E",
-              "value": "86.28 (合理:12)",
+              "value": "86.38 (合理:12)",
               "grade": "fail"
             },
             {
@@ -11346,7 +11354,7 @@
               "年產自由現金流 $17.82B，現金印鈔機"
             ],
             "risks": [
-              "P/E 86.28 偏高，估值需留意",
+              "P/E 86.38 偏高，估值需留意",
               "新聞黃燈：偵測到 1 個需關注信號"
             ]
           }
@@ -11357,7 +11365,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "86.28 (合理:12)",
+              "value": "86.38 (合理:12)",
               "grade": "fail"
             },
             {
@@ -11387,7 +11395,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "48.3%",
+              "value": "48.6%",
               "grade": "warn"
             }
           ],
@@ -11397,7 +11405,7 @@
               "股息殖利率 332.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 86.28，估值偏高不符葛拉漢標準",
+              "P/E 86.38，估值偏高不符葛拉漢標準",
               "流動比率 0.7，短期流動性不足",
               "新聞風險：偵測到 1 個需關注信號"
             ]
@@ -11434,7 +11442,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "12.8 vs 86.3",
+              "value": "12.8 vs 86.4",
               "grade": "pass"
             }
           ],
@@ -11442,10 +11450,10 @@
             "summary": "AbbVie Inc. 不符合林區成長合理價標準。",
             "strengths": [
               "ROE 28.74%，管理層資本效率出色",
-              "Forward PE 12.8 低於 Trailing PE 86.3，分析師看好成長"
+              "Forward PE 12.8 低於 Trailing PE 86.4，分析師看好成長"
             ],
             "risks": [
-              "P/E 86.28，估值可能過高",
+              "P/E 86.38，估值可能過高",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -11533,7 +11541,7 @@
         },
         {
           "metric": "P/E",
-          "value": "86.28 (合理:12)",
+          "value": "86.38 (合理:12)",
           "grade": "fail"
         },
         {
@@ -11584,7 +11592,7 @@
           "年產自由現金流 $17.82B，現金印鈔機"
         ],
         "risks": [
-          "P/E 86.28 偏高，估值需留意",
+          "P/E 86.38 偏高，估值需留意",
           "新聞黃燈：偵測到 1 個需關注信號"
         ]
       },
@@ -11609,13 +11617,13 @@
       "eps_latest": 10.26,
       "debt_to_equity": 3.06,
       "current_ratio": 0.87,
-      "pe_ratio": 33.42,
-      "forward_pe": 25.68,
-      "market_cap_b": 85.0,
+      "pe_ratio": 33.4,
+      "forward_pe": 25.66,
+      "market_cap_b": 84.9,
       "dividend_yield": 93.0,
       "high_52w": 379.65,
       "low_52w": 301.58,
-      "current_price": 342.89,
+      "current_price": 342.72,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 2.65,
@@ -11651,7 +11659,7 @@
             },
             {
               "metric": "P/E",
-              "value": "33.42 (合理:12)",
+              "value": "33.4 (合理:12)",
               "grade": "fail"
             },
             {
@@ -11670,7 +11678,7 @@
               "股息殖利率 93.0%，提供穩定現金回報"
             ],
             "risks": [
-              "P/E 33.42 偏高，估值需留意",
+              "P/E 33.4 偏高，估值需留意",
               "負債權益比 3.06 偏高",
               "新聞黃燈：偵測到 1 個需關注信號"
             ]
@@ -11682,7 +11690,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "33.42 (合理:12)",
+              "value": "33.4 (合理:12)",
               "grade": "fail"
             },
             {
@@ -11712,7 +11720,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "52.9%",
+              "value": "52.7%",
               "grade": "fail"
             }
           ],
@@ -11722,7 +11730,7 @@
               "股息殖利率 93.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 33.42，估值偏高不符葛拉漢標準",
+              "P/E 33.4，估值偏高不符葛拉漢標準",
               "負債權益比 3.06，財務風險偏高",
               "流動比率 0.9，短期流動性不足"
             ]
@@ -11770,7 +11778,7 @@
               "Forward PE 25.7 低於 Trailing PE 33.4，分析師看好成長"
             ],
             "risks": [
-              "P/E 33.42，估值可能過高",
+              "P/E 33.4，估值可能過高",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -11858,7 +11866,7 @@
         },
         {
           "metric": "P/E",
-          "value": "33.42 (合理:12)",
+          "value": "33.4 (合理:12)",
           "grade": "fail"
         },
         {
@@ -11909,7 +11917,7 @@
           "股息殖利率 93.0%，提供穩定現金回報"
         ],
         "risks": [
-          "P/E 33.42 偏高，估值需留意",
+          "P/E 33.4 偏高，估值需留意",
           "負債權益比 3.06 偏高",
           "新聞黃燈：偵測到 1 個需關注信號"
         ]
@@ -11935,13 +11943,13 @@
       "eps_latest": 6.62,
       "debt_to_equity": 0.24,
       "current_ratio": 1.16,
-      "pe_ratio": 27.81,
-      "forward_pe": 15.92,
-      "market_cap_b": 366.7,
+      "pe_ratio": 27.78,
+      "forward_pe": 15.91,
+      "market_cap_b": 366.4,
       "dividend_yield": 387.0,
       "high_52w": 214.71,
       "low_52w": 132.33,
-      "current_price": 184.12,
+      "current_price": 183.93,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 16.59,
@@ -11977,7 +11985,7 @@
             },
             {
               "metric": "P/E",
-              "value": "27.81 (合理:12)",
+              "value": "27.78 (合理:12)",
               "grade": "fail"
             },
             {
@@ -12004,7 +12012,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "27.81 (合理:12)",
+              "value": "27.78 (合理:12)",
               "grade": "fail"
             },
             {
@@ -12034,7 +12042,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "62.9%",
+              "value": "62.6%",
               "grade": "fail"
             }
           ],
@@ -12045,7 +12053,7 @@
               "股息殖利率 387.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 27.81，估值偏高不符葛拉漢標準"
+              "P/E 27.78，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -12172,7 +12180,7 @@
         },
         {
           "metric": "P/E",
-          "value": "27.81 (合理:12)",
+          "value": "27.78 (合理:12)",
           "grade": "fail"
         },
         {
@@ -12245,13 +12253,13 @@
       "eps_latest": 2.66,
       "debt_to_equity": 1.14,
       "current_ratio": 1.04,
-      "pe_ratio": 13.89,
-      "forward_pe": 11.8,
+      "pe_ratio": 13.88,
+      "forward_pe": 11.79,
       "market_cap_b": 79.8,
       "dividend_yield": 597.0,
       "high_52w": 39.74,
       "low_52w": 29.66,
-      "current_price": 36.94,
+      "current_price": 36.91,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 2.96,
@@ -12287,7 +12295,7 @@
             },
             {
               "metric": "P/E",
-              "value": "13.89 (合理:12)",
+              "value": "13.88 (合理:12)",
               "grade": "ok"
             },
             {
@@ -12316,7 +12324,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "13.89 (合理:12)",
+              "value": "13.88 (合理:12)",
               "grade": "warn"
             },
             {
@@ -12346,14 +12354,14 @@
             },
             {
               "metric": "52W 位置",
-              "value": "72.2%",
+              "value": "71.9%",
               "grade": "fail"
             }
           ],
           "pick_reason": {
             "summary": "Enterprise Products Partners L. 不符合葛拉漢安全邊際要求。",
             "strengths": [
-              "P/E 13.89，估值處於安全邊際內",
+              "P/E 13.88，估值處於安全邊際內",
               "股息殖利率 597.0%，提供安全邊際"
             ],
             "risks": [
@@ -12490,7 +12498,7 @@
         },
         {
           "metric": "P/E",
-          "value": "13.89 (合理:12)",
+          "value": "13.88 (合理:12)",
           "grade": "ok"
         },
         {
@@ -12820,12 +12828,12 @@
             "date": "Wed, 15 Apr 2026 08:50:44 GMT"
           },
           {
-            "title": "國巨*B/B值維持1以上，看AI需求明確 - Yahoo股市",
-            "date": "Thu, 16 Apr 2026 05:02:59 GMT"
+            "title": "影響66萬多股民！8檔ETF換股 00900踢台積電等27檔個股 - Yahoo股市",
+            "date": "Mon, 20 Apr 2026 10:07:19 GMT"
           },
           {
-            "title": "國巨首季獲利創高年增44% 單季EPS達3.9元 - Yahoo股市",
-            "date": "Wed, 15 Apr 2026 08:17:06 GMT"
+            "title": "國巨*B/B值維持1以上，看AI需求明確 - Yahoo股市",
+            "date": "Thu, 16 Apr 2026 05:02:59 GMT"
           }
         ],
         "risk_level": "green",
@@ -12861,13 +12869,13 @@
       "eps_latest": 22.99,
       "debt_to_equity": 1.65,
       "current_ratio": 1.58,
-      "pe_ratio": 40.25,
-      "forward_pe": 21.97,
-      "market_cap_b": 828.3,
+      "pe_ratio": 40.28,
+      "forward_pe": 21.98,
+      "market_cap_b": 828.8,
       "dividend_yield": 67.0,
       "high_52w": 1133.95,
       "low_52w": 623.78,
-      "current_price": 925.46,
+      "current_price": 925.97,
       "fcf_positive_years": 3,
       "fcf_total_years": 4,
       "fcf_latest_b": 5.96,
@@ -12903,7 +12911,7 @@
             },
             {
               "metric": "P/E",
-              "value": "40.25 (合理:12)",
+              "value": "40.28 (合理:12)",
               "grade": "fail"
             },
             {
@@ -12922,7 +12930,7 @@
               "護城河寬廣：專利 + 研發管線"
             ],
             "risks": [
-              "P/E 40.25 偏高，估值需留意",
+              "P/E 40.28 偏高，估值需留意",
               "負債權益比 1.65 偏高"
             ]
           }
@@ -12933,7 +12941,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "40.25 (合理:12)",
+              "value": "40.28 (合理:12)",
               "grade": "fail"
             },
             {
@@ -12963,7 +12971,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "59.1%",
+              "value": "59.2%",
               "grade": "fail"
             }
           ],
@@ -12973,7 +12981,7 @@
               "股息殖利率 67.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 40.25，估值偏高不符葛拉漢標準",
+              "P/E 40.28，估值偏高不符葛拉漢標準",
               "負債權益比 1.65，財務風險偏高"
             ]
           }
@@ -13009,7 +13017,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "22.0 vs 40.2",
+              "value": "22.0 vs 40.3",
               "grade": "pass"
             }
           ],
@@ -13017,11 +13025,11 @@
             "summary": "Eli Lilly and Company 不符合林區成長合理價標準。",
             "strengths": [
               "ROE 64.82%，管理層資本效率出色",
-              "Forward PE 22.0 低於 Trailing PE 40.2，分析師看好成長",
+              "Forward PE 22.0 低於 Trailing PE 40.3，分析師看好成長",
               "淨利率 23.1%，獲利能力強"
             ],
             "risks": [
-              "P/E 40.25，估值可能過高"
+              "P/E 40.28，估值可能過高"
             ]
           }
         },
@@ -13107,7 +13115,7 @@
         },
         {
           "metric": "P/E",
-          "value": "40.25 (合理:12)",
+          "value": "40.28 (合理:12)",
           "grade": "fail"
         },
         {
@@ -13158,7 +13166,7 @@
           "護城河寬廣：專利 + 研發管線"
         ],
         "risks": [
-          "P/E 40.25 偏高，估值需留意",
+          "P/E 40.28 偏高，估值需留意",
           "負債權益比 1.65 偏高"
         ]
       },
@@ -13183,13 +13191,13 @@
       "eps_latest": 6.37,
       "debt_to_equity": 2.45,
       "current_ratio": 0.9,
-      "pe_ratio": 24.6,
-      "forward_pe": 17.17,
-      "market_cap_b": 214.2,
+      "pe_ratio": 24.58,
+      "forward_pe": 17.16,
+      "market_cap_b": 214.1,
       "dividend_yield": 361.0,
       "high_52w": 171.48,
       "low_52w": 127.6,
-      "current_price": 156.73,
+      "current_price": 156.6,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 7.67,
@@ -13225,7 +13233,7 @@
             },
             {
               "metric": "P/E",
-              "value": "24.6 (合理:12)",
+              "value": "24.58 (合理:12)",
               "grade": "fail"
             },
             {
@@ -13254,7 +13262,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "24.6 (合理:12)",
+              "value": "24.58 (合理:12)",
               "grade": "fail"
             },
             {
@@ -13284,7 +13292,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "66.4%",
+              "value": "66.1%",
               "grade": "fail"
             }
           ],
@@ -13294,7 +13302,7 @@
               "股息殖利率 361.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 24.6，估值偏高不符葛拉漢標準",
+              "P/E 24.58，估值偏高不符葛拉漢標準",
               "負債權益比 2.45，財務風險偏高",
               "流動比率 0.9，短期流動性不足"
             ]
@@ -13425,7 +13433,7 @@
         },
         {
           "metric": "P/E",
-          "value": "24.6 (合理:12)",
+          "value": "24.58 (合理:12)",
           "grade": "fail"
         },
         {
@@ -13756,12 +13764,12 @@
             "date": "Mon, 20 Apr 2026 11:10:02 GMT"
           },
           {
-            "title": "戀棧記憶體？巨型韭菜賣群聯賠了315萬元 反手加碼威剛 - Yahoo股市",
-            "date": "Mon, 20 Apr 2026 10:22:31 GMT"
-          },
-          {
             "title": "【台達電聚寶盆1】股價年漲440%力壓台積電 「億元富翁」股東逼近2000名 - Yahoo股市",
             "date": "Wed, 15 Apr 2026 00:35:43 GMT"
+          },
+          {
+            "title": "戀棧記憶體？巨型韭菜賣群聯賠了315萬元 反手加碼威剛 - Yahoo股市",
+            "date": "Mon, 20 Apr 2026 10:22:31 GMT"
           },
           {
             "title": "【Follow法人】記憶體有戲？外資掃貨華邦電近5萬張居冠 反手砍台玻逾6萬張 - Yahoo股市",
@@ -14067,8 +14075,8 @@
       "news": {
         "items": [
           {
-            "title": "中華電、遠傳 股息大方配 - Yahoo股市",
-            "date": "Thu, 26 Feb 2026 08:00:00 GMT"
+            "title": "中華電信將再孵小金雞立鼎 董座簡志誠：今年營收獲利拚新高 - Yahoo股市",
+            "date": "Wed, 11 Mar 2026 07:00:00 GMT"
           },
           {
             "title": "【12:54 即時新聞】中華電(2412)股價小幅回落至136元，避險資金題材續在＋多頭均線結構與法人買盤仍偏多 - CMoney投資網誌",
@@ -14088,7 +14096,7 @@
           }
         ],
         "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
+        "risk_summary": "近期新聞正面 (2 個正面信號)"
       },
       "pick_reason": {
         "summary": "中華電 部分指標良好，但有待改善之處。",
@@ -14127,12 +14135,12 @@
       "debt_to_equity": 5.14,
       "current_ratio": 1.06,
       "pe_ratio": 24.42,
-      "forward_pe": 21.29,
+      "forward_pe": 21.3,
       "market_cap_b": 345.8,
       "dividend_yield": 267.0,
       "high_52w": 426.75,
       "low_52w": 315.31,
-      "current_price": 347.19,
+      "current_price": 347.2,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 12.65,
@@ -14389,12 +14397,12 @@
       "news": {
         "items": [
           {
-            "title": "Steady Margins, Slow Gains: Is Home Depot's Strategy Working? - TradingView",
-            "date": "Tue, 14 Apr 2026 19:34:00 GMT"
+            "title": "RH and Home Depot Shares Are Soaring, What You Need To Know - TradingView",
+            "date": "Wed, 08 Apr 2026 07:00:00 GMT"
           },
           {
-            "title": "RH Q4 Earnings Lag Estimates, Revenues Up Y/Y, Stock Down 17% - TradingView",
-            "date": "Wed, 01 Apr 2026 07:00:00 GMT"
+            "title": "Steady Margins, Slow Gains: Is Home Depot's Strategy Working? - TradingView",
+            "date": "Tue, 14 Apr 2026 19:34:00 GMT"
           },
           {
             "title": "These Stocks Are Today's Movers: AMD, Home Depot, Novo Nordisk, Hims &amp; Hers, Keysight, Vir Biotechnology, and More -- Barrons.com - 富途牛牛",
@@ -14405,8 +14413,8 @@
             "date": "Tue, 09 Dec 2025 08:00:00 GMT"
           },
           {
-            "title": "Nvidia, Microsoft, Dell, Cloudflare, Klarna, Home Depot, Medtronic: Biggest Stock Movers - Moomoo",
-            "date": "Tue, 18 Nov 2025 08:00:00 GMT"
+            "title": "Home Depot Stock Keeps Falling—Analysts Say the Upside Is Still There - TradingView",
+            "date": "Sat, 14 Mar 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "yellow",
@@ -14447,12 +14455,12 @@
       "eps_latest": 2.62,
       "debt_to_equity": 0.06,
       "current_ratio": 2.85,
-      "pe_ratio": 104.46,
-      "forward_pe": 24.97,
-      "market_cap_b": 446.2,
+      "pe_ratio": 104.51,
+      "forward_pe": 24.98,
+      "market_cap_b": 446.4,
       "high_52w": 287.61,
       "low_52w": 83.75,
-      "current_price": 273.68,
+      "current_price": 273.81,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 6.74,
@@ -14488,7 +14496,7 @@
             },
             {
               "metric": "P/E",
-              "value": "104.46 (合理:12)",
+              "value": "104.51 (合理:12)",
               "grade": "fail"
             },
             {
@@ -14506,7 +14514,7 @@
               "護城河適中：技術授權 + 競爭定位"
             ],
             "risks": [
-              "P/E 104.46 偏高，估值需留意"
+              "P/E 104.51 偏高，估值需留意"
             ]
           }
         },
@@ -14516,7 +14524,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "104.46 (合理:12)",
+              "value": "104.51 (合理:12)",
               "grade": "fail"
             },
             {
@@ -14552,7 +14560,7 @@
               "流動比率 2.9，短期償債能力充裕"
             ],
             "risks": [
-              "P/E 104.46，估值偏高不符葛拉漢標準"
+              "P/E 104.51，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -14598,7 +14606,7 @@
               "低負債（D/E 0.06），成長基礎穩固"
             ],
             "risks": [
-              "P/E 104.46，估值可能過高"
+              "P/E 104.51，估值可能過高"
             ]
           }
         },
@@ -14684,7 +14692,7 @@
         },
         {
           "metric": "P/E",
-          "value": "104.46 (合理:12)",
+          "value": "104.51 (合理:12)",
           "grade": "fail"
         },
         {
@@ -14734,7 +14742,7 @@
           "護城河適中：技術授權 + 競爭定位"
         ],
         "risks": [
-          "P/E 104.46 偏高，估值需留意"
+          "P/E 104.51 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -14758,13 +14766,13 @@
       "eps_latest": 19.2,
       "debt_to_equity": 0.6,
       "current_ratio": 1.06,
-      "pe_ratio": 52.15,
-      "forward_pe": 44.56,
-      "market_cap_b": 444.5,
+      "pe_ratio": 52.2,
+      "forward_pe": 44.59,
+      "market_cap_b": 444.8,
       "dividend_yield": 59.0,
       "high_52w": 1067.08,
       "low_52w": 844.06,
-      "current_price": 1001.38,
+      "current_price": 1002.15,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 7.84,
@@ -14800,7 +14808,7 @@
             },
             {
               "metric": "P/E",
-              "value": "52.15 (合理:12)",
+              "value": "52.2 (合理:12)",
               "grade": "fail"
             },
             {
@@ -14819,7 +14827,7 @@
               "護城河寬廣：會員制 + 低成本領導"
             ],
             "risks": [
-              "P/E 52.15 偏高，估值需留意",
+              "P/E 52.2 偏高，估值需留意",
               "淨利率僅 2.75%，獲利能力偏弱"
             ]
           }
@@ -14830,7 +14838,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "52.15 (合理:12)",
+              "value": "52.2 (合理:12)",
               "grade": "fail"
             },
             {
@@ -14860,7 +14868,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "70.5%",
+              "value": "70.9%",
               "grade": "fail"
             }
           ],
@@ -14870,7 +14878,7 @@
               "股息殖利率 59.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 52.15，估值偏高不符葛拉漢標準"
+              "P/E 52.2，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -14905,7 +14913,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "44.6 vs 52.1",
+              "value": "44.6 vs 52.2",
               "grade": "warn"
             }
           ],
@@ -14915,7 +14923,7 @@
               "ROE 28.09%，管理層資本效率出色"
             ],
             "risks": [
-              "P/E 52.15，估值可能過高"
+              "P/E 52.2，估值可能過高"
             ]
           }
         },
@@ -15001,7 +15009,7 @@
         },
         {
           "metric": "P/E",
-          "value": "52.15 (合理:12)",
+          "value": "52.2 (合理:12)",
           "grade": "fail"
         },
         {
@@ -15052,7 +15060,7 @@
           "護城河寬廣：會員制 + 低成本領導"
         ],
         "risks": [
-          "P/E 52.15 偏高，估值需留意",
+          "P/E 52.2 偏高，估值需留意",
           "淨利率僅 2.75%，獲利能力偏弱"
         ]
       },
@@ -15076,13 +15084,13 @@
       "eps_latest": 15.39,
       "debt_to_equity": 1.91,
       "current_ratio": 1.41,
-      "pe_ratio": 21.56,
+      "pe_ratio": 21.57,
       "forward_pe": 16.5,
-      "market_cap_b": 227.8,
+      "market_cap_b": 227.9,
       "dividend_yield": 115.0,
       "high_52w": 387.49,
       "low_52w": 239.27,
-      "current_price": 331.8,
+      "current_price": 331.9,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 16.0,
@@ -15118,7 +15126,7 @@
             },
             {
               "metric": "P/E",
-              "value": "21.56 (合理:12)",
+              "value": "21.57 (合理:12)",
               "grade": "fail"
             },
             {
@@ -15147,7 +15155,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "21.56 (合理:12)",
+              "value": "21.57 (合理:12)",
               "grade": "fail"
             },
             {
@@ -15177,7 +15185,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "62.4%",
+              "value": "62.5%",
               "grade": "fail"
             }
           ],
@@ -15187,7 +15195,7 @@
               "股息殖利率 115.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 21.56，估值偏高不符葛拉漢標準",
+              "P/E 21.57，估值偏高不符葛拉漢標準",
               "負債權益比 1.91，財務風險偏高"
             ]
           }
@@ -15316,7 +15324,7 @@
         },
         {
           "metric": "P/E",
-          "value": "21.56 (合理:12)",
+          "value": "21.57 (合理:12)",
           "grade": "fail"
         },
         {
@@ -15391,13 +15399,13 @@
       "eps_latest": 13.24,
       "debt_to_equity": 0.82,
       "current_ratio": 0.79,
-      "pe_ratio": 24.4,
-      "forward_pe": 16.05,
-      "market_cap_b": 293.2,
+      "pe_ratio": 24.44,
+      "forward_pe": 16.08,
+      "market_cap_b": 293.7,
       "dividend_yield": 272.0,
       "high_52w": 453.5,
       "low_52w": 234.6,
-      "current_price": 323.06,
+      "current_price": 323.55,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 16.07,
@@ -15433,7 +15441,7 @@
             },
             {
               "metric": "P/E",
-              "value": "24.4 (合理:12)",
+              "value": "24.44 (合理:12)",
               "grade": "fail"
             },
             {
@@ -15462,7 +15470,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "24.4 (合理:12)",
+              "value": "24.44 (合理:12)",
               "grade": "fail"
             },
             {
@@ -15492,7 +15500,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "40.4%",
+              "value": "40.6%",
               "grade": "warn"
             }
           ],
@@ -15502,7 +15510,7 @@
               "股息殖利率 272.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 24.4，估值偏高不符葛拉漢標準",
+              "P/E 24.44，估值偏高不符葛拉漢標準",
               "流動比率 0.8，短期流動性不足"
             ]
           }
@@ -15632,7 +15640,7 @@
         },
         {
           "metric": "P/E",
-          "value": "24.4 (合理:12)",
+          "value": "24.44 (合理:12)",
           "grade": "fail"
         },
         {
@@ -15707,13 +15715,13 @@
       "eps_latest": 2.73,
       "debt_to_equity": 0.64,
       "current_ratio": 0.79,
-      "pe_ratio": 47.0,
-      "forward_pe": 39.09,
-      "market_cap_b": 1022.9,
+      "pe_ratio": 47.03,
+      "forward_pe": 39.11,
+      "market_cap_b": 1023.5,
       "dividend_yield": 78.0,
       "high_52w": 134.69,
       "low_52w": 91.34,
-      "current_price": 128.31,
+      "current_price": 128.38,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 14.92,
@@ -15749,7 +15757,7 @@
             },
             {
               "metric": "P/E",
-              "value": "47.0 (合理:12)",
+              "value": "47.03 (合理:12)",
               "grade": "fail"
             },
             {
@@ -15768,7 +15776,7 @@
               "股息殖利率 78.0%，提供穩定現金回報"
             ],
             "risks": [
-              "P/E 47.0 偏高，估值需留意",
+              "P/E 47.03 偏高，估值需留意",
               "淨利率僅 2.56%，獲利能力偏弱"
             ]
           }
@@ -15779,7 +15787,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "47.0 (合理:12)",
+              "value": "47.03 (合理:12)",
               "grade": "fail"
             },
             {
@@ -15809,7 +15817,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "85.3%",
+              "value": "85.4%",
               "grade": "fail"
             }
           ],
@@ -15819,7 +15827,7 @@
               "股息殖利率 78.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 47.0，估值偏高不符葛拉漢標準",
+              "P/E 47.03，估值偏高不符葛拉漢標準",
               "流動比率 0.8，短期流動性不足"
             ]
           }
@@ -15865,7 +15873,7 @@
               "Forward PE 39.1 低於 Trailing PE 47.0，分析師看好成長"
             ],
             "risks": [
-              "P/E 47.0，估值可能過高"
+              "P/E 47.03，估值可能過高"
             ]
           }
         },
@@ -15951,7 +15959,7 @@
         },
         {
           "metric": "P/E",
-          "value": "47.0 (合理:12)",
+          "value": "47.03 (合理:12)",
           "grade": "fail"
         },
         {
@@ -16002,7 +16010,7 @@
           "股息殖利率 78.0%，提供穩定現金回報"
         ],
         "risks": [
-          "P/E 47.0 偏高，估值需留意",
+          "P/E 47.03 偏高，估值需留意",
           "淨利率僅 2.56%，獲利能力偏弱"
         ]
       },
@@ -16027,12 +16035,12 @@
       "eps_latest": 7.17,
       "debt_to_equity": 0.43,
       "current_ratio": 1.05,
-      "pe_ratio": 34.47,
-      "forward_pe": 26.22,
-      "market_cap_b": 2658.1,
+      "pe_ratio": 34.5,
+      "forward_pe": 26.24,
+      "market_cap_b": 2660.1,
       "high_52w": 258.6,
       "low_52w": 165.29,
-      "current_price": 247.17,
+      "current_price": 247.35,
       "fcf_positive_years": 3,
       "fcf_total_years": 4,
       "fcf_latest_b": 7.7,
@@ -16068,7 +16076,7 @@
             },
             {
               "metric": "P/E",
-              "value": "34.47 (合理:12)",
+              "value": "34.5 (合理:12)",
               "grade": "fail"
             },
             {
@@ -16084,7 +16092,7 @@
               "負債權益比僅 0.43，財務極度穩健"
             ],
             "risks": [
-              "P/E 34.47 偏高，估值需留意"
+              "P/E 34.5 偏高，估值需留意"
             ]
           }
         },
@@ -16094,7 +16102,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "34.47 (合理:12)",
+              "value": "34.5 (合理:12)",
               "grade": "fail"
             },
             {
@@ -16119,7 +16127,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "87.8%",
+              "value": "87.9%",
               "grade": "fail"
             }
           ],
@@ -16129,7 +16137,7 @@
               "負債權益比 0.43，資產負債表極度穩健"
             ],
             "risks": [
-              "P/E 34.47，估值偏高不符葛拉漢標準"
+              "P/E 34.5，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -16175,7 +16183,7 @@
               "低負債（D/E 0.43），成長基礎穩固"
             ],
             "risks": [
-              "P/E 34.47，估值可能過高"
+              "P/E 34.5，估值可能過高"
             ]
           }
         },
@@ -16258,7 +16266,7 @@
         },
         {
           "metric": "P/E",
-          "value": "34.47 (合理:12)",
+          "value": "34.5 (合理:12)",
           "grade": "fail"
         },
         {
@@ -16288,8 +16296,8 @@
             "date": "Thu, 09 Apr 2026 20:39:00 GMT"
           },
           {
-            "title": "Amazon Stock Faces Eight-Day Losing Streak -- WSJ - 富途牛牛",
-            "date": "Thu, 12 Feb 2026 17:36:45 GMT"
+            "title": "AI投資狂潮現“神回報”！谷歌(GOOGL.US)、亞馬遜(AMZN.US)季度利潤暴增，幕後推手竟是同一家AI獨角獸作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Mon, 03 Nov 2025 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -16302,7 +16310,7 @@
           "負債權益比僅 0.43，財務極度穩健"
         ],
         "risks": [
-          "P/E 34.47 偏高，估值需留意"
+          "P/E 34.5 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -16325,12 +16333,12 @@
       "eps_latest": 31.04,
       "debt_to_equity": 0.19,
       "current_ratio": 7.07,
-      "pe_ratio": 15.24,
-      "forward_pe": 21.75,
-      "market_cap_b": 1020.5,
+      "pe_ratio": 15.23,
+      "forward_pe": 21.74,
+      "market_cap_b": 1019.9,
       "high_52w": 542.07,
       "low_52w": 455.19,
-      "current_price": 473.08,
+      "current_price": 472.86,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 25.04,
@@ -16366,7 +16374,7 @@
             },
             {
               "metric": "P/E",
-              "value": "15.24 (合理:12)",
+              "value": "15.23 (合理:12)",
               "grade": "ok"
             },
             {
@@ -16393,7 +16401,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "15.24 (合理:12)",
+              "value": "15.23 (合理:12)",
               "grade": "warn"
             },
             {
@@ -16418,7 +16426,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "20.6%",
+              "value": "20.3%",
               "grade": "ok"
             }
           ],
@@ -16463,7 +16471,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "21.8 vs 15.2",
+              "value": "21.7 vs 15.2",
               "grade": "fail"
             }
           ],
@@ -16556,7 +16564,7 @@
         },
         {
           "metric": "P/E",
-          "value": "15.24 (合理:12)",
+          "value": "15.23 (合理:12)",
           "grade": "ok"
         },
         {
@@ -16624,13 +16632,13 @@
       "eps_latest": 3.3,
       "debt_to_equity": 1.46,
       "current_ratio": 0.59,
-      "pe_ratio": 28.09,
-      "forward_pe": 21.13,
-      "market_cap_b": 193.3,
+      "pe_ratio": 28.12,
+      "forward_pe": 21.15,
+      "market_cap_b": 193.5,
       "dividend_yield": 271.0,
       "high_52w": 96.21,
       "low_52w": 63.64,
-      "current_price": 92.7,
+      "current_price": 92.78,
       "fcf_positive_years": 3,
       "fcf_total_years": 4,
       "fcf_latest_b": 3.21,
@@ -16666,7 +16674,7 @@
             },
             {
               "metric": "P/E",
-              "value": "28.09 (合理:12)",
+              "value": "28.12 (合理:12)",
               "grade": "fail"
             },
             {
@@ -16692,7 +16700,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "28.09 (合理:12)",
+              "value": "28.12 (合理:12)",
               "grade": "fail"
             },
             {
@@ -16722,7 +16730,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "89.2%",
+              "value": "89.5%",
               "grade": "fail"
             }
           ],
@@ -16732,7 +16740,7 @@
               "股息殖利率 271.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 28.09，估值偏高不符葛拉漢標準",
+              "P/E 28.12，估值偏高不符葛拉漢標準",
               "流動比率 0.6，短期流動性不足"
             ]
           }
@@ -16862,7 +16870,7 @@
         },
         {
           "metric": "P/E",
-          "value": "28.09 (合理:12)",
+          "value": "28.12 (合理:12)",
           "grade": "fail"
         },
         {
@@ -17532,13 +17540,13 @@
       "gross_margin_avg": 57.06,
       "eps_latest": 11.96,
       "current_ratio": 0.95,
-      "pe_ratio": 25.77,
-      "forward_pe": 21.5,
-      "market_cap_b": 219.0,
+      "pe_ratio": 25.75,
+      "forward_pe": 21.48,
+      "market_cap_b": 218.9,
       "dividend_yield": 239.0,
       "high_52w": 341.75,
       "low_52w": 283.47,
-      "current_price": 308.15,
+      "current_price": 307.94,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 7.19,
@@ -17574,7 +17582,7 @@
             },
             {
               "metric": "P/E",
-              "value": "25.77 (合理:12)",
+              "value": "25.75 (合理:12)",
               "grade": "fail"
             },
             {
@@ -17601,7 +17609,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "25.77 (合理:12)",
+              "value": "25.75 (合理:12)",
               "grade": "fail"
             },
             {
@@ -17631,7 +17639,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "42.3%",
+              "value": "42.0%",
               "grade": "warn"
             }
           ],
@@ -17641,7 +17649,7 @@
               "股息殖利率 239.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 25.77，估值偏高不符葛拉漢標準",
+              "P/E 25.75，估值偏高不符葛拉漢標準",
               "流動比率 0.9，短期流動性不足"
             ]
           }
@@ -17773,7 +17781,7 @@
         },
         {
           "metric": "P/E",
-          "value": "25.77 (合理:12)",
+          "value": "25.75 (合理:12)",
           "grade": "fail"
         },
         {
@@ -17845,12 +17853,12 @@
       "gross_margin_avg": 59.37,
       "eps_latest": 42.09,
       "current_ratio": 1.14,
-      "pe_ratio": 31.45,
-      "forward_pe": 25.86,
+      "pe_ratio": 31.43,
+      "forward_pe": 25.84,
       "market_cap_b": 26.9,
       "high_52w": 1525.17,
       "low_52w": 962.54,
-      "current_price": 1323.9,
+      "current_price": 1322.77,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 0.85,
@@ -17886,7 +17894,7 @@
             },
             {
               "metric": "P/E",
-              "value": "31.45 (合理:12)",
+              "value": "31.43 (合理:12)",
               "grade": "fail"
             },
             {
@@ -17904,7 +17912,7 @@
               "護城河寬廣：壟斷 + 轉換成本"
             ],
             "risks": [
-              "P/E 31.45 偏高，估值需留意",
+              "P/E 31.43 偏高，估值需留意",
               "新聞黃燈：偵測到 1 個需關注信號"
             ]
           }
@@ -17915,7 +17923,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "31.45 (合理:12)",
+              "value": "31.43 (合理:12)",
               "grade": "fail"
             },
             {
@@ -17940,7 +17948,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "64.2%",
+              "value": "64.0%",
               "grade": "fail"
             }
           ],
@@ -17948,7 +17956,7 @@
             "summary": "Mettler-Toledo International, I 不符合葛拉漢安全邊際要求。",
             "strengths": [],
             "risks": [
-              "P/E 31.45，估值偏高不符葛拉漢標準",
+              "P/E 31.43，估值偏高不符葛拉漢標準",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -17984,18 +17992,18 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "25.9 vs 31.4",
+              "value": "25.8 vs 31.4",
               "grade": "ok"
             }
           ],
           "pick_reason": {
             "summary": "Mettler-Toledo International, I 不符合林區成長合理價標準。",
             "strengths": [
-              "Forward PE 25.9 低於 Trailing PE 31.4，分析師看好成長",
+              "Forward PE 25.8 低於 Trailing PE 31.4，分析師看好成長",
               "淨利率 21.74%，獲利能力強"
             ],
             "risks": [
-              "P/E 31.45，估值可能過高",
+              "P/E 31.43，估值可能過高",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -18084,7 +18092,7 @@
         },
         {
           "metric": "P/E",
-          "value": "31.45 (合理:12)",
+          "value": "31.43 (合理:12)",
           "grade": "fail"
         },
         {
@@ -18122,7 +18130,7 @@
           "護城河寬廣：壟斷 + 轉換成本"
         ],
         "risks": [
-          "P/E 31.45 偏高，估值需留意",
+          "P/E 31.43 偏高，估值需留意",
           "新聞黃燈：偵測到 1 個需關注信號"
         ]
       },
@@ -18147,13 +18155,13 @@
       "eps_latest": 2.6,
       "debt_to_equity": 0.35,
       "current_ratio": 1.36,
-      "pe_ratio": 22.84,
-      "forward_pe": 21.2,
-      "market_cap_b": 58.9,
+      "pe_ratio": 22.82,
+      "forward_pe": 21.18,
+      "market_cap_b": 58.8,
       "dividend_yield": 154.0,
       "high_52w": 67.0,
       "low_52w": 34.56,
-      "current_price": 59.38,
+      "current_price": 59.32,
       "fcf_positive_years": 4,
       "fcf_total_years": 4,
       "fcf_latest_b": 2.54,
@@ -18189,7 +18197,7 @@
             },
             {
               "metric": "P/E",
-              "value": "22.84 (合理:12)",
+              "value": "22.82 (合理:12)",
               "grade": "fail"
             },
             {
@@ -18215,7 +18223,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "22.84 (合理:12)",
+              "value": "22.82 (合理:12)",
               "grade": "fail"
             },
             {
@@ -18245,7 +18253,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "76.5%",
+              "value": "76.3%",
               "grade": "fail"
             }
           ],
@@ -18256,7 +18264,7 @@
               "股息殖利率 154.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 22.84，估值偏高不符葛拉漢標準"
+              "P/E 22.82，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -18385,7 +18393,7 @@
         },
         {
           "metric": "P/E",
-          "value": "22.84 (合理:12)",
+          "value": "22.82 (合理:12)",
           "grade": "fail"
         },
         {
@@ -18767,15 +18775,12 @@
       "debt_to_equity": 1.76,
       "ocf_positive_years": 11,
       "ocf_total_years": 11,
-      "pe_ratio": 15.46,
-      "pb_ratio": 4.76,
-      "dividend_yield": 5.73,
       "current_price": 174.5,
       "high_52w": 212.5,
       "low_52w": 172.5,
       "investor_scores": {
         "buffett": {
-          "score": 55.8,
+          "score": 55.6,
           "grade": "B",
           "details": [
             {
@@ -18804,11 +18809,6 @@
               "grade": "pass"
             },
             {
-              "metric": "P/E",
-              "value": "15.46 (合理:12)",
-              "grade": "ok"
-            },
-            {
               "metric": "現金流",
               "value": "11/11",
               "grade": "pass"
@@ -18818,8 +18818,7 @@
             "summary": "富邦媒 部分指標良好，但有待改善之處。",
             "strengths": [
               "ROE 達 27.24%，資本運用效率優異",
-              "EPS 連續 11 年為正，盈利穩定可預測",
-              "股息殖利率 5.73%，提供穩定現金回報"
+              "EPS 連續 11 年為正，盈利穩定可預測"
             ],
             "risks": [
               "負債權益比 1.76 偏高",
@@ -18828,14 +18827,9 @@
           }
         },
         "graham": {
-          "score": 54.1,
+          "score": 52.7,
           "grade": "C",
           "details": [
-            {
-              "metric": "P/E",
-              "value": "15.46 (合理:12)",
-              "grade": "warn"
-            },
             {
               "metric": "負債權益比",
               "value": 1.76,
@@ -18844,11 +18838,6 @@
             {
               "metric": "EPS 持續性",
               "value": "11/11",
-              "grade": "pass"
-            },
-            {
-              "metric": "股息殖利率",
-              "value": "5.73%",
               "grade": "pass"
             },
             {
@@ -18865,7 +18854,6 @@
           "pick_reason": {
             "summary": "富邦媒 不符合葛拉漢安全邊際要求。",
             "strengths": [
-              "股息殖利率 5.73%，提供安全邊際",
               "EPS 連續 11 年為正，盈利穩定",
               "股價接近 52 週低點，逢低買入機會"
             ],
@@ -18967,7 +18955,7 @@
           }
         }
       },
-      "buffett_score": 55.8,
+      "buffett_score": 55.6,
       "grade": "B",
       "score_details": [
         {
@@ -18994,11 +18982,6 @@
           "metric": "EPS 持續性",
           "value": "11/11",
           "grade": "pass"
-        },
-        {
-          "metric": "P/E",
-          "value": "15.46 (合理:12)",
-          "grade": "ok"
         },
         {
           "metric": "現金流",
@@ -19038,8 +19021,7 @@
         "summary": "富邦媒 部分指標良好，但有待改善之處。",
         "strengths": [
           "ROE 達 27.24%，資本運用效率優異",
-          "EPS 連續 11 年為正，盈利穩定可預測",
-          "股息殖利率 5.73%，提供穩定現金回報"
+          "EPS 連續 11 年為正，盈利穩定可預測"
         ],
         "risks": [
           "負債權益比 1.76 偏高",
@@ -19050,317 +19032,6 @@
         {
           "chain": "台灣工業 / 傳產",
           "segment": "電商"
-        }
-      ]
-    },
-    {
-      "stock_id": "6505",
-      "name": "台塑化",
-      "market": "TW",
-      "currency": "TWD",
-      "roe_avg": 11.56,
-      "roe_latest": 18.34,
-      "roe_years": 11,
-      "net_margin_avg": 6.23,
-      "net_margin_latest": 10.58,
-      "gross_margin_avg": 7.72,
-      "eps_positive_years": 11,
-      "eps_total_years": 11,
-      "eps_latest": 1.04,
-      "eps_5yr_ago": 5.19,
-      "eps_cagr_5y": -27.49,
-      "debt_to_equity": 0.15,
-      "ocf_positive_years": 9,
-      "ocf_total_years": 11,
-      "pe_ratio": 51.92,
-      "pb_ratio": 1.45,
-      "dividend_yield": 2.22,
-      "current_price": 54.0,
-      "high_52w": 68.2,
-      "low_52w": 45.75,
-      "investor_scores": {
-        "buffett": {
-          "score": 55.8,
-          "grade": "B",
-          "details": [
-            {
-              "metric": "ROE",
-              "value": 11.56,
-              "grade": "warn"
-            },
-            {
-              "metric": "淨利率",
-              "value": 6.23,
-              "grade": "warn"
-            },
-            {
-              "metric": "毛利率",
-              "value": 7.72,
-              "grade": "fail"
-            },
-            {
-              "metric": "負債權益比",
-              "value": 0.15,
-              "grade": "pass"
-            },
-            {
-              "metric": "EPS 持續性",
-              "value": "11/11",
-              "grade": "pass"
-            },
-            {
-              "metric": "P/E",
-              "value": "51.92 (合理:12)",
-              "grade": "fail"
-            },
-            {
-              "metric": "現金流",
-              "value": "9/11",
-              "grade": "ok"
-            }
-          ],
-          "pick_reason": {
-            "summary": "台塑化 部分指標良好，但有待改善之處。",
-            "strengths": [
-              "負債權益比僅 0.15，財務極度穩健",
-              "EPS 連續 11 年為正，盈利穩定可預測",
-              "股息殖利率 2.22%，提供穩定現金回報",
-              "護城河適中：規模 + 區域壟斷"
-            ],
-            "risks": [
-              "P/E 51.92 偏高，估值需留意"
-            ]
-          }
-        },
-        "graham": {
-          "score": 62.4,
-          "grade": "B",
-          "details": [
-            {
-              "metric": "P/E",
-              "value": "51.92 (合理:12)",
-              "grade": "fail"
-            },
-            {
-              "metric": "負債權益比",
-              "value": 0.15,
-              "grade": "pass"
-            },
-            {
-              "metric": "EPS 持續性",
-              "value": "11/11",
-              "grade": "pass"
-            },
-            {
-              "metric": "股息殖利率",
-              "value": "2.22%",
-              "grade": "ok"
-            },
-            {
-              "metric": "淨利率",
-              "value": 6.23,
-              "grade": "ok"
-            },
-            {
-              "metric": "52W 位置",
-              "value": "36.7%",
-              "grade": "warn"
-            }
-          ],
-          "pick_reason": {
-            "summary": "台塑化 部分符合葛拉漢標準，估值或財務面仍有疑慮。",
-            "strengths": [
-              "負債權益比 0.15，資產負債表極度穩健",
-              "股息殖利率 2.22%，有穩定現金回報",
-              "EPS 連續 11 年為正，盈利穩定"
-            ],
-            "risks": [
-              "P/E 51.92，估值偏高不符葛拉漢標準"
-            ]
-          }
-        },
-        "lynch": {
-          "score": 44.6,
-          "grade": "C",
-          "details": [
-            {
-              "metric": "EPS CAGR 5Y",
-              "value": "-27.49%",
-              "grade": "fail"
-            },
-            {
-              "metric": "ROE",
-              "value": 11.56,
-              "grade": "warn"
-            },
-            {
-              "metric": "負債權益比",
-              "value": 0.15,
-              "grade": "pass"
-            },
-            {
-              "metric": "淨利率",
-              "value": 6.23,
-              "grade": "warn"
-            },
-            {
-              "metric": "EPS 持續性",
-              "value": "11/11",
-              "grade": "pass"
-            }
-          ],
-          "pick_reason": {
-            "summary": "台塑化 不符合林區成長合理價標準。",
-            "strengths": [
-              "低負債（D/E 0.15），成長基礎穩固"
-            ],
-            "risks": [
-              "EPS CAGR 僅 -27.49%，成長動能不足",
-              "P/E 51.92，估值可能過高"
-            ]
-          }
-        },
-        "fisher": {
-          "score": 27.0,
-          "grade": "C",
-          "details": [
-            {
-              "metric": "毛利率",
-              "value": 7.72,
-              "grade": "fail"
-            },
-            {
-              "metric": "ROE",
-              "value": 11.56,
-              "grade": "fail"
-            },
-            {
-              "metric": "EPS CAGR 5Y",
-              "value": "-27.49%",
-              "grade": "fail"
-            },
-            {
-              "metric": "淨利率",
-              "value": 6.23,
-              "grade": "warn"
-            },
-            {
-              "metric": "現金流持續性",
-              "value": "9/11",
-              "grade": "ok"
-            },
-            {
-              "metric": "EPS 持續性",
-              "value": "11/11",
-              "grade": "pass"
-            },
-            {
-              "metric": "負債權益比",
-              "value": 0.15,
-              "grade": "pass"
-            }
-          ],
-          "pick_reason": {
-            "summary": "台塑化 不符合乎雪的高品質成長要求。",
-            "strengths": [
-              "EPS 連續 11 年為正，品質經得起時間考驗",
-              "護城河：規模 + 區域壟斷"
-            ],
-            "risks": [
-              "毛利率僅 7.72%，產品差異化不足",
-              "ROE 11.56%，管理效率偏低",
-              "EPS CAGR -27.49%，成長乏力"
-            ]
-          }
-        }
-      },
-      "buffett_score": 55.8,
-      "grade": "B",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": 11.56,
-          "grade": "warn"
-        },
-        {
-          "metric": "淨利率",
-          "value": 6.23,
-          "grade": "warn"
-        },
-        {
-          "metric": "毛利率",
-          "value": 7.72,
-          "grade": "fail"
-        },
-        {
-          "metric": "負債權益比",
-          "value": 0.15,
-          "grade": "pass"
-        },
-        {
-          "metric": "EPS 持續性",
-          "value": "11/11",
-          "grade": "pass"
-        },
-        {
-          "metric": "P/E",
-          "value": "51.92 (合理:12)",
-          "grade": "fail"
-        },
-        {
-          "metric": "現金流",
-          "value": "9/11",
-          "grade": "ok"
-        }
-      ],
-      "moat": {
-        "moat_type": "規模 + 區域壟斷",
-        "moat_desc": "台灣最大民營煉油廠 (50 萬桶/日)；國內市場雙寡頭",
-        "moat_width": "narrow"
-      },
-      "exit_conditions": "台灣能源進口依賴風險；煉油利差長期壓縮",
-      "news": {
-        "items": [
-          {
-            "title": "台塑PVC突停報價 塑化行情增溫？ 網憂：物價、房價恐再漲 - Yahoo股市",
-            "date": "Fri, 17 Apr 2026 08:28:00 GMT"
-          },
-          {
-            "title": "【即時新聞】台塑化爆量飆漲10%！塑化族群大洗牌，這「5檔概念股」多空激戰！ - CMoney投資網誌",
-            "date": "Mon, 09 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "6505 台塑化- [新聞] 中東衝突不排除持久戰！台塑化、長榮｜CMoney 股市爆料同學會 - CMoney",
-            "date": "Thu, 19 Mar 2026 03:12:10 GMT"
-          },
-          {
-            "title": "台塑化（6505）昨漲停今殺跌停鎖61.4元！3000張委賣逃不掉…1天秒變韭菜 - 聯合新聞網",
-            "date": "Tue, 10 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "台塑集團全喊卡了！台化預計4月跟進「不可抗力」 法人看好短線動能強烈 - Yahoo股市",
-            "date": "Sun, 29 Mar 2026 07:00:00 GMT"
-          }
-        ],
-        "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
-      },
-      "pick_reason": {
-        "summary": "台塑化 部分指標良好，但有待改善之處。",
-        "strengths": [
-          "負債權益比僅 0.15，財務極度穩健",
-          "EPS 連續 11 年為正，盈利穩定可預測",
-          "股息殖利率 2.22%，提供穩定現金回報",
-          "護城河適中：規模 + 區域壟斷"
-        ],
-        "risks": [
-          "P/E 51.92 偏高，估值需留意"
-        ]
-      },
-      "industry_chains": [
-        {
-          "chain": "能源 / 石油產業鏈",
-          "segment": "下游 (煉化)"
         }
       ]
     },
@@ -20283,13 +19954,13 @@
       "eps_latest": 5.69,
       "debt_to_equity": 1.47,
       "current_ratio": 0.46,
-      "pe_ratio": 23.76,
-      "forward_pe": 20.55,
+      "pe_ratio": 23.78,
+      "forward_pe": 20.57,
       "market_cap_b": 26.4,
       "dividend_yield": 252.0,
       "high_52w": 150.51,
       "low_52w": 121.28,
-      "current_price": 135.2,
+      "current_price": 135.32,
       "fcf_positive_years": 0,
       "fcf_total_years": 4,
       "fcf_latest_b": -1.24,
@@ -20325,7 +19996,7 @@
             },
             {
               "metric": "P/E",
-              "value": "23.76 (合理:12)",
+              "value": "23.78 (合理:12)",
               "grade": "fail"
             },
             {
@@ -20353,7 +20024,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "23.76 (合理:12)",
+              "value": "23.78 (合理:12)",
               "grade": "fail"
             },
             {
@@ -20383,7 +20054,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "47.6%",
+              "value": "48.0%",
               "grade": "warn"
             }
           ],
@@ -20393,7 +20064,7 @@
               "股息殖利率 252.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 23.76，估值偏高不符葛拉漢標準",
+              "P/E 23.78，估值偏高不符葛拉漢標準",
               "流動比率 0.5，短期流動性不足",
               "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
             ]
@@ -20528,7 +20199,7 @@
         },
         {
           "metric": "P/E",
-          "value": "23.76 (合理:12)",
+          "value": "23.78 (合理:12)",
           "grade": "fail"
         },
         {
@@ -20554,12 +20225,12 @@
             "date": "Thu, 28 Sep 2017 13:02:32 GMT"
           },
           {
-            "title": "BofA Securities Upgrades American Water Works(AWK.US) to Hold Rating, Raises Target Price to $139 - 富途牛牛",
-            "date": "Tue, 13 Jan 2026 08:00:00 GMT"
-          },
-          {
             "title": "Barclays Maintains American Water Works(AWK.US) With Sell Rating, Raises Target Price to $124 - 富途牛牛",
             "date": "Mon, 20 Apr 2026 12:52:22 GMT"
+          },
+          {
+            "title": "BofA Securities Upgrades American Water Works(AWK.US) to Hold Rating, Raises Target Price to $139 - 富途牛牛",
+            "date": "Tue, 13 Jan 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "yellow",
@@ -20605,9 +20276,6 @@
       "ocf_total_years": 11,
       "pb_ratio": 0.92,
       "dividend_yield": 0.95,
-      "current_price": 52.6,
-      "high_52w": 56.3,
-      "low_52w": 37.9,
       "investor_scores": {
         "buffett": {
           "score": 50.0,
@@ -20654,8 +20322,8 @@
           }
         },
         "graham": {
-          "score": 52.3,
-          "grade": "C",
+          "score": 61.8,
+          "grade": "B",
           "details": [
             {
               "metric": "負債權益比",
@@ -20676,15 +20344,10 @@
               "metric": "淨利率",
               "value": 14.66,
               "grade": "pass"
-            },
-            {
-              "metric": "52W 位置",
-              "value": "79.9%",
-              "grade": "fail"
             }
           ],
           "pick_reason": {
-            "summary": "台塑 不符合葛拉漢安全邊際要求。",
+            "summary": "台塑 部分符合葛拉漢標準，估值或財務面仍有疑慮。",
             "strengths": [],
             "risks": []
           }
@@ -21447,9 +21110,6 @@
       "name": "國泰金",
       "market": "TW",
       "currency": "TWD",
-      "roe_avg": 5.43,
-      "roe_latest": 9.98,
-      "roe_years": 11,
       "net_margin_avg": 11.18,
       "net_margin_latest": 26.61,
       "eps_positive_years": 11,
@@ -21457,7 +21117,6 @@
       "eps_latest": 7.06,
       "eps_5yr_ago": 10.34,
       "eps_cagr_5y": -7.35,
-      "debt_to_equity": 14.35,
       "ocf_positive_years": 9,
       "ocf_total_years": 11,
       "pe_ratio": 11.29,
@@ -21473,8 +21132,8 @@
           "details": [
             {
               "metric": "ROE",
-              "value": 5.43,
-              "grade": "fail"
+              "value": null,
+              "grade": "nodata"
             },
             {
               "metric": "淨利率",
@@ -21488,8 +21147,8 @@
             },
             {
               "metric": "負債權益比",
-              "value": 14.35,
-              "grade": "fail"
+              "value": null,
+              "grade": "nodata"
             },
             {
               "metric": "EPS 持續性",
@@ -21515,7 +21174,6 @@
               "股息殖利率 4.69%，提供穩定現金回報"
             ],
             "risks": [
-              "負債權益比 14.35 偏高",
               "新聞紅燈：偵測到 2 個重大風險信號"
             ]
           }
@@ -21531,8 +21189,8 @@
             },
             {
               "metric": "負債權益比",
-              "value": 14.35,
-              "grade": "fail"
+              "value": null,
+              "grade": "nodata"
             },
             {
               "metric": "EPS 持續性",
@@ -21563,7 +21221,6 @@
               "EPS 連續 11 年為正，盈利穩定"
             ],
             "risks": [
-              "負債權益比 14.35，財務風險偏高",
               "新聞風險：偵測到 2 個重大風險信號"
             ]
           }
@@ -21579,13 +21236,13 @@
             },
             {
               "metric": "ROE",
-              "value": 5.43,
-              "grade": "fail"
+              "value": null,
+              "grade": "nodata"
             },
             {
               "metric": "負債權益比",
-              "value": 14.35,
-              "grade": "fail"
+              "value": null,
+              "grade": "nodata"
             },
             {
               "metric": "淨利率",
@@ -21618,8 +21275,8 @@
             },
             {
               "metric": "ROE",
-              "value": 5.43,
-              "grade": "fail"
+              "value": null,
+              "grade": "nodata"
             },
             {
               "metric": "EPS CAGR 5Y",
@@ -21643,8 +21300,8 @@
             },
             {
               "metric": "負債權益比",
-              "value": 14.35,
-              "grade": "fail"
+              "value": null,
+              "grade": "nodata"
             }
           ],
           "pick_reason": {
@@ -21653,7 +21310,6 @@
               "EPS 連續 11 年為正，品質經得起時間考驗"
             ],
             "risks": [
-              "ROE 5.43%，管理效率偏低",
               "EPS CAGR -7.35%，成長乏力",
               "新聞風險：偵測到 2 個重大風險信號"
             ]
@@ -21665,8 +21321,8 @@
       "score_details": [
         {
           "metric": "ROE",
-          "value": 5.43,
-          "grade": "fail"
+          "value": null,
+          "grade": "nodata"
         },
         {
           "metric": "淨利率",
@@ -21680,8 +21336,8 @@
         },
         {
           "metric": "負債權益比",
-          "value": 14.35,
-          "grade": "fail"
+          "value": null,
+          "grade": "nodata"
         },
         {
           "metric": "EPS 持續性",
@@ -21720,8 +21376,8 @@
             "date": "Tue, 20 Jan 2026 08:00:00 GMT"
           },
           {
-            "title": "大神專訪4-2》好學生變壞怎麼辦？他揭2種股票不能存出清中鋼、兆豐金、國泰金原因曝- 上市櫃 - 旺得富理財網",
-            "date": "Wed, 17 Dec 2025 08:00:00 GMT"
+            "title": "〈國泰金法說〉國壽前9月股海賺625億元 台股投報率逾12% 未實現760億元 - news.cnyes.com",
+            "date": "Fri, 28 Nov 2025 08:00:00 GMT"
           }
         ],
         "risk_level": "red",
@@ -21735,7 +21391,6 @@
           "股息殖利率 4.69%，提供穩定現金回報"
         ],
         "risks": [
-          "負債權益比 14.35 偏高",
           "新聞紅燈：偵測到 2 個重大風險信號"
         ]
       },
@@ -22369,13 +22024,13 @@
       "eps_latest": 3.92,
       "debt_to_equity": 1.91,
       "current_ratio": 0.65,
-      "pe_ratio": 24.08,
+      "pe_ratio": 24.09,
       "forward_pe": 19.21,
-      "market_cap_b": 106.4,
+      "market_cap_b": 106.5,
       "dividend_yield": 313.0,
       "high_52w": 100.84,
       "low_52w": 83.09,
-      "current_price": 94.41,
+      "current_price": 94.43,
       "fcf_positive_years": 1,
       "fcf_total_years": 4,
       "fcf_latest_b": -2.94,
@@ -22411,7 +22066,7 @@
             },
             {
               "metric": "P/E",
-              "value": "24.08 (合理:12)",
+              "value": "24.09 (合理:12)",
               "grade": "fail"
             },
             {
@@ -22440,7 +22095,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "24.08 (合理:12)",
+              "value": "24.09 (合理:12)",
               "grade": "fail"
             },
             {
@@ -22470,7 +22125,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "63.8%",
+              "value": "63.9%",
               "grade": "fail"
             }
           ],
@@ -22480,7 +22135,7 @@
               "股息殖利率 313.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 24.08，估值偏高不符葛拉漢標準",
+              "P/E 24.09，估值偏高不符葛拉漢標準",
               "負債權益比 1.91，財務風險偏高",
               "流動比率 0.7，短期流動性不足"
             ]
@@ -22613,7 +22268,7 @@
         },
         {
           "metric": "P/E",
-          "value": "24.08 (合理:12)",
+          "value": "24.09 (合理:12)",
           "grade": "fail"
         },
         {
@@ -22675,6 +22330,323 @@
       ]
     },
     {
+      "stock_id": "CEG",
+      "name": "Constellation Energy Corporatio",
+      "market": "US",
+      "currency": "USD",
+      "roe_avg": 14.46,
+      "roe_latest": 15.97,
+      "roe_years": 4,
+      "net_margin_avg": 7.71,
+      "net_margin_latest": 9.08,
+      "gross_margin_avg": 16.38,
+      "eps_latest": 7.41,
+      "debt_to_equity": 0.64,
+      "current_ratio": 1.53,
+      "pe_ratio": 39.31,
+      "forward_pe": 21.2,
+      "market_cap_b": 105.5,
+      "dividend_yield": 58.0,
+      "high_52w": 412.7,
+      "low_52w": 188.01,
+      "current_price": 291.29,
+      "fcf_positive_years": 1,
+      "fcf_total_years": 4,
+      "fcf_latest_b": 1.29,
+      "investor_scores": {
+        "buffett": {
+          "score": 34.7,
+          "grade": "C",
+          "details": [
+            {
+              "metric": "ROE",
+              "value": 14.46,
+              "grade": "warn"
+            },
+            {
+              "metric": "淨利率",
+              "value": 7.71,
+              "grade": "warn"
+            },
+            {
+              "metric": "毛利率",
+              "value": 16.38,
+              "grade": "fail"
+            },
+            {
+              "metric": "負債權益比",
+              "value": 0.64,
+              "grade": "ok"
+            },
+            {
+              "metric": "FCF 持續性",
+              "value": "1/4",
+              "grade": "warn"
+            },
+            {
+              "metric": "P/E",
+              "value": "39.31 (合理:12)",
+              "grade": "fail"
+            },
+            {
+              "metric": "FCF",
+              "value": "1/4",
+              "grade": "warn"
+            }
+          ],
+          "pick_reason": {
+            "summary": "Constellation Energy Corporatio 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "負債權益比 0.64，資產負債表健康",
+              "股息殖利率 58.0%，提供穩定現金回報",
+              "護城河寬廣：不可複製資產 + 稀缺性"
+            ],
+            "risks": [
+              "P/E 39.31 偏高，估值需留意",
+              "新聞黃燈：偵測到 2 個需關注信號"
+            ]
+          }
+        },
+        "graham": {
+          "score": 45.0,
+          "grade": "C",
+          "details": [
+            {
+              "metric": "P/E",
+              "value": "39.31 (合理:12)",
+              "grade": "fail"
+            },
+            {
+              "metric": "負債權益比",
+              "value": 0.64,
+              "grade": "ok"
+            },
+            {
+              "metric": "流動比率",
+              "value": 1.53,
+              "grade": "ok"
+            },
+            {
+              "metric": "EPS 持續性",
+              "value": null,
+              "grade": "nodata"
+            },
+            {
+              "metric": "股息殖利率",
+              "value": "58.0%",
+              "grade": "pass"
+            },
+            {
+              "metric": "淨利率",
+              "value": 7.71,
+              "grade": "ok"
+            },
+            {
+              "metric": "52W 位置",
+              "value": "46.0%",
+              "grade": "warn"
+            }
+          ],
+          "pick_reason": {
+            "summary": "Constellation Energy Corporatio 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "股息殖利率 58.0%，提供安全邊際"
+            ],
+            "risks": [
+              "P/E 39.31，估值偏高不符葛拉漢標準",
+              "新聞風險：偵測到 2 個需關注信號"
+            ]
+          }
+        },
+        "lynch": {
+          "score": 34.7,
+          "grade": "C",
+          "details": [
+            {
+              "metric": "EPS CAGR 5Y",
+              "value": null,
+              "grade": "nodata"
+            },
+            {
+              "metric": "ROE",
+              "value": 14.46,
+              "grade": "warn"
+            },
+            {
+              "metric": "負債權益比",
+              "value": 0.64,
+              "grade": "ok"
+            },
+            {
+              "metric": "淨利率",
+              "value": 7.71,
+              "grade": "warn"
+            },
+            {
+              "metric": "EPS 持續性",
+              "value": null,
+              "grade": "nodata"
+            },
+            {
+              "metric": "Forward PE 折價",
+              "value": "21.2 vs 39.3",
+              "grade": "pass"
+            }
+          ],
+          "pick_reason": {
+            "summary": "Constellation Energy Corporatio 不符合林區成長合理價標準。",
+            "strengths": [
+              "Forward PE 21.2 低於 Trailing PE 39.3，分析師看好成長"
+            ],
+            "risks": [
+              "P/E 39.31，估值可能過高",
+              "新聞風險：偵測到 2 個需關注信號"
+            ]
+          }
+        },
+        "fisher": {
+          "score": 15.0,
+          "grade": "C",
+          "details": [
+            {
+              "metric": "毛利率",
+              "value": 16.38,
+              "grade": "fail"
+            },
+            {
+              "metric": "ROE",
+              "value": 14.46,
+              "grade": "warn"
+            },
+            {
+              "metric": "EPS CAGR 5Y",
+              "value": null,
+              "grade": "nodata"
+            },
+            {
+              "metric": "淨利率",
+              "value": 7.71,
+              "grade": "warn"
+            },
+            {
+              "metric": "現金流持續性",
+              "value": "1/4",
+              "grade": "fail"
+            },
+            {
+              "metric": "EPS 持續性",
+              "value": null,
+              "grade": "nodata"
+            },
+            {
+              "metric": "負債權益比",
+              "value": 0.64,
+              "grade": "ok"
+            }
+          ],
+          "pick_reason": {
+            "summary": "Constellation Energy Corporatio 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "護城河：不可複製資產 + 稀缺性"
+            ],
+            "risks": [
+              "毛利率僅 16.38%，產品差異化不足",
+              "新聞風險：偵測到 2 個需關注信號"
+            ]
+          }
+        }
+      },
+      "buffett_score": 34.7,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": 14.46,
+          "grade": "warn"
+        },
+        {
+          "metric": "淨利率",
+          "value": 7.71,
+          "grade": "warn"
+        },
+        {
+          "metric": "毛利率",
+          "value": 16.38,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": 0.64,
+          "grade": "ok"
+        },
+        {
+          "metric": "FCF 持續性",
+          "value": "1/4",
+          "grade": "warn"
+        },
+        {
+          "metric": "P/E",
+          "value": "39.31 (合理:12)",
+          "grade": "fail"
+        },
+        {
+          "metric": "FCF",
+          "value": "1/4",
+          "grade": "warn"
+        }
+      ],
+      "moat": {
+        "moat_type": "不可複製資產 + 稀缺性",
+        "moat_desc": "美國最大核電機組群；AI 資料中心 24/7 零碳基載電力；資產無法複製",
+        "moat_width": "wide"
+      },
+      "exit_conditions": "核能政策逆轉；核電廠延役申請被否決",
+      "news": {
+        "items": [
+          {
+            "title": "Constellation says delayed transmission projects could delay Three Mile Island restart (CEG:NASDAQ) - Seeking Alpha",
+            "date": "Mon, 06 Apr 2026 07:00:00 GMT"
+          },
+          {
+            "title": "恒大物業(06666.HK)：主要股東已選定投標人 就潛在買賣進行排他性談判 - AASTOCKS.com",
+            "date": "Wed, 15 Apr 2026 09:31:00 GMT"
+          },
+          {
+            "title": "【22:32 即時新聞】Constellation Energy(CEG) 重挫逾5% 估值偏貴疑慮升溫 - CMoney投資網誌",
+            "date": "Wed, 11 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "特朗普擬推緊急電力拍賣以解“電荒” Vistra(VST.US)、Constellation Energy(CEG.US)等電力公司或受益作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Fri, 16 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "每日跳空排名星期二：UL、UBS、CEG等 - Moomoo",
+            "date": "Tue, 31 Mar 2026 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 2 個需關注信號"
+      },
+      "pick_reason": {
+        "summary": "Constellation Energy Corporatio 目前不符合巴菲特核心選股標準。",
+        "strengths": [
+          "負債權益比 0.64，資產負債表健康",
+          "股息殖利率 58.0%，提供穩定現金回報",
+          "護城河寬廣：不可複製資產 + 稀缺性"
+        ],
+        "risks": [
+          "P/E 39.31 偏高，估值需留意",
+          "新聞黃燈：偵測到 2 個需關注信號"
+        ]
+      },
+      "industry_chains": [
+        {
+          "chain": "能源 / 石油產業鏈",
+          "segment": "核能發電"
+        }
+      ]
+    },
+    {
       "stock_id": "5880",
       "name": "合庫金",
       "market": "TW",
@@ -22690,8 +22662,6 @@
       "eps_5yr_ago": 1.51,
       "eps_cagr_5y": -2.07,
       "debt_to_equity": 17.87,
-      "ocf_positive_years": 5,
-      "ocf_total_years": 11,
       "pe_ratio": 17.39,
       "pb_ratio": 1.33,
       "dividend_yield": 4.44,
@@ -22700,7 +22670,7 @@
       "low_52w": 22.55,
       "investor_scores": {
         "buffett": {
-          "score": 37.9,
+          "score": 32.6,
           "grade": "C",
           "details": [
             {
@@ -22735,8 +22705,8 @@
             },
             {
               "metric": "現金流",
-              "value": "5/11",
-              "grade": "warn"
+              "value": null,
+              "grade": "nodata"
             }
           ],
           "pick_reason": {
@@ -22863,8 +22833,8 @@
             },
             {
               "metric": "現金流持續性",
-              "value": "5/11",
-              "grade": "fail"
+              "value": null,
+              "grade": "nodata"
             },
             {
               "metric": "EPS 持續性",
@@ -22890,7 +22860,7 @@
           }
         }
       },
-      "buffett_score": 37.9,
+      "buffett_score": 32.6,
       "grade": "C",
       "score_details": [
         {
@@ -22925,8 +22895,8 @@
         },
         {
           "metric": "現金流",
-          "value": "5/11",
-          "grade": "warn"
+          "value": null,
+          "grade": "nodata"
         }
       ],
       "moat": {},
@@ -22972,323 +22942,6 @@
         {
           "chain": "台灣金融",
           "segment": "金控"
-        }
-      ]
-    },
-    {
-      "stock_id": "CEG",
-      "name": "Constellation Energy Corporatio",
-      "market": "US",
-      "currency": "USD",
-      "roe_avg": 14.46,
-      "roe_latest": 15.97,
-      "roe_years": 4,
-      "net_margin_avg": 7.71,
-      "net_margin_latest": 9.08,
-      "gross_margin_avg": 16.38,
-      "eps_latest": 7.41,
-      "debt_to_equity": 0.64,
-      "current_ratio": 1.53,
-      "pe_ratio": 39.27,
-      "forward_pe": 21.18,
-      "market_cap_b": 105.4,
-      "dividend_yield": 58.0,
-      "high_52w": 412.7,
-      "low_52w": 188.01,
-      "current_price": 290.99,
-      "fcf_positive_years": 1,
-      "fcf_total_years": 4,
-      "fcf_latest_b": 1.29,
-      "investor_scores": {
-        "buffett": {
-          "score": 34.7,
-          "grade": "C",
-          "details": [
-            {
-              "metric": "ROE",
-              "value": 14.46,
-              "grade": "warn"
-            },
-            {
-              "metric": "淨利率",
-              "value": 7.71,
-              "grade": "warn"
-            },
-            {
-              "metric": "毛利率",
-              "value": 16.38,
-              "grade": "fail"
-            },
-            {
-              "metric": "負債權益比",
-              "value": 0.64,
-              "grade": "ok"
-            },
-            {
-              "metric": "FCF 持續性",
-              "value": "1/4",
-              "grade": "warn"
-            },
-            {
-              "metric": "P/E",
-              "value": "39.27 (合理:12)",
-              "grade": "fail"
-            },
-            {
-              "metric": "FCF",
-              "value": "1/4",
-              "grade": "warn"
-            }
-          ],
-          "pick_reason": {
-            "summary": "Constellation Energy Corporatio 目前不符合巴菲特核心選股標準。",
-            "strengths": [
-              "負債權益比 0.64，資產負債表健康",
-              "股息殖利率 58.0%，提供穩定現金回報",
-              "護城河寬廣：不可複製資產 + 稀缺性"
-            ],
-            "risks": [
-              "P/E 39.27 偏高，估值需留意",
-              "新聞黃燈：偵測到 2 個需關注信號"
-            ]
-          }
-        },
-        "graham": {
-          "score": 45.0,
-          "grade": "C",
-          "details": [
-            {
-              "metric": "P/E",
-              "value": "39.27 (合理:12)",
-              "grade": "fail"
-            },
-            {
-              "metric": "負債權益比",
-              "value": 0.64,
-              "grade": "ok"
-            },
-            {
-              "metric": "流動比率",
-              "value": 1.53,
-              "grade": "ok"
-            },
-            {
-              "metric": "EPS 持續性",
-              "value": null,
-              "grade": "nodata"
-            },
-            {
-              "metric": "股息殖利率",
-              "value": "58.0%",
-              "grade": "pass"
-            },
-            {
-              "metric": "淨利率",
-              "value": 7.71,
-              "grade": "ok"
-            },
-            {
-              "metric": "52W 位置",
-              "value": "45.8%",
-              "grade": "warn"
-            }
-          ],
-          "pick_reason": {
-            "summary": "Constellation Energy Corporatio 不符合葛拉漢安全邊際要求。",
-            "strengths": [
-              "股息殖利率 58.0%，提供安全邊際"
-            ],
-            "risks": [
-              "P/E 39.27，估值偏高不符葛拉漢標準",
-              "新聞風險：偵測到 2 個需關注信號"
-            ]
-          }
-        },
-        "lynch": {
-          "score": 34.7,
-          "grade": "C",
-          "details": [
-            {
-              "metric": "EPS CAGR 5Y",
-              "value": null,
-              "grade": "nodata"
-            },
-            {
-              "metric": "ROE",
-              "value": 14.46,
-              "grade": "warn"
-            },
-            {
-              "metric": "負債權益比",
-              "value": 0.64,
-              "grade": "ok"
-            },
-            {
-              "metric": "淨利率",
-              "value": 7.71,
-              "grade": "warn"
-            },
-            {
-              "metric": "EPS 持續性",
-              "value": null,
-              "grade": "nodata"
-            },
-            {
-              "metric": "Forward PE 折價",
-              "value": "21.2 vs 39.3",
-              "grade": "pass"
-            }
-          ],
-          "pick_reason": {
-            "summary": "Constellation Energy Corporatio 不符合林區成長合理價標準。",
-            "strengths": [
-              "Forward PE 21.2 低於 Trailing PE 39.3，分析師看好成長"
-            ],
-            "risks": [
-              "P/E 39.27，估值可能過高",
-              "新聞風險：偵測到 2 個需關注信號"
-            ]
-          }
-        },
-        "fisher": {
-          "score": 15.0,
-          "grade": "C",
-          "details": [
-            {
-              "metric": "毛利率",
-              "value": 16.38,
-              "grade": "fail"
-            },
-            {
-              "metric": "ROE",
-              "value": 14.46,
-              "grade": "warn"
-            },
-            {
-              "metric": "EPS CAGR 5Y",
-              "value": null,
-              "grade": "nodata"
-            },
-            {
-              "metric": "淨利率",
-              "value": 7.71,
-              "grade": "warn"
-            },
-            {
-              "metric": "現金流持續性",
-              "value": "1/4",
-              "grade": "fail"
-            },
-            {
-              "metric": "EPS 持續性",
-              "value": null,
-              "grade": "nodata"
-            },
-            {
-              "metric": "負債權益比",
-              "value": 0.64,
-              "grade": "ok"
-            }
-          ],
-          "pick_reason": {
-            "summary": "Constellation Energy Corporatio 不符合乎雪的高品質成長要求。",
-            "strengths": [
-              "護城河：不可複製資產 + 稀缺性"
-            ],
-            "risks": [
-              "毛利率僅 16.38%，產品差異化不足",
-              "新聞風險：偵測到 2 個需關注信號"
-            ]
-          }
-        }
-      },
-      "buffett_score": 34.7,
-      "grade": "C",
-      "score_details": [
-        {
-          "metric": "ROE",
-          "value": 14.46,
-          "grade": "warn"
-        },
-        {
-          "metric": "淨利率",
-          "value": 7.71,
-          "grade": "warn"
-        },
-        {
-          "metric": "毛利率",
-          "value": 16.38,
-          "grade": "fail"
-        },
-        {
-          "metric": "負債權益比",
-          "value": 0.64,
-          "grade": "ok"
-        },
-        {
-          "metric": "FCF 持續性",
-          "value": "1/4",
-          "grade": "warn"
-        },
-        {
-          "metric": "P/E",
-          "value": "39.27 (合理:12)",
-          "grade": "fail"
-        },
-        {
-          "metric": "FCF",
-          "value": "1/4",
-          "grade": "warn"
-        }
-      ],
-      "moat": {
-        "moat_type": "不可複製資產 + 稀缺性",
-        "moat_desc": "美國最大核電機組群；AI 資料中心 24/7 零碳基載電力；資產無法複製",
-        "moat_width": "wide"
-      },
-      "exit_conditions": "核能政策逆轉；核電廠延役申請被否決",
-      "news": {
-        "items": [
-          {
-            "title": "Constellation says delayed transmission projects could delay Three Mile Island restart (CEG:NASDAQ) - Seeking Alpha",
-            "date": "Mon, 06 Apr 2026 07:00:00 GMT"
-          },
-          {
-            "title": "恒大物業(06666.HK)：主要股東已選定投標人 就潛在買賣進行排他性談判 - AASTOCKS.com",
-            "date": "Wed, 15 Apr 2026 09:31:00 GMT"
-          },
-          {
-            "title": "【22:32 即時新聞】Constellation Energy(CEG) 重挫逾5% 估值偏貴疑慮升溫 - CMoney投資網誌",
-            "date": "Wed, 11 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "特朗普擬推緊急電力拍賣以解“電荒” Vistra(VST.US)、Constellation Energy(CEG.US)等電力公司或受益作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
-            "date": "Fri, 16 Jan 2026 08:00:00 GMT"
-          },
-          {
-            "title": "每日跳空排名星期二：UL、UBS、CEG等 - Moomoo",
-            "date": "Tue, 31 Mar 2026 07:00:00 GMT"
-          }
-        ],
-        "risk_level": "yellow",
-        "risk_summary": "偵測到 2 個需關注信號"
-      },
-      "pick_reason": {
-        "summary": "Constellation Energy Corporatio 目前不符合巴菲特核心選股標準。",
-        "strengths": [
-          "負債權益比 0.64，資產負債表健康",
-          "股息殖利率 58.0%，提供穩定現金回報",
-          "護城河寬廣：不可複製資產 + 稀缺性"
-        ],
-        "risks": [
-          "P/E 39.27 偏高，估值需留意",
-          "新聞黃燈：偵測到 2 個需關注信號"
-        ]
-      },
-      "industry_chains": [
-        {
-          "chain": "能源 / 石油產業鏈",
-          "segment": "核能發電"
         }
       ]
     },
@@ -23590,6 +23243,264 @@
         ]
       },
       "industry_chains": []
+    },
+    {
+      "stock_id": "6505",
+      "name": "台塑化",
+      "market": "TW",
+      "currency": "TWD",
+      "net_margin_avg": 6.23,
+      "net_margin_latest": 10.58,
+      "gross_margin_avg": 7.72,
+      "eps_positive_years": 11,
+      "eps_total_years": 11,
+      "eps_latest": 1.04,
+      "eps_5yr_ago": 5.19,
+      "eps_cagr_5y": -27.49,
+      "investor_scores": {
+        "buffett": {
+          "score": 22.2,
+          "grade": "C",
+          "details": [
+            {
+              "metric": "ROE",
+              "value": null,
+              "grade": "nodata"
+            },
+            {
+              "metric": "淨利率",
+              "value": 6.23,
+              "grade": "warn"
+            },
+            {
+              "metric": "毛利率",
+              "value": 7.72,
+              "grade": "fail"
+            },
+            {
+              "metric": "負債權益比",
+              "value": null,
+              "grade": "nodata"
+            },
+            {
+              "metric": "EPS 持續性",
+              "value": "11/11",
+              "grade": "pass"
+            },
+            {
+              "metric": "現金流",
+              "value": null,
+              "grade": "nodata"
+            }
+          ],
+          "pick_reason": {
+            "summary": "台塑化 目前不符合巴菲特核心選股標準。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定可預測",
+              "護城河適中：規模 + 區域壟斷"
+            ],
+            "risks": []
+          }
+        },
+        "graham": {
+          "score": 48.9,
+          "grade": "C",
+          "details": [
+            {
+              "metric": "負債權益比",
+              "value": null,
+              "grade": "nodata"
+            },
+            {
+              "metric": "EPS 持續性",
+              "value": "11/11",
+              "grade": "pass"
+            },
+            {
+              "metric": "淨利率",
+              "value": 6.23,
+              "grade": "ok"
+            }
+          ],
+          "pick_reason": {
+            "summary": "台塑化 不符合葛拉漢安全邊際要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，盈利穩定"
+            ],
+            "risks": []
+          }
+        },
+        "lynch": {
+          "score": 21.5,
+          "grade": "C",
+          "details": [
+            {
+              "metric": "EPS CAGR 5Y",
+              "value": "-27.49%",
+              "grade": "fail"
+            },
+            {
+              "metric": "ROE",
+              "value": null,
+              "grade": "nodata"
+            },
+            {
+              "metric": "負債權益比",
+              "value": null,
+              "grade": "nodata"
+            },
+            {
+              "metric": "淨利率",
+              "value": 6.23,
+              "grade": "warn"
+            },
+            {
+              "metric": "EPS 持續性",
+              "value": "11/11",
+              "grade": "pass"
+            }
+          ],
+          "pick_reason": {
+            "summary": "台塑化 不符合林區成長合理價標準。",
+            "strengths": [],
+            "risks": [
+              "EPS CAGR 僅 -27.49%，成長動能不足"
+            ]
+          }
+        },
+        "fisher": {
+          "score": 15.0,
+          "grade": "C",
+          "details": [
+            {
+              "metric": "毛利率",
+              "value": 7.72,
+              "grade": "fail"
+            },
+            {
+              "metric": "ROE",
+              "value": null,
+              "grade": "nodata"
+            },
+            {
+              "metric": "EPS CAGR 5Y",
+              "value": "-27.49%",
+              "grade": "fail"
+            },
+            {
+              "metric": "淨利率",
+              "value": 6.23,
+              "grade": "warn"
+            },
+            {
+              "metric": "現金流持續性",
+              "value": null,
+              "grade": "nodata"
+            },
+            {
+              "metric": "EPS 持續性",
+              "value": "11/11",
+              "grade": "pass"
+            },
+            {
+              "metric": "負債權益比",
+              "value": null,
+              "grade": "nodata"
+            }
+          ],
+          "pick_reason": {
+            "summary": "台塑化 不符合乎雪的高品質成長要求。",
+            "strengths": [
+              "EPS 連續 11 年為正，品質經得起時間考驗",
+              "護城河：規模 + 區域壟斷"
+            ],
+            "risks": [
+              "毛利率僅 7.72%，產品差異化不足",
+              "EPS CAGR -27.49%，成長乏力"
+            ]
+          }
+        }
+      },
+      "buffett_score": 22.2,
+      "grade": "C",
+      "score_details": [
+        {
+          "metric": "ROE",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "淨利率",
+          "value": 6.23,
+          "grade": "warn"
+        },
+        {
+          "metric": "毛利率",
+          "value": 7.72,
+          "grade": "fail"
+        },
+        {
+          "metric": "負債權益比",
+          "value": null,
+          "grade": "nodata"
+        },
+        {
+          "metric": "EPS 持續性",
+          "value": "11/11",
+          "grade": "pass"
+        },
+        {
+          "metric": "現金流",
+          "value": null,
+          "grade": "nodata"
+        }
+      ],
+      "moat": {
+        "moat_type": "規模 + 區域壟斷",
+        "moat_desc": "台灣最大民營煉油廠 (50 萬桶/日)；國內市場雙寡頭",
+        "moat_width": "narrow"
+      },
+      "exit_conditions": "台灣能源進口依賴風險；煉油利差長期壓縮",
+      "news": {
+        "items": [
+          {
+            "title": "台塑PVC突停報價 塑化行情增溫？ 網憂：物價、房價恐再漲 - Yahoo股市",
+            "date": "Fri, 17 Apr 2026 08:28:00 GMT"
+          },
+          {
+            "title": "【即時新聞】台塑化爆量飆漲10%！塑化族群大洗牌，這「5檔概念股」多空激戰！ - CMoney投資網誌",
+            "date": "Mon, 09 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "6505 台塑化- [新聞] 中東衝突不排除持久戰！台塑化、長榮｜CMoney 股市爆料同學會 - CMoney",
+            "date": "Thu, 19 Mar 2026 03:12:10 GMT"
+          },
+          {
+            "title": "台塑化（6505）昨漲停今殺跌停鎖61.4元！3000張委賣逃不掉…1天秒變韭菜 - 聯合新聞網",
+            "date": "Tue, 10 Mar 2026 07:00:00 GMT"
+          },
+          {
+            "title": "台塑集團全喊卡了！台化預計4月跟進「不可抗力」 法人看好短線動能強烈 - Yahoo股市",
+            "date": "Sun, 29 Mar 2026 07:00:00 GMT"
+          }
+        ],
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
+      },
+      "pick_reason": {
+        "summary": "台塑化 目前不符合巴菲特核心選股標準。",
+        "strengths": [
+          "EPS 連續 11 年為正，盈利穩定可預測",
+          "護城河適中：規模 + 區域壟斷"
+        ],
+        "risks": []
+      },
+      "industry_chains": [
+        {
+          "chain": "能源 / 石油產業鏈",
+          "segment": "下游 (煉化)"
+        }
+      ]
     }
   ]
 }
