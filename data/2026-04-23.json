@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T14:50:11.891923",
+  "generated_at": "2026-04-23T14:59:59.821381",
   "date": "2026-04-23",
   "investor_profiles": {
     "buffett": {
@@ -390,6 +390,12 @@
         "risk_summary": "偵測到 1 個需關注信號"
       },
       {
+        "stock_id": "LRCX",
+        "name": "Lam Research Corporation",
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
+      },
+      {
         "stock_id": "ANET",
         "name": "Arista Networks, Inc.",
         "risk_level": "yellow",
@@ -708,8 +714,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 93.4,
+          "grade": "S",
+          "breakdown": {
+            "buffett": {
+              "score": 100.0,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 81.2,
+              "grade": "A",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 92.2,
+              "grade": "S",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 98.0,
+              "grade": "S",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 93.4,
+      "composite_grade": "S",
       "buffett_score": 100.0,
       "grade": "S",
       "score_details": [
@@ -1025,8 +1059,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 71.5,
+          "grade": "A",
+          "breakdown": {
+            "buffett": {
+              "score": 94.7,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 49.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 56.0,
+              "grade": "B",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 68.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 71.5,
+      "composite_grade": "A",
       "buffett_score": 94.7,
       "grade": "S",
       "score_details": [
@@ -1091,8 +1153,8 @@
             "date": "Tue, 17 Feb 2026 08:00:00 GMT"
           },
           {
-            "title": "OpenAI強調夥亞馬遜(AMZN.US)拓企業市場指與微軟(MSFT.US)合作限制發展US Stocks - Global News Content - AASTOCKS.com",
-            "date": "Mon, 13 Apr 2026 13:10:00 GMT"
+            "title": "微軟(MSFT.US)推出第二代人工智能晶片加強其雲端業務 - AASTOCKS.com",
+            "date": "Mon, 26 Jan 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -1345,8 +1407,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 73.3,
+          "grade": "A",
+          "breakdown": {
+            "buffett": {
+              "score": 94.7,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 55.0,
+              "grade": "B",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 56.0,
+              "grade": "B",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 70.0,
+              "grade": "A",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 73.3,
+      "composite_grade": "A",
       "buffett_score": 94.7,
       "grade": "S",
       "score_details": [
@@ -1407,12 +1497,12 @@
             "date": "Sun, 12 Apr 2026 19:36:45 GMT"
           },
           {
-            "title": "〈財報〉Alphabet營運出色 預告今年資本支出高達1850億美元 盤後震盪一度挫逾7% - Yahoo股市",
-            "date": "Wed, 04 Feb 2026 08:00:00 GMT"
+            "title": "Alphabet 今晚公布第四季業績 Google AI 報捷延續股價升勢？ - Yahoo 財經",
+            "date": "Tue, 03 Feb 2026 08:00:00 GMT"
           },
           {
-            "title": "Google 搜尋測試房屋銷售列表，Zillow 股價盤中一度重挫 - TechNews 科技新報",
-            "date": "Tue, 16 Dec 2025 08:00:00 GMT"
+            "title": "為何Alphabet砸錢布局AI基建拖累股價 博通、輝達卻笑了？ | 鉅亨網 - 美股雷達 - news.cnyes.com",
+            "date": "Fri, 06 Feb 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -1667,8 +1757,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 73.4,
+          "grade": "A",
+          "breakdown": {
+            "buffett": {
+              "score": 94.7,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 52.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 60.0,
+              "grade": "B",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 70.0,
+              "grade": "A",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 73.4,
+      "composite_grade": "A",
       "buffett_score": 94.7,
       "grade": "S",
       "score_details": [
@@ -1988,8 +2106,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 71.6,
+          "grade": "A",
+          "breakdown": {
+            "buffett": {
+              "score": 94.7,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 45.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 60.0,
+              "grade": "B",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 70.0,
+              "grade": "A",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 71.6,
+      "composite_grade": "A",
       "buffett_score": 94.7,
       "grade": "S",
       "score_details": [
@@ -2042,20 +2188,20 @@
             "date": "Tue, 07 Apr 2026 07:00:00 GMT"
           },
           {
-            "title": "美股異動丨阿斯麥夜盤大漲10%，Q4營收超預期+官宣120億歐元股票回購計劃 - AASTOCKS.com",
-            "date": "Tue, 27 Jan 2026 08:00:00 GMT"
-          },
-          {
-            "title": "分析師看多ASML 2026年成長動能續強 - Yahoo股市",
-            "date": "Fri, 27 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "ASML Reports Transactions Under Its Current Share Buyback Program - 富途牛牛",
-            "date": "Tue, 07 Apr 2026 12:51:13 GMT"
+            "title": "接單爆量助攻！ASML兩周市值暴增1000億美元 - Yahoo股市",
+            "date": "Wed, 28 Jan 2026 08:00:00 GMT"
           },
           {
             "title": "ASML 業績預告：中國、英特爾及其預測 - Moomoo",
             "date": "Mon, 13 Oct 2025 07:00:00 GMT"
+          },
+          {
+            "title": "ASML 獲分析師看好、股價飆 DRAM 客戶需求看增 - TechNews 科技新報",
+            "date": "Mon, 05 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "中國半導體巨頭聯名籲建立「中國版ASML」 突破先進製程技術瓶頸 - Yahoo股市",
+            "date": "Thu, 05 Mar 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -2315,8 +2461,36 @@
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
+        },
+        "composite": {
+          "score": 72.9,
+          "grade": "A",
+          "breakdown": {
+            "buffett": {
+              "score": 94.7,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 55.0,
+              "grade": "B",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 60.0,
+              "grade": "B",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 62.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 72.9,
+      "composite_grade": "A",
       "buffett_score": 94.7,
       "grade": "S",
       "score_details": [
@@ -2484,7 +2658,8 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 54.64 偏高，估值需留意"
+              "P/E 54.64 偏高，估值需留意",
+              "新聞黃燈：偵測到 1 個需關注信號"
             ]
           }
         },
@@ -2536,7 +2711,8 @@
               "股息殖利率 39.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 54.64，估值偏高不符葛拉漢標準"
+              "P/E 54.64，估值偏高不符葛拉漢標準",
+              "新聞風險：偵測到 1 個需關注信號"
             ]
           }
         },
@@ -2584,7 +2760,8 @@
               "淨利率 26.84%，獲利能力強"
             ],
             "risks": [
-              "P/E 54.64，估值可能過高"
+              "P/E 54.64，估值可能過高",
+              "新聞風險：偵測到 1 個需關注信號"
             ]
           }
         },
@@ -2636,10 +2813,40 @@
               "淨利率 26.84%，營運效率頂尖",
               "護城河：技術領先 + 轉換成本"
             ],
-            "risks": []
+            "risks": [
+              "新聞風險：偵測到 1 個需關注信號"
+            ]
+          }
+        },
+        "composite": {
+          "score": 72.9,
+          "grade": "A",
+          "breakdown": {
+            "buffett": {
+              "score": 94.7,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 55.0,
+              "grade": "B",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 60.0,
+              "grade": "B",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 62.0,
+              "grade": "B",
+              "weight": 0.15
+            }
           }
         }
       },
+      "composite_score": 72.9,
+      "composite_grade": "A",
       "buffett_score": 94.7,
       "grade": "S",
       "score_details": [
@@ -2704,12 +2911,12 @@
             "date": "Mon, 09 Feb 2026 08:00:00 GMT"
           },
           {
-            "title": "今日之牛：Lam Research (LRCX) - Bitget",
-            "date": "Mon, 06 Apr 2026 18:37:37 GMT"
+            "title": "【01:36 即時新聞】Lam Research LRCX 跌逾5%／隨半導體族群遭遇地緣風險與科技股拋售壓力 - CMoney投資網誌",
+            "date": "Fri, 06 Mar 2026 08:00:00 GMT"
           }
         ],
-        "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
+        "risk_level": "yellow",
+        "risk_summary": "偵測到 1 個需關注信號"
       },
       "pick_reason": {
         "summary": "Lam Research Corporation 符合巴菲特選股標準。",
@@ -2721,7 +2928,8 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 54.64 偏高，估值需留意"
+          "P/E 54.64 偏高，估值需留意",
+          "新聞黃燈：偵測到 1 個需關注信號"
         ]
       },
       "industry_chains": [
@@ -2953,8 +3161,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 72.6,
+          "grade": "A",
+          "breakdown": {
+            "buffett": {
+              "score": 94.7,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 50.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 60.0,
+              "grade": "B",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 68.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 72.6,
+      "composite_grade": "A",
       "buffett_score": 94.7,
       "grade": "S",
       "score_details": [
@@ -3273,8 +3509,36 @@
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
+        },
+        "composite": {
+          "score": 72.9,
+          "grade": "A",
+          "breakdown": {
+            "buffett": {
+              "score": 94.7,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 50.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 60.0,
+              "grade": "B",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 70.0,
+              "grade": "A",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 72.9,
+      "composite_grade": "A",
       "buffett_score": 94.7,
       "grade": "S",
       "score_details": [
@@ -3594,8 +3858,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 67.6,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 91.6,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 45.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 56.0,
+              "grade": "B",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 57.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 67.6,
+      "composite_grade": "B",
       "buffett_score": 91.6,
       "grade": "S",
       "score_details": [
@@ -3910,8 +4202,36 @@
               "EPS CAGR 4.53%，成長乏力"
             ]
           }
+        },
+        "composite": {
+          "score": 69.1,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 89.5,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 61.2,
+              "grade": "B",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 44.4,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 61.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 69.1,
+      "composite_grade": "B",
       "buffett_score": 89.5,
       "grade": "S",
       "score_details": [
@@ -4229,8 +4549,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 68.1,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 89.5,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 44.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 56.0,
+              "grade": "B",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 67.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 68.1,
+      "composite_grade": "B",
       "buffett_score": 89.5,
       "grade": "S",
       "score_details": [
@@ -4287,16 +4635,16 @@
             "date": "Thu, 16 Apr 2026 01:04:19 GMT"
           },
           {
-            "title": "博通股價分析：受 AI 熱潮與晶片超級週期推動，AVGO 能否躋身 3 兆美元俱樂部？ - TradingKey",
-            "date": "Fri, 03 Apr 2026 07:00:00 GMT"
-          },
-          {
             "title": "《業績》博通(AVGO.US)首財季盈收勝預期 AI業務收入翻倍 - AASTOCKS.com",
             "date": "Wed, 04 Mar 2026 08:00:00 GMT"
           },
           {
-            "title": "【即時新聞】鎖定AI龐大需求！博通(AVGO)奪Google長約大單，華爾街看好股價狂飆逾80% - CMoney投資網誌",
-            "date": "Wed, 08 Apr 2026 07:00:00 GMT"
+            "title": "【即時新聞】博通(AVGO)宣布擴大與Google的AI晶片協議，盤後股價上漲3%迎爆發 - CMoney投資網誌",
+            "date": "Tue, 07 Apr 2026 07:00:00 GMT"
+          },
+          {
+            "title": "博通(AVGO.US)績前小摩重申“增持”評級！AI收入增長勢頭迅猛股價漲幅或達49% 作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Tue, 03 Mar 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -4541,8 +4889,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 65.5,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 89.5,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 43.3,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 53.3,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 55.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 65.5,
+      "composite_grade": "B",
       "buffett_score": 89.5,
       "grade": "S",
       "score_details": [
@@ -4849,8 +5225,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 65.6,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 89.5,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 40.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 48.0,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 68.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 65.6,
+      "composite_grade": "B",
       "buffett_score": 89.5,
       "grade": "S",
       "score_details": [
@@ -5158,8 +5562,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 65.6,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 89.5,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 36.7,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 52.0,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 68.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 65.6,
+      "composite_grade": "B",
       "buffett_score": 89.5,
       "grade": "S",
       "score_details": [
@@ -5474,8 +5906,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 67.9,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 89.5,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 46.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 52.0,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 68.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 67.9,
+      "composite_grade": "B",
       "buffett_score": 89.5,
       "grade": "S",
       "score_details": [
@@ -5786,8 +6246,36 @@
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
+        },
+        "composite": {
+          "score": 74.0,
+          "grade": "A",
+          "breakdown": {
+            "buffett": {
+              "score": 87.4,
+              "grade": "S",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 64.7,
+              "grade": "B",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 69.2,
+              "grade": "B",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 60.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 74.0,
+      "composite_grade": "A",
       "buffett_score": 87.4,
       "grade": "S",
       "score_details": [
@@ -6097,8 +6585,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 59.2,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 84.2,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 27.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 48.0,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 61.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 59.2,
+      "composite_grade": "B",
       "buffett_score": 84.2,
       "grade": "A",
       "score_details": [
@@ -6422,8 +6938,36 @@
               "新聞風險：偵測到 2 個需關注信號"
             ]
           }
+        },
+        "composite": {
+          "score": 63.8,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 84.2,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 42.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 48.0,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 67.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 63.8,
+      "composite_grade": "B",
       "buffett_score": 84.2,
       "grade": "A",
       "score_details": [
@@ -6737,8 +7281,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 60.2,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 84.2,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 32.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 44.0,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 65.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 60.2,
+      "composite_grade": "B",
       "buffett_score": 84.2,
       "grade": "A",
       "score_details": [
@@ -7050,8 +7622,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 62.1,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 84.2,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 41.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 48.0,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 57.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 62.1,
+      "composite_grade": "B",
       "buffett_score": 84.2,
       "grade": "A",
       "score_details": [
@@ -7366,8 +7966,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 57.7,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 84.2,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 34.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 33.3,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 59.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 57.7,
+      "composite_grade": "B",
       "buffett_score": 84.2,
       "grade": "A",
       "score_details": [
@@ -7684,8 +8312,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 58.1,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 81.1,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 34.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 49.3,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 49.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 58.1,
+      "composite_grade": "B",
       "buffett_score": 81.1,
       "grade": "A",
       "score_details": [
@@ -7999,8 +8655,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 56.6,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 81.1,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 27.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 48.0,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 52.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 56.6,
+      "composite_grade": "B",
       "buffett_score": 81.1,
       "grade": "A",
       "score_details": [
@@ -8053,20 +8737,20 @@
             "date": "Tue, 07 Apr 2026 10:53:07 GMT"
           },
           {
-            "title": "CSX攜手Infosys與微軟推動數據平台現代化 作者 Investing.com - Investing.com 香港 - 股市報價&amp; 財經新聞",
-            "date": "Tue, 24 Feb 2026 08:00:00 GMT"
+            "title": "基金更新：MARKEL GROUP INC.投資組合新增22萬股CSX（CSX）股票 - Moomoo",
+            "date": "Fri, 31 Oct 2025 07:00:00 GMT"
           },
           {
             "title": "巴菲特說不打算併購 鐵路商CSX跳水、波克夏軟 - Yahoo股市",
             "date": "Mon, 25 Aug 2025 07:00:00 GMT"
           },
           {
-            "title": "基金更新：MARKEL GROUP INC.投資組合新增22萬股CSX（CSX）股票 - Moomoo",
-            "date": "Fri, 31 Oct 2025 07:00:00 GMT"
-          },
-          {
             "title": "巴菲特否認收購 CSX股價應聲下挫 - news.cnyes.com",
             "date": "Tue, 26 Aug 2025 07:00:00 GMT"
+          },
+          {
+            "title": "CSX Corp | DEF 14A: Definitive information statements - 富途牛牛",
+            "date": "Mon, 30 Mar 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -8309,8 +8993,36 @@
               "EPS CAGR -1.28%，成長乏力"
             ]
           }
+        },
+        "composite": {
+          "score": 65.5,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 78.9,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 54.1,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 56.9,
+              "grade": "B",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 60.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 65.5,
+      "composite_grade": "B",
       "buffett_score": 78.9,
       "grade": "A",
       "score_details": [
@@ -8424,7 +9136,7 @@
       "pe_ratio": 150.0,
       "pb_ratio": 6.12,
       "dividend_yield": 0.33,
-      "current_price": 600.0,
+      "current_price": 560.0,
       "high_52w": 637.0,
       "low_52w": 177.0,
       "investor_scores": {
@@ -8511,7 +9223,7 @@
             },
             {
               "metric": "52W 位置",
-              "value": "92.0%",
+              "value": "83.3%",
               "grade": "fail"
             }
           ],
@@ -8619,8 +9331,36 @@
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
+        },
+        "composite": {
+          "score": 63.3,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 78.9,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 52.9,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 53.8,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 52.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 63.3,
+      "composite_grade": "B",
       "buffett_score": 78.9,
       "grade": "A",
       "score_details": [
@@ -8922,8 +9662,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 62.0,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 78.9,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 50.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 49.3,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 54.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 62.0,
+      "composite_grade": "B",
       "buffett_score": 78.9,
       "grade": "A",
       "score_details": [
@@ -8976,20 +9744,20 @@
             "date": "Thu, 02 Apr 2026 07:00:00 GMT"
           },
           {
-            "title": "【23:18 即時新聞】Vertex Pharmaceuticals(VRTX) 急漲近10%：IgA 腎病新藥三期數據亮眼、啟動加速審批規劃 - CMoney投資網誌",
+            "title": "【21:30 即時新聞】Vertex Pharmaceuticals(VRTX) 勁揚逾5%／IgAN 三期試驗數據亮眼推升加速審核預期 - CMoney投資網誌",
             "date": "Tue, 10 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "福泰制药(VRTX)股票3月10日盘中上涨8.03%：释放什么信号？ - FX168",
-            "date": "Tue, 10 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "【即時新聞】福泰製藥(VRTX)挾26%高現金流迎爆發！這2檔美股估值偏高需小心拉回 - CMoney投資網誌",
-            "date": "Mon, 30 Mar 2026 07:00:00 GMT"
           },
           {
             "title": "聯博集團維持福泰製藥(VRTX.US)買入評級，維持目標價577美元 - Moomoo",
             "date": "Wed, 22 Apr 2026 13:31:00 GMT"
+          },
+          {
+            "title": "美銀證券維持福泰製藥(VRTX.US)買入評級，目標價598美元 - 富途牛牛",
+            "date": "Wed, 15 Apr 2026 11:43:10 GMT"
+          },
+          {
+            "title": "福泰製藥全年財測遠超華爾街預期！WSJ：陸生技業也迎來「DeepSeek時刻」 - news.cnyes.com",
+            "date": "Tue, 11 Feb 2025 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -9247,8 +10015,36 @@
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
+        },
+        "composite": {
+          "score": 57.9,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 78.9,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 32.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 42.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 65.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 57.9,
+      "composite_grade": "B",
       "buffett_score": 78.9,
       "grade": "A",
       "score_details": [
@@ -9566,8 +10362,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 55.6,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 78.9,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 34.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 45.3,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 43.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 55.6,
+      "composite_grade": "B",
       "buffett_score": 78.9,
       "grade": "A",
       "score_details": [
@@ -9887,8 +10711,36 @@
               "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
             ]
           }
+        },
+        "composite": {
+          "score": 57.3,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 78.9,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 43.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 41.3,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 45.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 57.3,
+      "composite_grade": "B",
       "buffett_score": 78.9,
       "grade": "A",
       "score_details": [
@@ -10206,8 +11058,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 54.2,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 78.9,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 20.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 44.0,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 59.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 54.2,
+      "composite_grade": "C",
       "buffett_score": 78.9,
       "grade": "A",
       "score_details": [
@@ -10512,8 +11392,36 @@
               "EPS CAGR -0.19%，成長乏力"
             ]
           }
+        },
+        "composite": {
+          "score": 67.0,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 75.8,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 74.1,
+              "grade": "A",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 55.4,
+              "grade": "B",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 47.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 67.0,
+      "composite_grade": "B",
       "buffett_score": 75.8,
       "grade": "A",
       "score_details": [
@@ -10820,8 +11728,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 55.7,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 75.8,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 39.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 45.3,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 44.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 55.7,
+      "composite_grade": "B",
       "buffett_score": 75.8,
       "grade": "A",
       "score_details": [
@@ -11142,8 +12078,36 @@
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
+        },
+        "composite": {
+          "score": 52.3,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 73.7,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 24.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 42.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 55.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 52.3,
+      "composite_grade": "C",
       "buffett_score": 73.7,
       "grade": "A",
       "score_details": [
@@ -11463,8 +12427,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 50.6,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 73.7,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 24.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 38.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 49.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 50.6,
+      "composite_grade": "C",
       "buffett_score": 73.7,
       "grade": "A",
       "score_details": [
@@ -11776,8 +12768,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 54.4,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 73.7,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 45.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 42.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 34.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 54.4,
+      "composite_grade": "C",
       "buffett_score": 73.7,
       "grade": "A",
       "score_details": [
@@ -12094,8 +13114,36 @@
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
+        },
+        "composite": {
+          "score": 52.7,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 71.6,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 39.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 44.0,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 37.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 52.7,
+      "composite_grade": "C",
       "buffett_score": 71.6,
       "grade": "A",
       "score_details": [
@@ -12398,8 +13446,36 @@
               "EPS CAGR -10.37%，成長乏力"
             ]
           }
+        },
+        "composite": {
+          "score": 56.9,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 70.5,
+              "grade": "A",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 42.4,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 52.3,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 51.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 56.9,
+      "composite_grade": "B",
       "buffett_score": 70.5,
       "grade": "A",
       "score_details": [
@@ -12711,8 +13787,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 54.6,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 68.4,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 30.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 52.0,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 62.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 54.6,
+      "composite_grade": "C",
       "buffett_score": 68.4,
       "grade": "B",
       "score_details": [
@@ -13029,8 +14133,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 48.4,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 68.4,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 17.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 42.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 55.0,
+              "grade": "B",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 48.4,
+      "composite_grade": "C",
       "buffett_score": 68.4,
       "grade": "B",
       "score_details": [
@@ -13342,8 +14474,36 @@
               "毛利率僅 29.18%，產品差異化不足"
             ]
           }
+        },
+        "composite": {
+          "score": 56.3,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 67.4,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 42.4,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 53.3,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 54.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 56.3,
+      "composite_grade": "B",
       "buffett_score": 67.4,
       "grade": "B",
       "score_details": [
@@ -13651,8 +14811,36 @@
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
+        },
+        "composite": {
+          "score": 48.2,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 66.3,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 32.2,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 29.3,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 52.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 48.2,
+      "composite_grade": "C",
       "buffett_score": 66.3,
       "grade": "B",
       "score_details": [
@@ -13967,8 +15155,36 @@
               "EPS CAGR 1.6%，成長乏力"
             ]
           }
+        },
+        "composite": {
+          "score": 55.0,
+          "grade": "B",
+          "breakdown": {
+            "buffett": {
+              "score": 65.3,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 64.7,
+              "grade": "B",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 33.3,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 40.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 55.0,
+      "composite_grade": "B",
       "buffett_score": 65.3,
       "grade": "B",
       "score_details": [
@@ -14290,8 +15506,36 @@
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
+        },
+        "composite": {
+          "score": 46.6,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 65.3,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 29.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 34.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 42.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 46.6,
+      "composite_grade": "C",
       "buffett_score": 65.3,
       "grade": "B",
       "score_details": [
@@ -14603,8 +15847,36 @@
               "ROE 3.42%，管理效率偏低"
             ]
           }
+        },
+        "composite": {
+          "score": 48.5,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 63.2,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 46.7,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 32.0,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 34.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 48.5,
+      "composite_grade": "C",
       "buffett_score": 63.2,
       "grade": "B",
       "score_details": [
@@ -14920,8 +16192,36 @@
               "毛利率僅 12.47%，產品差異化不足"
             ]
           }
+        },
+        "composite": {
+          "score": 45.4,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 63.2,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 33.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 34.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 33.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 45.4,
+      "composite_grade": "C",
       "buffett_score": 63.2,
       "grade": "B",
       "score_details": [
@@ -15235,8 +16535,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 46.3,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 63.2,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 25.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 44.0,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 40.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 46.3,
+      "composite_grade": "C",
       "buffett_score": 63.2,
       "grade": "B",
       "score_details": [
@@ -15285,12 +16613,16 @@
       "news": {
         "items": [
           {
-            "title": "Is AXP's Platinum Refresh Delivering Stronger Engagement and Spend? - TradingView",
-            "date": "Tue, 07 Apr 2026 07:00:00 GMT"
+            "title": "US25816EN5最新消息和新聞提要 - TradingView",
+            "date": "Sun, 19 Apr 2026 22:44:46 GMT"
           },
           {
             "title": "AXP白金卡升級是否正在推動更多客戶互動與更高消費？ - Bitget",
             "date": "Tue, 07 Apr 2026 01:02:59 GMT"
+          },
+          {
+            "title": "Is AXP's Platinum Refresh Delivering Stronger Engagement and Spend? - TradingView",
+            "date": "Tue, 07 Apr 2026 07:00:00 GMT"
           },
           {
             "title": "American Express | 8-K: Current report - 富途牛牛",
@@ -15299,10 +16631,6 @@
           {
             "title": "UBS Adjusts Price Target on American Express to $340 From $395, Maintains Neutral Rating - 富途牛牛",
             "date": "Tue, 07 Apr 2026 07:00:00 GMT"
-          },
-          {
-            "title": "【22:33 即時新聞】American Express(AXP) 跌逾5%／股價回檔但長線仍獲股息派息題材支撐 - CMoney投資網誌",
-            "date": "Fri, 27 Feb 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -15551,8 +16879,36 @@
               "毛利率僅 22.47%，產品差異化不足"
             ]
           }
+        },
+        "composite": {
+          "score": 44.0,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 62.1,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 28.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 41.3,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 26.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 44.0,
+      "composite_grade": "C",
       "buffett_score": 62.1,
       "grade": "B",
       "score_details": [
@@ -15870,8 +17226,36 @@
               "毛利率僅 24.57%，產品差異化不足"
             ]
           }
+        },
+        "composite": {
+          "score": 42.3,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 62.1,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 28.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 32.0,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 27.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 42.3,
+      "composite_grade": "C",
       "buffett_score": 62.1,
       "grade": "B",
       "score_details": [
@@ -15932,12 +17316,12 @@
             "date": "Mon, 20 Apr 2026 18:06:21 GMT"
           },
           {
-            "title": "沃爾瑪今遷往那斯達克上市 為什麼突然離開掛牌逾50年的紐交所？ - AASTOCKS.com",
-            "date": "Tue, 16 Dec 2025 08:00:00 GMT"
-          },
-          {
             "title": "沃爾瑪公司（紐約證券交易所代碼：WMT）在擁有45％股份的私營公司中最受歡迎，機構持有35％ - 富途牛牛",
             "date": "Sun, 19 Apr 2026 17:21:01 GMT"
+          },
+          {
+            "title": "沃爾瑪今遷往那斯達克上市 為什麼突然離開掛牌逾50年的紐交所？ - AASTOCKS.com",
+            "date": "Tue, 16 Dec 2025 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -16177,8 +17561,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 45.7,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 61.1,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 35.6,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 34.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 36.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 45.7,
+      "composite_grade": "C",
       "buffett_score": 61.1,
       "grade": "B",
       "score_details": [
@@ -16476,8 +17888,36 @@
               "ROE 8.84%，管理效率偏低"
             ]
           }
+        },
+        "composite": {
+          "score": 49.1,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 61.1,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 65.6,
+              "grade": "B",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 22.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 25.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 49.1,
+      "composite_grade": "C",
       "buffett_score": 61.1,
       "grade": "B",
       "score_details": [
@@ -16782,8 +18222,36 @@
             ],
             "risks": []
           }
+        },
+        "composite": {
+          "score": 45.5,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 61.1,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 27.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 34.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 49.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 45.5,
+      "composite_grade": "C",
       "buffett_score": 61.1,
       "grade": "B",
       "score_details": [
@@ -17084,8 +18552,36 @@
               "EPS CAGR -0.29%，成長乏力"
             ]
           }
+        },
+        "composite": {
+          "score": 47.8,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 60.0,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 42.4,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 36.9,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 39.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 47.8,
+      "composite_grade": "C",
       "buffett_score": 60.0,
       "grade": "B",
       "score_details": [
@@ -17385,8 +18881,36 @@
               "EPS CAGR -16.35%，成長乏力"
             ]
           }
+        },
+        "composite": {
+          "score": 49.9,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 60.0,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 49.4,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 41.5,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 35.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 49.9,
+      "composite_grade": "C",
       "buffett_score": 60.0,
       "grade": "B",
       "score_details": [
@@ -17699,8 +19223,36 @@
               "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
             ]
           }
+        },
+        "composite": {
+          "score": 40.5,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 57.9,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 24.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 22.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 45.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 40.5,
+      "composite_grade": "C",
       "buffett_score": 57.9,
       "grade": "B",
       "score_details": [
@@ -18008,8 +19560,36 @@
               "ROE -341.14%，管理效率偏低"
             ]
           }
+        },
+        "composite": {
+          "score": 38.6,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 57.9,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 16.7,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 22.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 45.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 38.6,
+      "composite_grade": "C",
       "buffett_score": 57.9,
       "grade": "B",
       "score_details": [
@@ -18308,8 +19888,36 @@
               "ROE 9.96%，管理效率偏低"
             ]
           }
+        },
+        "composite": {
+          "score": 40.7,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 56.8,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 42.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 24.0,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 18.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 40.7,
+      "composite_grade": "C",
       "buffett_score": 56.8,
       "grade": "B",
       "score_details": [
@@ -18616,8 +20224,36 @@
               "ROE 10.46%，管理效率偏低"
             ]
           }
+        },
+        "composite": {
+          "score": 52.6,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 55.8,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 69.4,
+              "grade": "B",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 35.6,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 39.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 52.6,
+      "composite_grade": "C",
       "buffett_score": 55.8,
       "grade": "B",
       "score_details": [
@@ -18920,8 +20556,36 @@
               "EPS CAGR -9.71%，成長乏力"
             ]
           }
+        },
+        "composite": {
+          "score": 52.0,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 55.8,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 54.1,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 50.8,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 40.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 52.0,
+      "composite_grade": "C",
       "buffett_score": 55.8,
       "grade": "B",
       "score_details": [
@@ -19227,8 +20891,36 @@
               "EPS CAGR -27.49%，成長乏力"
             ]
           }
+        },
+        "composite": {
+          "score": 50.9,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 55.8,
+              "grade": "B",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 62.4,
+              "grade": "B",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 44.6,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 27.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 50.9,
+      "composite_grade": "C",
       "buffett_score": 55.8,
       "grade": "B",
       "score_details": [
@@ -19285,16 +20977,16 @@
             "date": "Mon, 09 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "遭綠委指控減產哄抬！台塑、台塑化回擊：供應量不減反增 - Yahoo股市",
-            "date": "Wed, 01 Apr 2026 07:00:00 GMT"
+            "title": "台塑四寶利空出盡？4檔股價大噴發市場預期首季轉虧為盈 「這檔」長線卻喊壓力大 - Yahoo股市",
+            "date": "Mon, 06 Apr 2026 07:00:00 GMT"
           },
           {
             "title": "6505 台塑化- [新聞] 中東衝突不排除持久戰！台塑化、長榮｜CMoney 股市爆料同學會 - 理財寶",
             "date": "Thu, 19 Mar 2026 03:12:10 GMT"
           },
           {
-            "title": "台塑集團全喊卡了！台化預計4月跟進「不可抗力」 法人看好短線動能強烈 - Yahoo股市",
-            "date": "Sun, 29 Mar 2026 07:00:00 GMT"
+            "title": "遭綠委指控減產哄抬！台塑、台塑化回擊：供應量不減反增 - Yahoo股市",
+            "date": "Wed, 01 Apr 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -19533,8 +21225,36 @@
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
+        },
+        "composite": {
+          "score": 41.8,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 50.5,
+              "grade": "C",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 38.8,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 35.4,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 32.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 41.8,
+      "composite_grade": "C",
       "buffett_score": 50.5,
       "grade": "C",
       "score_details": [
@@ -19836,8 +21556,36 @@
               "ROE 10.62%，管理效率偏低"
             ]
           }
+        },
+        "composite": {
+          "score": 51.7,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 50.5,
+              "grade": "C",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 69.4,
+              "grade": "B",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 46.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 32.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 51.7,
+      "composite_grade": "C",
       "buffett_score": 50.5,
       "grade": "C",
       "score_details": [
@@ -19898,8 +21646,8 @@
             "date": "Wed, 14 Jan 2026 08:00:00 GMT"
           },
           {
-            "title": "《台北股市》不斷更新！7金控元月獲利雙增 中信金、永豐金先報喜 - Yahoo股市",
-            "date": "Thu, 12 Feb 2026 08:00:00 GMT"
+            "title": "高股息誘人！富邦金上看百元 中信金等4檔金控盤中改寫新天價 - Yahoo股市",
+            "date": "Thu, 11 Dec 2025 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -20137,8 +21885,36 @@
               "EPS CAGR 2.71%，成長乏力"
             ]
           }
+        },
+        "composite": {
+          "score": 42.5,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 50.5,
+              "grade": "C",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 50.6,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 26.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 29.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 42.5,
+      "composite_grade": "C",
       "buffett_score": 50.5,
       "grade": "C",
       "score_details": [
@@ -20444,8 +22220,36 @@
               "ROE 10.18%，管理效率偏低"
             ]
           }
+        },
+        "composite": {
+          "score": 39.3,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 50.5,
+              "grade": "C",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 31.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 30.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 35.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 39.3,
+      "composite_grade": "C",
       "buffett_score": 50.5,
       "grade": "C",
       "score_details": [
@@ -20711,8 +22515,36 @@
               "ROE 8.36%，管理效率偏低"
             ]
           }
+        },
+        "composite": {
+          "score": 44.0,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 50.0,
+              "grade": "C",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 52.3,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 32.3,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 30.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 44.0,
+      "composite_grade": "C",
       "buffett_score": 50.0,
       "grade": "C",
       "score_details": [
@@ -21006,8 +22838,36 @@
               "EPS CAGR -43.9%，成長乏力"
             ]
           }
+        },
+        "composite": {
+          "score": 41.1,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 47.4,
+              "grade": "C",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 42.4,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 36.9,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 28.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 41.1,
+      "composite_grade": "C",
       "buffett_score": 47.4,
       "grade": "C",
       "score_details": [
@@ -21301,8 +23161,36 @@
               "EPS CAGR 0.0%，成長乏力"
             ]
           }
+        },
+        "composite": {
+          "score": 43.9,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 45.3,
+              "grade": "C",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 62.4,
+              "grade": "B",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 35.4,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 21.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 43.9,
+      "composite_grade": "C",
       "buffett_score": 45.3,
       "grade": "C",
       "score_details": [
@@ -21596,8 +23484,36 @@
               "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
             ]
           }
+        },
+        "composite": {
+          "score": 39.8,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 42.1,
+              "grade": "C",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 57.6,
+              "grade": "B",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 26.2,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 22.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 39.8,
+      "composite_grade": "C",
       "buffett_score": 42.1,
       "grade": "C",
       "score_details": [
@@ -21899,8 +23815,36 @@
               "EPS CAGR -7.69%，成長乏力"
             ]
           }
+        },
+        "composite": {
+          "score": 42.9,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 42.1,
+              "grade": "C",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 62.4,
+              "grade": "B",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 30.8,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 29.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 42.9,
+      "composite_grade": "C",
       "buffett_score": 42.1,
       "grade": "C",
       "score_details": [
@@ -22206,8 +24150,36 @@
               "EPS CAGR 4.54%，成長乏力"
             ]
           }
+        },
+        "composite": {
+          "score": 40.0,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 42.1,
+              "grade": "C",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 57.6,
+              "grade": "B",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 22.2,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 29.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 40.0,
+      "composite_grade": "C",
       "buffett_score": 42.1,
       "grade": "C",
       "score_details": [
@@ -22519,8 +24491,36 @@
               "新聞風險：偵測到 1 紅色 + 1 黃色信號，建議關注"
             ]
           }
+        },
+        "composite": {
+          "score": 32.8,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 40.0,
+              "grade": "C",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 24.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 30.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 31.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 32.8,
+      "composite_grade": "C",
       "buffett_score": 40.0,
       "grade": "C",
       "score_details": [
@@ -22826,8 +24826,36 @@
               "EPS CAGR -2.07%，成長乏力"
             ]
           }
+        },
+        "composite": {
+          "score": 36.5,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 37.9,
+              "grade": "C",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 45.9,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 30.8,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 25.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 36.5,
+      "composite_grade": "C",
       "buffett_score": 37.9,
       "grade": "C",
       "score_details": [
@@ -23138,8 +25166,36 @@
               "新聞風險：偵測到 1 紅色 + 2 黃色信號，建議關注"
             ]
           }
+        },
+        "composite": {
+          "score": 34.3,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 34.7,
+              "grade": "C",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 45.0,
+              "grade": "C",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 34.7,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 15.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 34.3,
+      "composite_grade": "C",
       "buffett_score": 34.7,
       "grade": "C",
       "score_details": [
@@ -23196,12 +25252,12 @@
             "date": "Tue, 24 Feb 2026 08:00:00 GMT"
           },
           {
-            "title": "【22:32 即時新聞】Constellation Energy(CEG) 重挫逾5% 估值偏貴疑慮升溫 - CMoney投資網誌",
-            "date": "Wed, 11 Mar 2026 07:00:00 GMT"
-          },
-          {
             "title": "Stocks Rebound as Software Stocks Recover - TradingView",
             "date": "Tue, 24 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "【22:32 即時新聞】Constellation Energy(CEG) 重挫逾5% 估值偏貴疑慮升溫 - CMoney投資網誌",
+            "date": "Wed, 11 Mar 2026 07:00:00 GMT"
           },
           {
             "title": "每日跳空排名星期五：MU、NVO、CEG等 - Moomoo",
@@ -23447,8 +25503,36 @@
               "ROE 9.19%，管理效率偏低"
             ]
           }
+        },
+        "composite": {
+          "score": 35.3,
+          "grade": "C",
+          "breakdown": {
+            "buffett": {
+              "score": 31.6,
+              "grade": "C",
+              "weight": 0.4
+            },
+            "graham": {
+              "score": 57.6,
+              "grade": "B",
+              "weight": 0.25
+            },
+            "lynch": {
+              "score": 23.3,
+              "grade": "C",
+              "weight": 0.2
+            },
+            "fisher": {
+              "score": 24.0,
+              "grade": "C",
+              "weight": 0.15
+            }
+          }
         }
       },
+      "composite_score": 35.3,
+      "composite_grade": "C",
       "buffett_score": 31.6,
       "grade": "C",
       "score_details": [
