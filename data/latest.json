@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T10:00:52.754103",
+  "generated_at": "2026-04-24T11:05:30.990178",
   "date": "2026-04-24",
   "investor_profiles": {
     "buffett": {
@@ -386,12 +386,6 @@
       {
         "stock_id": "AMAT",
         "name": "Applied Materials, Inc.",
-        "risk_level": "yellow",
-        "risk_summary": "偵測到 1 個需關注信號"
-      },
-      {
-        "stock_id": "LRCX",
-        "name": "Lam Research Corporation",
         "risk_level": "yellow",
         "risk_summary": "偵測到 1 個需關注信號"
       },
@@ -790,6 +784,10 @@
             "date": "Thu, 23 Apr 2026 02:18:52 GMT"
           },
           {
+            "title": "台積電衝2180元天價！魏哲家身價1年激增117億元 張忠謀1750億元 - Yahoo股市",
+            "date": "Fri, 24 Apr 2026 02:28:39 GMT"
+          },
+          {
             "title": "近8成專家讚台積電「值得強力買進」！3大理由曝光 - Yahoo股市",
             "date": "Wed, 22 Apr 2026 08:45:58 GMT"
           },
@@ -798,12 +796,8 @@
             "date": "Thu, 23 Apr 2026 09:09:50 GMT"
           },
           {
-            "title": "台積電首季獲利亮眼！外媒點名「這3檔AI股」快上車 - Yahoo股市",
-            "date": "Wed, 22 Apr 2026 09:29:11 GMT"
-          },
-          {
-            "title": "金管會大鬆綁！法人：2000億新資金活水轉向台積電 - 自由財經",
-            "date": "Thu, 23 Apr 2026 14:28:35 GMT"
+            "title": "高盛預警美股月彈後迎再平衡 恐釀 230 億美元股票賣壓 - Yahoo股市",
+            "date": "Fri, 24 Apr 2026 02:01:21 GMT"
           }
         ],
         "risk_level": "green",
@@ -840,12 +834,13 @@
       "net_margin_avg": 35.73,
       "net_margin_latest": 36.15,
       "gross_margin_avg": 68.98,
-      "eps_latest": 15.97,
+      "eps_latest": 15.96,
       "debt_to_equity": 0.32,
       "current_ratio": 1.39,
-      "pe_ratio": 26.03,
+      "pe_ratio": 26.05,
       "forward_pe": 21.98,
       "market_cap_b": 3090.0,
+      "dividend_yield": 88.0,
       "high_52w": 555.45,
       "low_52w": 356.28,
       "current_price": 415.75,
@@ -884,7 +879,7 @@
             },
             {
               "metric": "P/E",
-              "value": "26.03 (合理:10)",
+              "value": "26.05 (合理:10)",
               "grade": "fail"
             },
             {
@@ -906,12 +901,12 @@
           }
         },
         "graham": {
-          "score": 43.3,
+          "score": 49.0,
           "grade": "C",
           "details": [
             {
               "metric": "P/E",
-              "value": "26.03 (合理:10)",
+              "value": "26.05 (合理:10)",
               "grade": "fail"
             },
             {
@@ -930,6 +925,11 @@
               "grade": "nodata"
             },
             {
+              "metric": "股息殖利率",
+              "value": "88.0%",
+              "grade": "pass"
+            },
+            {
               "metric": "淨利率",
               "value": 35.73,
               "grade": "pass"
@@ -943,10 +943,11 @@
           "pick_reason": {
             "summary": "Microsoft Corporation 不符合葛拉漢安全邊際要求。",
             "strengths": [
-              "負債權益比 0.32，資產負債表極度穩健"
+              "負債權益比 0.32，資產負債表極度穩健",
+              "股息殖利率 88.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 26.03，估值偏高不符葛拉漢標準"
+              "P/E 26.05，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -981,7 +982,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "22.0 vs 26.0",
+              "value": "22.0 vs 26.1",
               "grade": "ok"
             }
           ],
@@ -989,7 +990,7 @@
             "summary": "Microsoft Corporation 有成長潛力，但估值或成長率尚未達標。",
             "strengths": [
               "ROE 35.31%，管理層資本效率出色",
-              "Forward PE 22.0 低於 Trailing PE 26.0，分析師看好成長",
+              "Forward PE 22.0 低於 Trailing PE 26.1，分析師看好成長",
               "低負債（D/E 0.32），成長基礎穩固",
               "淨利率 35.73%，獲利能力強"
             ],
@@ -1048,7 +1049,7 @@
           }
         },
         "composite": {
-          "score": 70.1,
+          "score": 71.5,
           "grade": "A",
           "breakdown": {
             "buffett": {
@@ -1057,7 +1058,7 @@
               "weight": 0.4
             },
             "graham": {
-              "score": 43.3,
+              "score": 49.0,
               "grade": "C",
               "weight": 0.25
             },
@@ -1074,7 +1075,7 @@
           }
         }
       },
-      "composite_score": 70.1,
+      "composite_score": 71.5,
       "composite_grade": "A",
       "buffett_score": 94.7,
       "grade": "S",
@@ -1106,7 +1107,7 @@
         },
         {
           "metric": "P/E",
-          "value": "26.03 (合理:10)",
+          "value": "26.05 (合理:10)",
           "grade": "fail"
         },
         {
@@ -1124,14 +1125,6 @@
       "news": {
         "items": [
           {
-            "title": "微軟（MSFT）股價上漲，Xbox Game Pass Ultimate大幅降價| MEXC 新聞 - MEXC",
-            "date": "Wed, 22 Apr 2026 12:46:37 GMT"
-          },
-          {
-            "title": "微軟(MSFT.US)：Microsoft 365 E7 Frontier Suite下月在港推出 - AASTOCKS.com",
-            "date": "Wed, 22 Apr 2026 07:30:00 GMT"
-          },
-          {
             "title": "Microsoft's AI Data Center Push: Growth Engine or Capex Trap? - TradingView",
             "date": "Wed, 15 Apr 2026 14:08:00 GMT"
           },
@@ -1142,6 +1135,14 @@
           {
             "title": "微軟(MSFT.US)已擺脫OpenAI依賴，Copilot纔是華爾街看好走向5萬億市值的“王牌”！ 作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
             "date": "Tue, 16 Dec 2025 08:00:00 GMT"
+          },
+          {
+            "title": "1.3萬億美元的“AI幻滅”：微軟(MSFT.US)、亞馬遜(AMZN.US)領跌，投資者不再爲願景買單作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Tue, 17 Feb 2026 08:00:00 GMT"
+          },
+          {
+            "title": "微軟(MSFT.US)推出第二代人工智能晶片加強其雲端業務 - AASTOCKS.com",
+            "date": "Mon, 26 Jan 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -1882,7 +1883,7 @@
       "pe_ratio": 46.55,
       "forward_pe": 29.78,
       "market_cap_b": 546.4,
-      "dividend_yield": 61.0,
+      "dividend_yield": 62.0,
       "high_52w": 1547.22,
       "low_52w": 651.46,
       "current_price": 1417.8,
@@ -1970,7 +1971,7 @@
             },
             {
               "metric": "股息殖利率",
-              "value": "61.0%",
+              "value": "62.0%",
               "grade": "pass"
             },
             {
@@ -1988,7 +1989,7 @@
             "summary": "ASML Holding N.V. - New York Re 不符合葛拉漢安全邊際要求。",
             "strengths": [
               "負債權益比 0.13，資產負債表極度穩健",
-              "股息殖利率 61.0%，提供安全邊際"
+              "股息殖利率 62.0%，提供安全邊際"
             ],
             "risks": [
               "P/E 46.55，估值偏高不符葛拉漢標準"
@@ -2581,10 +2582,10 @@
       "net_margin_avg": 26.84,
       "net_margin_latest": 29.06,
       "gross_margin_avg": 46.58,
-      "eps_latest": 4.86,
+      "eps_latest": 5.3,
       "debt_to_equity": 0.44,
       "current_ratio": 2.26,
-      "pe_ratio": 53.2,
+      "pe_ratio": 48.78,
       "forward_pe": 36.14,
       "market_cap_b": 323.3,
       "dividend_yield": 39.0,
@@ -2626,7 +2627,7 @@
             },
             {
               "metric": "P/E",
-              "value": "53.2 (合理:10)",
+              "value": "48.78 (合理:10)",
               "grade": "fail"
             },
             {
@@ -2645,8 +2646,7 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 53.2 偏高，估值需留意",
-              "新聞黃燈：偵測到 1 個需關注信號"
+              "P/E 48.78 偏高，估值需留意"
             ]
           }
         },
@@ -2656,7 +2656,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "53.2 (合理:10)",
+              "value": "48.78 (合理:10)",
               "grade": "fail"
             },
             {
@@ -2698,13 +2698,12 @@
               "股息殖利率 39.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 53.2，估值偏高不符葛拉漢標準",
-              "新聞風險：偵測到 1 個需關注信號"
+              "P/E 48.78，估值偏高不符葛拉漢標準"
             ]
           }
         },
         "lynch": {
-          "score": 60.0,
+          "score": 56.0,
           "grade": "B",
           "details": [
             {
@@ -2734,21 +2733,20 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "36.1 vs 53.2",
-              "grade": "pass"
+              "value": "36.1 vs 48.8",
+              "grade": "ok"
             }
           ],
           "pick_reason": {
             "summary": "Lam Research Corporation 有成長潛力，但估值或成長率尚未達標。",
             "strengths": [
               "ROE 56.86%，管理層資本效率出色",
-              "Forward PE 36.1 低於 Trailing PE 53.2，分析師看好成長",
+              "Forward PE 36.1 低於 Trailing PE 48.8，分析師看好成長",
               "低負債（D/E 0.44），成長基礎穩固",
               "淨利率 26.84%，獲利能力強"
             ],
             "risks": [
-              "P/E 53.2，估值可能過高",
-              "新聞風險：偵測到 1 個需關注信號"
+              "P/E 48.78，估值可能過高"
             ]
           }
         },
@@ -2800,13 +2798,11 @@
               "淨利率 26.84%，營運效率頂尖",
               "護城河：技術領先 + 轉換成本"
             ],
-            "risks": [
-              "新聞風險：偵測到 1 個需關注信號"
-            ]
+            "risks": []
           }
         },
         "composite": {
-          "score": 72.9,
+          "score": 72.1,
           "grade": "A",
           "breakdown": {
             "buffett": {
@@ -2820,7 +2816,7 @@
               "weight": 0.25
             },
             "lynch": {
-              "score": 60.0,
+              "score": 56.0,
               "grade": "B",
               "weight": 0.2
             },
@@ -2832,7 +2828,7 @@
           }
         }
       },
-      "composite_score": 72.9,
+      "composite_score": 72.1,
       "composite_grade": "A",
       "buffett_score": 94.7,
       "grade": "S",
@@ -2864,7 +2860,7 @@
         },
         {
           "metric": "P/E",
-          "value": "53.2 (合理:10)",
+          "value": "48.78 (合理:10)",
           "grade": "fail"
         },
         {
@@ -2898,12 +2894,12 @@
             "date": "Mon, 09 Feb 2026 19:07:58 GMT"
           },
           {
-            "title": "【01:36 即時新聞】Lam Research LRCX 跌逾5%／隨半導體族群遭遇地緣風險與科技股拋售壓力 - CMoney投資網誌",
-            "date": "Fri, 06 Mar 2026 08:00:00 GMT"
+            "title": "【即時新聞】晶圓製造設備需求增強富國銀行升評科磊與科林研發且首選應用材料 - CMoney投資網誌",
+            "date": "Fri, 16 Jan 2026 08:00:00 GMT"
           }
         ],
-        "risk_level": "yellow",
-        "risk_summary": "偵測到 1 個需關注信號"
+        "risk_level": "green",
+        "risk_summary": "近期新聞正面 (3 個正面信號)"
       },
       "pick_reason": {
         "summary": "Lam Research Corporation 符合巴菲特選股標準。",
@@ -2915,8 +2911,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 53.2 偏高，估值需留意",
-          "新聞黃燈：偵測到 1 個需關注信號"
+          "P/E 48.78 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -3280,10 +3275,10 @@
       "net_margin_avg": 36.55,
       "net_margin_latest": 38.99,
       "gross_margin_avg": 62.8,
-      "eps_latest": 2.75,
+      "eps_latest": 2.74,
       "debt_to_equity": 0.01,
       "current_ratio": 3.05,
-      "pe_ratio": 62.75,
+      "pe_ratio": 62.97,
       "forward_pe": 40.08,
       "market_cap_b": 217.3,
       "high_52w": 178.48,
@@ -3324,7 +3319,7 @@
             },
             {
               "metric": "P/E",
-              "value": "62.75 (合理:10)",
+              "value": "62.97 (合理:10)",
               "grade": "fail"
             },
             {
@@ -3343,7 +3338,7 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 62.75 偏高，估值需留意",
+              "P/E 62.97 偏高，估值需留意",
               "新聞黃燈：偵測到 1 個需關注信號"
             ]
           }
@@ -3354,7 +3349,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "62.75 (合理:10)",
+              "value": "62.97 (合理:10)",
               "grade": "fail"
             },
             {
@@ -3390,7 +3385,7 @@
               "流動比率 3.0，短期償債能力充裕"
             ],
             "risks": [
-              "P/E 62.75，估值偏高不符葛拉漢標準",
+              "P/E 62.97，估值偏高不符葛拉漢標準",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -3426,7 +3421,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "40.1 vs 62.8",
+              "value": "40.1 vs 63.0",
               "grade": "pass"
             }
           ],
@@ -3434,12 +3429,12 @@
             "summary": "Arista Networks, Inc. 有成長潛力，但估值或成長率尚未達標。",
             "strengths": [
               "ROE 28.38%，管理層資本效率出色",
-              "Forward PE 40.1 低於 Trailing PE 62.8，分析師看好成長",
+              "Forward PE 40.1 低於 Trailing PE 63.0，分析師看好成長",
               "低負債（D/E 0.01），成長基礎穩固",
               "淨利率 36.55%，獲利能力強"
             ],
             "risks": [
-              "P/E 62.75，估值可能過高",
+              "P/E 62.97，估值可能過高",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -3556,7 +3551,7 @@
         },
         {
           "metric": "P/E",
-          "value": "62.75 (合理:10)",
+          "value": "62.97 (合理:10)",
           "grade": "fail"
         },
         {
@@ -3607,7 +3602,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 62.75 偏高，估值需留意",
+          "P/E 62.97 偏高，估值需留意",
           "新聞黃燈：偵測到 1 個需關注信號"
         ]
       },
@@ -4267,12 +4262,12 @@
       "news": {
         "items": [
           {
-            "title": "《證交所》今日單一證券鉅額成交股票：亞德客-KY、台積電、聯發科 - 富聯網",
-            "date": "Thu, 23 Apr 2026 09:18:00 GMT"
-          },
-          {
             "title": "亞德客-KY(1590) 個股概覽 | 個股 - 股市 - CMoney",
             "date": "Fri, 17 Apr 2026 19:02:16 GMT"
+          },
+          {
+            "title": "《證交所》今日單一證券鉅額成交股票：亞德客-KY、台積電、聯發科 - 富聯網",
+            "date": "Thu, 23 Apr 2026 09:18:00 GMT"
           },
           {
             "title": "鴻海、亞德客認購靚| 權證期貨| 股市 - 聯合新聞網",
@@ -4321,10 +4316,10 @@
       "net_margin_avg": 30.39,
       "net_margin_latest": 36.2,
       "gross_margin_avg": 66.57,
-      "eps_latest": 5.11,
+      "eps_latest": 5.12,
       "debt_to_equity": 0.83,
       "current_ratio": 1.9,
-      "pe_ratio": 82.18,
+      "pe_ratio": 82.02,
       "forward_pe": 23.18,
       "market_cap_b": 1988.3,
       "dividend_yield": 62.0,
@@ -4366,7 +4361,7 @@
             },
             {
               "metric": "P/E",
-              "value": "82.18 (合理:10)",
+              "value": "82.02 (合理:10)",
               "grade": "fail"
             },
             {
@@ -4385,7 +4380,7 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 82.18 偏高，估值需留意"
+              "P/E 82.02 偏高，估值需留意"
             ]
           }
         },
@@ -4395,7 +4390,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "82.18 (合理:10)",
+              "value": "82.02 (合理:10)",
               "grade": "fail"
             },
             {
@@ -4435,7 +4430,7 @@
               "股息殖利率 62.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 82.18，估值偏高不符葛拉漢標準"
+              "P/E 82.02，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -4470,7 +4465,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "23.2 vs 82.2",
+              "value": "23.2 vs 82.0",
               "grade": "pass"
             }
           ],
@@ -4478,11 +4473,11 @@
             "summary": "Broadcom Inc. 有成長潛力，但估值或成長率尚未達標。",
             "strengths": [
               "ROE 36.62%，管理層資本效率出色",
-              "Forward PE 23.2 低於 Trailing PE 82.2，分析師看好成長",
+              "Forward PE 23.2 低於 Trailing PE 82.0，分析師看好成長",
               "淨利率 30.39%，獲利能力強"
             ],
             "risks": [
-              "P/E 82.18，估值可能過高"
+              "P/E 82.02，估值可能過高"
             ]
           }
         },
@@ -4596,7 +4591,7 @@
         },
         {
           "metric": "P/E",
-          "value": "82.18 (合理:10)",
+          "value": "82.02 (合理:10)",
           "grade": "fail"
         },
         {
@@ -4622,16 +4617,16 @@
             "date": "Thu, 16 Apr 2026 01:04:19 GMT"
           },
           {
+            "title": "Broadcom Inc(AVGO)股票4月10日開盤上漲3.24%：原因全解讀 - TradingKey",
+            "date": "Fri, 10 Apr 2026 07:00:00 GMT"
+          },
+          {
             "title": "《業績》博通(AVGO.US)首財季盈收勝預期 AI業務收入翻倍 - AASTOCKS.com",
             "date": "Wed, 04 Mar 2026 08:00:00 GMT"
           },
           {
             "title": "RBRK vs. AVGO: Which Enterprise Security Stock Has Better Potential? - TradingView",
             "date": "Thu, 16 Apr 2026 13:53:00 GMT"
-          },
-          {
-            "title": "【即時新聞】博通(AVGO)宣布擴大與Google的AI晶片協議，盤後股價上漲3%迎爆發 - CMoney投資網誌",
-            "date": "Tue, 07 Apr 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -4647,7 +4642,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 82.18 偏高，估值需留意"
+          "P/E 82.02 偏高，估值需留意"
         ]
       },
       "industry_chains": [
@@ -4966,12 +4961,12 @@
             "date": "Wed, 10 Sep 2025 07:00:00 GMT"
           },
           {
-            "title": "【02:44 即時新聞】Synopsys(SNPS) 股價重挫逾5% 跌破短中期均線技術面轉弱 - CMoney投資網誌",
-            "date": "Sat, 28 Mar 2026 07:00:00 GMT"
+            "title": "美禁令拖累 新思科技股價崩35%吐光今年漲幅 - Yahoo股市",
+            "date": "Wed, 10 Sep 2025 07:00:00 GMT"
           },
           {
-            "title": "基金更新：Prime Capital Investment Advisors, LLC 的投資組合中新增了26,935 股新思科技（SNPS）股票。 - Moomoo",
-            "date": "Wed, 05 Nov 2025 08:00:00 GMT"
+            "title": "【02:44 即時新聞】Synopsys(SNPS) 股價重挫逾5% 跌破短中期均線技術面轉弱 - CMoney投資網誌",
+            "date": "Sat, 28 Mar 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -5298,20 +5293,20 @@
             "date": "Tue, 14 Apr 2026 07:00:00 GMT"
           },
           {
-            "title": "Research Alert: CFRA Raises Rating On Shares Of Johnson Johnson To Buy From Hold - 富途牛牛",
-            "date": "Fri, 13 Mar 2026 07:00:00 GMT"
+            "title": "TD Cowen Maintains Johnson &amp; Johnson(JNJ.US) With Buy Rating, Raises Target Price to $250 - 富途牛牛",
+            "date": "Thu, 23 Apr 2026 15:01:51 GMT"
+          },
+          {
+            "title": "強生 (NYSE:JNJ) 受到機構投資者的青睞，他們持有公司74%的股份。 - 富途牛牛",
+            "date": "Thu, 18 Sep 2025 07:00:00 GMT"
           },
           {
             "title": "〈財報〉嬌生Q2獲利與營收超預期、上調全年財測 股價盤前上漲 - Yahoo股市",
             "date": "Wed, 16 Jul 2025 07:00:00 GMT"
-          },
-          {
-            "title": "Johnson &amp; Johnson Reports Modest Q4 Beat but Stock Seems Fairly Valued, Morgan Stanley Says - 富途牛牛",
-            "date": "Thu, 22 Jan 2026 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
-        "risk_summary": "近期新聞正面 (2 個正面信號)"
+        "risk_summary": "近期無重大負面新聞"
       },
       "pick_reason": {
         "summary": "Johnson & Johnson 符合巴菲特選股標準。",
@@ -5687,7 +5682,7 @@
       "pe_ratio": 28.98,
       "forward_pe": 21.23,
       "market_cap_b": 595.5,
-      "dividend_yield": 86.0,
+      "dividend_yield": 87.0,
       "high_52w": 375.51,
       "low_52w": 293.89,
       "current_price": 308.88,
@@ -5775,7 +5770,7 @@
             },
             {
               "metric": "股息殖利率",
-              "value": "86.0%",
+              "value": "87.0%",
               "grade": "pass"
             },
             {
@@ -5792,7 +5787,7 @@
           "pick_reason": {
             "summary": "Visa Inc. 不符合葛拉漢安全邊際要求。",
             "strengths": [
-              "股息殖利率 86.0%，提供安全邊際",
+              "股息殖利率 87.0%，提供安全邊際",
               "股價接近 52 週低點，逢低買入機會"
             ],
             "risks": [
@@ -6332,8 +6327,8 @@
             "date": "Sat, 25 Oct 2025 07:00:00 GMT"
           },
           {
-            "title": "存股族小賺股息、大賠價差！專家：00940打亂高殖利率個股短線成投機股| 股市要聞| 股市 - 聯合新聞網",
-            "date": "Thu, 16 Oct 2025 07:00:00 GMT"
+            "title": "聯詠衰退導致高股息ETF賣壓，股價淪陷的現在適合抄底嗎？ | 個人理財 | 理財 - 經濟日報",
+            "date": "Fri, 17 Oct 2025 07:00:00 GMT"
           }
         ],
         "risk_level": "yellow",
@@ -7012,6 +7007,10 @@
       "news": {
         "items": [
           {
+            "title": "晶片戰再升級！美光遊說美國國會收緊對中設備出口 鎖定長鑫、長江存儲 - AASTOCKS.com",
+            "date": "Wed, 22 Apr 2026 11:40:00 GMT"
+          },
+          {
             "title": "【21:31 即時新聞】KLA (KLAC) 盤中勁揚逾7%／獲選唯一「買進」半導體股帶動買氣 - CMoney投資網誌",
             "date": "Wed, 08 Apr 2026 07:00:00 GMT"
           },
@@ -7024,12 +7023,8 @@
             "date": "Fri, 30 Jan 2026 08:00:00 GMT"
           },
           {
-            "title": "【美股動態】科磊財測不差股價暴跌-CMoney 研究員 - CMoney投資網誌",
-            "date": "Sat, 31 Jan 2026 08:00:00 GMT"
-          },
-          {
-            "title": "【美股研究報告】科磊財報優股價卻暴跌，AI設備狂牛要停了嗎？-莫紹晉 - CMoney投資網誌",
-            "date": "Fri, 30 Jan 2026 08:00:00 GMT"
+            "title": "ASML估值溢價降至近十年低點 分析師：股價仍被低估 - AASTOCKS.com",
+            "date": "Thu, 16 Apr 2026 19:30:00 GMT"
           }
         ],
         "risk_level": "yellow",
@@ -7359,10 +7354,6 @@
             "date": "Tue, 31 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "Does Coca-Cola's AI and Cloud Push Signal a New Tech-Led Growth Phase? - TradingView",
-            "date": "Tue, 31 Mar 2026 07:00:00 GMT"
-          },
-          {
             "title": "These Stocks Are Reporting Strong First-quarter Earnings - Helping Fuel the Market's Record Run - 富途牛牛",
             "date": "Sat, 18 Apr 2026 19:06:00 GMT"
           },
@@ -7373,10 +7364,14 @@
           {
             "title": "【即時新聞】投資可口可樂(KO)的千元策略，現時正適合入手 - CMoney投資網誌",
             "date": "Fri, 02 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "可口可樂股票在未能達到季度收入預期後大幅下跌 - FXStreet",
+            "date": "Tue, 22 Jul 2025 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
-        "risk_summary": "近期新聞正面 (3 個正面信號)"
+        "risk_summary": "近期新聞正面 (2 個正面信號)"
       },
       "pick_reason": {
         "summary": "Coca-Cola Company (The) 符合巴菲特選股標準。",
@@ -8100,7 +8095,7 @@
       "pe_ratio": 42.84,
       "forward_pe": 16.19,
       "market_cap_b": 57.3,
-      "dividend_yield": 182.0,
+      "dividend_yield": 180.0,
       "high_52w": 67.45,
       "low_52w": 38.72,
       "current_price": 57.83,
@@ -8155,7 +8150,7 @@
               "淨利率 20.31%，具備強勁定價權",
               "負債權益比 0.64，資產負債表健康",
               "自由現金流連續 4 年為正",
-              "股息殖利率 182.0%，提供穩定現金回報"
+              "股息殖利率 180.0%，提供穩定現金回報"
             ],
             "risks": [
               "P/E 42.84 偏高，估值需留意"
@@ -8188,7 +8183,7 @@
             },
             {
               "metric": "股息殖利率",
-              "value": "182.0%",
+              "value": "180.0%",
               "grade": "pass"
             },
             {
@@ -8205,7 +8200,7 @@
           "pick_reason": {
             "summary": "Occidental Petroleum Corporatio 不符合葛拉漢安全邊際要求。",
             "strengths": [
-              "股息殖利率 182.0%，提供安全邊際"
+              "股息殖利率 180.0%，提供安全邊際"
             ],
             "risks": [
               "P/E 42.84，估值偏高不符葛拉漢標準",
@@ -8416,7 +8411,7 @@
           "淨利率 20.31%，具備強勁定價權",
           "負債權益比 0.64，資產負債表健康",
           "自由現金流連續 4 年為正",
-          "股息殖利率 182.0%，提供穩定現金回報"
+          "股息殖利率 180.0%，提供穩定現金回報"
         ],
         "risks": [
           "P/E 42.84 偏高，估值需留意"
@@ -8440,10 +8435,10 @@
       "net_margin_avg": 24.27,
       "net_margin_latest": 20.5,
       "gross_margin_avg": 36.52,
-      "eps_latest": 1.54,
+      "eps_latest": 1.63,
       "debt_to_equity": 1.48,
       "current_ratio": 0.81,
-      "pe_ratio": 29.99,
+      "pe_ratio": 28.33,
       "forward_pe": 22.07,
       "market_cap_b": 85.8,
       "dividend_yield": 130.0,
@@ -8485,7 +8480,7 @@
             },
             {
               "metric": "P/E",
-              "value": "29.99 (合理:10)",
+              "value": "28.33 (合理:10)",
               "grade": "fail"
             },
             {
@@ -8512,7 +8507,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "29.99 (合理:10)",
+              "value": "28.33 (合理:10)",
               "grade": "fail"
             },
             {
@@ -8552,7 +8547,7 @@
               "股息殖利率 130.0%，提供安全邊際"
             ],
             "risks": [
-              "P/E 29.99，估值偏高不符葛拉漢標準",
+              "P/E 28.33，估值偏高不符葛拉漢標準",
               "流動比率 0.8，短期流動性不足"
             ]
           }
@@ -8588,7 +8583,7 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "22.1 vs 30.0",
+              "value": "22.1 vs 28.3",
               "grade": "ok"
             }
           ],
@@ -8596,7 +8591,7 @@
             "summary": "CSX Corporation 不符合林區成長合理價標準。",
             "strengths": [
               "ROE 28.24%，管理層資本效率出色",
-              "Forward PE 22.1 低於 Trailing PE 30.0，分析師看好成長",
+              "Forward PE 22.1 低於 Trailing PE 28.3，分析師看好成長",
               "淨利率 24.27%，獲利能力強"
             ],
             "risks": []
@@ -8711,7 +8706,7 @@
         },
         {
           "metric": "P/E",
-          "value": "29.99 (合理:10)",
+          "value": "28.33 (合理:10)",
           "grade": "fail"
         },
         {
@@ -8745,8 +8740,8 @@
             "date": "Thu, 23 Apr 2026 13:03:46 GMT"
           },
           {
-            "title": "巴菲特說不打算併購 鐵路商CSX跳水、波克夏軟 - Yahoo股市",
-            "date": "Mon, 25 Aug 2025 07:00:00 GMT"
+            "title": "摩根士丹利下調評級 指CSX轉型已大致反映於股價估值 - AASTOCKS.com",
+            "date": "Thu, 23 Apr 2026 19:46:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -9067,12 +9062,12 @@
       "news": {
         "items": [
           {
-            "title": "今日漲停跌停股｜IC設計主升段爆發！聯發科、昇陽半導體、達發漲停帶動百檔齊揚0422｜豐雲學堂2026 年 04 月 - sinotrade.com.tw",
-            "date": "Wed, 22 Apr 2026 06:55:59 GMT"
-          },
-          {
             "title": "聯發科連2天噴漲停！這波補漲趕進度暗藏2454密碼「法說會前夕該獲利了結？」歷史經驗全說了- 上市櫃 - 旺得富理財網",
             "date": "Wed, 22 Apr 2026 05:33:51 GMT"
+          },
+          {
+            "title": "今日漲停跌停股｜IC設計主升段爆發！聯發科、昇陽半導體、達發漲停帶動百檔齊揚0422｜豐雲學堂2026 年 04 月 - sinotrade.com.tw",
+            "date": "Wed, 22 Apr 2026 06:55:59 GMT"
           },
           {
             "title": "聯發科亮燈漲停攻2090元、股價超車台積電 AI ASIC 題材再度點火 - 經濟日報",
@@ -9794,6 +9789,7 @@
       "pe_ratio": 30.39,
       "forward_pe": 22.15,
       "market_cap_b": 448.3,
+      "dividend_yield": 69.0,
       "high_52w": 601.77,
       "low_52w": 480.5,
       "current_price": 502.38,
@@ -9857,7 +9853,7 @@
           }
         },
         "graham": {
-          "score": 24.4,
+          "score": 32.0,
           "grade": "C",
           "details": [
             {
@@ -9881,6 +9877,11 @@
               "grade": "nodata"
             },
             {
+              "metric": "股息殖利率",
+              "value": "69.0%",
+              "grade": "pass"
+            },
+            {
               "metric": "淨利率",
               "value": 45.15,
               "grade": "pass"
@@ -9894,6 +9895,7 @@
           "pick_reason": {
             "summary": "Mastercard Incorporated 不符合葛拉漢安全邊際要求。",
             "strengths": [
+              "股息殖利率 69.0%，提供安全邊際",
               "股價接近 52 週低點，逢低買入機會"
             ],
             "risks": [
@@ -10001,7 +10003,7 @@
           }
         },
         "composite": {
-          "score": 56.0,
+          "score": 57.9,
           "grade": "B",
           "breakdown": {
             "buffett": {
@@ -10010,7 +10012,7 @@
               "weight": 0.4
             },
             "graham": {
-              "score": 24.4,
+              "score": 32.0,
               "grade": "C",
               "weight": 0.25
             },
@@ -10027,7 +10029,7 @@
           }
         }
       },
-      "composite_score": 56.0,
+      "composite_score": 57.9,
       "composite_grade": "B",
       "buffett_score": 78.9,
       "grade": "A",
@@ -10138,6 +10140,7 @@
       "pe_ratio": 34.73,
       "forward_pe": 26.03,
       "market_cap_b": 235.4,
+      "dividend_yield": 126.0,
       "high_52w": 510.65,
       "low_52w": 387.78,
       "current_price": 508.06,
@@ -10200,7 +10203,7 @@
           }
         },
         "graham": {
-          "score": 26.7,
+          "score": 34.0,
           "grade": "C",
           "details": [
             {
@@ -10224,6 +10227,11 @@
               "grade": "nodata"
             },
             {
+              "metric": "股息殖利率",
+              "value": "126.0%",
+              "grade": "pass"
+            },
+            {
               "metric": "淨利率",
               "value": 17.87,
               "grade": "pass"
@@ -10236,7 +10244,9 @@
           ],
           "pick_reason": {
             "summary": "Linde plc 不符合葛拉漢安全邊際要求。",
-            "strengths": [],
+            "strengths": [
+              "股息殖利率 126.0%，提供安全邊際"
+            ],
             "risks": [
               "P/E 34.73，估值偏高不符葛拉漢標準",
               "流動比率 0.9，短期流動性不足"
@@ -10339,8 +10349,8 @@
           }
         },
         "composite": {
-          "score": 53.7,
-          "grade": "C",
+          "score": 55.6,
+          "grade": "B",
           "breakdown": {
             "buffett": {
               "score": 78.9,
@@ -10348,7 +10358,7 @@
               "weight": 0.4
             },
             "graham": {
-              "score": 26.7,
+              "score": 34.0,
               "grade": "C",
               "weight": 0.25
             },
@@ -10365,8 +10375,8 @@
           }
         }
       },
-      "composite_score": 53.7,
-      "composite_grade": "C",
+      "composite_score": 55.6,
+      "composite_grade": "B",
       "buffett_score": 78.9,
       "grade": "A",
       "score_details": [
@@ -10469,12 +10479,13 @@
       "net_margin_avg": 10.74,
       "net_margin_latest": 12.91,
       "gross_margin_avg": 41.48,
-      "eps_latest": 7.29,
+      "eps_latest": 7.27,
       "debt_to_equity": 0.92,
       "current_ratio": 1.08,
-      "pe_ratio": 37.24,
+      "pe_ratio": 37.34,
       "forward_pe": 28.01,
       "market_cap_b": 76.7,
+      "dividend_yield": 102.0,
       "high_52w": 309.27,
       "low_52w": 235.93,
       "current_price": 271.45,
@@ -10513,7 +10524,7 @@
             },
             {
               "metric": "P/E",
-              "value": "37.24 (合理:10)",
+              "value": "37.34 (合理:10)",
               "grade": "fail"
             },
             {
@@ -10532,18 +10543,18 @@
               "自由現金流連續 4 年為正"
             ],
             "risks": [
-              "P/E 37.24 偏高，估值需留意",
+              "P/E 37.34 偏高，估值需留意",
               "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
             ]
           }
         },
         "graham": {
-          "score": 36.7,
+          "score": 43.0,
           "grade": "C",
           "details": [
             {
               "metric": "P/E",
-              "value": "37.24 (合理:10)",
+              "value": "37.34 (合理:10)",
               "grade": "fail"
             },
             {
@@ -10562,6 +10573,11 @@
               "grade": "nodata"
             },
             {
+              "metric": "股息殖利率",
+              "value": "102.0%",
+              "grade": "pass"
+            },
+            {
               "metric": "淨利率",
               "value": 10.74,
               "grade": "pass"
@@ -10574,9 +10590,11 @@
           ],
           "pick_reason": {
             "summary": "Ecolab Inc. 不符合葛拉漢安全邊際要求。",
-            "strengths": [],
+            "strengths": [
+              "股息殖利率 102.0%，提供安全邊際"
+            ],
             "risks": [
-              "P/E 37.24，估值偏高不符葛拉漢標準",
+              "P/E 37.34，估值偏高不符葛拉漢標準",
               "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
             ]
           }
@@ -10612,17 +10630,17 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "28.0 vs 37.2",
+              "value": "28.0 vs 37.3",
               "grade": "ok"
             }
           ],
           "pick_reason": {
             "summary": "Ecolab Inc. 不符合林區成長合理價標準。",
             "strengths": [
-              "Forward PE 28.0 低於 Trailing PE 37.2，分析師看好成長"
+              "Forward PE 28.0 低於 Trailing PE 37.3，分析師看好成長"
             ],
             "risks": [
-              "P/E 37.24，估值可能過高",
+              "P/E 37.34，估值可能過高",
               "新聞風險：偵測到 1 紅色 + 0 黃色信號，建議關注"
             ]
           }
@@ -10680,7 +10698,7 @@
           }
         },
         "composite": {
-          "score": 55.7,
+          "score": 57.3,
           "grade": "B",
           "breakdown": {
             "buffett": {
@@ -10689,7 +10707,7 @@
               "weight": 0.4
             },
             "graham": {
-              "score": 36.7,
+              "score": 43.0,
               "grade": "C",
               "weight": 0.25
             },
@@ -10706,7 +10724,7 @@
           }
         }
       },
-      "composite_score": 55.7,
+      "composite_score": 57.3,
       "composite_grade": "B",
       "buffett_score": 78.9,
       "grade": "A",
@@ -10738,7 +10756,7 @@
         },
         {
           "metric": "P/E",
-          "value": "37.24 (合理:10)",
+          "value": "37.34 (合理:10)",
           "grade": "fail"
         },
         {
@@ -10789,7 +10807,7 @@
           "自由現金流連續 4 年為正"
         ],
         "risks": [
-          "P/E 37.24 偏高，估值需留意",
+          "P/E 37.34 偏高，估值需留意",
           "新聞黃燈：偵測到 1 紅色 + 0 黃色信號，建議關注"
         ]
       },
@@ -11108,12 +11126,16 @@
       "news": {
         "items": [
           {
-            "title": "Union Pacific Sees Consistent Annual Div Increases &gt;UNP - 富途牛牛",
-            "date": "Thu, 23 Apr 2026 12:19:08 GMT"
+            "title": "更新：聯合太平洋第一季度盈利超預期，股價上漲 - Moomoo",
+            "date": "Thu, 23 Apr 2026 18:30:15 GMT"
           },
           {
-            "title": "Union Pacific Has Capital Plan of $3.3 B &gt;UNP - 富途牛牛",
-            "date": "Thu, 23 Apr 2026 12:20:15 GMT"
+            "title": "Update: Union Pacific Shares Rise After Q1 Earnings Beat - 富途牛牛",
+            "date": "Thu, 23 Apr 2026 19:21:53 GMT"
+          },
+          {
+            "title": "Union Pacific Sees Consistent Annual Div Increases &gt;UNP - 富途牛牛",
+            "date": "Thu, 23 Apr 2026 12:19:08 GMT"
           },
           {
             "title": "Union Pacific 2026年第一季業績：修訂後指引或促使公允市值重新估值 - Bitget",
@@ -11122,10 +11144,6 @@
           {
             "title": "Analysts estimate Norfolk Southern (NSC) to report a decline in earnings: What to look out for - MSN",
             "date": "Sat, 18 Apr 2026 21:35:21 GMT"
-          },
-          {
-            "title": "聯合太平洋公司（紐約證券交易所代碼：UNP）的股東可能正在尋找退出機會 - Moomoo",
-            "date": "Tue, 28 Oct 2025 07:00:00 GMT"
           }
         ],
         "risk_level": "yellow",
@@ -11839,6 +11857,7 @@
       "pe_ratio": 84.79,
       "forward_pe": 12.49,
       "market_cap_b": 355.4,
+      "dividend_yield": 344.0,
       "high_52w": 244.81,
       "low_52w": 176.57,
       "current_price": 200.95,
@@ -11901,7 +11920,7 @@
           }
         },
         "graham": {
-          "score": 15.6,
+          "score": 24.0,
           "grade": "C",
           "details": [
             {
@@ -11925,6 +11944,11 @@
               "grade": "nodata"
             },
             {
+              "metric": "股息殖利率",
+              "value": "344.0%",
+              "grade": "pass"
+            },
+            {
               "metric": "淨利率",
               "value": 10.96,
               "grade": "pass"
@@ -11937,7 +11961,9 @@
           ],
           "pick_reason": {
             "summary": "AbbVie Inc. 不符合葛拉漢安全邊際要求。",
-            "strengths": [],
+            "strengths": [
+              "股息殖利率 344.0%，提供安全邊際"
+            ],
             "risks": [
               "P/E 84.79，估值偏高不符葛拉漢標準",
               "流動比率 0.7，短期流動性不足"
@@ -12041,7 +12067,7 @@
           }
         },
         "composite": {
-          "score": 50.2,
+          "score": 52.3,
           "grade": "C",
           "breakdown": {
             "buffett": {
@@ -12050,7 +12076,7 @@
               "weight": 0.4
             },
             "graham": {
-              "score": 15.6,
+              "score": 24.0,
               "grade": "C",
               "weight": 0.25
             },
@@ -12067,7 +12093,7 @@
           }
         }
       },
-      "composite_score": 50.2,
+      "composite_score": 52.3,
       "composite_grade": "C",
       "buffett_score": 73.7,
       "grade": "A",
@@ -12526,6 +12552,7 @@
       "pe_ratio": 28.3,
       "forward_pe": 16.25,
       "market_cap_b": 373.7,
+      "dividend_yield": 380.0,
       "high_52w": 214.71,
       "low_52w": 133.77,
       "current_price": 187.6,
@@ -12580,13 +12607,13 @@
               "負債權益比僅 0.24，財務極度穩健",
               "自由現金流連續 4 年為正",
               "年產自由現金流 $16.59B，現金印鈔機",
-              "護城河寬廣：規模 + 整合型"
+              "股息殖利率 380.0%，提供穩定現金回報"
             ],
             "risks": []
           }
         },
         "graham": {
-          "score": 38.9,
+          "score": 45.0,
           "grade": "C",
           "details": [
             {
@@ -12610,6 +12637,11 @@
               "grade": "nodata"
             },
             {
+              "metric": "股息殖利率",
+              "value": "380.0%",
+              "grade": "pass"
+            },
+            {
               "metric": "淨利率",
               "value": 10.42,
               "grade": "pass"
@@ -12623,7 +12655,8 @@
           "pick_reason": {
             "summary": "Chevron Corporation 不符合葛拉漢安全邊際要求。",
             "strengths": [
-              "負債權益比 0.24，資產負債表極度穩健"
+              "負債權益比 0.24，資產負債表極度穩健",
+              "股息殖利率 380.0%，提供安全邊際"
             ],
             "risks": [
               "P/E 28.3，估值偏高不符葛拉漢標準"
@@ -12723,7 +12756,7 @@
           }
         },
         "composite": {
-          "score": 52.8,
+          "score": 54.4,
           "grade": "C",
           "breakdown": {
             "buffett": {
@@ -12732,7 +12765,7 @@
               "weight": 0.4
             },
             "graham": {
-              "score": 38.9,
+              "score": 45.0,
               "grade": "C",
               "weight": 0.25
             },
@@ -12749,7 +12782,7 @@
           }
         }
       },
-      "composite_score": 52.8,
+      "composite_score": 54.4,
       "composite_grade": "C",
       "buffett_score": 73.7,
       "grade": "A",
@@ -12815,8 +12848,8 @@
             "date": "Mon, 13 Apr 2026 15:38:00 GMT"
           },
           {
-            "title": "2026年值得關注的四大能源股：埃克森美孚（XOM）、康菲石油（COP）、雪佛龍（CVX）和切尼爾能源（LNG） - MEXC",
-            "date": "Thu, 23 Apr 2026 03:58:54 GMT"
+            "title": "Exxon, Chevron, and More Oil Stocks Fall. Get Used to It. -- Barrons.com - 富途牛牛",
+            "date": "Wed, 08 Apr 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -12829,7 +12862,7 @@
           "負債權益比僅 0.24，財務極度穩健",
           "自由現金流連續 4 年為正",
           "年產自由現金流 $16.59B，現金印鈔機",
-          "護城河寬廣：規模 + 整合型"
+          "股息殖利率 380.0%，提供穩定現金回報"
         ],
         "risks": []
       },
@@ -13131,12 +13164,12 @@
             "date": "Fri, 24 Apr 2026 00:18:00 GMT"
           },
           {
-            "title": "被動元件迎春風！國巨(2327) 高階布局收割 潛在漲幅達38% - 理財周刊",
-            "date": "Thu, 23 Apr 2026 23:19:25 GMT"
-          },
-          {
             "title": "5天大漲26%！國巨今噴8%登310元大關創高 分析師看多：CP值仍高 - Yahoo股市",
             "date": "Sun, 12 Apr 2026 07:00:00 GMT"
+          },
+          {
+            "title": "被動元件迎春風！國巨(2327) 高階布局收割 潛在漲幅達38% - 理財周刊",
+            "date": "Thu, 23 Apr 2026 23:19:25 GMT"
           },
           {
             "title": "抱過清明一張賺4.6萬元...國巨4天強漲18%重返290元大關 - Yahoo股市",
@@ -13184,7 +13217,7 @@
       "pe_ratio": 14.23,
       "forward_pe": 12.08,
       "market_cap_b": 81.8,
-      "dividend_yield": 580.0,
+      "dividend_yield": 579.0,
       "high_52w": 39.74,
       "low_52w": 29.66,
       "current_price": 37.84,
@@ -13238,7 +13271,7 @@
               "ROE 達 inf%，資本運用效率優異",
               "淨利率 10.53%，營運效率良好",
               "自由現金流連續 4 年為正",
-              "股息殖利率 580.0%，提供穩定現金回報",
+              "股息殖利率 579.0%，提供穩定現金回報",
               "護城河寬廣：不可複製基礎設施"
             ],
             "risks": []
@@ -13270,7 +13303,7 @@
             },
             {
               "metric": "股息殖利率",
-              "value": "580.0%",
+              "value": "579.0%",
               "grade": "pass"
             },
             {
@@ -13288,7 +13321,7 @@
             "summary": "Enterprise Products Partners L. 不符合葛拉漢安全邊際要求。",
             "strengths": [
               "P/E 14.23，估值處於安全邊際內",
-              "股息殖利率 580.0%，提供安全邊際"
+              "股息殖利率 579.0%，提供安全邊際"
             ],
             "risks": []
           }
@@ -13494,7 +13527,7 @@
           "ROE 達 inf%，資本運用效率優異",
           "淨利率 10.53%，營運效率良好",
           "自由現金流連續 4 年為正",
-          "股息殖利率 580.0%，提供穩定現金回報",
+          "股息殖利率 579.0%，提供穩定現金回報",
           "護城河寬廣：不可複製基礎設施"
         ],
         "risks": []
@@ -14158,12 +14191,12 @@
       "news": {
         "items": [
           {
-            "title": "Weekly Jobless Claims Below Expectations - TradingView",
-            "date": "Thu, 16 Apr 2026 14:58:00 GMT"
+            "title": "《業績》百事(PEP.US)上季盈利勝預期 北美食品減價後銷量回升 - AASTOCKS.com",
+            "date": "Thu, 16 Apr 2026 12:38:00 GMT"
           },
           {
-            "title": "《業績》百事(PEP.US)上季盈利勝預期北美食品減價後銷量回升US Stocks - Global News Content - AASTOCKS.com",
-            "date": "Sat, 18 Apr 2026 07:55:16 GMT"
+            "title": "Weekly Jobless Claims Below Expectations - TradingView",
+            "date": "Thu, 16 Apr 2026 14:58:00 GMT"
           },
           {
             "title": "PepsiCo Still Sees 2026 Dividends of $7.9 Billion, Stock Buybacks of $1 Billion &gt;PEP - 富途牛牛",
@@ -14174,12 +14207,12 @@
             "date": "Wed, 15 Apr 2026 14:41:00 GMT"
           },
           {
-            "title": "Sector Update: Consumer Stocks Edge Higher Pre-Bell Thursday - 富途牛牛",
-            "date": "Thu, 16 Apr 2026 13:18:27 GMT"
+            "title": "降價見效！百事可樂(PEP.US)Q1業績超預期 連續54年股息增長 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
+            "date": "Fri, 17 Apr 2026 01:20:53 GMT"
           }
         ],
         "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
+        "risk_summary": "近期新聞正面 (2 個正面信號)"
       },
       "pick_reason": {
         "summary": "Pepsico, Inc. 部分指標良好，但有待改善之處。",
@@ -14495,24 +14528,24 @@
       "news": {
         "items": [
           {
+            "title": "高盛預警美股月彈後迎再平衡 恐釀 230 億美元股票賣壓 - Yahoo股市",
+            "date": "Fri, 24 Apr 2026 02:01:21 GMT"
+          },
+          {
+            "title": "台股補漲逾800點「重返3萬8」！專家看多：4萬點要來了 - Yahoo股市",
+            "date": "Fri, 24 Apr 2026 01:32:21 GMT"
+          },
+          {
+            "title": "聯發科本周亮三顆漲停燈！ 網驚「跟鬼一樣」 分析師：具備飆股條件 - Yahoo股市",
+            "date": "Fri, 24 Apr 2026 02:05:19 GMT"
+          },
+          {
             "title": "台股突暴跌失守3萬8！高低震盪近1500點 投顧董座解析 - Yahoo股市",
             "date": "Thu, 23 Apr 2026 08:10:50 GMT"
           },
           {
             "title": "有2檔股票將下櫃！櫃買中心：科誠5/29、台興6/8終止交易 - Yahoo股市",
             "date": "Thu, 23 Apr 2026 09:38:28 GMT"
-          },
-          {
-            "title": "台股上沖下洗1757點巨震配1.4兆史上天量 00981A狂刷百萬張搶盡風頭｜Yahoo財經掃描 - Yahoo股市",
-            "date": "Thu, 23 Apr 2026 09:06:48 GMT"
-          },
-          {
-            "title": "打破「台積電緊箍咒」！台股主動ETF、基金單一持股放寬至25% 增加操盤彈性 - Yahoo股市",
-            "date": "Thu, 23 Apr 2026 17:04:52 GMT"
-          },
-          {
-            "title": "【Yahoo早盤】台股飆漲逾千點直逼3萬9大關！分析師李永年：短線有壓不宜追高 - Yahoo股市",
-            "date": "Thu, 23 Apr 2026 07:44:38 GMT"
           }
         ],
         "risk_level": "green",
@@ -15230,10 +15263,10 @@
       "net_margin_avg": 9.67,
       "net_margin_latest": 8.6,
       "gross_margin_avg": 33.41,
-      "eps_latest": 14.23,
+      "eps_latest": 14.22,
       "debt_to_equity": 5.14,
       "current_ratio": 1.06,
-      "pe_ratio": 23.9,
+      "pe_ratio": 23.92,
       "forward_pe": 20.87,
       "market_cap_b": 338.8,
       "dividend_yield": 274.0,
@@ -15275,7 +15308,7 @@
             },
             {
               "metric": "P/E",
-              "value": "23.9 (合理:10)",
+              "value": "23.92 (合理:10)",
               "grade": "fail"
             },
             {
@@ -15305,7 +15338,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "23.9 (合理:10)",
+              "value": "23.92 (合理:10)",
               "grade": "fail"
             },
             {
@@ -15346,7 +15379,7 @@
               "股價接近 52 週低點，逢低買入機會"
             ],
             "risks": [
-              "P/E 23.9，估值偏高不符葛拉漢標準",
+              "P/E 23.92，估值偏高不符葛拉漢標準",
               "負債權益比 5.14，財務風險偏高",
               "新聞風險：偵測到 1 個需關注信號"
             ]
@@ -15507,7 +15540,7 @@
         },
         {
           "metric": "P/E",
-          "value": "23.9 (合理:10)",
+          "value": "23.92 (合理:10)",
           "grade": "fail"
         },
         {
@@ -15533,16 +15566,16 @@
             "date": "Wed, 08 Apr 2026 07:00:00 GMT"
           },
           {
-            "title": "股票更正報告 ARE HD（5.64%→5.20%）貝萊德日本等 - Moomoo",
-            "date": "Wed, 22 Apr 2026 16:08:21 GMT"
-          },
-          {
             "title": "臻鼎淮安HD園區動土 打造全球最大PCB生產基地 - Yahoo股市",
             "date": "Thu, 23 Apr 2026 01:56:08 GMT"
           },
           {
             "title": "Steady Margins, Slow Gains: Is Home Depot's Strategy Working? - TradingView",
             "date": "Tue, 14 Apr 2026 19:34:00 GMT"
+          },
+          {
+            "title": "股票特別報告：三井倉庫HD（持股比例從5.12%降至3.91%）野村證券等 - Moomoo",
+            "date": "Mon, 06 Apr 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "yellow",
@@ -15925,7 +15958,7 @@
       "pe_ratio": 52.64,
       "forward_pe": 45.14,
       "market_cap_b": 450.0,
-      "dividend_yield": 59.0,
+      "dividend_yield": 58.0,
       "high_52w": 1067.08,
       "low_52w": 844.06,
       "current_price": 1014.38,
@@ -15979,7 +16012,7 @@
               "ROE 達 28.09%，資本運用效率優異",
               "負債權益比 0.6，資產負債表健康",
               "自由現金流連續 4 年為正",
-              "股息殖利率 59.0%，提供穩定現金回報",
+              "股息殖利率 58.0%，提供穩定現金回報",
               "護城河寬廣：會員制 + 低成本領導"
             ],
             "risks": [
@@ -16014,7 +16047,7 @@
             },
             {
               "metric": "股息殖利率",
-              "value": "59.0%",
+              "value": "58.0%",
               "grade": "pass"
             },
             {
@@ -16031,7 +16064,7 @@
           "pick_reason": {
             "summary": "Costco Wholesale Corporation 不符合葛拉漢安全邊際要求。",
             "strengths": [
-              "股息殖利率 59.0%，提供安全邊際"
+              "股息殖利率 58.0%，提供安全邊際"
             ],
             "risks": [
               "P/E 52.64，估值偏高不符葛拉漢標準"
@@ -16240,7 +16273,7 @@
           "ROE 達 28.09%，資本運用效率優異",
           "負債權益比 0.6，資產負債表健康",
           "自由現金流連續 4 年為正",
-          "股息殖利率 59.0%，提供穩定現金回報",
+          "股息殖利率 58.0%，提供穩定現金回報",
           "護城河寬廣：會員制 + 低成本領導"
         ],
         "risks": [
@@ -16271,7 +16304,7 @@
       "pe_ratio": 19.88,
       "forward_pe": 15.84,
       "market_cap_b": 217.3,
-      "dividend_yield": 114.0,
+      "dividend_yield": 119.0,
       "high_52w": 387.49,
       "low_52w": 257.21,
       "current_price": 318.55,
@@ -16326,7 +16359,7 @@
               "淨利率 14.6%，營運效率良好",
               "自由現金流連續 4 年為正",
               "年產自由現金流 $16.0B，現金印鈔機",
-              "股息殖利率 114.0%，提供穩定現金回報"
+              "股息殖利率 119.0%，提供穩定現金回報"
             ],
             "risks": [
               "負債權益比 1.91 偏高"
@@ -16359,7 +16392,7 @@
             },
             {
               "metric": "股息殖利率",
-              "value": "114.0%",
+              "value": "119.0%",
               "grade": "pass"
             },
             {
@@ -16376,7 +16409,7 @@
           "pick_reason": {
             "summary": "American Express Company 不符合葛拉漢安全邊際要求。",
             "strengths": [
-              "股息殖利率 114.0%，提供安全邊際"
+              "股息殖利率 119.0%，提供安全邊際"
             ],
             "risks": [
               "負債權益比 1.91，財務風險偏高"
@@ -16583,7 +16616,7 @@
           "淨利率 14.6%，營運效率良好",
           "自由現金流連續 4 年為正",
           "年產自由現金流 $16.0B，現金印鈔機",
-          "股息殖利率 114.0%，提供穩定現金回報"
+          "股息殖利率 119.0%，提供穩定現金回報"
         ],
         "risks": [
           "負債權益比 1.91 偏高"
@@ -16957,6 +16990,7 @@
       "pe_ratio": 48.36,
       "forward_pe": 40.22,
       "market_cap_b": 1052.6,
+      "dividend_yield": 75.0,
       "high_52w": 134.69,
       "low_52w": 91.89,
       "current_price": 132.03,
@@ -17011,7 +17045,7 @@
               "負債權益比 0.64，資產負債表健康",
               "自由現金流連續 4 年為正",
               "年產自由現金流 $14.92B，現金印鈔機",
-              "護城河寬廣：規模經濟 + 物流網路"
+              "股息殖利率 75.0%，提供穩定現金回報"
             ],
             "risks": [
               "P/E 48.36 偏高，估值需留意",
@@ -17020,7 +17054,7 @@
           }
         },
         "graham": {
-          "score": 20.0,
+          "score": 28.0,
           "grade": "C",
           "details": [
             {
@@ -17044,6 +17078,11 @@
               "grade": "nodata"
             },
             {
+              "metric": "股息殖利率",
+              "value": "75.0%",
+              "grade": "pass"
+            },
+            {
               "metric": "淨利率",
               "value": 2.56,
               "grade": "warn"
@@ -17056,7 +17095,9 @@
           ],
           "pick_reason": {
             "summary": "Walmart Inc. 不符合葛拉漢安全邊際要求。",
-            "strengths": [],
+            "strengths": [
+              "股息殖利率 75.0%，提供安全邊際"
+            ],
             "risks": [
               "P/E 48.36，估值偏高不符葛拉漢標準",
               "流動比率 0.8，短期流動性不足"
@@ -17160,7 +17201,7 @@
           }
         },
         "composite": {
-          "score": 40.3,
+          "score": 42.3,
           "grade": "C",
           "breakdown": {
             "buffett": {
@@ -17169,7 +17210,7 @@
               "weight": 0.4
             },
             "graham": {
-              "score": 20.0,
+              "score": 28.0,
               "grade": "C",
               "weight": 0.25
             },
@@ -17186,7 +17227,7 @@
           }
         }
       },
-      "composite_score": 40.3,
+      "composite_score": 42.3,
       "composite_grade": "C",
       "buffett_score": 62.1,
       "grade": "B",
@@ -17266,7 +17307,7 @@
           "負債權益比 0.64，資產負債表健康",
           "自由現金流連續 4 年為正",
           "年產自由現金流 $14.92B，現金印鈔機",
-          "護城河寬廣：規模經濟 + 物流網路"
+          "股息殖利率 75.0%，提供穩定現金回報"
         ],
         "risks": [
           "P/E 48.36 偏高，估值需留意",
@@ -19283,9 +19324,9 @@
       "net_margin_avg": 21.74,
       "net_margin_latest": 21.59,
       "gross_margin_avg": 59.37,
-      "eps_latest": 42.05,
+      "eps_latest": 42.1,
       "current_ratio": 1.14,
-      "pe_ratio": 30.07,
+      "pe_ratio": 30.03,
       "forward_pe": 24.7,
       "market_cap_b": 25.6,
       "high_52w": 1525.17,
@@ -19326,7 +19367,7 @@
             },
             {
               "metric": "P/E",
-              "value": "30.07 (合理:10)",
+              "value": "30.03 (合理:10)",
               "grade": "fail"
             },
             {
@@ -19344,7 +19385,7 @@
               "護城河寬廣：壟斷 + 轉換成本"
             ],
             "risks": [
-              "P/E 30.07 偏高，估值需留意",
+              "P/E 30.03 偏高，估值需留意",
               "新聞黃燈：偵測到 1 個需關注信號"
             ]
           }
@@ -19355,7 +19396,7 @@
           "details": [
             {
               "metric": "P/E",
-              "value": "30.07 (合理:10)",
+              "value": "30.03 (合理:10)",
               "grade": "fail"
             },
             {
@@ -19388,7 +19429,7 @@
             "summary": "Mettler-Toledo International, I 不符合葛拉漢安全邊際要求。",
             "strengths": [],
             "risks": [
-              "P/E 30.07，估值偏高不符葛拉漢標準",
+              "P/E 30.03，估值偏高不符葛拉漢標準",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -19424,18 +19465,18 @@
             },
             {
               "metric": "Forward PE 折價",
-              "value": "24.7 vs 30.1",
+              "value": "24.7 vs 30.0",
               "grade": "ok"
             }
           ],
           "pick_reason": {
             "summary": "Mettler-Toledo International, I 不符合林區成長合理價標準。",
             "strengths": [
-              "Forward PE 24.7 低於 Trailing PE 30.1，分析師看好成長",
+              "Forward PE 24.7 低於 Trailing PE 30.0，分析師看好成長",
               "淨利率 21.74%，獲利能力強"
             ],
             "risks": [
-              "P/E 30.07，估值可能過高",
+              "P/E 30.03，估值可能過高",
               "新聞風險：偵測到 1 個需關注信號"
             ]
           }
@@ -19552,7 +19593,7 @@
         },
         {
           "metric": "P/E",
-          "value": "30.07 (合理:10)",
+          "value": "30.03 (合理:10)",
           "grade": "fail"
         },
         {
@@ -19594,7 +19635,7 @@
           "護城河寬廣：壟斷 + 轉換成本"
         ],
         "risks": [
-          "P/E 30.07 偏高，估值需留意",
+          "P/E 30.03 偏高，估值需留意",
           "新聞黃燈：偵測到 1 個需關注信號"
         ]
       },
@@ -19622,6 +19663,7 @@
       "pe_ratio": 24.8,
       "forward_pe": 22.71,
       "market_cap_b": 64.0,
+      "dividend_yield": 143.0,
       "high_52w": 67.0,
       "low_52w": 34.56,
       "current_price": 64.49,
@@ -19674,13 +19716,14 @@
             "strengths": [
               "負債權益比僅 0.35，財務極度穩健",
               "自由現金流連續 4 年為正",
+              "股息殖利率 143.0%，提供穩定現金回報",
               "護城河寬廣：近壟斷 (LNG 設備)"
             ],
             "risks": []
           }
         },
         "graham": {
-          "score": 35.6,
+          "score": 42.0,
           "grade": "C",
           "details": [
             {
@@ -19704,6 +19747,11 @@
               "grade": "nodata"
             },
             {
+              "metric": "股息殖利率",
+              "value": "143.0%",
+              "grade": "pass"
+            },
+            {
               "metric": "淨利率",
               "value": 6.2,
               "grade": "ok"
@@ -19717,7 +19765,8 @@
           "pick_reason": {
             "summary": "Baker Hughes Company 不符合葛拉漢安全邊際要求。",
             "strengths": [
-              "負債權益比 0.35，資產負債表極度穩健"
+              "負債權益比 0.35，資產負債表極度穩健",
+              "股息殖利率 143.0%，提供安全邊際"
             ],
             "risks": [
               "P/E 24.8，估值偏高不符葛拉漢標準"
@@ -19819,7 +19868,7 @@
           }
         },
         "composite": {
-          "score": 39.1,
+          "score": 40.7,
           "grade": "C",
           "breakdown": {
             "buffett": {
@@ -19828,7 +19877,7 @@
               "weight": 0.4
             },
             "graham": {
-              "score": 35.6,
+              "score": 42.0,
               "grade": "C",
               "weight": 0.25
             },
@@ -19845,7 +19894,7 @@
           }
         }
       },
-      "composite_score": 39.1,
+      "composite_score": 40.7,
       "composite_grade": "C",
       "buffett_score": 56.8,
       "grade": "B",
@@ -19904,7 +19953,7 @@
           },
           {
             "title": "Baker Hughes(BKR.US)14.5億美元剝離Waygate，海克斯康加碼無損檢測與人形機器人佈局作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
-            "date": "Mon, 13 Apr 2026 07:50:59 GMT"
+            "date": "Mon, 13 Apr 2026 07:00:00 GMT"
           },
           {
             "title": "Oppenheimer三月美股策略：動量策略正當時推薦蘋果(AAPL.US)、美鋁(AA.US)、貝克休斯(BKR.US)等個股作者智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
@@ -19923,6 +19972,7 @@
         "strengths": [
           "負債權益比僅 0.35，財務極度穩健",
           "自由現金流連續 4 年為正",
+          "股息殖利率 143.0%，提供穩定現金回報",
           "護城河寬廣：近壟斷 (LNG 設備)"
         ],
         "risks": []
@@ -20576,8 +20626,8 @@
             "date": "Tue, 31 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "6505 台塑化 - 壓力測試完畢 - 股市爆料同學會 - CMoney",
-            "date": "Mon, 20 Apr 2026 23:13:36 GMT"
+            "title": "【即時新聞】台塑化爆量飆漲10％！塑化族群大洗牌，這「5檔概念股」多空激戰！ - CMoney",
+            "date": "Mon, 09 Mar 2026 07:00:00 GMT"
           },
           {
             "title": "台塑四寶利空出盡？4檔股價大噴發市場預期首季轉虧為盈 「這檔」長線卻喊壓力大 - Yahoo股市",
@@ -21566,20 +21616,20 @@
             "date": "Wed, 17 Dec 2025 08:00:00 GMT"
           },
           {
-            "title": "金融股漲瘋了！台新新光金噴近6%炸量63.8萬張登成交王 中信金、永豐金等4檔刷近年新高價 - Yahoo股市",
-            "date": "Wed, 17 Dec 2025 08:00:00 GMT"
+            "title": "高股息誘人！富邦金上看百元 中信金等4檔金控盤中改寫新天價 - Yahoo股市",
+            "date": "Thu, 11 Dec 2025 08:00:00 GMT"
           },
           {
             "title": "2891 中信金- 金控新聞- 股市爆料同學會 - CMoney",
             "date": "Wed, 14 Jan 2026 08:00:00 GMT"
           },
           {
-            "title": "中信金（2891）為何一路創高？大多數散戶早就被洗到場外…剩ETF在默默掃貨| 台股雜談| 股市 - 聯合新聞網",
-            "date": "Fri, 26 Dec 2025 08:00:00 GMT"
+            "title": "金融股漲瘋了！台新新光金噴近6%炸量63.8萬張登成交王 中信金、永豐金等4檔刷近年新高價 - Yahoo股市",
+            "date": "Wed, 17 Dec 2025 08:00:00 GMT"
           }
         ],
         "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
+        "risk_summary": "近期新聞正面 (2 個正面信號)"
       },
       "pick_reason": {
         "summary": "中信金 目前不符合巴菲特核心選股標準。",
@@ -21900,11 +21950,11 @@
             "date": "Thu, 18 Dec 2025 08:00:00 GMT"
           },
           {
-            "title": "炒作和潤股票削945萬! 和泰汽車前董事蘇紘明認罪繳回所得遭起訴 - MSN",
-            "date": "Mon, 13 Apr 2026 07:49:28 GMT"
+            "title": "和泰車「砸百億攻日」股民不愛？今不漲反跌挫逾2% - Yahoo股市",
+            "date": "Thu, 18 Dec 2025 08:00:00 GMT"
           },
           {
-            "title": "和泰車「砸百億攻日」股民不愛？今不漲反跌挫逾2% - Yahoo股市",
+            "title": "和泰暫停交易原因揭曉！將斥資百億收購HINO經銷商進軍日本商用車市場 - 地球黃金線",
             "date": "Thu, 18 Dec 2025 08:00:00 GMT"
           }
         ],
@@ -21945,6 +21995,7 @@
       "pe_ratio": 23.68,
       "forward_pe": 20.53,
       "market_cap_b": 26.4,
+      "dividend_yield": 245.0,
       "high_52w": 150.51,
       "low_52w": 121.28,
       "current_price": 134.97,
@@ -21997,6 +22048,7 @@
             "strengths": [
               "淨利率 21.99%，具備強勁定價權",
               "毛利率 59.63%，護城河寬廣",
+              "股息殖利率 245.0%，提供穩定現金回報",
               "護城河寬廣：自然壟斷"
             ],
             "risks": [
@@ -22005,7 +22057,7 @@
           }
         },
         "graham": {
-          "score": 23.3,
+          "score": 31.0,
           "grade": "C",
           "details": [
             {
@@ -22029,6 +22081,11 @@
               "grade": "nodata"
             },
             {
+              "metric": "股息殖利率",
+              "value": "245.0%",
+              "grade": "pass"
+            },
+            {
               "metric": "淨利率",
               "value": 21.99,
               "grade": "pass"
@@ -22041,7 +22098,9 @@
           ],
           "pick_reason": {
             "summary": "American Water Works Company, I 不符合葛拉漢安全邊際要求。",
-            "strengths": [],
+            "strengths": [
+              "股息殖利率 245.0%，提供安全邊際"
+            ],
             "risks": [
               "P/E 23.68，估值偏高不符葛拉漢標準",
               "流動比率 0.5，短期流動性不足",
@@ -22148,7 +22207,7 @@
           }
         },
         "composite": {
-          "score": 37.4,
+          "score": 39.3,
           "grade": "C",
           "breakdown": {
             "buffett": {
@@ -22157,7 +22216,7 @@
               "weight": 0.4
             },
             "graham": {
-              "score": 23.3,
+              "score": 31.0,
               "grade": "C",
               "weight": 0.25
             },
@@ -22174,7 +22233,7 @@
           }
         }
       },
-      "composite_score": 37.4,
+      "composite_score": 39.3,
       "composite_grade": "C",
       "buffett_score": 50.5,
       "grade": "C",
@@ -22244,6 +22303,7 @@
         "strengths": [
           "淨利率 21.99%，具備強勁定價權",
           "毛利率 59.63%，護城河寬廣",
+          "股息殖利率 245.0%，提供穩定現金回報",
           "護城河寬廣：自然壟斷"
         ],
         "risks": [
@@ -22843,8 +22903,8 @@
       "news": {
         "items": [
           {
-            "title": "川普不想打了？布蘭特急跌「台化、南亞盤中挫7%」 這2檔逆勢漲停排隊買單破400張 - Yahoo股市",
-            "date": "Mon, 30 Mar 2026 07:00:00 GMT"
+            "title": "強心針！南亞科引進大咖私募 股價跳空漲停8.8萬張排隊買不到 - Yahoo股市",
+            "date": "Wed, 25 Mar 2026 07:00:00 GMT"
           },
           {
             "title": "【本週新聞熱門股TOP10】南亞科創高領軍！南亞挾雙題材大漲，被動元件能否接棒成新嬌點?｜1204 - sinotrade.com.tw",
@@ -22855,8 +22915,8 @@
             "date": "Mon, 30 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "強心針！南亞科引進大咖私募 股價跳空漲停8.8萬張排隊買不到 - Yahoo股市",
-            "date": "Wed, 25 Mar 2026 07:00:00 GMT"
+            "title": "【即時新聞】南亞今日爆出145億元成交量，股價大跌6.35％至63.4元 - CMoney",
+            "date": "Thu, 04 Dec 2025 08:00:00 GMT"
           },
           {
             "title": "外資猛丟南亞6.6萬張 八大公股輸血7.3億！法人看好「3動能」第二季續強 - Yahoo股市",
@@ -24208,7 +24268,7 @@
       "pe_ratio": 23.96,
       "forward_pe": 19.1,
       "market_cap_b": 105.9,
-      "dividend_yield": 331.0,
+      "dividend_yield": 324.0,
       "high_52w": 100.84,
       "low_52w": 83.09,
       "current_price": 93.91,
@@ -24261,7 +24321,7 @@
             "strengths": [
               "淨利率 14.74%，營運效率良好",
               "毛利率 45.35%，護城河寬廣",
-              "股息殖利率 331.0%，提供穩定現金回報",
+              "股息殖利率 324.0%，提供穩定現金回報",
               "護城河寬廣：法規壟斷 + 穩定配息"
             ],
             "risks": [
@@ -24296,7 +24356,7 @@
             },
             {
               "metric": "股息殖利率",
-              "value": "331.0%",
+              "value": "324.0%",
               "grade": "pass"
             },
             {
@@ -24313,7 +24373,7 @@
           "pick_reason": {
             "summary": "Southern Company (The) 不符合葛拉漢安全邊際要求。",
             "strengths": [
-              "股息殖利率 331.0%，提供安全邊際"
+              "股息殖利率 324.0%，提供安全邊際"
             ],
             "risks": [
               "P/E 23.96，估值偏高不符葛拉漢標準",
@@ -24523,7 +24583,7 @@
         "strengths": [
           "淨利率 14.74%，營運效率良好",
           "毛利率 45.35%，護城河寬廣",
-          "股息殖利率 331.0%，提供穩定現金回報",
+          "股息殖利率 324.0%，提供穩定現金回報",
           "護城河寬廣：法規壟斷 + 穩定配息"
         ],
         "risks": [
@@ -24884,6 +24944,7 @@
       "pe_ratio": 39.51,
       "forward_pe": 21.4,
       "market_cap_b": 106.1,
+      "dividend_yield": 58.0,
       "high_52w": 412.7,
       "low_52w": 216.5,
       "current_price": 292.77,
@@ -24935,6 +24996,7 @@
             "summary": "Constellation Energy Corporatio 目前不符合巴菲特核心選股標準。",
             "strengths": [
               "負債權益比 0.64，資產負債表健康",
+              "股息殖利率 58.0%，提供穩定現金回報",
               "護城河寬廣：不可複製資產 + 稀缺性"
             ],
             "risks": [
@@ -24944,7 +25006,7 @@
           }
         },
         "graham": {
-          "score": 38.9,
+          "score": 45.0,
           "grade": "C",
           "details": [
             {
@@ -24968,6 +25030,11 @@
               "grade": "nodata"
             },
             {
+              "metric": "股息殖利率",
+              "value": "58.0%",
+              "grade": "pass"
+            },
+            {
               "metric": "淨利率",
               "value": 7.71,
               "grade": "ok"
@@ -24980,7 +25047,9 @@
           ],
           "pick_reason": {
             "summary": "Constellation Energy Corporatio 不符合葛拉漢安全邊際要求。",
-            "strengths": [],
+            "strengths": [
+              "股息殖利率 58.0%，提供安全邊際"
+            ],
             "risks": [
               "P/E 39.51，估值偏高不符葛拉漢標準",
               "新聞風險：偵測到 1 紅色 + 2 黃色信號，建議關注"
@@ -25085,7 +25154,7 @@
           }
         },
         "composite": {
-          "score": 32.8,
+          "score": 34.3,
           "grade": "C",
           "breakdown": {
             "buffett": {
@@ -25094,7 +25163,7 @@
               "weight": 0.4
             },
             "graham": {
-              "score": 38.9,
+              "score": 45.0,
               "grade": "C",
               "weight": 0.25
             },
@@ -25111,7 +25180,7 @@
           }
         }
       },
-      "composite_score": 32.8,
+      "composite_score": 34.3,
       "composite_grade": "C",
       "buffett_score": 34.7,
       "grade": "C",
@@ -25177,8 +25246,8 @@
             "date": "Tue, 24 Feb 2026 08:00:00 GMT"
           },
           {
-            "title": "每日跳空排名星期五：MU、NVO、CEG等 - Moomoo",
-            "date": "Fri, 16 Jan 2026 08:00:00 GMT"
+            "title": "星座能源（Constellation Energy）（CEG）股票今日新聞：即時更新 - Bitget",
+            "date": "Tue, 31 Mar 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "yellow",
@@ -25188,6 +25257,7 @@
         "summary": "Constellation Energy Corporatio 目前不符合巴菲特核心選股標準。",
         "strengths": [
           "負債權益比 0.64，資產負債表健康",
+          "股息殖利率 58.0%，提供穩定現金回報",
           "護城河寬廣：不可複製資產 + 稀缺性"
         ],
         "risks": [
@@ -25497,6 +25567,10 @@
             "date": "Wed, 22 Apr 2026 02:36:08 GMT"
           },
           {
+            "title": "高盛預警美股月彈後迎再平衡 恐釀 230 億美元股票賣壓 - Yahoo股市",
+            "date": "Fri, 24 Apr 2026 02:01:21 GMT"
+          },
+          {
             "title": "有2檔股票將下櫃！櫃買中心：科誠5/29、台興6/8終止交易 - Yahoo股市",
             "date": "Thu, 23 Apr 2026 09:38:28 GMT"
           },
@@ -25507,10 +25581,6 @@
           {
             "title": "73萬股東注意！台新新光金擬配現金1元+股票0.1元 現金殖利率4.2% - Yahoo股市",
             "date": "Thu, 23 Apr 2026 11:31:32 GMT"
-          },
-          {
-            "title": "佈局海外股票市場：先鋒VXUS與安碩EEM深度比較 台積電持股成焦點 - Yahoo股市",
-            "date": "Wed, 22 Apr 2026 14:27:36 GMT"
           }
         ],
         "risk_level": "green",
