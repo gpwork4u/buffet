@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T07:58:27.923172",
+  "generated_at": "2026-05-31T08:41:17.072986",
   "date": "2026-05-31",
   "investor_profiles": {
     "buffett": {
@@ -406,12 +406,6 @@
         "name": "McDonald's Corporation",
         "risk_level": "yellow",
         "risk_summary": "偵測到 0 紅色 + 3 黃色信號，建議關注"
-      },
-      {
-        "stock_id": "MTD",
-        "name": "Mettler-Toledo International, I",
-        "risk_level": "yellow",
-        "risk_summary": "偵測到 1 個需關注信號"
       },
       {
         "stock_id": "1301",
@@ -1768,12 +1762,12 @@
             "date": "Wed, 03 Sep 2025 07:00:00 GMT"
           },
           {
-            "title": "NVIDIA 股價預測：NVDA 能否在 2030 年前達到 1,000 美元？ - TradingKey",
-            "date": "Wed, 29 Apr 2026 07:00:00 GMT"
+            "title": "Circle攜手Nvidia投資Cassava子公司 拓展非洲穩定幣支付市場 - Yahoo股市",
+            "date": "Tue, 24 Mar 2026 07:00:00 GMT"
           },
           {
-            "title": "美股異動 | 英偉達(NVDA.US)盤前漲近1% “地球最重要股票”財報即將公佈 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
-            "date": "Thu, 26 Feb 2026 08:00:00 GMT"
+            "title": "據報美國懷疑Nvidia(NVDA.US)先進晶片經泰國流向阿里(09988.HK) - AASTOCKS.com",
+            "date": "Fri, 08 May 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -4551,7 +4545,7 @@
           },
           {
             "title": "Broadcom(AVGO) Stock Options Chain | Quotes &amp; News - Moomoo",
-            "date": "Wed, 27 May 2026 19:35:29 GMT"
+            "date": "Wed, 27 May 2026 17:24:29 GMT"
           },
           {
             "title": "《大行》花旗升博通(AVGO.US)目標價至500美元 維持「買入」評級 - AASTOCKS.com",
@@ -5923,8 +5917,8 @@
             "date": "Tue, 13 Jan 2026 08:00:00 GMT"
           },
           {
-            "title": "【Hot台股】台股重殺800點又V轉...網傻眼「母親節變盤有沒有搞錯」 分析師看法曝 - Yahoo股市",
-            "date": "Thu, 07 May 2026 07:00:00 GMT"
+            "title": "《業績》Visa(V.US)次財季盈收勝預期 信用卡消費續增 - AASTOCKS.com",
+            "date": "Tue, 28 Apr 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -11030,8 +11024,8 @@
       "news": {
         "items": [
           {
-            "title": "【台股5月風雲榜】國巨華新科「被動元件七雄」齊飛天 禾伸堂狂飆逾200%稱王 - Yahoo股市",
-            "date": "Fri, 29 May 2026 06:39:44 GMT"
+            "title": "【台股大拆股時代1】國巨分割翻5倍...「拆股就起飛」？這些「前千金股」不漲反跌昔生技股王竟剩100元 - Yahoo股市",
+            "date": "Sun, 31 May 2026 00:11:17 GMT"
           },
           {
             "title": "國巨* 轉型效應發威- 日報 - 工商時報",
@@ -11360,20 +11354,20 @@
             "date": "Wed, 22 Apr 2026 07:00:00 GMT"
           },
           {
-            "title": "個股：中環(2323)5/15～5/26取得穩懋(3105)股票751張，每股均價475.35元 - 富聯網",
-            "date": "Tue, 26 May 2026 23:52:00 GMT"
-          },
-          {
             "title": "3105 穩懋- 中長期布局：聚焦法說會展望- 股市爆料同學會 - CMoney",
             "date": "Tue, 27 Jan 2026 08:00:00 GMT"
+          },
+          {
+            "title": "穩懋、嘉澤 四檔馬力強 - UDN",
+            "date": "Thu, 19 Mar 2026 07:00:00 GMT"
           },
           {
             "title": "【即時新聞】穩懋(3105)法說報喜亮燈，這「5檔概念股」買盤點火！ - CMoney投資網誌",
             "date": "Mon, 23 Feb 2026 08:00:00 GMT"
           },
           {
-            "title": "穩懋、嘉澤 四檔馬力強 - UDN",
-            "date": "Thu, 19 Mar 2026 07:00:00 GMT"
+            "title": "低軌衛星倒一片！穩懋、昇達科崩跌 這「指標股」4月營收年月雙減一度跌停 - Yahoo股市",
+            "date": "Wed, 06 May 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -14436,16 +14430,16 @@
             "date": "Wed, 28 Jan 2026 08:00:00 GMT"
           },
           {
-            "title": "日間手術中心：ISRG能否受惠於持續擴張？ - Bitget",
-            "date": "Wed, 18 Mar 2026 07:00:00 GMT"
-          },
-          {
             "title": "直覺外科(ISRG.US)Q3營收猛增23%盤後暴漲17% 達芬奇手術量增長強勁 作者 智通財經 - Investing.com 香港 - 股市報價&amp; 財經新聞",
             "date": "Wed, 22 Oct 2025 07:00:00 GMT"
           },
           {
             "title": "Intuitive Surgical 首季財報亮眼 股價逆勢上揚 7.6% - Yahoo股市",
             "date": "Wed, 22 Apr 2026 07:00:00 GMT"
+          },
+          {
+            "title": "《美股》直覺外科(ISRG.US)季績勝預期 微升全年度經調整毛利率預測 - AASTOCKS.com",
+            "date": "Tue, 22 Jul 2025 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
@@ -16472,12 +16466,12 @@
             "date": "Wed, 27 May 2026 22:41:59 GMT"
           },
           {
-            "title": "【01:17 即時新聞】American Express(AXP) 跌5%：財報優於預期但前景指引保守、費用攀升承壓 - CMoney投資網誌",
-            "date": "Fri, 24 Apr 2026 07:00:00 GMT"
-          },
-          {
             "title": "巴郡首季建倉達美航空(DAL.US) 大手增持Alphabet(GOOGL.US) - AASTOCKS.com",
             "date": "Mon, 18 May 2026 00:34:00 GMT"
+          },
+          {
+            "title": "【22:33 即時新聞】American Express(AXP) 跌逾5%／股價回檔但長線仍獲股息派息題材支撐 - CMoney投資網誌",
+            "date": "Fri, 27 Feb 2026 08:00:00 GMT"
           },
           {
             "title": "富裕族群花錢不手軟 美國運通財報優、股價勁漲 - Yahoo股市",
@@ -16489,7 +16483,7 @@
           }
         ],
         "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
+        "risk_summary": "近期新聞正面 (2 個正面信號)"
       },
       "pick_reason": {
         "summary": "American Express Company 部分指標良好，但有待改善之處。",
@@ -18933,9 +18927,7 @@
               "自由現金流連續 4 年為正",
               "護城河寬廣：壟斷 + 轉換成本"
             ],
-            "risks": [
-              "新聞黃燈：偵測到 1 個需關注信號"
-            ]
+            "risks": []
           }
         },
         "graham": {
@@ -18977,8 +18969,7 @@
             "summary": "Mettler-Toledo International, I 不符合葛拉漢安全邊際要求。",
             "strengths": [],
             "risks": [
-              "P/E 27.7，估值偏高不符葛拉漢標準",
-              "新聞風險：偵測到 1 個需關注信號"
+              "P/E 27.7，估值偏高不符葛拉漢標準"
             ]
           }
         },
@@ -19023,9 +19014,7 @@
               "Forward PE 23.0 低於 Trailing PE 27.7，分析師看好成長",
               "淨利率 21.74%，獲利能力強"
             ],
-            "risks": [
-              "新聞風險：偵測到 1 個需關注信號"
-            ]
+            "risks": []
           }
         },
         "fisher": {
@@ -19076,8 +19065,7 @@
               "護城河：壟斷 + 轉換成本"
             ],
             "risks": [
-              "ROE -341.14%，管理效率偏低",
-              "新聞風險：偵測到 1 個需關注信號"
+              "ROE -341.14%，管理效率偏低"
             ]
           }
         },
@@ -19158,16 +19146,12 @@
       "news": {
         "items": [
           {
-            "title": "3 reasons MTD is risky and 1 stock to buy instead - MSN",
-            "date": "Sat, 30 May 2026 00:16:02 GMT"
-          },
-          {
             "title": "MTD/Mettler-Toledo International - 研究報告與輝達概念股分析-股市爆料同學會 - CMoney",
             "date": "Tue, 26 May 2026 09:00:00 GMT"
           }
         ],
-        "risk_level": "yellow",
-        "risk_summary": "偵測到 1 個需關注信號"
+        "risk_level": "green",
+        "risk_summary": "近期無重大負面新聞"
       },
       "pick_reason": {
         "summary": "Mettler-Toledo International, I 部分指標良好，但有待改善之處。",
@@ -19177,9 +19161,7 @@
           "自由現金流連續 4 年為正",
           "護城河寬廣：壟斷 + 轉換成本"
         ],
-        "risks": [
-          "新聞黃燈：偵測到 1 個需關注信號"
-        ]
+        "risks": []
       },
       "industry_chains": [
         {
@@ -21444,12 +21426,12 @@
             "date": "Thu, 28 May 2026 10:52:14 GMT"
           },
           {
-            "title": "【即時新聞】台塑股東會宣布轉型 衝刺半導體、綠能與醫療三大領域 - CMoney",
-            "date": "Thu, 28 May 2026 21:58:01 GMT"
+            "title": "台塑下午四點 將舉行重大訊息記者會 - 經濟日報",
+            "date": "Thu, 28 May 2026 06:58:47 GMT"
           },
           {
-            "title": "台塑加碼投資台塑德山 - UDN",
-            "date": "Thu, 28 May 2026 20:20:16 GMT"
+            "title": "【即時新聞】台塑股東會宣布轉型 衝刺半導體、綠能與醫療三大領域 - CMoney",
+            "date": "Thu, 28 May 2026 21:58:01 GMT"
           },
           {
             "title": "〈台塑股東會〉油價受戰爭影響仍處高檔郭文筆：樂看Q3旺季開工率、產銷量雙雙提升｜新聞快訊｜豐雲學堂 - sinotrade.com.tw",
@@ -22102,12 +22084,12 @@
             "date": "Wed, 14 Jan 2026 08:00:00 GMT"
           },
           {
-            "title": "〈中信金法說〉中信金前4月調整後EPS衝2.03元 台壽養生村最快明年Q1開幕 - news.cnyes.com",
-            "date": "Tue, 19 May 2026 07:00:00 GMT"
+            "title": "第一金大跌原因？遭傳「公民併」爆量跌近半根停板急澄清…金融股兩樣情，中信金股價衝近30年新高 - 今周刊",
+            "date": "Wed, 20 May 2026 07:00:00 GMT"
           }
         ],
         "risk_level": "green",
-        "risk_summary": "近期無重大負面新聞"
+        "risk_summary": "近期新聞正面 (2 個正面信號)"
       },
       "pick_reason": {
         "summary": "中信金 目前不符合巴菲特核心選股標準。",
@@ -24703,6 +24685,10 @@
             "date": "Tue, 24 Mar 2026 07:00:00 GMT"
           },
           {
+            "title": "股市、房市兩樣情！台股熱券商融資飆新高 房貸卻腰斬 - 知新聞",
+            "date": "Tue, 26 May 2026 11:03:00 GMT"
+          },
+          {
             "title": "5880 合庫金 - 八大行庫買很多欸！ - 股市爆料同學會 - CMoney",
             "date": "Sat, 21 Mar 2026 22:33:09 GMT"
           },
@@ -24712,10 +24698,6 @@
           },
           {
             "title": "合庫金法說》股利報佳音：反映經營成果 法人估1.05元、4年來最高 | 陳怡慈 | 新聞 - 風傳媒",
-            "date": "Thu, 19 Mar 2026 07:00:00 GMT"
-          },
-          {
-            "title": "合庫金法說1》42萬股東關注！總座蘇佐政談股利「優於去年、現金為主、發放率約8成」 - Yahoo股市",
             "date": "Thu, 19 Mar 2026 07:00:00 GMT"
           }
         ],
